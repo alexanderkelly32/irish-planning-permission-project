@@ -1,0 +1,320 @@
+I think there is still a substantial amount of signal left to find. The important clue is that your strongest improvements have come from variables describing the **process and the people operating it**, rather than generic physical constraints: authority congestion materially improved decision timing, developer identity improved commencement and sale forecasts, while generic site constraints, market variables, AlphaEarth and more sophisticated survival models mostly failed. Pasted markdown Pasted markdown
+
+So I would change the search direction somewhat.
+
+## The highest-potential things I would test next
+
+| Priority | New signal | Target(s) | Why I think it could matter |
+|---|---|---|---|
+| **1** | **Professional-team identity/network** | approval, FI, commencement, completion | Architect, planning consultant, civil engineer, traffic consultant, ecologist, contractor, assigned certifier |
+| **2** | **Exact-site planning history** | approval, FI, appeal, time-to-decision | Previous applications/refusals/revisions on the same parcel are far more specific than nearby comparables |
+| **3** | **Local development pipeline / competition** | commencement, completion, sale, price | Measure what is simultaneously granted, starting, building and selling within 1–10 km |
+| **4** | **Infrastructure readiness** | commencement, completion | Water/wastewater, electricity, FSC/DAC, road-opening and enabling-work state |
+| **5** | **Developer × place interactions** | practically everything | "Developer X" probably matters less than "Developer X building apartments in Fingal" |
+| **6** | **Development-plan/policy fit as machine-readable data** | approval/refusal/reasons | Compare a proposal directly against the policies that actually apply to its polygon |
+| **7** | **Developer financial/execution state** | commencement/completion | Current activity, simultaneous sites, company age/group, charges, recent completions |
+| **8** | **Parcel geometry/topography/access** | approval + construction | Shape, frontage, road access, slope, elevation, earthworks proxy—not merely distance-to-constraint |
+| **9** | **Construction-team/technology fingerprints** | completion | Builder/certifier + MMC/material + project type |
+| **10** | **Local absorption rather than county market variables** | sales + price | New-build-specific nearby demand/supply rather than county price momentum |
+
+### 1. I would go after the **consultant team** aggressively
+
+This is the closest analogue to your developer discovery.
+
+Planning PDFs usually expose people/firms around the scheme: architect, planning consultant, civil engineer, transport consultant, landscape architect, ecologist, sometimes solicitor, contractor and other specialists.
+
+Build an entity graph:
+
+**developer → consultant → authority → scheme → outcome**
+
+Then construct strictly time-safe variables such as:
+
+- consultant's previous grant rate;
+- consultant's FI rate;
+- median decision time;
+- appeal rate;
+- track record **within that authority**;
+- track record for that development class;
+- developer–consultant pair history;
+- number of prior schemes the same team has delivered together;
+- team experience within 2/5/10 km;
+- prior applications containing the same combination of architect + planning consultant.
+
+The interesting variable may not be:
+
+> `architect = ABC Architects`
+
+but something like:
+
+> `ABC Architects has submitted 19 previous apartment schemes to DLR, 15 were granted, median FI count = 1, and it has worked with this developer six times.`
+
+That's an entirely different class of signal from what you currently have.
+
+For underwriting **before the application is submitted**, only use team members already appointed. At submission, expand the feature set.
+
+---
+
+## 2. Build a proper **site-memory engine**
+
+This could be very powerful and doesn't require new datasets so much as repurposing what you have.
+
+For every proposed site, reconstruct:
+
+**everything that has happened on that land before today.**
+
+Not merely nearest planning applications.
+
+Find same/overlapping parcel applications and derive:
+
+- prior refusal count;
+- prior grant count;
+- previous developer/applicant;
+- previous scheme size;
+- previous refusal themes;
+- FI issues previously raised;
+- whether a former permission expired unused;
+- whether units/design/density changed between attempts;
+- textual similarity between the new proposal and prior proposal;
+- elapsed time since last refusal/grant;
+- whether neighbouring parcels controlled by the same developer have succeeded.
+
+This lets you distinguish:
+
+> "12% refusal probability because similar applications nearby struggled"
+
+from the much stronger fact:
+
+> "This precise landholding was refused twice for access/density, then granted after unit count fell 18%."
+
+That is exactly the sort of factual lineage I would expect a lender to value.
+
+---
+
+## 3. Replace your weak market variables with a **micro-market development state**
+
+Your existing experiment says county price level/volume/momentum actually worsened sale forecasting. Pasted markdown
+
+I wouldn't conclude that market information is useless. I would conclude that **county-level market variables are probably the wrong representation**.
+
+At every historical prediction date, generate concentric 1/3/5/10 km features:
+
+- granted but not commenced units;
+- commenced but not completed units;
+- CCCs in preceding 3/6/12 months;
+- BERs issued in preceding months;
+- competing schemes of the same dwelling type;
+- estimated unsold units from nearby schemes;
+- rate at which nearby schemes progress grant → CN → CCC;
+- local new-build sale velocity;
+- local new-build €/m² if you can construct it;
+- number of developers actively building locally;
+- Herfindahl/concentration of local supply;
+- nearby planning applications currently awaiting decisions.
+
+BCMS is national and contains CN/CCC information from all 31 authorities, so much of this pipeline can be reconstructed historically. [data.gov.ie](https://data.gov.ie/dataset/bcnccc?utm_source=chatgpt.com)
+
+In other words, ask:
+
+> **What was the competitive state of the 5-km housing market on the day this scheme was granted?**
+
+rather than:
+
+> What's Dublin's annual price momentum?
+
+That feels considerably more promising.
+
+---
+
+## 4. Turn infrastructure into an actual **readiness score**
+
+Your current constraint variables mostly ask "is there something nearby?" and only produced a modest 12-month commencement improvement. Pasted markdown
+
+I would instead try to represent whether the site can **actually be serviced**.
+
+Uisce Éireann now publishes both water-supply and wastewater-treatment capacity registers specifically intended to inform forward planning. They expose capacity states and planned infrastructure, while explicitly noting that treatment/supply capacity is not the same thing as local network connection feasibility. [Uisce Éireann](https://www.water.ie/connections/developer-services/capacity-registers/wastewater-treatment-capacity-register?utm_source=chatgpt.com)
+
+Construct features such as:
+
+`WWTP status = green / amber / red`  
+`capacity-upgrade-underway = 0/1`  
+`water-resource-zone status`  
+`distance to treatment plant`  
+`scheme load / settlement scale`  
+`number of units already granted against same infrastructure`
+
+The Dublin register, for example, currently identifies facilities including Ringsend and Shanganagh and explicitly records both capacity status and whether an upgrade project is underway. [Uisce Éireann](https://www.water.ie/connections/developer-services/capacity-registers/wastewater-treatment-capacity-register/Dublin?utm_source=chatgpt.com)
+
+I'd similarly incorporate **FSC/DAC progression**. NBCO publishes a national 2020–present dataset of FSC/DAC/dispensation/relaxation applications; it currently contains over 41,000 records and includes application/submission dates, permission dates, local authority and building-area information. [data.gov.ie](https://data.gov.ie/en_GB/dataset/applications/resource/b1de41a3-e14c-40b7-b0d7-4e85d7a648fc?utm_source=chatgpt.com)
+
+Those are particularly interesting for a **dynamic forecast** after planning grant.
+
+---
+
+## 5. Developer identity can probably be decomposed much further
+
+You already proved that identity matters: seen developers have lower commencement MAE than unseen ones, and developer features materially improve your sale model. Pasted markdown Pasted markdown
+
+Don't stop at `developer = Cairn`.
+
+Create a **developer state at prediction date**:
+
+- number of live granted-but-uncommenced schemes;
+- units currently under construction;
+- units completed last 12/24 months;
+- simultaneous authorities operated in;
+- recent median grant→start;
+- recent median start→CCC;
+- recent scheme-size trajectory;
+- geographical expansion into unfamiliar counties;
+- project-type familiarity;
+- number of active SPVs;
+- developer–landowner relationship;
+- developer–consultant pair history;
+- developer–contractor pair history;
+- developer local market share.
+
+I'd particularly test interactions:
+
+**developer × authority**  
+**developer × county**  
+**developer × apartments/houses**  
+**developer × scheme-size band**  
+**developer × planning consultant**
+
+This is well suited to hierarchical/shrinkage models so that twenty schemes tell you much more than one without throwing away sparse developers.
+
+---
+
+## 6. I think there is a better version of your planning-policy features
+
+You currently have "development-plan context." Pasted markdown
+
+I'd make that far more literal.
+
+There are machine-readable zoning/development-plan layers available from authorities; for example Dublin City publishes zoning, conservation, SDZ, SDRA, LAP and related layers, and DLR publishes its zoning spatially. [data.gov.ie](https://data.gov.ie/en_GB/dataset/development-plan-2022-2028-land-use-zoning-dlr?utm_source=chatgpt.com)
+
+For every site:
+
+1. spatially determine **every policy designation that applies**;
+2. retrieve the associated policy text;
+3. embed the proposal/application;
+4. compare it with the applicable objectives;
+5. compare it with previously granted/refused applications under the **same policy regime**.
+
+You can construct factual numerical variables like:
+
+`density proposed / density policy midpoint`
+
+`height proposed – stated height`
+
+`units/ha relative to previous grants in same zoning`
+
+`distance from zoning boundary`
+
+`proposal-policy embedding similarity`
+
+`precedent outcome distribution under exact zoning objective`
+
+This may help refusal prediction, but I suspect it could be even more useful for your currently weak **refusal-reason model**, where top-1 agreement is only 19.6%. Pasted markdown
+
+---
+
+## 7. Some datasets you've not yet exploited look unusually interesting
+
+One that jumped out from the search is **road-opening licences**. Fingal publishes individual road-opening licence data through 2026 and SDCC also publishes issued licences. They distinguish high-, medium- and low-impact works. [data.gov.ie](https://data.gov.ie/dataset/road-opening-licences-sdcc?utm_source=chatgpt.com)
+
+That is probably **not an origination variable**. But it may be a very useful *live construction-state sensor*.
+
+Likewise:
+
+- **BER:** SEAI's research dataset is downloadable and updated nightly; it contains a large share of the underlying dwelling characteristics. That could give you both a completion signal and eventual dwelling-specification information. [Non Domestic NAS](https://ndber.seai.ie/BERResearchTool/ber/search.aspx?utm_source=chatgpt.com)
+- **archaeology:** the National Monuments Service provides national CSV/shapefile/API access to SMR sites and zones. Your current archaeology/excavation work therefore deserves finishing rather than treating archaeology merely as a nearest-distance number. [data.gov.ie](https://data.gov.ie/dataset/national-monuments-service-archaeological-survey-of-ireland/resource/a5ffd80e-42bb-43e7-b8f9-bc83f4ff3c72?utm_source=chatgpt.com)
+- **construction method:** the Department now publishes commencements broken down by main method and material of construction. It isn't site-level on its own, but if method can be extracted from BCMS/application documentation it gives you an additional completion-time segmentation variable. [data.gov.ie](https://data.gov.ie/en_GB/dataset/residential-commencement-notices/resource/235d9fdb-23c1-40be-b479-91dd155286b1?utm_source=chatgpt.com)
+
+---
+
+# A modelling change I think matters more than another fancy model
+
+I would stop conceptualising this as one forecast.
+
+Build **two products internally**:
+
+### A. Day-zero forecast
+
+Frozen using only what is genuinely knowable when somebody considers buying/funding the site:
+
+`site + planning regime + developer + proposed scheme + appointed team + developer state + infrastructure + local pipeline + macro state`
+
+Outputs:
+
+**P(grant), decision date distribution, commencement distribution, CCC distribution, first-sale distribution, price distribution.**
+
+### B. Continuously updating forecast
+
+Every real event becomes evidence:
+
+`submitted → FI → decision → appeal → FSC/DAC → CN → roadworks → BER/CCC → sales`
+
+At each landmark, recompute the remaining distributions.
+
+That avoids the impossible requirement that the day-zero model somehow knows everything that will happen three years later. It also gives lenders something genuinely useful:
+
+> **Original underwriting forecast:** first sale May 2030, 80% range Oct 2029–Nov 2031.  
+> **After grant:** February 2030, range Aug 2029–Jan 2031.  
+> **After commencement:** June 2030, range Feb–Nov 2030.
+
+All factual/probabilistic, no qualitative opinion.
+
+---
+
+# One particularly different idea: turn the whole thing into a graph
+
+This is the experiment I'd be most interested in after the basic consultant extraction.
+
+Nodes:
+
+**sites, applications, developers, SPVs, directors, architects, planning consultants, engineers, contractors, authorities, WWTPs, planning zones, nearby developments**
+
+Edges:
+
+**owns, applied-for, designed, advised, built, financed, located-in, serviced-by, appealed, preceded-by**
+
+Then generate graph features or train a graph model.
+
+A new scheme may have almost no history itself, but it can inherit information through:
+
+> site → previous application → architect → 37 previous schemes → authority
+
+or
+
+> SPV → parent developer → six developments → contractor → completion history.
+
+That is much closer to the actual structure of development than a flat CSV.
+
+---
+
+## What I would *not* prioritise
+
+**Planner/case officer:** worth testing if you can extract it historically, but probably less useful for your true day-zero model because the assigned individual often isn't knowable when underwriting the site. It may, however, be an excellent *submission-time* variable.
+
+**Lender:** I'd put it well down the list. It may correlate strongly with developer quality and scheme viability, but I would expect much of its information to disappear once developer, project type, scale and capital structure are represented. It is still testable if you can recover charges/security from company/property records.
+
+**More generic satellite features:** you've now tested AlphaEarth twice and it made both commencement and sale predictions worse. I would close that route unless higher-frequency imagery becomes accessible. Pasted markdown
+
+**More generic macro variables:** TimesFM can remain useful for conditioning, but your own market-feature ablation suggests that the next gains are unlikely to come from adding another dozen national economic series. Pasted markdown
+
+---
+
+## If I had to pick just five experiments
+
+I would do them in this order:
+
+1. **Extract and entity-resolve the full professional team from planning documents.**
+2. **Build exact-site planning lineage / application genealogy.**
+3. **Generate historical 1/3/5/10-km pipeline-state features from planning + BCMS + eventual BER/PPR.**
+4. **Build developer-state and developer×authority/team interaction features.**
+5. **Create site-specific infrastructure readiness from Uisce + FSC/DAC + later roadworks/utility signals.**
+
+The interesting thing is that **#1–4 can be tested largely from data you already possess**. You don't need to spend six weeks acquiring a speculative dataset before knowing whether the thesis works.
+
+And I think #1 is the first place I'd attack. The developer result is telling you that **who executes the project matters**. At the moment you're capturing essentially one member of that execution network. There may be quite a lot more predictive information sitting in the names already printed across those 5,000+ planning PDFs. Pasted markdown

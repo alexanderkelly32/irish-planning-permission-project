@@ -1,0 +1,77 @@
+{
+  "baseline_risk": 0.3496,
+  "scenarios": {
+    "baseline (12 units, 0.4ha)": {
+      "units": 12,
+      "site_area_sqm": 4000,
+      "floor_area_sqm": 2400,
+      "refusal_probability": 0.3496,
+      "grant_probability": 0.6504,
+      "risk_band": "high",
+      "raw_ranking_score": 0.7219
+    },
+    "fewer units (8)": {
+      "units": 8,
+      "site_area_sqm": 4000,
+      "floor_area_sqm": 1600,
+      "refusal_probability": 0.4052,
+      "grant_probability": 0.5948,
+      "risk_band": "high",
+      "raw_ranking_score": 0.7567
+    },
+    "more units (16)": {
+      "units": 16,
+      "site_area_sqm": 4000,
+      "floor_area_sqm": 3200,
+      "refusal_probability": 0.4222,
+      "grant_probability": 0.5778,
+      "risk_band": "high",
+      "raw_ranking_score": 0.7738
+    },
+    "same units, smaller site (0.25ha)": {
+      "units": 12,
+      "site_area_sqm": 2500,
+      "floor_area_sqm": 2400,
+      "refusal_probability": 0.4222,
+      "grant_probability": 0.5778,
+      "risk_band": "high",
+      "raw_ranking_score": 0.7829
+    },
+    "same units, bigger site (0.6ha)": {
+      "units": 12,
+      "site_area_sqm": 6000,
+      "floor_area_sqm": 2400,
+      "refusal_probability": 0.3496,
+      "grant_probability": 0.6504,
+      "risk_band": "high",
+      "raw_ranking_score": 0.7124
+    },
+    "more floor area (taller, 4000sqm)": {
+      "units": 12,
+      "site_area_sqm": 4000,
+      "floor_area_sqm": 4000,
+      "refusal_probability": 0.3556,
+      "grant_probability": 0.6444,
+      "risk_band": "high",
+      "raw_ranking_score": 0.7356
+    },
+    "rural-style wording": {
+      "units": 12,
+      "site_area_sqm": 4000,
+      "floor_area_sqm": 2400,
+      "refusal_probability": 0.3647,
+      "grant_probability": 0.6353,
+      "risk_band": "high",
+      "raw_ranking_score": 0.737
+    },
+    "one-off house on same site": {
+      "units": 1,
+      "site_area_sqm": 4000,
+      "floor_area_sqm": 250,
+      "refusal_probability": 0.26,
+      "grant_probability": 0.74,
+      "risk_band": "high",
+      "raw_ranking_score": 0.5103
+    }
+  }
+}

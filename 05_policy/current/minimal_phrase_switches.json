@@ -1,0 +1,334 @@
+{
+  "baseline_refusal_probability": 0.2607,
+  "pairs": [
+    {
+      "from": "single storey dwelling",
+      "to": "single storey extension",
+      "coef_from": 1.952,
+      "coef_to": -2.754,
+      "coef_gap": -4.706,
+      "pp_from": 0.0,
+      "pp_to": -18.3,
+      "pp_switch": -18.3
+    },
+    {
+      "from": "single storey house",
+      "to": "single storey extension",
+      "coef_from": 0.529,
+      "coef_to": -2.754,
+      "coef_gap": -3.283,
+      "pp_from": 0.0,
+      "pp_to": -18.3,
+      "pp_switch": -18.3
+    },
+    {
+      "from": "single storey dwelling",
+      "to": "single storey flat",
+      "coef_from": 1.952,
+      "coef_to": -1.029,
+      "coef_gap": -2.981,
+      "pp_from": 0.0,
+      "pp_to": -6.4,
+      "pp_switch": -6.4
+    },
+    {
+      "from": "new dwelling",
+      "to": "new extension",
+      "coef_from": 1.131,
+      "coef_to": -1.19,
+      "coef_gap": -2.321,
+      "pp_from": 4.4,
+      "pp_to": -13.5,
+      "pp_switch": -17.9
+    },
+    {
+      "from": "single storey bedroom",
+      "to": "single storey kitchen",
+      "coef_from": 1.438,
+      "coef_to": -0.816,
+      "coef_gap": -2.254,
+      "pp_from": 1.7,
+      "pp_to": -13.5,
+      "pp_switch": -15.2
+    },
+    {
+      "from": "bedroom dwelling",
+      "to": "bedroom extension",
+      "coef_from": 1.008,
+      "coef_to": -0.906,
+      "coef_gap": -1.913,
+      "pp_from": 14.5,
+      "pp_to": -11.6,
+      "pp_switch": -26.1
+    },
+    {
+      "from": "domestic dwelling",
+      "to": "domestic extension",
+      "coef_from": 0.702,
+      "coef_to": -1.114,
+      "coef_gap": -1.816,
+      "pp_from": 4.4,
+      "pp_to": -14.7,
+      "pp_switch": -19.1
+    },
+    {
+      "from": "bedroom house",
+      "to": "bedroom extension",
+      "coef_from": 0.664,
+      "coef_to": -0.906,
+      "coef_gap": -1.57,
+      "pp_from": 8.9,
+      "pp_to": -11.6,
+      "pp_switch": -20.5
+    },
+    {
+      "from": "construction dwelling",
+      "to": "construction extension",
+      "coef_from": 0.813,
+      "coef_to": -0.755,
+      "coef_gap": -1.568,
+      "pp_from": -0.1,
+      "pp_to": -15.8,
+      "pp_switch": -15.7
+    },
+    {
+      "from": "storey dwellings",
+      "to": "storey extensions",
+      "coef_from": 0.813,
+      "coef_to": -0.729,
+      "coef_gap": -1.541,
+      "pp_from": 10.4,
+      "pp_to": -14.7,
+      "pp_switch": -25.1
+    },
+    {
+      "from": "rear storey",
+      "to": "rear floor",
+      "coef_from": 0.327,
+      "coef_to": -1.198,
+      "coef_gap": -1.526,
+      "pp_from": 6.8,
+      "pp_to": -0.1,
+      "pp_switch": -6.8
+    },
+    {
+      "from": "existing extension",
+      "to": "existing dwelling",
+      "coef_from": 0.4,
+      "coef_to": -1.106,
+      "coef_gap": -1.506,
+      "pp_from": -15.8,
+      "pp_to": -13.5,
+      "pp_switch": 2.3
+    },
+    {
+      "from": "construction storey dwelling",
+      "to": "construction storey extension",
+      "coef_from": 0.619,
+      "coef_to": -0.814,
+      "coef_gap": -1.432,
+      "pp_from": 0.6,
+      "pp_to": -14.7,
+      "pp_switch": -15.3
+    },
+    {
+      "from": "existing house",
+      "to": "existing dwelling",
+      "coef_from": 0.321,
+      "coef_to": -1.106,
+      "coef_gap": -1.427,
+      "pp_from": -8.3,
+      "pp_to": -13.5,
+      "pp_switch": -5.2
+    },
+    {
+      "from": "single storey dwelling",
+      "to": "single storey house",
+      "coef_from": 1.952,
+      "coef_to": 0.529,
+      "coef_gap": -1.423,
+      "pp_from": 0.0,
+      "pp_to": 0.0,
+      "pp_switch": 0.0
+    },
+    {
+      "from": "rear extension",
+      "to": "rear dwelling",
+      "coef_from": -0.648,
+      "coef_to": -2.032,
+      "coef_gap": -1.383,
+      "pp_from": -9.2,
+      "pp_to": -6.4,
+      "pp_switch": 2.8
+    },
+    {
+      "from": "alterations extension",
+      "to": "alterations dwelling",
+      "coef_from": 0.367,
+      "coef_to": -1.001,
+      "coef_gap": -1.369
+    },
+    {
+      "from": "rear house",
+      "to": "rear dwelling",
+      "coef_from": -0.718,
+      "coef_to": -2.032,
+      "coef_gap": -1.314
+    },
+    {
+      "from": "dormer extension",
+      "to": "dormer dwelling",
+      "coef_from": 0.836,
+      "coef_to": -0.394,
+      "coef_gap": -1.23
+    },
+    {
+      "from": "dwelling detached garage",
+      "to": "house detached garage",
+      "coef_from": 0.327,
+      "coef_to": -0.869,
+      "coef_gap": -1.197
+    },
+    {
+      "from": "existing dwelling",
+      "to": "existing flat",
+      "coef_from": -1.106,
+      "coef_to": 0.084,
+      "coef_gap": 1.189
+    },
+    {
+      "from": "construct dwelling",
+      "to": "construct extension",
+      "coef_from": 0.75,
+      "coef_to": -0.384,
+      "coef_gap": -1.134
+    },
+    {
+      "from": "ground floor",
+      "to": "ground level",
+      "coef_from": -0.087,
+      "coef_to": 0.972,
+      "coef_gap": 1.059
+    },
+    {
+      "from": "storey dwellings",
+      "to": "storey houses",
+      "coef_from": 0.813,
+      "coef_to": -0.245,
+      "coef_gap": -1.057
+    },
+    {
+      "from": "works house",
+      "to": "works dwelling",
+      "coef_from": 0.538,
+      "coef_to": -0.49,
+      "coef_gap": -1.029
+    },
+    {
+      "from": "dwelling construction new",
+      "to": "house construction new",
+      "coef_from": -0.029,
+      "coef_to": -1.055,
+      "coef_gap": -1.026
+    },
+    {
+      "from": "dwelling house",
+      "to": "extension house",
+      "coef_from": 0.527,
+      "coef_to": -0.489,
+      "coef_gap": -1.016
+    },
+    {
+      "from": "erection dwelling",
+      "to": "erection extension",
+      "coef_from": 0.626,
+      "coef_to": -0.384,
+      "coef_gap": -1.01
+    },
+    {
+      "from": "dormer extension",
+      "to": "dormer bungalow",
+      "coef_from": 0.836,
+      "coef_to": -0.146,
+      "coef_gap": -0.982
+    },
+    {
+      "from": "bedroom apartment",
+      "to": "bedroom extension",
+      "coef_from": 0.055,
+      "coef_to": -0.906,
+      "coef_gap": -0.96
+    },
+    {
+      "from": "bedroom dwelling",
+      "to": "bedroom apartment",
+      "coef_from": 1.008,
+      "coef_to": 0.055,
+      "coef_gap": -0.953
+    },
+    {
+      "from": "dwelling including",
+      "to": "house including",
+      "coef_from": 0.266,
+      "coef_to": -0.68,
+      "coef_gap": -0.946
+    },
+    {
+      "from": "storey house",
+      "to": "storey extension",
+      "coef_from": 0.939,
+      "coef_to": 0.015,
+      "coef_gap": -0.924
+    },
+    {
+      "from": "new storey",
+      "to": "new floor",
+      "coef_from": 1.406,
+      "coef_to": 0.515,
+      "coef_gap": -0.892
+    },
+    {
+      "from": "flat roof",
+      "to": "pitched roof",
+      "coef_from": 0.145,
+      "coef_to": -0.71,
+      "coef_gap": -0.855
+    },
+    {
+      "from": "extension alterations",
+      "to": "dwelling alterations",
+      "coef_from": 0.002,
+      "coef_to": -0.853,
+      "coef_gap": -0.855
+    },
+    {
+      "from": "dwelling single storey",
+      "to": "house single storey",
+      "coef_from": 0.57,
+      "coef_to": -0.274,
+      "coef_gap": -0.844
+    },
+    {
+      "from": "existing extension",
+      "to": "existing bungalow",
+      "coef_from": 0.4,
+      "coef_to": -0.428,
+      "coef_gap": -0.828
+    },
+    {
+      "from": "construction storey",
+      "to": "construction floor",
+      "coef_from": 0.78,
+      "coef_to": -0.032,
+      "coef_gap": -0.812
+    },
+    {
+      "from": "house proposed",
+      "to": "dwelling proposed",
+      "coef_from": 0.685,
+      "coef_to": -0.074,
+      "coef_gap": -0.759
+    }
+  ],
+  "note": "One-word substitution within the model vocabulary; pp measured by inserting each phrase into the standard 12-unit baseline. Switch = effect of choosing 'to' instead of 'from'."
+}

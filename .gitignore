@@ -1,0 +1,111 @@
+# ---- Python / runtime ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.vendor/
+Thumbs.db
+.DS_Store
+
+# ---- Secrets: NEVER commit, rotate before any public release ----
+openai_key.env
+deepseek_key.txt
+keys/
+*.key
+.env*
+06_copilot/current/*.sqlite
+
+# ---- Private working layer (session transcripts, notes, tasks, strategy) ----
+state/
+notes/
+tasks/
+DEBUG_LOG.md
+.codex/
+Microsoft/
+pip/
+GOAL.txt
+
+# ---- Personal / client-specific ----
+09_devrisk/scripts/run_report_booterstown.py
+09_devrisk/scripts/run_report_booterstown_full.py
+*Booterstown*
+
+# ---- Third-party reviewer work product (names in filenames) ----
+02_development/current/*_COMPLETED*.csv
+02_development/current/*review*.csv
+02_development/current/*Review*.csv
+02_development/current/*audit*_2026-*.zip
+02_development/current/archive_2026-09-04/
+
+# ---- Early attempts / superseded work ----
+old_original_attempt/
+
+# ---- Bulk raw source documents (public but large / licensing grey) ----
+03_refusal/documents/
+03_refusal/source_data/
+03_refusal/current/archive_*/
+03_refusal/current/llm_new_ge10/
+03_refusal/current/llm_refusal_batch_*.jsonl
+03_refusal/current/llm_refusal_batch_*.json
+04_fi/documents/
+04_fi/source_data/
+extraction_of_site_data/
+05_policy/current/policy_details/*.zip
+05_policy/current/second_set_of_docs/*.zip
+05_policy/documents/
+05_policy/documents/zoning/raw/
+07_context/raw/
+downloads/
+*.zip
+*.jsonl
+
+# ---- Bulky LLM-extraction outputs and campaign artifacts ----
+02_development/source_data/
+00_base/source_data/
+02_development/current/*.jsonl
+02_development/current/*_2026-09-*/
+02_development/current/*campaign*/
+02_development/current/*_campaign*/
+02_development/current/*extraction_2026*/
+02_development/current/*_review_2026*/
+
+# ---- Large derived artifacts not needed to run the engine (kept local) ----
+00_base/data_backup/
+07_context/current/*.npy
+07_context/current/case_context_features.parquet
+05_policy/current/model_v4/recent_precedents_reference.joblib
+05_policy/current/model_v4/comparable_reference.joblib
+05_policy/current/model_v4/comparable_metadata.joblib
+05_policy/current/model_v3/
+05_policy/current/model_v2/
+04_fi/current/*.csv
+05_policy/current/policy_chunks.csv
+05_policy/current/objective_code_layer.csv
+05_policy/current/dublin_*.csv
+05_policy/current/pdf_zoning_case_sheet_lookup.csv
+05_policy/current/raw_planning_comparable_features*.parquet
+05_policy/current/raw_planning_*cohort*.csv
+02_development/current/full_revision_candidate_queue.csv
+02_development/current/full_revision_refused_refused_candidates.csv
+02_development/current/ground_source_extracted_*.csv
+02_development/current/ge15_data.csv
+01_flood/current/*.parquet
+01_flood/current/ge10_with_flooding.csv
+03_refusal/current/greater_than_10_units_with_refusal_reasons*.csv
+03_refusal/current/refusal_reasons_long_*.csv
+10_energy/source_data/*.csv
+07_solar/source_data/*.csv
+
+# ---- devrisk data layers: derived/downloaded data kept local EXCEPT the
+# self-contained report bundle (the open-source payload) ----
+09_devrisk/data/*
+!09_devrisk/data/silver/
+09_devrisk/data/silver/*
+!09_devrisk/data/silver/report_bundle/
+
+
+*.log
+
+PLANNING_MASTER_MOVE_MANIFEST_2026-03-02.csv

@@ -1,0 +1,68 @@
+{
+  "candidate": "v3b_structured_augmented_2026-09-14",
+  "definition": "v3 architecture retrained with tokenised structured values (storeys/units/parking/height/access/separation) appended to descriptions where known; mutation sensitivity via token rewriting.",
+  "train_rows": 203931,
+  "test_rows": 15221,
+  "test_refusal_rate": 0.1156,
+  "rows_with_any_token_train": 859,
+  "rows_with_any_token_test": 101,
+  "holdout_ranking": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.42,
+    "frozen_v3_roc_auc": 0.7989,
+    "frozen_v3_ap": 0.4202
+  },
+  "token_mutation_sweeps": {
+    "storeys+1": {
+      "n": 45,
+      "direction_agreement": 0.3778,
+      "median_delta_pp": -0.255
+    },
+    "storeys-1": {
+      "n": 45,
+      "direction_agreement": 0.6444,
+      "median_delta_pp": -0.258
+    },
+    "units+10": {
+      "n": 0,
+      "direction_agreement": null,
+      "median_delta_pp": null
+    },
+    "units-10": {
+      "n": 0,
+      "direction_agreement": null,
+      "median_delta_pp": null
+    },
+    "parking+5": {
+      "n": 17,
+      "direction_agreement": 0.4706,
+      "median_delta_pp": 0.0
+    },
+    "parking-5": {
+      "n": 17,
+      "direction_agreement": 0.1765,
+      "median_delta_pp": 0.0
+    },
+    "height+1": {
+      "n": 7,
+      "direction_agreement": 0.2857,
+      "median_delta_pp": 0.0
+    },
+    "height-1": {
+      "n": 7,
+      "direction_agreement": 0.5714,
+      "median_delta_pp": -0.163
+    },
+    "access+1": {
+      "n": 1,
+      "direction_agreement": 1.0,
+      "median_delta_pp": 0.343
+    },
+    "access-1": {
+      "n": 1,
+      "direction_agreement": 1.0,
+      "median_delta_pp": -0.175
+    }
+  },
+  "caveat": "Augmented tokens are only present where extracted (planner reports + GE10 units); the frozen v3 discipline is untouched - this is a research candidate. Structured tokens learn from the same noisy cohorts, so improvement is not guaranteed."
+}

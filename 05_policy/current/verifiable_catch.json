@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "safest_47": {
+      "refused": 0,
+      "granted": 47
+    },
+    "middle_370": {
+      "refused": 58,
+      "granted": 312
+    },
+    "riskiest_47": {
+      "refused": 30,
+      "granted": 17
+    },
+    "total": {
+      "refused": 88,
+      "granted": 376,
+      "schemes": 464
+    }
+  },
+  "check": "safest 47 + middle 370 + riskiest 47 = 464 schemes; refusals 0 + 58 + 30 = 88"
+}

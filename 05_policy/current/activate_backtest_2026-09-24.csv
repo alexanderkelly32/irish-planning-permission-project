@@ -1,0 +1,12 @@
+name,case_key,portfolio_units,note,status,t0,authority,units_register,outcome,decision_date,predicted_refusal,fi_flag,appeal_flag,train_n,cal_n,variants_excluded,controls_n
+Grand Canal Harbour,Dublin City Council__3209/19,596,original scheme (550 in register; portfolio 596 under 2765/20 - variant excluded),scored,2019-06-07,Dublin City Council,550.0,Granted,2019-11-25,0.076,True,False,84343,21178,0,157
+Vartry Wood,Wicklow County Council__SH202003,133,117 houses + 16 duplexes = 133 (register match),scored,2020-05-26,Wicklow County Council,133.0,Granted,2020-07-24,0.1371,False,False,102552,18997,0,34
+Churchlands,Wicklow County Council__20488,140,portfolio says 140 homes; register phase is 66 dwellings,scored,2020-05-27,Wicklow County Council,66.0,Granted,2020-11-19,0.0875,True,True,102610,19055,0,34
+Trinity Collection,Dublin City Council__3894/19,372,register phase 420 units,scored,2019-08-30,Dublin City Council,420.0,Granted,2020-01-31,0.4547,True,False,89209,21051,0,148
+The Willows,Meath County Council__SH307244,1000,"211-unit phase of the 1,000-home masterplan",scored,2020-05-28,Meath County Council,211.0,Granted,2020-09-15,0.0594,False,False,102680,19024,0,65
+Millerstown,Kildare County Council__19304632,203,portfolio says 203; register SHD phase 268,scored,2019-06-07,Kildare County Council,268.0,Granted,2019-09-26,0.35,False,False,84343,21178,0,98
+Usher's Mill,Louth County Council__22713,270,99-unit phase (+ creche) of 270,scored,2022-09-08,Louth County Council,99.0,Granted,2023-05-19,0.2379,True,False,157133,22957,0,67
+Barnhill Place,Dun Laoghaire Rathdown County Council__D18A/0418,36,23 apartments + 13 houses,scored,2018-05-04,Dun Laoghaire Rathdown County Council,,Granted,2019-01-23,0.4297,True,True,61088,19231,0,17
+Charlemont Square,Dublin City Council__4088/18,300,portfolio says 300; register phase 86 units,scored,2018-10-04,Dublin City Council,86.0,Granted,2019-02-11,0.0043,True,False,70020,20389,0,129
+Ballymakenny Park,Louth County Council__221021,300,94-unit phase,scored,2022-12-22,Louth County Council,94.0,Granted,2023-12-06,0.0402,True,False,163268,21465,3,63
+Aderrig,South Dublin County Council__SDZ22A/0014,227,portfolio says 227; register SDZ phase 207,scored,2023-03-23,South Dublin County Council,207.0,Granted,2023-04-19,0.0894,True,False,167414,20433,0,67

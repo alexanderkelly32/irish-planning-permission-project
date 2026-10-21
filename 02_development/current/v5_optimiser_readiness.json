@@ -1,0 +1,51 @@
+{
+  "generated": "2026-10-11",
+  "planner_reports": 5307,
+  "status": "ready",
+  "verdict": "v5 candidate can be re-run with all variables at target density.",
+  "fields": {
+    "max_height_m": {
+      "values": 865,
+      "target": 300,
+      "pct": 2.8833,
+      "met": true
+    },
+    "max_storeys": {
+      "values": 2185,
+      "target": 200,
+      "pct": 10.925,
+      "met": true
+    },
+    "parking_spaces": {
+      "values": 1429,
+      "target": 200,
+      "pct": 7.145,
+      "met": true
+    },
+    "upper_floor_setback_m": {
+      "values": 193,
+      "target": 150,
+      "pct": 1.2867,
+      "met": true
+    },
+    "nearest_dwelling_separation_m": {
+      "values": 230,
+      "target": 100,
+      "pct": 2.3,
+      "met": true
+    },
+    "opposing_window_separation_m": {
+      "values": 126,
+      "target": 100,
+      "pct": 1.26,
+      "met": true
+    },
+    "communal_open_space_sqm": {
+      "values": 300,
+      "target": 100,
+      "pct": 3.0,
+      "met": true
+    }
+  },
+  "note": "Coverage counts non-null extracted values across council report_ocr_extractions.csv files."
+}

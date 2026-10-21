@@ -1,0 +1,91 @@
+{
+  "cohort_rows": 4001,
+  "cohort_refusal_rate": 0.2329,
+  "rates": {
+    "max_storeys": [
+      {
+        "band": "1",
+        "cases": 338,
+        "observed_refusal_rate": 0.2278,
+        "observed_grant_rate": 0.7722
+      },
+      {
+        "band": "2",
+        "cases": 1478,
+        "observed_refusal_rate": 0.1894,
+        "observed_grant_rate": 0.8106
+      },
+      {
+        "band": "3",
+        "cases": 982,
+        "observed_refusal_rate": 0.2281,
+        "observed_grant_rate": 0.7719
+      },
+      {
+        "band": "4",
+        "cases": 472,
+        "observed_refusal_rate": 0.2648,
+        "observed_grant_rate": 0.7352
+      },
+      {
+        "band": "5+",
+        "cases": 729,
+        "observed_refusal_rate": 0.3086,
+        "observed_grant_rate": 0.6914
+      }
+    ],
+    "units": [
+      {
+        "band": "10-19",
+        "cases": 1134,
+        "observed_refusal_rate": 0.2354,
+        "observed_grant_rate": 0.7646
+      },
+      {
+        "band": "20-39",
+        "cases": 1034,
+        "observed_refusal_rate": 0.2534,
+        "observed_grant_rate": 0.7466
+      },
+      {
+        "band": "40-79",
+        "cases": 885,
+        "observed_refusal_rate": 0.2508,
+        "observed_grant_rate": 0.7492
+      },
+      {
+        "band": "80+",
+        "cases": 936,
+        "observed_refusal_rate": 0.1902,
+        "observed_grant_rate": 0.8098
+      }
+    ],
+    "parking_spaces": [
+      {
+        "band": "0-9",
+        "cases": 563,
+        "observed_refusal_rate": 0.2487,
+        "observed_grant_rate": 0.7513
+      },
+      {
+        "band": "10-29",
+        "cases": 282,
+        "observed_refusal_rate": 0.2872,
+        "observed_grant_rate": 0.7128
+      },
+      {
+        "band": "30-59",
+        "cases": 198,
+        "observed_refusal_rate": 0.2778,
+        "observed_grant_rate": 0.7222
+      },
+      {
+        "band": "60+",
+        "cases": 452,
+        "observed_refusal_rate": 0.2235,
+        "observed_grant_rate": 0.7765
+      }
+    ]
+  },
+  "caveat": "Observed historical grant/refusal rates by lever band within the GE10 structured cohort. These are observational associations across different schemes, not causal effects of changing the lever; scheme mix differs between bands."
+}

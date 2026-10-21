@@ -1,0 +1,25 @@
+{
+  "reviewed": 120,
+  "precision": 0.9833333333333333,
+  "true_positives": 118,
+  "tail_precision": 1.0,
+  "head_precision": 0.9666666666666667,
+  "unknown_period_reviewed": 17,
+  "unknown_period_precision": 0.9411764705882353,
+  "false_samples": [
+    {
+      "review_id": 76,
+      "council": "South Dublin County Council",
+      "plan_period": "unknown",
+      "objective_code": "13",
+      "context_snippet": "fe and well-being\u2019. \u00e0 In addition, National Policy Objective 13 sets out that \u2018In urban areas, the inclusion of planning and related standards, including in particular building height and car parking will be based on performance criteria that seek to achieve well- designed high-q"
+    },
+    {
+      "review_id": 87,
+      "council": "Kerry County Council",
+      "plan_period": "2022-2028",
+      "objective_code": "KCDP5",
+      "context_snippet": " amend objectives KCDP 5-12 and KCDP 5-13 respectively, in accordance with Recommendation 5 of the Office\u2019s submission and which is consistent with the criteria of NPO 19. The Office has some concern, however, with the proposal to amend the criteria relating to small-scale cluste"
+    }
+  ]
+}

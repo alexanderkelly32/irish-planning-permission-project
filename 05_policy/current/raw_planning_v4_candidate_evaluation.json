@@ -1,0 +1,142 @@
+{
+  "model_version": "national_residential_v4_structured_candidate",
+  "status": "candidate_evaluation_only_not_deployed",
+  "definition": "Text, v3 time-safe history/comparable features, and submitted structured register fields; deterministic SGD logistic candidate trained pre-2025 and evaluated on the untouched 2025 holdout.",
+  "prediction_time": "immediately before submission",
+  "train_n": 203931,
+  "test_n": 15221,
+  "features_added_to_v3": [
+    "log_submitted_units",
+    "log_site_area_ha",
+    "log_floor_area_sqm",
+    "density_units_per_ha",
+    "plot_ratio_proxy",
+    "units_missing",
+    "area_missing",
+    "floor_area_missing"
+  ],
+  "structured_coverage": {
+    "log_submitted_units": 0.720267211798204,
+    "log_site_area_ha": 0.7814119880265752,
+    "log_floor_area_sqm": 0.7351244798130978,
+    "density_units_per_ha": 0.5446630649047237,
+    "plot_ratio_proxy": 0.5610398262393225,
+    "units_missing": 1.0,
+    "area_missing": 1.0,
+    "floor_area_missing": 1.0
+  },
+  "temporal_2025_ranking": {
+    "n": 15221,
+    "refusal_rate": 0.11562972209447474,
+    "roc_auc": 0.7931477551309845,
+    "average_precision": 0.41293239735105036,
+    "brier": 0.14388074674158563,
+    "log_loss": 0.4500895682714629,
+    "calibration_intercept": -1.701720843037501,
+    "calibration_slope": 0.8780142456866348,
+    "bootstrap_samples": 300,
+    "skipped_single_class_samples": 0,
+    "roc_auc_p05": 0.7835730073319003,
+    "roc_auc_p50": 0.7928768281329006,
+    "roc_auc_p95": 0.8011371961712896,
+    "pr_auc_p05": 0.3950055837986535,
+    "pr_auc_p50": 0.4129049502146355,
+    "pr_auc_p95": 0.4331973511276098,
+    "brier_p05": 0.14154896005349052,
+    "brier_p50": 0.14388379763287273,
+    "brier_p95": 0.14630791857693404
+  },
+  "temporal_2025_calibrated": {
+    "n": 15221,
+    "refusal_rate": 0.11562972209447474,
+    "roc_auc": 0.7931477551309845,
+    "average_precision": 0.41293239735105036,
+    "brier": 0.08479273925699922,
+    "log_loss": 0.29113067771863355,
+    "bootstrap_samples": 500,
+    "skipped_single_class_samples": 0,
+    "roc_auc_p05": 0.7837065701082954,
+    "roc_auc_p50": 0.7929245649859838,
+    "roc_auc_p95": 0.8008107636696657,
+    "pr_auc_p05": 0.3951012974735996,
+    "pr_auc_p50": 0.4127840248791782,
+    "pr_auc_p95": 0.43317182085803985,
+    "brier_p05": 0.08208488350366183,
+    "brier_p50": 0.08477013828180432,
+    "brier_p95": 0.08739035908082167,
+    "calibration_intercept": 0.1800389091397241,
+    "calibration_slope": 1.1073163233938261
+  },
+  "frozen_v3_ranking_context": {
+    "n": 15221,
+    "refusal_rate": 0.11562972209447474,
+    "roc_auc": 0.7989005274496694,
+    "average_precision": 0.42019837737179927,
+    "brier": 0.1381839870495509,
+    "log_loss": 0.4314372676214166,
+    "calibration_intercept": -1.6107700125089446,
+    "calibration_slope": 0.9603339710912676,
+    "bootstrap_samples": 300,
+    "skipped_single_class_samples": 0,
+    "roc_auc_p05": 0.7894927929243661,
+    "roc_auc_p50": 0.7984624251320737,
+    "roc_auc_p95": 0.8071042802346438,
+    "pr_auc_p05": 0.40109614759772994,
+    "pr_auc_p50": 0.4198740110851041,
+    "pr_auc_p95": 0.43989235489773987,
+    "brier_p05": 0.13612928496581703,
+    "brier_p50": 0.13813300018587418,
+    "brier_p95": 0.14054986763908753
+  },
+  "accepted_revision_members_mapped": 90,
+  "grouped_pre2025": {
+    "folds": [
+      {
+        "fold": 0,
+        "train_rows": 163144,
+        "test_rows": 40787,
+        "test_groups": 40787
+      },
+      {
+        "fold": 1,
+        "train_rows": 163145,
+        "test_rows": 40786,
+        "test_groups": 40786
+      },
+      {
+        "fold": 2,
+        "train_rows": 163145,
+        "test_rows": 40786,
+        "test_groups": 40786
+      },
+      {
+        "fold": 3,
+        "train_rows": 163145,
+        "test_rows": 40786,
+        "test_groups": 40786
+      },
+      {
+        "fold": 4,
+        "train_rows": 163145,
+        "test_rows": 40786,
+        "test_groups": 40786
+      }
+    ],
+    "ranking_metrics": {
+      "n": 203931,
+      "refusal_rate": 0.15653824087559026,
+      "roc_auc": 0.8260328398182757,
+      "average_precision": 0.5905986479125783,
+      "brier": 0.15956008812837855,
+      "log_loss": 0.486599055634716,
+      "calibration_intercept": -1.6983863381643989,
+      "calibration_slope": 0.8293715047218982
+    }
+  },
+  "limitations": [
+    "Accepted revision links are evaluation grouping metadata, not model features or submission-time inputs.",
+    "This uses SGD logistic regression for tractable grouped cross-validation, so it is not an estimator-identical ablation of the liblinear v3 artifact.",
+    "Most rows remain singleton groups; grouped validation prevents known accepted-pair leakage but is not a comprehensive site-identity benchmark.",
+    "No v4 artifact is written or used by the application until explicit review and promotion."
+  ]
+}

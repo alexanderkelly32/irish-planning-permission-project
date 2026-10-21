@@ -1,0 +1,29 @@
+{
+  "ge10_national_2018_2025": 2838,
+  "ge10_refused_2018_2025": 413,
+  "structured_cohort": {
+    "rows_with_outcome_and_storeys": 4001,
+    "national_ge10_cases": 3585,
+    "cohort_covers_share_of_ge10_universe": 1.116
+  },
+  "planner_report_join": {
+    "joined_rows": 683,
+    "joined_share_of_cohort": 0.171,
+    "field_presence_on_joined": {
+      "heights": 137,
+      "separations": 39,
+      "access_points": 396,
+      "storeys_from_report": 625
+    }
+  },
+  "audited_pairs": {
+    "granted_arm_accepted": 1398,
+    "refused_arm_accepted": 896,
+    "share_of_ge10_refusals_with_granted_pair": 3.385
+  },
+  "theme_coverage": {
+    "master_tagged_cases": 1411,
+    "refused_arm_tagged": 94,
+    "granted_arm_tagged": "campaign in progress (downloads retrying)"
+  }
+}

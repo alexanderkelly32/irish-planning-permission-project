@@ -1,0 +1,20 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+pypdf>=4.0
+requests>=2.31
+beautifulsoup4>=4.12
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+rasterio>=1.3
+streamlit>=1.30
+openai>=1.0
+
+# Pre-Submission Review PDF report.
+fpdf2>=2.7
+
+# Optional model benchmarks used by 05_policy/scripts/build_dublin_submission_model.py.
+xgboost>=2.0
+lightgbm>=4.0

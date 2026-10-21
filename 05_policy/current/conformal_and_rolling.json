@@ -1,0 +1,72 @@
+{
+  "mondrian_conformal": {
+    "coverage": 0.9354,
+    "width_by_band": {
+      "0-10%": {
+        "n": 22494,
+        "median_width_pp": 12.0,
+        "q": 8.2
+      },
+      "10-20%": {
+        "n": 8156,
+        "median_width_pp": 94.8,
+        "q": 82.2
+      },
+      "20-30%": {
+        "n": 2652,
+        "median_width_pp": 100.0,
+        "q": 73.9
+      },
+      "30-40%": {
+        "n": 1177,
+        "median_width_pp": 100.0,
+        "q": 69.5
+      },
+      "40-50%": {
+        "n": 683,
+        "median_width_pp": 100.0,
+        "q": 59.5
+      },
+      "50-60%": {
+        "n": 164,
+        "median_width_pp": 100.0,
+        "q": 52.4
+      },
+      "60-70%": {
+        "n": 102,
+        "median_width_pp": 100.0,
+        "q": 64.3
+      },
+      "70-80%": {
+        "n": 25,
+        "median_width_pp": 80.9,
+        "q": 59.5
+      },
+      "90-100%": {
+        "n": 260,
+        "median_width_pp": 0.0,
+        "q": 0.0
+      }
+    }
+  },
+  "rolling_vs_frozen": [
+    {
+      "eval_period": "2024-01 to 2024-07",
+      "n": 9657,
+      "frozen_2023_brier": 0.09089,
+      "rolling_12m_brier": 0.09089
+    },
+    {
+      "eval_period": "2024-07 to 2025-01",
+      "n": 10835,
+      "frozen_2023_brier": 0.09267,
+      "rolling_12m_brier": 0.09279
+    },
+    {
+      "eval_period": "2025-01 to 2025-07",
+      "n": 9562,
+      "frozen_2023_brier": 0.08626,
+      "rolling_12m_brier": 0.08639
+    }
+  ]
+}

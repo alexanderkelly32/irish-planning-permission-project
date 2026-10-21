@@ -1,0 +1,48 @@
+# Versioned friction-label rules (provisional, per brief section 13.3).
+# Raw component labels are always retained so the composite can be changed
+# without re-extraction. Thresholds require human review on the audited cohort.
+
+schema_version: 1
+
+friction_v1:
+  description: >-
+    First candidate composite of observable planning-friction components.
+    Components are built from verified events only; unknown is never treated
+    as absent.
+  high_if_any:
+    - judicial_review_observed
+    - material_redesign
+    - unit_reduction_pct_gte_20
+  moderate_if_any:
+    - fi_requested
+    - first_party_appeal
+    - third_party_appeal
+    - high_impact_precommencement_condition
+  low_if_none_of_above: true
+  components:
+    fi_requested:
+      label: "One or more formal FI requests before decision"
+      source: planning documents (04_fi workspace / portal records)
+    clarification_requested:
+      label: "Clarification of FI or equivalent follow-up"
+    third_party_appeal:
+      label: "Third-party appeal (confirm from appeal record where possible)"
+    first_party_appeal:
+      label: "Applicant appeal against refusal/conditions"
+    judicial_review_observed:
+      label: "Positive court evidence only; absence is not a clean negative"
+      rule: "jr_observed from verified positive-event table; never jr_absent from a failed search"
+    material_redesign:
+      label: "Rule-based thresholds, e.g. meaningful unit or massing change"
+    unit_reduction_pct_gte_20:
+      label: "Unit reduction of 20% or more between submission and grant"
+    condition_count:
+      label: "Count plus typed high-impact conditions"
+    high_impact_precommencement_condition:
+      label: "Extensive pre-commencement dependencies (water, roads, phasing, archaeology, etc.)"
+    extension_of_duration:
+      label: "Subsequent permission extending original duration"
+    material_amendment_count:
+      label: "Material follow-on applications linked to base scheme"
+    decision_days:
+      label: "Days from valid application to relevant decision milestone"

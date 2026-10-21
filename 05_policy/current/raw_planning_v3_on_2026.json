@@ -1,0 +1,64 @@
+{
+  "frozen_v3_on_2026": {
+    "n_decided_residential": 10157,
+    "date_range": [
+      "2026-01-02 00:00:00+00:00",
+      "2026-08-28 00:00:00+00:00"
+    ],
+    "refusal_rate": 0.1154,
+    "roc_auc": 0.7217,
+    "average_precision": 0.1981,
+    "ge10_subset": {
+      "n": 76,
+      "refusal_rate": 0.1842,
+      "roc_auc": 0.568,
+      "average_precision": 0.2791
+    },
+    "by_month": [
+      {
+        "month": "2026-01",
+        "n": 1273,
+        "roc_auc": 0.655
+      },
+      {
+        "month": "2026-02",
+        "n": 1557,
+        "roc_auc": 0.7121
+      },
+      {
+        "month": "2026-03",
+        "n": 1679,
+        "roc_auc": 0.7325
+      },
+      {
+        "month": "2026-04",
+        "n": 1722,
+        "roc_auc": 0.7322
+      },
+      {
+        "month": "2026-05",
+        "n": 1490,
+        "roc_auc": 0.741
+      },
+      {
+        "month": "2026-06",
+        "n": 1277,
+        "roc_auc": 0.719
+      },
+      {
+        "month": "2026-07",
+        "n": 1095,
+        "roc_auc": 0.7544
+      },
+      {
+        "month": "2026-08",
+        "n": 64,
+        "roc_auc": 0.7155
+      }
+    ]
+  },
+  "v3_2025_reference": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  }
+}

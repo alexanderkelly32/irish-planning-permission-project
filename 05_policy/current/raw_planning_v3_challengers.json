@@ -1,0 +1,29 @@
+{
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  },
+  "train_rows": 203931,
+  "test_rows": 15221,
+  "logistic_replication": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202,
+    "seconds": 54
+  },
+  "mlp_128_64": {
+    "roc_auc": 0.7979,
+    "average_precision": 0.4221,
+    "seconds": 735,
+    "best_iteration": 5
+  },
+  "lgbm_400": {
+    "roc_auc": 0.7973,
+    "average_precision": 0.4218,
+    "seconds": 203
+  },
+  "blend_logistic_mlp_lgbm": {
+    "roc_auc": 0.8035,
+    "average_precision": 0.4289
+  },
+  "caveat": "Challengers use v3's exact submission-time feature matrix and the same pre-2025/2025 split. This measures ranking discrimination only; any candidate that beats 0.7989 would still need the full validation standard (calibration, CIs, bands, temporal windows) before promotion."
+}

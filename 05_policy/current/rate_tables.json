@@ -1,0 +1,906 @@
+{
+ "bucket_rates": {
+  "10+ units": {
+   "rate": 0.2004,
+   "n": 2345
+  },
+  "2-9 units": {
+   "rate": 0.2077,
+   "n": 6745
+  },
+  "change of use": {
+   "rate": 0.1403,
+   "n": 12605
+  },
+  "extension / alteration": {
+   "rate": 0.0723,
+   "n": 67331
+  },
+  "other residential": {
+   "rate": 0.4554,
+   "n": 13069
+  },
+  "retention": {
+   "rate": 0.1154,
+   "n": 46961
+  },
+  "single dwelling": {
+   "rate": 0.197,
+   "n": 70096
+  }
+ },
+ "council_bucket_rates": {
+  "Carlow County Council__10+ units": {
+   "rate": 0.087,
+   "n": 23
+  },
+  "Carlow County Council__2-9 units": {
+   "rate": 0.0188,
+   "n": 373
+  },
+  "Carlow County Council__change of use": {
+   "rate": 0.0539,
+   "n": 167
+  },
+  "Carlow County Council__extension / alteration": {
+   "rate": 0.0457,
+   "n": 679
+  },
+  "Carlow County Council__other residential": {
+   "rate": 0.4894,
+   "n": 47
+  },
+  "Carlow County Council__retention": {
+   "rate": 0.0686,
+   "n": 510
+  },
+  "Carlow County Council__single dwelling": {
+   "rate": 0.1475,
+   "n": 590
+  },
+  "Cavan County Council__10+ units": {
+   "rate": 0.1538,
+   "n": 26
+  },
+  "Cavan County Council__2-9 units": {
+   "rate": 0.0833,
+   "n": 36
+  },
+  "Cavan County Council__change of use": {
+   "rate": 0.0511,
+   "n": 176
+  },
+  "Cavan County Council__extension / alteration": {
+   "rate": 0.0139,
+   "n": 1008
+  },
+  "Cavan County Council__other residential": {
+   "rate": 0.0909,
+   "n": 55
+  },
+  "Cavan County Council__retention": {
+   "rate": 0.0249,
+   "n": 1043
+  },
+  "Cavan County Council__single dwelling": {
+   "rate": 0.0995,
+   "n": 1487
+  },
+  "Clare County Council__10+ units": {
+   "rate": 0.0822,
+   "n": 73
+  },
+  "Clare County Council__2-9 units": {
+   "rate": 0.1626,
+   "n": 123
+  },
+  "Clare County Council__change of use": {
+   "rate": 0.0731,
+   "n": 301
+  },
+  "Clare County Council__extension / alteration": {
+   "rate": 0.027,
+   "n": 1480
+  },
+  "Clare County Council__other residential": {
+   "rate": 0.1165,
+   "n": 206
+  },
+  "Clare County Council__retention": {
+   "rate": 0.0361,
+   "n": 1275
+  },
+  "Clare County Council__single dwelling": {
+   "rate": 0.101,
+   "n": 3110
+  },
+  "Cork City Council__change of use": {
+   "rate": 0.1292,
+   "n": 503
+  },
+  "Cork City Council__extension / alteration": {
+   "rate": 0.0493,
+   "n": 2270
+  },
+  "Cork City Council__other residential": {
+   "rate": 0.2527,
+   "n": 566
+  },
+  "Cork City Council__retention": {
+   "rate": 0.0887,
+   "n": 1060
+  },
+  "Cork City Council__single dwelling": {
+   "rate": 0.2278,
+   "n": 619
+  },
+  "Cork County Council__change of use": {
+   "rate": 1.0,
+   "n": 313
+  },
+  "Cork County Council__extension / alteration": {
+   "rate": 1.0,
+   "n": 811
+  },
+  "Cork County Council__other residential": {
+   "rate": 1.0,
+   "n": 3307
+  },
+  "Cork County Council__retention": {
+   "rate": 1.0,
+   "n": 802
+  },
+  "Cork County Council__single dwelling": {
+   "rate": 1.0,
+   "n": 1678
+  },
+  "Donegal County Council__10+ units": {
+   "rate": 0.0938,
+   "n": 64
+  },
+  "Donegal County Council__2-9 units": {
+   "rate": 0.1273,
+   "n": 165
+  },
+  "Donegal County Council__change of use": {
+   "rate": 0.0667,
+   "n": 510
+  },
+  "Donegal County Council__extension / alteration": {
+   "rate": 0.0338,
+   "n": 2636
+  },
+  "Donegal County Council__other residential": {
+   "rate": 0.108,
+   "n": 250
+  },
+  "Donegal County Council__retention": {
+   "rate": 0.0559,
+   "n": 2164
+  },
+  "Donegal County Council__single dwelling": {
+   "rate": 0.1098,
+   "n": 6001
+  },
+  "Dublin City Council__10+ units": {
+   "rate": 0.2255,
+   "n": 102
+  },
+  "Dublin City Council__2-9 units": {
+   "rate": 0.2155,
+   "n": 181
+  },
+  "Dublin City Council__change of use": {
+   "rate": 0.1448,
+   "n": 1499
+  },
+  "Dublin City Council__extension / alteration": {
+   "rate": 0.0546,
+   "n": 6809
+  },
+  "Dublin City Council__other residential": {
+   "rate": 0.3093,
+   "n": 763
+  },
+  "Dublin City Council__retention": {
+   "rate": 0.1585,
+   "n": 2719
+  },
+  "Dublin City Council__single dwelling": {
+   "rate": 0.2239,
+   "n": 1291
+  },
+  "Dun Laoghaire Rathdown County Council__change of use": {
+   "rate": 0.1152,
+   "n": 1146
+  },
+  "Dun Laoghaire Rathdown County Council__extension / alteration": {
+   "rate": 0.0904,
+   "n": 7763
+  },
+  "Dun Laoghaire Rathdown County Council__other residential": {
+   "rate": 0.337,
+   "n": 1884
+  },
+  "Dun Laoghaire Rathdown County Council__retention": {
+   "rate": 0.1443,
+   "n": 3250
+  },
+  "Dun Laoghaire Rathdown County Council__single dwelling": {
+   "rate": 0.3342,
+   "n": 1912
+  },
+  "Fingal County Council__change of use": {
+   "rate": 0.1269,
+   "n": 646
+  },
+  "Fingal County Council__extension / alteration": {
+   "rate": 0.0784,
+   "n": 3277
+  },
+  "Fingal County Council__other residential": {
+   "rate": 0.3043,
+   "n": 1886
+  },
+  "Fingal County Council__retention": {
+   "rate": 0.1884,
+   "n": 1837
+  },
+  "Fingal County Council__single dwelling": {
+   "rate": 0.2574,
+   "n": 808
+  },
+  "Galway City Council__10+ units": {
+   "rate": 0.125,
+   "n": 32
+  },
+  "Galway City Council__2-9 units": {
+   "rate": 0.2,
+   "n": 65
+  },
+  "Galway City Council__change of use": {
+   "rate": 0.163,
+   "n": 276
+  },
+  "Galway City Council__extension / alteration": {
+   "rate": 0.0841,
+   "n": 928
+  },
+  "Galway City Council__other residential": {
+   "rate": 0.2766,
+   "n": 47
+  },
+  "Galway City Council__retention": {
+   "rate": 0.1773,
+   "n": 688
+  },
+  "Galway City Council__single dwelling": {
+   "rate": 0.1165,
+   "n": 695
+  },
+  "Galway County Council__10+ units": {
+   "rate": 0.6286,
+   "n": 35
+  },
+  "Galway County Council__2-9 units": {
+   "rate": 0.438,
+   "n": 121
+  },
+  "Galway County Council__change of use": {
+   "rate": 0.1068,
+   "n": 281
+  },
+  "Galway County Council__extension / alteration": {
+   "rate": 0.0832,
+   "n": 1898
+  },
+  "Galway County Council__other residential": {
+   "rate": 0.3833,
+   "n": 120
+  },
+  "Galway County Council__retention": {
+   "rate": 0.079,
+   "n": 3203
+  },
+  "Galway County Council__single dwelling": {
+   "rate": 0.1874,
+   "n": 7412
+  },
+  "Kerry County Council__10+ units": {
+   "rate": 0.2192,
+   "n": 73
+  },
+  "Kerry County Council__2-9 units": {
+   "rate": 0.2418,
+   "n": 153
+  },
+  "Kerry County Council__change of use": {
+   "rate": 0.0833,
+   "n": 384
+  },
+  "Kerry County Council__extension / alteration": {
+   "rate": 0.0296,
+   "n": 1587
+  },
+  "Kerry County Council__other residential": {
+   "rate": 0.2256,
+   "n": 195
+  },
+  "Kerry County Council__retention": {
+   "rate": 0.0701,
+   "n": 2768
+  },
+  "Kerry County Council__single dwelling": {
+   "rate": 0.1229,
+   "n": 3728
+  },
+  "Kildare County Council__10+ units": {
+   "rate": 0.2844,
+   "n": 225
+  },
+  "Kildare County Council__2-9 units": {
+   "rate": 0.395,
+   "n": 443
+  },
+  "Kildare County Council__change of use": {
+   "rate": 0.1321,
+   "n": 507
+  },
+  "Kildare County Council__extension / alteration": {
+   "rate": 0.0664,
+   "n": 2906
+  },
+  "Kildare County Council__other residential": {
+   "rate": 0.3123,
+   "n": 317
+  },
+  "Kildare County Council__retention": {
+   "rate": 0.1063,
+   "n": 1862
+  },
+  "Kildare County Council__single dwelling": {
+   "rate": 0.4096,
+   "n": 2527
+  },
+  "Kilkenny County Council__10+ units": {
+   "rate": 0.2308,
+   "n": 78
+  },
+  "Kilkenny County Council__2-9 units": {
+   "rate": 0.1613,
+   "n": 93
+  },
+  "Kilkenny County Council__change of use": {
+   "rate": 0.1418,
+   "n": 268
+  },
+  "Kilkenny County Council__extension / alteration": {
+   "rate": 0.023,
+   "n": 1345
+  },
+  "Kilkenny County Council__other residential": {
+   "rate": 0.1172,
+   "n": 128
+  },
+  "Kilkenny County Council__retention": {
+   "rate": 0.0776,
+   "n": 1044
+  },
+  "Kilkenny County Council__single dwelling": {
+   "rate": 0.1512,
+   "n": 2156
+  },
+  "Laois County Council__10+ units": {
+   "rate": 0.0538,
+   "n": 93
+  },
+  "Laois County Council__2-9 units": {
+   "rate": 0.0689,
+   "n": 639
+  },
+  "Laois County Council__change of use": {
+   "rate": 0.0671,
+   "n": 149
+  },
+  "Laois County Council__extension / alteration": {
+   "rate": 0.0204,
+   "n": 783
+  },
+  "Laois County Council__other residential": {
+   "rate": 0.1316,
+   "n": 38
+  },
+  "Laois County Council__retention": {
+   "rate": 0.0295,
+   "n": 882
+  },
+  "Laois County Council__single dwelling": {
+   "rate": 0.0749,
+   "n": 1376
+  },
+  "Leitrim County Council__10+ units": {
+   "rate": 0.0,
+   "n": 10
+  },
+  "Leitrim County Council__2-9 units": {
+   "rate": 0.1154,
+   "n": 26
+  },
+  "Leitrim County Council__change of use": {
+   "rate": 0.087,
+   "n": 69
+  },
+  "Leitrim County Council__extension / alteration": {
+   "rate": 0.0152,
+   "n": 330
+  },
+  "Leitrim County Council__other residential": {
+   "rate": 0.0,
+   "n": 18
+  },
+  "Leitrim County Council__retention": {
+   "rate": 0.0117,
+   "n": 427
+  },
+  "Leitrim County Council__single dwelling": {
+   "rate": 0.0228,
+   "n": 394
+  },
+  "Limerick County Council__10+ units": {
+   "rate": 0.1221,
+   "n": 131
+  },
+  "Limerick County Council__2-9 units": {
+   "rate": 0.1851,
+   "n": 443
+  },
+  "Limerick County Council__change of use": {
+   "rate": 0.0557,
+   "n": 539
+  },
+  "Limerick County Council__extension / alteration": {
+   "rate": 0.0434,
+   "n": 2491
+  },
+  "Limerick County Council__other residential": {
+   "rate": 0.0938,
+   "n": 160
+  },
+  "Limerick County Council__retention": {
+   "rate": 0.0669,
+   "n": 1330
+  },
+  "Limerick County Council__single dwelling": {
+   "rate": 0.058,
+   "n": 2654
+  },
+  "Longford County Council__10+ units": {
+   "rate": 0.0,
+   "n": 6
+  },
+  "Longford County Council__2-9 units": {
+   "rate": 0.0,
+   "n": 3
+  },
+  "Longford County Council__change of use": {
+   "rate": 0.0811,
+   "n": 111
+  },
+  "Longford County Council__extension / alteration": {
+   "rate": 0.0259,
+   "n": 502
+  },
+  "Longford County Council__other residential": {
+   "rate": 0.2029,
+   "n": 138
+  },
+  "Longford County Council__retention": {
+   "rate": 0.0535,
+   "n": 299
+  },
+  "Longford County Council__single dwelling": {
+   "rate": 0.1331,
+   "n": 744
+  },
+  "Louth County Council__10+ units": {
+   "rate": 0.0926,
+   "n": 108
+  },
+  "Louth County Council__2-9 units": {
+   "rate": 0.2275,
+   "n": 756
+  },
+  "Louth County Council__change of use": {
+   "rate": 0.1159,
+   "n": 371
+  },
+  "Louth County Council__extension / alteration": {
+   "rate": 0.0759,
+   "n": 1857
+  },
+  "Louth County Council__other residential": {
+   "rate": 0.2621,
+   "n": 145
+  },
+  "Louth County Council__retention": {
+   "rate": 0.1351,
+   "n": 1695
+  },
+  "Louth County Council__single dwelling": {
+   "rate": 0.2594,
+   "n": 1696
+  },
+  "Mayo County Council__10+ units": {
+   "rate": 0.0,
+   "n": 15
+  },
+  "Mayo County Council__2-9 units": {
+   "rate": 0.0,
+   "n": 139
+  },
+  "Mayo County Council__change of use": {
+   "rate": 0.0924,
+   "n": 249
+  },
+  "Mayo County Council__extension / alteration": {
+   "rate": 0.0258,
+   "n": 1514
+  },
+  "Mayo County Council__other residential": {
+   "rate": 0.2794,
+   "n": 136
+  },
+  "Mayo County Council__retention": {
+   "rate": 0.0373,
+   "n": 1475
+  },
+  "Mayo County Council__single dwelling": {
+   "rate": 0.1082,
+   "n": 3650
+  },
+  "Meath County Council__10+ units": {
+   "rate": 0.1127,
+   "n": 204
+  },
+  "Meath County Council__2-9 units": {
+   "rate": 0.1708,
+   "n": 878
+  },
+  "Meath County Council__change of use": {
+   "rate": 0.0746,
+   "n": 402
+  },
+  "Meath County Council__extension / alteration": {
+   "rate": 0.0639,
+   "n": 2503
+  },
+  "Meath County Council__other residential": {
+   "rate": 0.198,
+   "n": 202
+  },
+  "Meath County Council__retention": {
+   "rate": 0.103,
+   "n": 2097
+  },
+  "Meath County Council__single dwelling": {
+   "rate": 0.2159,
+   "n": 3742
+  },
+  "Monaghan County Council__2-9 units": {
+   "rate": 0.0,
+   "n": 1
+  },
+  "Monaghan County Council__change of use": {
+   "rate": 0.0536,
+   "n": 168
+  },
+  "Monaghan County Council__extension / alteration": {
+   "rate": 0.0195,
+   "n": 718
+  },
+  "Monaghan County Council__other residential": {
+   "rate": 0.0678,
+   "n": 59
+  },
+  "Monaghan County Council__retention": {
+   "rate": 0.0759,
+   "n": 817
+  },
+  "Monaghan County Council__single dwelling": {
+   "rate": 0.0733,
+   "n": 2019
+  },
+  "Offaly County Council__10+ units": {
+   "rate": 0.2407,
+   "n": 54
+  },
+  "Offaly County Council__2-9 units": {
+   "rate": 0.1923,
+   "n": 130
+  },
+  "Offaly County Council__change of use": {
+   "rate": 0.0758,
+   "n": 132
+  },
+  "Offaly County Council__extension / alteration": {
+   "rate": 0.0333,
+   "n": 720
+  },
+  "Offaly County Council__other residential": {
+   "rate": 0.1395,
+   "n": 43
+  },
+  "Offaly County Council__retention": {
+   "rate": 0.0527,
+   "n": 721
+  },
+  "Offaly County Council__single dwelling": {
+   "rate": 0.1171,
+   "n": 1546
+  },
+  "Roscommon County Council__10+ units": {
+   "rate": 0.4,
+   "n": 20
+  },
+  "Roscommon County Council__2-9 units": {
+   "rate": 0.3396,
+   "n": 53
+  },
+  "Roscommon County Council__change of use": {
+   "rate": 0.0945,
+   "n": 127
+  },
+  "Roscommon County Council__extension / alteration": {
+   "rate": 0.0805,
+   "n": 683
+  },
+  "Roscommon County Council__other residential": {
+   "rate": 0.1282,
+   "n": 39
+  },
+  "Roscommon County Council__retention": {
+   "rate": 0.083,
+   "n": 735
+  },
+  "Roscommon County Council__single dwelling": {
+   "rate": 0.1648,
+   "n": 1365
+  },
+  "Sligo County Council__10+ units": {
+   "rate": 0.0,
+   "n": 1
+  },
+  "Sligo County Council__2-9 units": {
+   "rate": 0.0909,
+   "n": 33
+  },
+  "Sligo County Council__change of use": {
+   "rate": 0.0625,
+   "n": 176
+  },
+  "Sligo County Council__extension / alteration": {
+   "rate": 0.028,
+   "n": 858
+  },
+  "Sligo County Council__other residential": {
+   "rate": 0.1579,
+   "n": 38
+  },
+  "Sligo County Council__retention": {
+   "rate": 0.0442,
+   "n": 701
+  },
+  "Sligo County Council__single dwelling": {
+   "rate": 0.0894,
+   "n": 1051
+  },
+  "South Dublin County Council__10+ units": {
+   "rate": 0.2972,
+   "n": 461
+  },
+  "South Dublin County Council__2-9 units": {
+   "rate": 0.4235,
+   "n": 510
+  },
+  "South Dublin County Council__change of use": {
+   "rate": 0.1642,
+   "n": 1291
+  },
+  "South Dublin County Council__extension / alteration": {
+   "rate": 0.0765,
+   "n": 10485
+  },
+  "South Dublin County Council__other residential": {
+   "rate": 0.2424,
+   "n": 755
+  },
+  "South Dublin County Council__retention": {
+   "rate": 0.157,
+   "n": 3402
+  },
+  "South Dublin County Council__single dwelling": {
+   "rate": 0.3962,
+   "n": 4003
+  },
+  "Tipperary County Council__10+ units": {
+   "rate": 0.0941,
+   "n": 85
+  },
+  "Tipperary County Council__2-9 units": {
+   "rate": 0.0741,
+   "n": 189
+  },
+  "Tipperary County Council__change of use": {
+   "rate": 0.0722,
+   "n": 374
+  },
+  "Tipperary County Council__extension / alteration": {
+   "rate": 0.0165,
+   "n": 1875
+  },
+  "Tipperary County Council__other residential": {
+   "rate": 0.1174,
+   "n": 213
+  },
+  "Tipperary County Council__retention": {
+   "rate": 0.031,
+   "n": 1906
+  },
+  "Tipperary County Council__single dwelling": {
+   "rate": 0.039,
+   "n": 2204
+  },
+  "Waterford City and County Council__10+ units": {
+   "rate": 0.0161,
+   "n": 62
+  },
+  "Waterford City and County Council__2-9 units": {
+   "rate": 0.0952,
+   "n": 63
+  },
+  "Waterford City and County Council__change of use": {
+   "rate": 0.1132,
+   "n": 371
+  },
+  "Waterford City and County Council__extension / alteration": {
+   "rate": 0.0655,
+   "n": 1848
+  },
+  "Waterford City and County Council__other residential": {
+   "rate": 0.3611,
+   "n": 108
+  },
+  "Waterford City and County Council__retention": {
+   "rate": 0.0766,
+   "n": 1241
+  },
+  "Waterford City and County Council__single dwelling": {
+   "rate": 0.1719,
+   "n": 2216
+  },
+  "Westmeath County Council__10+ units": {
+   "rate": 0.1618,
+   "n": 68
+  },
+  "Westmeath County Council__2-9 units": {
+   "rate": 0.1452,
+   "n": 62
+  },
+  "Westmeath County Council__change of use": {
+   "rate": 0.1218,
+   "n": 197
+  },
+  "Westmeath County Council__extension / alteration": {
+   "rate": 0.0651,
+   "n": 1014
+  },
+  "Westmeath County Council__other residential": {
+   "rate": 0.6842,
+   "n": 95
+  },
+  "Westmeath County Council__retention": {
+   "rate": 0.1016,
+   "n": 709
+  },
+  "Westmeath County Council__single dwelling": {
+   "rate": 0.1624,
+   "n": 1644
+  },
+  "Wexford County Council__10+ units": {
+   "rate": 0.3429,
+   "n": 210
+  },
+  "Wexford County Council__2-9 units": {
+   "rate": 0.2731,
+   "n": 952
+  },
+  "Wexford County Council__change of use": {
+   "rate": 0.2314,
+   "n": 350
+  },
+  "Wexford County Council__extension / alteration": {
+   "rate": 0.0977,
+   "n": 1638
+  },
+  "Wexford County Council__other residential": {
+   "rate": 0.277,
+   "n": 473
+  },
+  "Wexford County Council__retention": {
+   "rate": 0.1334,
+   "n": 2991
+  },
+  "Wexford County Council__single dwelling": {
+   "rate": 0.2567,
+   "n": 3814
+  },
+  "Wicklow County Council__10+ units": {
+   "rate": 0.0116,
+   "n": 86
+  },
+  "Wicklow County Council__2-9 units": {
+   "rate": 0.1391,
+   "n": 115
+  },
+  "Wicklow County Council__change of use": {
+   "rate": 0.1721,
+   "n": 552
+  },
+  "Wicklow County Council__extension / alteration": {
+   "rate": 0.0719,
+   "n": 2115
+  },
+  "Wicklow County Council__other residential": {
+   "rate": 0.2069,
+   "n": 638
+  },
+  "Wicklow County Council__retention": {
+   "rate": 0.1628,
+   "n": 1308
+  },
+  "Wicklow County Council__single dwelling": {
+   "rate": 0.2042,
+   "n": 1964
+  }
+ },
+ "units_bucket_rates": {
+  "single home": {
+   "rate": 0.1185,
+   "n": 145253
+  },
+  "2-9 homes": {
+   "rate": 0.1791,
+   "n": 9630
+  },
+  "10-19 homes": {
+   "rate": 0.2121,
+   "n": 891
+  },
+  "20-39 homes": {
+   "rate": 0.1916,
+   "n": 788
+  },
+  "40-79 homes": {
+   "rate": 0.186,
+   "n": 715
+  },
+  "80+ homes": {
+   "rate": 0.1699,
+   "n": 571
+  }
+ },
+ "density_band_rates": {
+  "low (below 35 homes/ha)": {
+   "rate": 0.1345,
+   "n": 115562
+  },
+  "medium (35-50 homes/ha)": {
+   "rate": 0.1141,
+   "n": 1911
+  },
+  "high (above 50 homes/ha)": {
+   "rate": 0.1449,
+   "n": 1891
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+  "model": "v3_plus_unused_plus_policy_layer_challenger_A",
+  "holdout": {
+    "n": 15221,
+    "date_range": [
+      "2025-01-02 00:00:00+00:00",
+      "2025-12-23 00:00:00+00:00"
+    ],
+    "refusal_rate": 0.1156,
+    "roc_auc": 0.8002,
+    "roc_auc_bootstrap95": [
+      0.7891,
+      0.8114
+    ],
+    "average_precision": 0.4188,
+    "brier": 0.1393,
+    "log_loss": 0.4343
+  },
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202,
+    "brier": 0.085,
+    "log_loss": 0.291
+  },
+  "ge10_subset": {
+    "n": 166,
+    "refusal_rate": 0.1687,
+    "roc_auc": 0.7658,
+    "roc_auc_bootstrap95": [
+      0.6651,
+      0.8556
+    ],
+    "average_precision": 0.451,
+    "brier": 0.2053
+  },
+  "council_breakdown_top": [
+    {
+      "council": "Donegal County Council",
+      "n": 1345,
+      "refusal_rate": 0.0625,
+      "roc_auc": 0.8044
+    },
+    {
+      "council": "Galway County Council",
+      "n": 1068,
+      "refusal_rate": 0.1021,
+      "roc_auc": 0.6844
+    },
+    {
+      "council": "Dublin City Council",
+      "n": 817,
+      "refusal_rate": 0.1212,
+      "roc_auc": 0.833
+    },
+    {
+      "council": "Meath County Council",
+      "n": 811,
+      "refusal_rate": 0.0826,
+      "roc_auc": 0.7323
+    },
+    {
+      "council": "Wexford County Council",
+      "n": 737,
+      "refusal_rate": 0.1615,
+      "roc_auc": 0.7273
+    },
+    {
+      "council": "Kerry County Council",
+      "n": 672,
+      "refusal_rate": 0.1414,
+      "roc_auc": 0.7644
+    },
+    {
+      "council": "Mayo County Council",
+      "n": 665,
+      "refusal_rate": 0.0857,
+      "roc_auc": 0.8482
+    },
+    {
+      "council": "Kildare County Council",
+      "n": 656,
+      "refusal_rate": 0.2409,
+      "roc_auc": 0.8571
+    },
+    {
+      "council": "Clare County Council",
+      "n": 653,
+      "refusal_rate": 0.072,
+      "roc_auc": 0.7296
+    },
+    {
+      "council": "Tipperary County Council",
+      "n": 614,
+      "refusal_rate": 0.0489,
+      "roc_auc": 0.7636
+    },
+    {
+      "council": "South Dublin County Council",
+      "n": 565,
+      "refusal_rate": 0.0796,
+      "roc_auc": 0.835
+    },
+    {
+      "council": "Dun Laoghaire Rathdown County Council",
+      "n": 563,
+      "refusal_rate": 0.1155,
+      "roc_auc": 0.6553
+    }
+  ],
+  "note": "Variant A: v3 + flood/units/applicant (unused features) + policy-layer features (plan-in-force code coverage, theme counts, description-code match). All submission-time. GE10 n=166 CI is wide; treat as directional."
+}

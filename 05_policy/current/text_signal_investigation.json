@@ -1,0 +1,502 @@
+{
+  "top_30_risk_raising_phrases": [
+    {
+      "term": "treatment",
+      "coefficient": 2.8777391048732195,
+      "odds_multiplier_per_unit_tfidf": 17.774,
+      "approx_document_frequency": 15315
+    },
+    {
+      "term": "mobile",
+      "coefficient": 2.547960672279422,
+      "odds_multiplier_per_unit_tfidf": 12.781,
+      "approx_document_frequency": 252
+    },
+    {
+      "term": "bedrooms",
+      "coefficient": 2.1470631543877854,
+      "odds_multiplier_per_unit_tfidf": 8.56,
+      "approx_document_frequency": 948
+    },
+    {
+      "term": "apartment",
+      "coefficient": 2.1217494680630864,
+      "odds_multiplier_per_unit_tfidf": 8.346,
+      "approx_document_frequency": 1321
+    },
+    {
+      "term": "balcony",
+      "coefficient": 2.0397294620749165,
+      "odds_multiplier_per_unit_tfidf": 7.689,
+      "approx_document_frequency": 458
+    },
+    {
+      "term": "apartments",
+      "coefficient": 2.01747624218001,
+      "odds_multiplier_per_unit_tfidf": 7.519,
+      "approx_document_frequency": 1625
+    },
+    {
+      "term": "bungalow",
+      "coefficient": 1.9809470878081363,
+      "odds_multiplier_per_unit_tfidf": 7.25,
+      "approx_document_frequency": 1742
+    },
+    {
+      "term": "single storey dwelling",
+      "coefficient": 1.9516513411956802,
+      "odds_multiplier_per_unit_tfidf": 7.04,
+      "approx_document_frequency": 2299
+    },
+    {
+      "term": "used",
+      "coefficient": 1.8765175786600863,
+      "odds_multiplier_per_unit_tfidf": 6.531,
+      "approx_document_frequency": 480
+    },
+    {
+      "term": "bedroom",
+      "coefficient": 1.8246448361989658,
+      "odds_multiplier_per_unit_tfidf": 6.201,
+      "approx_document_frequency": 4926
+    },
+    {
+      "term": "residential",
+      "coefficient": 1.8050136608561114,
+      "odds_multiplier_per_unit_tfidf": 6.08,
+      "approx_document_frequency": 2810
+    },
+    {
+      "term": "storey",
+      "coefficient": 1.7778563455402467,
+      "odds_multiplier_per_unit_tfidf": 5.917,
+      "approx_document_frequency": 27133
+    },
+    {
+      "term": "timber",
+      "coefficient": 1.771500283004329,
+      "odds_multiplier_per_unit_tfidf": 5.88,
+      "approx_document_frequency": 590
+    },
+    {
+      "term": "dwellings",
+      "coefficient": 1.703561507949895,
+      "odds_multiplier_per_unit_tfidf": 5.493,
+      "approx_document_frequency": 1427
+    },
+    {
+      "term": "recessed",
+      "coefficient": 1.6667012188773136,
+      "odds_multiplier_per_unit_tfidf": 5.295,
+      "approx_document_frequency": 454
+    },
+    {
+      "term": "detached",
+      "coefficient": 1.6438045838040587,
+      "odds_multiplier_per_unit_tfidf": 5.175,
+      "approx_document_frequency": 8810
+    },
+    {
+      "term": "use existing",
+      "coefficient": 1.608108102406583,
+      "odds_multiplier_per_unit_tfidf": 4.993,
+      "approx_document_frequency": 1924
+    },
+    {
+      "term": "parking",
+      "coefficient": 1.5615864532060133,
+      "odds_multiplier_per_unit_tfidf": 4.766,
+      "approx_document_frequency": 3179
+    },
+    {
+      "term": "extension duration",
+      "coefficient": 1.5112309829861275,
+      "odds_multiplier_per_unit_tfidf": 4.532,
+      "approx_document_frequency": 459
+    },
+    {
+      "term": "road",
+      "coefficient": 1.5043788890674712,
+      "odds_multiplier_per_unit_tfidf": 4.501,
+      "approx_document_frequency": 4561
+    },
+    {
+      "term": "provide",
+      "coefficient": 1.4892619388720898,
+      "odds_multiplier_per_unit_tfidf": 4.434,
+      "approx_document_frequency": 1854
+    },
+    {
+      "term": "existing access",
+      "coefficient": 1.486816014193592,
+      "odds_multiplier_per_unit_tfidf": 4.423,
+      "approx_document_frequency": 278
+    },
+    {
+      "term": "land",
+      "coefficient": 1.4683265553777405,
+      "odds_multiplier_per_unit_tfidf": 4.342,
+      "approx_document_frequency": 250
+    },
+    {
+      "term": "balconies",
+      "coefficient": 1.457692821508907,
+      "odds_multiplier_per_unit_tfidf": 4.296,
+      "approx_document_frequency": 339
+    },
+    {
+      "term": "effluent treatment unit",
+      "coefficient": 1.449312127722652,
+      "odds_multiplier_per_unit_tfidf": 4.26,
+      "approx_document_frequency": 219
+    },
+    {
+      "term": "single storey bedroom",
+      "coefficient": 1.438312921510332,
+      "odds_multiplier_per_unit_tfidf": 4.214,
+      "approx_document_frequency": 218
+    },
+    {
+      "term": "duration",
+      "coefficient": 1.4291215325174675,
+      "odds_multiplier_per_unit_tfidf": 4.175,
+      "approx_document_frequency": 564
+    },
+    {
+      "term": "new storey",
+      "coefficient": 1.4061788862834417,
+      "odds_multiplier_per_unit_tfidf": 4.08,
+      "approx_document_frequency": 1936
+    },
+    {
+      "term": "structure",
+      "coefficient": 1.3987560378708916,
+      "odds_multiplier_per_unit_tfidf": 4.05,
+      "approx_document_frequency": 2985
+    },
+    {
+      "term": "family",
+      "coefficient": 1.3869790611017845,
+      "odds_multiplier_per_unit_tfidf": 4.003,
+      "approx_document_frequency": 863
+    }
+  ],
+  "top_30_risk_lowering_phrases": [
+    {
+      "term": "porch",
+      "coefficient": -3.5269158958235893,
+      "odds_multiplier_per_unit_tfidf": 0.029,
+      "approx_document_frequency": 2834
+    },
+    {
+      "term": "single storey extension",
+      "coefficient": -2.7539890450345443,
+      "odds_multiplier_per_unit_tfidf": 0.064,
+      "approx_document_frequency": 7159
+    },
+    {
+      "term": "rooflight",
+      "coefficient": -2.7476920583123547,
+      "odds_multiplier_per_unit_tfidf": 0.064,
+      "approx_document_frequency": 527
+    },
+    {
+      "term": "slatted",
+      "coefficient": -2.6609707051298273,
+      "odds_multiplier_per_unit_tfidf": 0.07,
+      "approx_document_frequency": 622
+    },
+    {
+      "term": "conservatory",
+      "coefficient": -2.5856597640649035,
+      "odds_multiplier_per_unit_tfidf": 0.075,
+      "approx_document_frequency": 583
+    },
+    {
+      "term": "rooflights",
+      "coefficient": -2.2826162330070803,
+      "odds_multiplier_per_unit_tfidf": 0.102,
+      "approx_document_frequency": 980
+    },
+    {
+      "term": "window",
+      "coefficient": -2.1509320552711686,
+      "odds_multiplier_per_unit_tfidf": 0.116,
+      "approx_document_frequency": 3287
+    },
+    {
+      "term": "sunroom",
+      "coefficient": -2.1255160615635402,
+      "odds_multiplier_per_unit_tfidf": 0.119,
+      "approx_document_frequency": 471
+    },
+    {
+      "term": "rear dwelling",
+      "coefficient": -2.0315403494746382,
+      "odds_multiplier_per_unit_tfidf": 0.131,
+      "approx_document_frequency": 1051
+    },
+    {
+      "term": "changes",
+      "coefficient": -2.0019906798861764,
+      "odds_multiplier_per_unit_tfidf": 0.135,
+      "approx_document_frequency": 2043
+    },
+    {
+      "term": "amendments",
+      "coefficient": -1.9655427837329593,
+      "odds_multiplier_per_unit_tfidf": 0.14,
+      "approx_document_frequency": 1021
+    },
+    {
+      "term": "community",
+      "coefficient": -1.9626911173365604,
+      "odds_multiplier_per_unit_tfidf": 0.14,
+      "approx_document_frequency": 275
+    },
+    {
+      "term": "widening existing vehicular",
+      "coefficient": -1.9351203462059872,
+      "odds_multiplier_per_unit_tfidf": 0.144,
+      "approx_document_frequency": 299
+    },
+    {
+      "term": "garage",
+      "coefficient": -1.9129798962510778,
+      "odds_multiplier_per_unit_tfidf": 0.148,
+      "approx_document_frequency": 17796
+    },
+    {
+      "term": "extension dwelling house",
+      "coefficient": -1.8936072645533553,
+      "odds_multiplier_per_unit_tfidf": 0.151,
+      "approx_document_frequency": 328
+    },
+    {
+      "term": "room extension",
+      "coefficient": -1.8905550359719614,
+      "odds_multiplier_per_unit_tfidf": 0.151,
+      "approx_document_frequency": 364
+    },
+    {
+      "term": "minor",
+      "coefficient": -1.8826805800895685,
+      "odds_multiplier_per_unit_tfidf": 0.152,
+      "approx_document_frequency": 1685
+    },
+    {
+      "term": "extension",
+      "coefficient": -1.8796530631929331,
+      "odds_multiplier_per_unit_tfidf": 0.153,
+      "approx_document_frequency": 23832
+    },
+    {
+      "term": "classroom",
+      "coefficient": -1.6728546429801907,
+      "odds_multiplier_per_unit_tfidf": 0.188,
+      "approx_document_frequency": 235
+    },
+    {
+      "term": "extensions",
+      "coefficient": -1.6659874582775178,
+      "odds_multiplier_per_unit_tfidf": 0.189,
+      "approx_document_frequency": 1959
+    },
+    {
+      "term": "centre",
+      "coefficient": -1.64341187607667,
+      "odds_multiplier_per_unit_tfidf": 0.193,
+      "approx_document_frequency": 672
+    },
+    {
+      "term": "received",
+      "coefficient": -1.6286566653250907,
+      "odds_multiplier_per_unit_tfidf": 0.196,
+      "approx_document_frequency": 419
+    },
+    {
+      "term": "extensions rear",
+      "coefficient": -1.604404616366269,
+      "odds_multiplier_per_unit_tfidf": 0.201,
+      "approx_document_frequency": 520
+    },
+    {
+      "term": "boiler",
+      "coefficient": -1.5751027880976471,
+      "odds_multiplier_per_unit_tfidf": 0.207,
+      "approx_document_frequency": 354
+    },
+    {
+      "term": "single storey rear",
+      "coefficient": -1.5671560159935969,
+      "odds_multiplier_per_unit_tfidf": 0.209,
+      "approx_document_frequency": 953
+    },
+    {
+      "term": "school",
+      "coefficient": -1.5653775030899968,
+      "odds_multiplier_per_unit_tfidf": 0.209,
+      "approx_document_frequency": 622
+    },
+    {
+      "term": "garage conversion",
+      "coefficient": -1.5621417707134966,
+      "odds_multiplier_per_unit_tfidf": 0.21,
+      "approx_document_frequency": 273
+    },
+    {
+      "term": "hall",
+      "coefficient": -1.5482468757586783,
+      "odds_multiplier_per_unit_tfidf": 0.213,
+      "approx_document_frequency": 444
+    },
+    {
+      "term": "reduction",
+      "coefficient": -1.5459915965614381,
+      "odds_multiplier_per_unit_tfidf": 0.213,
+      "approx_document_frequency": 291
+    },
+    {
+      "term": "revised",
+      "coefficient": -1.5413166248451264,
+      "odds_multiplier_per_unit_tfidf": 0.214,
+      "approx_document_frequency": 2813
+    }
+  ],
+  "theme_summary": {
+    "apartments / height / urban": {
+      "n_terms": 119,
+      "mean_coefficient": 0.0472,
+      "direction": "risk-raising",
+      "top_risk_raising": [
+        "apartment",
+        "balcony",
+        "apartments",
+        "single storey dwelling",
+        "storey"
+      ],
+      "top_risk_lowering": [
+        "single storey extension",
+        "single storey rear",
+        "rear existing storey",
+        "single storey",
+        "construction single storey"
+      ]
+    },
+    "houses / one-off / rural": {
+      "n_terms": 262,
+      "mean_coefficient": -0.0133,
+      "direction": "risk-lowering",
+      "top_risk_raising": [
+        "bungalow",
+        "single storey dwelling",
+        "dwellings",
+        "detached",
+        "single storey bedroom"
+      ],
+      "top_risk_lowering": [
+        "single storey extension",
+        "rear dwelling",
+        "extension dwelling house",
+        "single storey rear",
+        "existing dwelling new"
+      ]
+    },
+    "extension / retention": {
+      "n_terms": 128,
+      "mean_coefficient": -0.3251,
+      "direction": "risk-lowering",
+      "top_risk_raising": [
+        "extension duration",
+        "alterations extension existing",
+        "storey extension rear",
+        "rear extension existing",
+        "dormer extension"
+      ],
+      "top_risk_lowering": [
+        "single storey extension",
+        "conservatory",
+        "extension dwelling house",
+        "room extension",
+        "extension"
+      ]
+    },
+    "parking / access / road": {
+      "n_terms": 81,
+      "mean_coefficient": 0.1483,
+      "direction": "risk-raising",
+      "top_risk_raising": [
+        "parking",
+        "road",
+        "existing access",
+        "access",
+        "entrance"
+      ],
+      "top_risk_lowering": [
+        "entrance wastewater treatment",
+        "carry",
+        "accessible",
+        "carport",
+        "entrance public road"
+      ]
+    },
+    "open space / amenity / design": {
+      "n_terms": 23,
+      "mean_coefficient": 0.1347,
+      "direction": "risk-raising",
+      "top_risk_raising": [
+        "material",
+        "open space",
+        "finishes",
+        "amenity",
+        "landscaped"
+      ],
+      "top_risk_lowering": [
+        "landscaping works",
+        "landscape",
+        "associated landscaping",
+        "design",
+        "house design"
+      ]
+    },
+    "services / drainage": {
+      "n_terms": 81,
+      "mean_coefficient": 0.0959,
+      "direction": "risk-raising",
+      "top_risk_raising": [
+        "connection",
+        "wastewater",
+        "connection existing",
+        "connection services",
+        "sewer"
+      ],
+      "top_risk_lowering": [
+        "site services",
+        "utility",
+        "wastewater treatment unit",
+        "services site",
+        "entrance wastewater treatment"
+      ]
+    },
+    "demolition / site works": {
+      "n_terms": 113,
+      "mean_coefficient": 0.0178,
+      "direction": "risk-raising",
+      "top_risk_raising": [
+        "demolition existing single",
+        "treatment associated",
+        "demolition single storey",
+        "demolition",
+        "sewer associated"
+      ],
+      "top_risk_lowering": [
+        "site works significant",
+        "associated ancillary works",
+        "elevations associated site",
+        "associated internal",
+        "elevations associated"
+      ]
+    }
+  },
+  "note": "Coefficients are per TF-IDF-weighted occurrence in the linear model; odds multipliers are indicative, and only phrases appearing in 200+ training descriptions are listed (stable signal, not rare noise)."
+}

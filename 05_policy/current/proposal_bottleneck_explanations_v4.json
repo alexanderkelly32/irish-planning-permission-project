@@ -1,0 +1,68 @@
+{
+  "apartment_block_dlr": {
+    "refusal_probability": 0.3496,
+    "grant_probability": 0.6504,
+    "risk_band": "high",
+    "factors": [
+      {
+        "driver": "application type",
+        "text": "This is a \u201810+ units\u2019 application; across Ireland these are refused 20% of the time."
+      },
+      {
+        "driver": "similar past applications",
+        "text": "The most similar past applications to this scheme were refused 40% of the time."
+      },
+      {
+        "driver": "council track record",
+        "text": "Applications in Dun Laoghaire Rathdown County Council have recently been refused 12% of the time."
+      },
+      {
+        "driver": "local track record",
+        "text": "Recent applications within 1km of the site were refused 13% of the time."
+      },
+      {
+        "driver": "site density",
+        "text": "The scheme is at 30 homes per hectare \u2013 the low (below 35 homes/ha) band."
+      },
+      {
+        "driver": "site space per home",
+        "text": "The scheme provides 333 m\u00b2 of site per home."
+      }
+    ],
+    "summary": "Together these factors give an estimated 35% chance of refusal and 65% chance of grant.",
+    "note": "Model-attributed drivers; the percentages are historical rates, not guarantees."
+  },
+  "one_off_house": {
+    "refusal_probability": 0.26,
+    "grant_probability": 0.74,
+    "risk_band": "high",
+    "factors": [
+      {
+        "driver": "application type",
+        "text": "This is a \u2018single dwelling\u2019 application; in Dun Laoghaire Rathdown County Council these are refused 33% of the time."
+      },
+      {
+        "driver": "similar past applications",
+        "text": "The most similar past applications to this scheme were refused 20% of the time."
+      },
+      {
+        "driver": "council track record",
+        "text": "Applications in Dun Laoghaire Rathdown County Council have recently been refused 12% of the time."
+      },
+      {
+        "driver": "local track record",
+        "text": "Recent applications within 1km of the site were refused 13% of the time."
+      },
+      {
+        "driver": "site density",
+        "text": "The scheme is at 2 homes per hectare \u2013 the low (below 35 homes/ha) band."
+      },
+      {
+        "driver": "local plan",
+        "text": "The development plan in force here carries around 276 objectives."
+      }
+    ],
+    "summary": "Together these factors give an estimated 26% chance of refusal and 74% chance of grant.",
+    "note": "Model-attributed drivers; the percentages are historical rates, not guarantees."
+  }
+}

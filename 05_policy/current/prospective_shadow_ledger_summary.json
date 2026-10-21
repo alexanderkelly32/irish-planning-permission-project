@@ -1,0 +1,46 @@
+{
+  "ledger_row_count": 301,
+  "registered_case_count": 301,
+  "authority_counts": {
+    "Donegal County Council": 38,
+    "Kildare County Council": 26,
+    "Meath County Council": 26,
+    "Galway County Council": 25,
+    "Tipperary County Council": 18,
+    "South Dublin County Council": 16,
+    "Kilkenny County Council": 14,
+    "Clare County Council": 13,
+    "Waterford City and County Council": 13,
+    "Mayo County Council": 11,
+    "Laois County Council": 10,
+    "Louth County Council": 9,
+    "Cavan County Council": 9,
+    "Roscommon County Council": 9,
+    "Kerry County Council": 9,
+    "Dun Laoghaire Rathdown County Council": 9,
+    "Monaghan County Council": 8,
+    "Sligo County Council": 8,
+    "Westmeath County Council": 8,
+    "Leitrim County Council": 7,
+    "Offaly County Council": 7,
+    "Longford County Council": 4,
+    "Galway City Council": 3,
+    "Carlow County Council": 1
+  },
+  "risk_band_counts": {
+    "Low": 110,
+    "Medium": 98,
+    "High": 93
+  },
+  "outcome_known_count": 0,
+  "model_sha256": "06a2ca077e291d9eba42d8633381be1d5608be180a8836e658d061c8a529469b",
+  "caveat": "The shadow ledger is a prospective monitor only. Registered predictions must not be used to tune or promote any model until outcomes arrive and are read out separately.",
+  "source": "old_original_attempt\\first_attempt_messy\\irish_planning_dataset_clean_model.parquet",
+  "received_on_or_after": "2026-01-01",
+  "scoped_source_rows": 301,
+  "registered_this_run": 301,
+  "outcome_readout": {
+    "status": "no_outcomes_yet",
+    "outcome_row_count": 0
+  }
+}

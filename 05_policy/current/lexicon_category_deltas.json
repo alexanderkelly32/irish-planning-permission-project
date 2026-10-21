@@ -1,0 +1,138 @@
+{
+  "baseline_refusal_probability": 0.2607,
+  "deltas": [
+    {
+      "category": "extension",
+      "representative_phrase": "single storey extension",
+      "delta_pp": -18.3,
+      "refusal_probability": 0.0781
+    },
+    {
+      "category": "retention",
+      "representative_phrase": "retention of existing development",
+      "delta_pp": -15.8,
+      "refusal_probability": 0.1026
+    },
+    {
+      "category": "alteration",
+      "representative_phrase": "elevational changes",
+      "delta_pp": -13.9,
+      "refusal_probability": 0.1221
+    },
+    {
+      "category": "conversion",
+      "representative_phrase": "garage conversion",
+      "delta_pp": -13.5,
+      "refusal_probability": 0.126
+    },
+    {
+      "category": "flood_water_1",
+      "representative_phrase": "existing septic tank",
+      "delta_pp": -13.5,
+      "refusal_probability": 0.126
+    },
+    {
+      "category": "conservatory_porch",
+      "representative_phrase": "conservatory",
+      "delta_pp": -11.6,
+      "refusal_probability": 0.1443
+    },
+    {
+      "category": "community_retail",
+      "representative_phrase": "community facilities",
+      "delta_pp": -11.6,
+      "refusal_probability": 0.1443
+    },
+    {
+      "category": "apartment",
+      "representative_phrase": "apartments",
+      "delta_pp": 8.9,
+      "refusal_probability": 0.3496
+    },
+    {
+      "category": "bedrooms",
+      "representative_phrase": "bedrooms",
+      "delta_pp": 8.9,
+      "refusal_probability": 0.3496
+    },
+    {
+      "category": "access_road",
+      "representative_phrase": "vehicular access",
+      "delta_pp": 8.6,
+      "refusal_probability": 0.3467
+    },
+    {
+      "category": "terraced",
+      "representative_phrase": "terraced",
+      "delta_pp": 6.8,
+      "refusal_probability": 0.3282
+    },
+    {
+      "category": "materials",
+      "representative_phrase": "brick finish",
+      "delta_pp": -6.4,
+      "refusal_probability": 0.1964
+    },
+    {
+      "category": "demolition",
+      "representative_phrase": "demolition of existing buildings",
+      "delta_pp": -6.4,
+      "refusal_probability": 0.1964
+    },
+    {
+      "category": "new_house",
+      "representative_phrase": "new dwelling",
+      "delta_pp": 4.4,
+      "refusal_probability": 0.3048
+    },
+    {
+      "category": "duplex",
+      "representative_phrase": "duplex apartments",
+      "delta_pp": 4.4,
+      "refusal_probability": 0.3048
+    },
+    {
+      "category": "detached",
+      "representative_phrase": "detached",
+      "delta_pp": 4.4,
+      "refusal_probability": 0.3048
+    },
+    {
+      "category": "services_drainage",
+      "representative_phrase": "connection to public services",
+      "delta_pp": 4.4,
+      "refusal_probability": 0.3048
+    },
+    {
+      "category": "flood_water_2",
+      "representative_phrase": "wastewater treatment unit",
+      "delta_pp": 4.4,
+      "refusal_probability": 0.3048
+    },
+    {
+      "category": "open_space_amenity",
+      "representative_phrase": "landscaped open space",
+      "delta_pp": 0.6,
+      "refusal_probability": 0.2667
+    },
+    {
+      "category": "semi_detached",
+      "representative_phrase": "semi detached",
+      "delta_pp": 0.0,
+      "refusal_probability": 0.2607
+    },
+    {
+      "category": "storeys",
+      "representative_phrase": "two storey",
+      "delta_pp": 0.0,
+      "refusal_probability": 0.2607
+    },
+    {
+      "category": "parking",
+      "representative_phrase": "car parking",
+      "delta_pp": 0.0,
+      "refusal_probability": 0.2607
+    }
+  ],
+  "note": "pp change from adding one representative phrase for each lexicon category to the standard 12-unit baseline."
+}

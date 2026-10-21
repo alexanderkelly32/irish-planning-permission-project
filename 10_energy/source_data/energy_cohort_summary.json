@@ -1,0 +1,46 @@
+{
+  "mentions_all": 11731,
+  "cohort_by_type": {
+    "bess": 579,
+    "biogas": 106,
+    "chp": 89,
+    "data_centre": 112,
+    "grid": 981,
+    "hydro": 18,
+    "solar": 5897,
+    "wind": 802
+  },
+  "utility_by_type": {
+    "bess": 34,
+    "biogas": 6,
+    "chp": 4,
+    "data_centre": 105,
+    "grid": 887,
+    "hydro": 2,
+    "solar": 926,
+    "wind": 489
+  },
+  "cohort_outcomes": {
+    "grant": 5771,
+    "undecided": 1792,
+    "refuse": 636,
+    "invalid": 259,
+    "exempt": 46,
+    "withdrawn": 33,
+    "additional_info": 24,
+    "split": 20,
+    "other": 3
+  },
+  "utility_outcomes": {
+    "grant": 1640,
+    "undecided": 582,
+    "refuse": 198,
+    "invalid": 21,
+    "exempt": 4,
+    "withdrawn": 4,
+    "additional_info": 3,
+    "split": 1
+  },
+  "utility_with_mw": 328,
+  "utility_mw_total": 37195.4
+}

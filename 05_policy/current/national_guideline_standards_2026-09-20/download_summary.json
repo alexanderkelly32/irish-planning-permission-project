@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Apartment Guidelines",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\Apartment_Guidelines.pdf"
+  },
+  {
+    "name": "DMURS",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\DMURS.pdf"
+  },
+  {
+    "name": "Building Heights 2018",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\Building_Heights_2018.pdf"
+  },
+  {
+    "name": "Flood Risk 2009",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\Flood_Risk_2009.pdf"
+  },
+  {
+    "name": "Quality Housing 2007",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\Quality_Housing_2007.pdf"
+  },
+  {
+    "name": "Rural Housing 2005",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\Rural_Housing_2005.pdf"
+  },
+  {
+    "name": "Sustainable Residential Development 2009",
+    "status": "ok",
+    "pdf": "05_policy\\documents\\national_guidelines\\Sustainable_Residential_Development_2009.pdf"
+  }
+]

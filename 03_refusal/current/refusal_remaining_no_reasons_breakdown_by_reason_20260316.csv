@@ -1,0 +1,7 @@
+failure_reason,count
+processed_text_but_no_reasons_found,172
+no_local_file,122
+llm_processed_but_no_reasons_found,39
+processed_but_still_zero,36
+case_row_but_no_local_file,18
+local_file_but_no_text,1

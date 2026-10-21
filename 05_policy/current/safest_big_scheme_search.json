@@ -1,0 +1,143 @@
+{
+  "best": {
+    "council": "Mayo County Council",
+    "units": 40,
+    "site_area_sqm": 18182.0,
+    "description_name": "safe_v1",
+    "refusal_probability": 0.0376,
+    "risk_band": "low"
+  },
+  "top10": [
+    {
+      "council": "Mayo County Council",
+      "units": 40,
+      "site_area_sqm": 18182.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 40,
+      "site_area_sqm": 18182.0,
+      "description_name": "safe_v2",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 47,
+      "site_area_sqm": 21364.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 47,
+      "site_area_sqm": 21364.0,
+      "description_name": "safe_v2",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 60,
+      "site_area_sqm": 27273.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 60,
+      "site_area_sqm": 27273.0,
+      "description_name": "safe_v2",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 80,
+      "site_area_sqm": 36364.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 80,
+      "site_area_sqm": 36364.0,
+      "description_name": "safe_v2",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 100,
+      "site_area_sqm": 45455.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    {
+      "council": "Mayo County Council",
+      "units": 100,
+      "site_area_sqm": 45455.0,
+      "description_name": "safe_v2",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    }
+  ],
+  "pareto": {
+    "40": {
+      "council": "Mayo County Council",
+      "units": 40,
+      "site_area_sqm": 18182.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    "47": {
+      "council": "Mayo County Council",
+      "units": 47,
+      "site_area_sqm": 21364.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    "60": {
+      "council": "Mayo County Council",
+      "units": 60,
+      "site_area_sqm": 27273.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    "80": {
+      "council": "Mayo County Council",
+      "units": 80,
+      "site_area_sqm": 36364.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    "100": {
+      "council": "Mayo County Council",
+      "units": 100,
+      "site_area_sqm": 45455.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    },
+    "120": {
+      "council": "Mayo County Council",
+      "units": 120,
+      "site_area_sqm": 54545.0,
+      "description_name": "safe_v1",
+      "refusal_probability": 0.0376,
+      "risk_band": "low"
+    }
+  },
+  "note": "Model search over councils/sizes/wording built from measured risk-lowering phrases. Not planning advice; the model's optimum only."
+}

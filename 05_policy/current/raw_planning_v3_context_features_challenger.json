@@ -1,0 +1,37 @@
+{
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  },
+  "train_n": 203931,
+  "test_n": 15221,
+  "density_coverage_holdout": 0.7478,
+  "E_plus_register_ratios_bands": {
+    "roc_auc": 0.8013,
+    "average_precision": 0.4189,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7777,
+      "ap": 0.4499
+    }
+  },
+  "H_plus_cso_context": {
+    "roc_auc": 0.8011,
+    "average_precision": 0.4181,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.78,
+      "ap": 0.4509
+    }
+  },
+  "I_plus_simple_extras": {
+    "roc_auc": 0.8016,
+    "average_precision": 0.4196,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.771,
+      "ap": 0.448
+    }
+  },
+  "caveat": "All features submission-time: register ratios from the application form, guideline bands from national policy, spatial context from earlier cases only, transit from TFI GTFS static feed."
+}

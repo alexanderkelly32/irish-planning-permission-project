@@ -1,0 +1,95 @@
+{
+  "model": "v3_plus_unused_plus_policy_plus_register_ratios_E",
+  "holdout": {
+    "n": 15221,
+    "refusal_rate": 0.1156,
+    "roc_auc": 0.8005,
+    "roc_auc_bootstrap95": [
+      0.789,
+      0.8112
+    ],
+    "average_precision": 0.4176,
+    "brier": 0.1388,
+    "log_loss": 0.4331
+  },
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  },
+  "prior_best_challenger_A": {
+    "ge10_auc": 0.7658
+  },
+  "ge10_subset": {
+    "n": 166,
+    "refusal_rate": 0.1687,
+    "roc_auc": 0.7855,
+    "roc_auc_bootstrap95": [
+      0.6983,
+      0.8662
+    ],
+    "average_precision": 0.4503
+  },
+  "council_breakdown_top": [
+    {
+      "council": "Donegal County Council",
+      "n": 1345,
+      "roc_auc": 0.8067
+    },
+    {
+      "council": "Galway County Council",
+      "n": 1068,
+      "roc_auc": 0.6848
+    },
+    {
+      "council": "Dublin City Council",
+      "n": 817,
+      "roc_auc": 0.8324
+    },
+    {
+      "council": "Meath County Council",
+      "n": 811,
+      "roc_auc": 0.7314
+    },
+    {
+      "council": "Wexford County Council",
+      "n": 737,
+      "roc_auc": 0.7273
+    },
+    {
+      "council": "Kerry County Council",
+      "n": 672,
+      "roc_auc": 0.762
+    },
+    {
+      "council": "Mayo County Council",
+      "n": 665,
+      "roc_auc": 0.8469
+    },
+    {
+      "council": "Kildare County Council",
+      "n": 656,
+      "roc_auc": 0.8575
+    },
+    {
+      "council": "Clare County Council",
+      "n": 653,
+      "roc_auc": 0.7395
+    },
+    {
+      "council": "Tipperary County Council",
+      "n": 614,
+      "roc_auc": 0.7668
+    },
+    {
+      "council": "South Dublin County Council",
+      "n": 565,
+      "roc_auc": 0.837
+    },
+    {
+      "council": "Dun Laoghaire Rathdown County Council",
+      "n": 563,
+      "roc_auc": 0.6474
+    }
+  ],
+  "note": "Variant E: v3 + flood/units/applicant + policy layer + register ratios (density/FAR/site-per-unit/avg unit floor) + guideline density bands + LandUseCode flags. All submission-time."
+}

@@ -1,0 +1,241 @@
+{
+  "observation": "In the sensitivity sweep, holding density, storeys and authority constant, increasing units lowered the modelled refusal probability - counterintuitive.",
+  "by_unit_band": [
+    {
+      "unit_band": "10-11",
+      "rows": 287,
+      "refusal_rate": 0.2717770035,
+      "median_storeys": 2.0,
+      "median_density": 10.2986720971
+    },
+    {
+      "unit_band": "12-19",
+      "rows": 847,
+      "refusal_rate": 0.2231404959,
+      "median_storeys": 2.0,
+      "median_density": 12.9496402878
+    },
+    {
+      "unit_band": "20-39",
+      "rows": 1034,
+      "refusal_rate": 0.253384913,
+      "median_storeys": 2.0,
+      "median_density": 13.1910684822
+    },
+    {
+      "unit_band": "40-79",
+      "rows": 885,
+      "refusal_rate": 0.2508474576,
+      "median_storeys": 3.0,
+      "median_density": 17.5515562956
+    },
+    {
+      "unit_band": "80-149",
+      "rows": 474,
+      "refusal_rate": 0.2046413502,
+      "median_storeys": 3.0,
+      "median_density": 20.8898420648
+    },
+    {
+      "unit_band": "150+",
+      "rows": 474,
+      "refusal_rate": 0.1772151899,
+      "median_storeys": 4.0,
+      "median_density": 0.104
+    }
+  ],
+  "by_band_and_authority": [
+    {
+      "PlanningAuthority": "South Dublin County Council",
+      "unit_band": "150+",
+      "rows": 179,
+      "refusal_rate": 0.1899441341
+    },
+    {
+      "PlanningAuthority": "Meath County Council",
+      "unit_band": "150+",
+      "rows": 57,
+      "refusal_rate": 0.1228070175
+    },
+    {
+      "PlanningAuthority": "Dublin City Council",
+      "unit_band": "150+",
+      "rows": 45,
+      "refusal_rate": 0.2222222222
+    },
+    {
+      "PlanningAuthority": "Louth County Council",
+      "unit_band": "150+",
+      "rows": 45,
+      "refusal_rate": 0.1111111111
+    },
+    {
+      "PlanningAuthority": "Cork County Council",
+      "unit_band": "10-11",
+      "rows": 41,
+      "refusal_rate": 0.3414634146
+    },
+    {
+      "PlanningAuthority": "South Dublin County Council",
+      "unit_band": "10-11",
+      "rows": 39,
+      "refusal_rate": 0.4102564103
+    },
+    {
+      "PlanningAuthority": "Kildare County Council",
+      "unit_band": "10-11",
+      "rows": 31,
+      "refusal_rate": 0.4193548387
+    },
+    {
+      "PlanningAuthority": "Kildare County Council",
+      "unit_band": "150+",
+      "rows": 31,
+      "refusal_rate": 0.2903225806
+    },
+    {
+      "PlanningAuthority": "Dublin City Council",
+      "unit_band": "10-11",
+      "rows": 25,
+      "refusal_rate": 0.48
+    },
+    {
+      "PlanningAuthority": "Cork County Council",
+      "unit_band": "150+",
+      "rows": 24,
+      "refusal_rate": 0.1666666667
+    },
+    {
+      "PlanningAuthority": "Meath County Council",
+      "unit_band": "10-11",
+      "rows": 22,
+      "refusal_rate": 0.0909090909
+    },
+    {
+      "PlanningAuthority": "Cork City Council",
+      "unit_band": "150+",
+      "rows": 16,
+      "refusal_rate": 0.125
+    },
+    {
+      "PlanningAuthority": "Wicklow County Council",
+      "unit_band": "150+",
+      "rows": 15,
+      "refusal_rate": 0.4
+    },
+    {
+      "PlanningAuthority": "Wicklow County Council",
+      "unit_band": "10-11",
+      "rows": 13,
+      "refusal_rate": 0.0769230769
+    },
+    {
+      "PlanningAuthority": "Offaly County Council",
+      "unit_band": "150+",
+      "rows": 13,
+      "refusal_rate": 0.3076923077
+    },
+    {
+      "PlanningAuthority": "Tipperary County Council",
+      "unit_band": "10-11",
+      "rows": 11,
+      "refusal_rate": 0.0909090909
+    },
+    {
+      "PlanningAuthority": "Louth County Council",
+      "unit_band": "10-11",
+      "rows": 10,
+      "refusal_rate": 0.2
+    },
+    {
+      "PlanningAuthority": "Limerick County Council",
+      "unit_band": "10-11",
+      "rows": 9,
+      "refusal_rate": 0.0
+    },
+    {
+      "PlanningAuthority": "Westmeath County Council",
+      "unit_band": "10-11",
+      "rows": 8,
+      "refusal_rate": 0.125
+    },
+    {
+      "PlanningAuthority": "Laois County Council",
+      "unit_band": "10-11",
+      "rows": 7,
+      "refusal_rate": 0.1428571429
+    },
+    {
+      "PlanningAuthority": "Kerry County Council",
+      "unit_band": "150+",
+      "rows": 7,
+      "refusal_rate": 0.0
+    },
+    {
+      "PlanningAuthority": "Kerry County Council",
+      "unit_band": "10-11",
+      "rows": 7,
+      "refusal_rate": 0.1428571429
+    },
+    {
+      "PlanningAuthority": "Donegal County Council",
+      "unit_band": "10-11",
+      "rows": 7,
+      "refusal_rate": 0.0
+    },
+    {
+      "PlanningAuthority": "Cork City Council",
+      "unit_band": "10-11",
+      "rows": 6,
+      "refusal_rate": 0.5
+    },
+    {
+      "PlanningAuthority": "Galway County Council",
+      "unit_band": "10-11",
+      "rows": 6,
+      "refusal_rate": 0.0
+    },
+    {
+      "PlanningAuthority": "Dun Laoghaire Rathdown County Council",
+      "unit_band": "10-11",
+      "rows": 6,
+      "refusal_rate": 0.5
+    },
+    {
+      "PlanningAuthority": "Westmeath County Council",
+      "unit_band": "150+",
+      "rows": 6,
+      "refusal_rate": 0.0
+    },
+    {
+      "PlanningAuthority": "Limerick County Council",
+      "unit_band": "150+",
+      "rows": 5,
+      "refusal_rate": 0.0
+    },
+    {
+      "PlanningAuthority": "Kilkenny County Council",
+      "unit_band": "10-11",
+      "rows": 5,
+      "refusal_rate": 0.2
+    },
+    {
+      "PlanningAuthority": "Waterford City and County Council",
+      "unit_band": "150+",
+      "rows": 5,
+      "refusal_rate": 0.2
+    },
+    {
+      "PlanningAuthority": "Cavan County Council",
+      "unit_band": "10-11",
+      "rows": 5,
+      "refusal_rate": 0.2
+    }
+  ],
+  "explanation_candidates": [
+    "Large schemes in the GE10 cohort may be better-resourced SDZ/apartment projects with lower refusal rates, while 10-11 unit schemes are often contentious small estates.",
+    "At fixed density, more units implies a larger site, so the 'units' sweep is confounded with site size, which the model may treat as protective.",
+    "The cohort skews to granted large schemes because refusals are harder to extract for them."
+  ],
+  "caveat": "This is cohort-level association, not causal evidence."
+}

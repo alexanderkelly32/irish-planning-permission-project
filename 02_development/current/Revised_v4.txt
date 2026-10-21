@@ -1,0 +1,699 @@
+# Planning Optimiser — Next Engineering Phase
+
+## Objective
+
+The current national model is good enough to remain as the baseline planning-risk engine.
+
+Do **not** prioritise further marginal improvements to its overall AUC.
+
+The next objective is to build a separate **structured planning optimiser model** that can respond meaningfully and defensibly to variables a developer can actually change.
+
+The target product output is eventually:
+
+> Current scheme: 61% modelled grant probability
+> Increase upper-floor setback from 0.5 m to 2.5 m
+> New modelled probability: 74%
+> Primary reasons: X, Y, Z
+> Supported by matched precedents and comparable redesign sequences
+
+We are not there yet.
+
+The current model does not use height, setbacks, density, parking, open space or most other design variables, so these cannot currently drive optimiser recommendations.
+
+---
+
+# 1. Preserve the existing v3 model
+
+Treat v3 as the frozen baseline risk model.
+
+Current holdout:
+
+* Train: 203,931 cases through 2024
+* Future test: 15,221 cases in 2025
+* ROC-AUC: 0.7989
+* PR-AUC: 0.4202
+* Calibrated Brier: 0.0849
+* Calibrated log loss: 0.2908
+* Strong probability calibration across deciles
+
+Do not replace or materially refactor v3 unless necessary.
+
+Its role should become:
+
+**general national planning risk prior**
+
+rather than:
+
+**scheme design optimiser**
+
+---
+
+# 2. Important current limitation
+
+The existing model responds mainly to:
+
+* planning authority
+* application type/bucket
+* year
+* development-description text
+* historical refusal rates
+* location/site history
+* comparable-case text aggregates
+
+The following variables are captured but currently effectively unmodelled:
+
+* maximum height
+* number of storeys
+* upper-floor setback
+* front/rear/side setbacks
+* density
+* plot ratio
+* site coverage
+* parking
+* bicycle parking
+* open space
+* separation distances
+* access configuration
+
+These are the variables the optimiser ultimately needs to manipulate.
+
+Therefore:
+
+**Do not expose scenario probability movements caused solely by text wording as planning recommendations.**
+
+Example:
+
+Changing:
+
+“42 apartments”
+
+to:
+
+“42 apartments with communal open space, parking and landscaping”
+
+moves the model substantially.
+
+That is predictive behaviour, but it is not evidence that adding those design features causes a lower probability.
+
+Free-text manipulation must never become the optimiser.
+
+---
+
+# 3. Build a new structured modelling dataset
+
+Create a separate rich residential dataset.
+
+Target initially:
+
+**5,000–20,000 applications**
+
+with as many of the following fields as reliably available:
+
+### Scheme scale
+
+* units
+* GFA
+* site area
+* density
+* storeys
+* maximum height
+* plot ratio
+* site coverage
+
+### Building relationships
+
+* upper-floor setback
+* front setback
+* rear setback
+* side setback
+* nearest neighbouring dwelling distance
+* opposing-window separation
+
+### Transport
+
+* car spaces
+* cycle spaces
+* parking ratio
+* access count
+* access type
+
+### Amenity
+
+* private open space
+* communal open space
+* public open space
+
+### Context
+
+* development type
+* zoning
+* local authority
+* urban/rural context
+* protected structures
+* conservation-area status
+* flood/environmental constraints
+* site planning history
+
+### Outcome
+
+* local-authority decision
+* appeal outcome
+* ultimate permission outcome
+
+For every structured variable, store:
+
+* value
+* unit
+* extraction source
+* document/page
+* extraction method
+* confidence
+* manually verified yes/no
+
+---
+
+# 4. Data quality matters more than raw quantity
+
+Do not fill missing structured variables with speculative LLM guesses.
+
+Use three confidence levels:
+
+* **verified** — manually checked or directly structured
+* **high-confidence extracted**
+* **unknown**
+
+Unknown is preferable to fabricated precision.
+
+Produce coverage reports for every field.
+
+Example:
+
+| Field               | Non-null | High confidence |
+| ------------------- | -------: | --------------: |
+| Units               |      92% |             91% |
+| Storeys             |      78% |             71% |
+| Height              |      54% |             47% |
+| Parking             |      64% |             58% |
+| Upper-floor setback |      12% |              8% |
+
+This tells us which optimiser levers are actually ready.
+
+---
+
+# 5. Prioritise variables in this order
+
+Extraction effort should focus first on:
+
+1. units
+2. storeys
+3. maximum height
+4. density
+5. parking
+6. upper-floor setback
+7. separation distances
+8. open space
+9. site coverage / plot ratio
+10. access arrangement
+
+Height/storeys/units should be easiest and give the fastest proof that structured scenario modelling works.
+
+Setbacks are strategically important but likely harder to extract reliably.
+
+---
+
+# 6. Build the structured outcome model
+
+Train a new model using:
+
+### Baseline context
+
+* authority
+* year
+* development type
+* local refusal history
+* site history
+* geographic/context variables
+
+plus
+
+### Structured design variables
+
+* units
+* height
+* storeys
+* density
+* setbacks
+* parking
+* etc.
+
+Do not initially include raw development-description text.
+
+First test whether a transparent structured model can produce useful signal.
+
+Suggested model comparison:
+
+* logistic regression / GAM baseline
+* gradient boosting
+* CatBoost / LightGBM equivalent
+* monotonic models where appropriate
+
+The aim is not simply maximum AUC.
+
+Evaluate:
+
+* ROC-AUC
+* PR-AUC
+* Brier
+* log loss
+* calibration
+* stability of feature effects
+* scenario sensitivity
+* council generalisation
+* temporal holdout performance
+
+---
+
+# 7. Scenario sanity tests are mandatory
+
+For each proposed optimiser variable, construct controlled scenario tests.
+
+Example:
+
+Same scheme, only height changes:
+
+12 m
+14 m
+16 m
+18 m
+20 m
+
+Record predicted probability.
+
+Repeat for:
+
+* units
+* density
+* storeys
+* parking
+* setbacks
+* separation
+
+Flag models where effects are:
+
+* implausibly discontinuous
+* highly unstable
+* dominated by missingness
+* reversed without evidence
+* extremely sensitive to tiny changes
+
+The optimiser model must behave sensibly under perturbation before it is exposed in the UI.
+
+---
+
+# 8. Build the revision-pair dataset aggressively
+
+Current accepted refused → revised → granted pairs are strategically important.
+
+Scale this dataset.
+
+Target:
+
+**1,000+ high-confidence accepted pairs**
+
+with structured before/after deltas.
+
+Prioritise pairs involving:
+
+* height
+* storeys
+* units
+* density
+* setbacks
+* separation
+* parking
+* open space
+* access
+
+For each pair store:
+
+### Original
+
+* scheme features
+* refusal reasons
+* planner report
+* decision
+
+### Revised
+
+* scheme features
+* revised description
+* decision
+
+### Delta
+
+* units change
+* height change
+* storey change
+* setback change
+* parking change
+* density change
+* access change
+* open-space change
+* other structured changes
+
+### Evidence
+
+* same-project confidence
+* change-extraction confidence
+* officer commentary on previous refusal
+* whether each refusal reason appears resolved
+* exact source/page references
+
+---
+
+# 9. Build a refusal-reason taxonomy aligned with controllable variables
+
+The refusal engine already has tagged reasons.
+
+Now map reasons to optimiser levers.
+
+Example:
+
+### Height / massing
+
+Potential levers:
+
+* height
+* storeys
+* upper-floor setback
+* footprint
+* density
+
+### Residential amenity
+
+Potential levers:
+
+* separation
+* overlooking
+* window placement
+* height
+* setback
+
+### Traffic / access
+
+Potential levers:
+
+* entrance location
+* parking
+* traffic generation
+* sightlines
+
+### Open space / amenity
+
+Potential levers:
+
+* private open space
+* communal open space
+* public open space
+
+### Density / overdevelopment
+
+Potential levers:
+
+* unit count
+* density
+* site coverage
+* plot ratio
+* height
+
+Each refusal reason should link to one or more potentially modifiable features.
+
+This becomes the bridge between:
+
+**diagnosis**
+
+and
+
+**candidate interventions**
+
+---
+
+# 10. Do not infer causality from SHAP
+
+The optimiser must never say:
+
+> Height contributes −12 percentage points, therefore reducing height adds +12 points.
+
+SHAP explains model prediction, not causal effect.
+
+Instead separate:
+
+### Model explanation
+
+“Height is associated with elevated refusal risk in this prediction.”
+
+### Scenario result
+
+“Changing height from 18 m to 15 m changes the modelled probability from 58% to 67%.”
+
+### Evidence
+
+“Comparable applications and revision pairs involving lower height show better outcomes in similar contexts.”
+
+Only after all three align should the UI recommend the intervention strongly.
+
+---
+
+# 11. Build evidence strength for each recommendation
+
+Every future optimiser recommendation should receive an evidence grade.
+
+Example:
+
+## Strong
+
+* model scenario moves materially
+* enough matched precedent
+* multiple relevant revision pairs
+* relevant refusal reason
+* relevant policy/officer evidence
+
+## Moderate
+
+* model scenario moves
+* some precedent
+* limited revision-pair evidence
+
+## Weak
+
+* model movement only
+* little direct precedent
+* no revision-pair support
+
+The UI should surface this.
+
+Example:
+
+> Increase upper-floor setback to 2.5 m
+> Modelled probability: 61% → 74%
+> Evidence strength: **Moderate**
+
+---
+
+# 12. Comparable retrieval needs a proper benchmark
+
+Current comparable retrieval has no formal relevance benchmark.
+
+Create one.
+
+Build a manually labelled evaluation set of at least:
+
+**100–300 query applications**
+
+For each query, label:
+
+* highly relevant comparable
+* relevant
+* weak
+* irrelevant
+
+Evaluate:
+
+* Precision@5
+* Precision@10
+* NDCG@10
+* recall of known same-type precedents
+
+The optimiser will rely heavily on comparables, so relevance quality must become measurable.
+
+---
+
+# 13. Separate three probability engines
+
+Architect toward three related outputs:
+
+### A. Baseline national risk
+
+Existing v3.
+
+### B. Structured scheme probability
+
+New structured model.
+
+### C. Ultimate permission probability
+
+Later model including appeals.
+
+Do not merge these into one opaque score.
+
+Potential future UI:
+
+* Baseline contextual grant probability: 71%
+* Structured scheme grant probability: 63%
+* Ultimate permission probability: 76%
+
+---
+
+# 14. First practical optimiser milestone
+
+Do not wait for setback extraction to be perfect.
+
+The first milestone should work with 3–4 strong structured variables.
+
+Example:
+
+User enters:
+
+* 42 units
+* 6 storeys
+* 20 m height
+* 72 units/ha
+
+System predicts:
+
+**Grant probability: 58%**
+
+Then user tests:
+
+### Scenario A
+
+5 storeys
+17 m
+
+**66%**
+
+### Scenario B
+
+4 storeys
+14 m
+
+**74%**
+
+The goal is simply to prove that:
+
+1. structured variables affect probability;
+2. movements are stable and sensible;
+3. similar historical schemes support the direction;
+4. results are properly caveated as modelled scenarios.
+
+---
+
+# 15. Recommended near-term work order
+
+## Task 1
+
+Audit structured-field coverage across all existing applications.
+
+Output:
+
+* coverage table
+* confidence table
+* extraction sources
+* authority/document availability breakdown
+
+## Task 2
+
+Build/improve extraction for:
+
+* storeys
+* height
+* units
+* parking
+* site area
+* density
+
+## Task 3
+
+Create first rich structured modelling cohort.
+
+## Task 4
+
+Train structured model without raw text.
+
+## Task 5
+
+Run controlled scenario sensitivity tests.
+
+## Task 6
+
+Build a manually labelled comparable-retrieval benchmark.
+
+## Task 7
+
+Expand refused → revised → granted pairs.
+
+## Task 8
+
+Extract before/after structured deltas.
+
+## Task 9
+
+Link refusal themes → editable design variables.
+
+## Task 10
+
+Build first evidence-backed optimiser prototype.
+
+---
+
+# 16. Definition of success for this phase
+
+Do not judge success primarily by beating v3's 0.799 AUC.
+
+This phase succeeds when we can produce several examples like:
+
+> A 52-unit, six-storey residential proposal receives a 59% modelled grant probability.
+>
+> Holding contextual variables constant:
+>
+> * reducing to five storeys → 66%
+> * reducing height from 20 m to 17 m → 69%
+> * reducing units from 52 to 46 → 71%
+>
+> The height/storey intervention is supported by six highly relevant precedents and three comparable refused → revised → granted project histories.
+>
+> Evidence strength: Moderate.
+
+That is much closer to the eventual product than getting national AUC from 0.799 to 0.805.
+
+---
+
+# 17. Immediate instruction
+
+Start with **Task 1 only**.
+
+Produce a detailed audit of the structured variables already present in the repository:
+
+* number of rows available
+* non-null coverage
+* extraction confidence
+* source/provenance availability
+* coverage by authority
+* coverage by year
+* coverage by application type
+* distributions and obvious outliers
+* which variables have enough data to model immediately
+
+Do not train another model until this audit is complete.
+
+Then recommend the best first structured modelling cohort based on the actual data.

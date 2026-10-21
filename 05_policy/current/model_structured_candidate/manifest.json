@@ -1,0 +1,23 @@
+{
+  "model_version": "structured_optimiser_candidate_2026-09-08",
+  "status": "experimental_candidate",
+  "scope": "GE10 cohort with extracted storeys; sensitivity analysis only",
+  "cohort": {
+    "rows": 4001,
+    "train_rows": 3796,
+    "test_rows": 204
+  },
+  "holdout_metrics": {
+    "n": 204,
+    "refusal_rate": 0.1716,
+    "roc_auc": 0.6261,
+    "average_precision": 0.2899,
+    "brier": 0.2311,
+    "log_loss": 0.6538
+  },
+  "caveats": [
+    "GE10-only cohort; small 2025 holdout; associations are not causal effects.",
+    "Height/setback values are still too sparse to feature in this candidate.",
+    "Scenario movements are modelled sensitivity, holding other inputs constant."
+  ]
+}

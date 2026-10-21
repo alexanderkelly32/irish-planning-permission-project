@@ -1,0 +1,67 @@
+{
+  "protocol": "80/20 blending",
+  "V3SAME": {
+    "roc_auc": 0.7867,
+    "average_precision": 0.4041
+  },
+  "E8020": {
+    "roc_auc": 0.7906,
+    "average_precision": 0.4074
+  },
+  "E8020_word13": {
+    "roc_auc": 0.792,
+    "average_precision": 0.4093
+  },
+  "blend_V3_E": {
+    "roc_auc": 0.7897,
+    "average_precision": 0.4072,
+    "brier_isotonic": 0.0893,
+    "brier_platt": 0.0895,
+    "log_loss_isotonic": 0.3134,
+    "tail_share_gt90": 0.00739,
+    "tail_obs_rate_gt90": 0.9962,
+    "tail_n_gt90": 264
+  },
+  "blend_V3_E_w13": {
+    "roc_auc": 0.7914,
+    "average_precision": 0.4091,
+    "brier_isotonic": 0.0891,
+    "brier_platt": 0.0895,
+    "log_loss_isotonic": 0.3139,
+    "tail_share_gt90": 0.00736,
+    "tail_obs_rate_gt90": 0.9962,
+    "tail_n_gt90": 263
+  },
+  "blend_rank_V3_E_w13": {
+    "roc_auc": 0.7914,
+    "average_precision": 0.409,
+    "brier_isotonic": 0.0904,
+    "brier_platt": 0.0913,
+    "log_loss_isotonic": 0.3211,
+    "tail_share_gt90": 0.00932,
+    "tail_obs_rate_gt90": 0.9249,
+    "tail_n_gt90": 333
+  },
+  "blend_V3_35_E_65": {
+    "roc_auc": 0.7902,
+    "average_precision": 0.4075,
+    "brier_isotonic": 0.0893,
+    "brier_platt": 0.0895,
+    "log_loss_isotonic": 0.3136,
+    "tail_share_gt90": 0.00739,
+    "tail_obs_rate_gt90": 0.9962,
+    "tail_n_gt90": 264
+  },
+  "paired_vs_best_single": {
+    "blend_V3_E_w13_minus_E8020_auc": [
+      0.0001,
+      0.0008,
+      0.0014
+    ],
+    "blend_V3_E_w13_minus_E8020_ap": [
+      0.0005,
+      0.0016,
+      0.0028
+    ]
+  }
+}

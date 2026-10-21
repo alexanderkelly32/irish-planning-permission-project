@@ -1,0 +1,101 @@
+{
+  "2023_cal": {
+    "n": 144,
+    "obs_rate": 0.5972,
+    "by_year": {
+      "2023": {
+        "n": 144,
+        "obs": 0.5972
+      }
+    },
+    "bucket_mix": {
+      "single dwelling": 74,
+      "other residential": 28,
+      "2-9 units": 15,
+      "retention": 15,
+      "10+ units": 5,
+      "extension / alteration": 4,
+      "change of use": 3
+    },
+    "density_band": {
+      "density_band_low": 114,
+      "density_band_mid": 3,
+      "density_band_high": 4
+    },
+    "density_missing": 23,
+    "top_councils": {
+      "Galway County Council": 32,
+      "Kildare County Council": 32,
+      "Wexford County Council": 24,
+      "Louth County Council": 13,
+      "Dublin City Council": 12,
+      "Wicklow County Council": 8,
+      "South Dublin County Council": 5,
+      "Galway City Council": 4
+    },
+    "median_units": 1.0,
+    "mean_raw_score": 0.9168
+  },
+  "2024_25_test": {
+    "n": 193,
+    "obs_rate": 0.5751,
+    "by_year": {
+      "2024": {
+        "n": 104,
+        "obs": 0.6058
+      },
+      "2025": {
+        "n": 89,
+        "obs": 0.5393
+      }
+    },
+    "bucket_mix": {
+      "single dwelling": 83,
+      "other residential": 66,
+      "retention": 21,
+      "2-9 units": 8,
+      "change of use": 8,
+      "10+ units": 4,
+      "extension / alteration": 3
+    },
+    "density_band": {
+      "density_band_low": 143,
+      "density_band_mid": 1,
+      "density_band_high": 1
+    },
+    "density_missing": 48,
+    "top_councils": {
+      "Louth County Council": 38,
+      "Kildare County Council": 37,
+      "Dun Laoghaire Rathdown County Council": 32,
+      "Wicklow County Council": 25,
+      "Wexford County Council": 18,
+      "Dublin City Council": 15,
+      "Galway County Council": 9,
+      "Meath County Council": 6
+    },
+    "median_units": 0.0,
+    "mean_raw_score": 0.9189
+  },
+  "test_sub_bands": [
+    {
+      "band": "0.55-0.65",
+      "n": 166,
+      "obs": 0.5482
+    },
+    {
+      "band": "0.65-0.75",
+      "n": 1,
+      "obs": 0.0
+    },
+    {
+      "band": "0.75-0.85",
+      "n": 26,
+      "obs": 0.7692
+    }
+  ],
+  "ge10_in_band": {
+    "n": 6,
+    "obs": 0.8333
+  }
+}

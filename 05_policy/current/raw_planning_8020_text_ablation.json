@@ -1,0 +1,54 @@
+{
+  "protocol": "80/20 text ablation",
+  "full": {
+    "roc_auc": 0.792,
+    "average_precision": 0.4093,
+    "ge10": {
+      "n": 464,
+      "roc_auc": 0.7823,
+      "ap": 0.5298
+    }
+  },
+  "no_tfidf": {
+    "roc_auc": 0.7497,
+    "average_precision": 0.3679,
+    "ge10": {
+      "n": 464,
+      "roc_auc": 0.7508,
+      "ap": 0.4825
+    }
+  },
+  "structured_only": {
+    "roc_auc": 0.7206,
+    "average_precision": 0.3267,
+    "ge10": {
+      "n": 464,
+      "roc_auc": 0.7252,
+      "ap": 0.4505
+    }
+  },
+  "paired_no_tfidf_minus_full": {
+    "roc_auc_95ci": [
+      -0.0473,
+      -0.0423,
+      -0.0372
+    ],
+    "average_precision_95ci": [
+      -0.0483,
+      -0.0413,
+      -0.0341
+    ]
+  },
+  "paired_structured_only_minus_full": {
+    "roc_auc_95ci": [
+      -0.0774,
+      -0.0715,
+      -0.0654
+    ],
+    "average_precision_95ci": [
+      -0.0911,
+      -0.0827,
+      -0.0746
+    ]
+  }
+}

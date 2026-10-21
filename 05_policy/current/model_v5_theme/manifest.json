@@ -1,0 +1,155 @@
+{
+  "candidate": "v5_theme_classifier",
+  "framing": "conditional: given refusal, most likely primary grounds; submission-time features only",
+  "protocol": "80/20 regime split; train received < 2024-01-01, test 2024-2025; refused GE10 with extracted theme",
+  "cohort": {
+    "train_n": 731,
+    "test_n": 81,
+    "train_class_balance": {
+      "design_layout": 162,
+      "density_scale": 125,
+      "land_use_policy": 108,
+      "traffic_access": 92,
+      "premature_or_info_gap": 58,
+      "heritage_archaeology": 46,
+      "residential_amenity": 41,
+      "flooding_drainage": 38,
+      "water_wastewater": 22,
+      "ecology_trees": 21,
+      "other": 18
+    },
+    "test_class_balance": {
+      "design_layout": 20,
+      "land_use_policy": 15,
+      "traffic_access": 11,
+      "density_scale": 10,
+      "premature_or_info_gap": 6,
+      "flooding_drainage": 5,
+      "residential_amenity": 5,
+      "ecology_trees": 4,
+      "heritage_archaeology": 3,
+      "other": 2
+    }
+  },
+  "model": {
+    "estimator": "LogisticRegression(multinomial) variants",
+    "features": "v4 numeric set + TF-IDF(1,2) text + council OHE + bucket OHE"
+  },
+  "variants": {
+    "logreg_c1": {
+      "top1": 0.198,
+      "top2": 0.284,
+      "top3": 0.469,
+      "macro_f1": 0.136
+    },
+    "logreg_c1_balanced": {
+      "top1": 0.136,
+      "top2": 0.259,
+      "top3": 0.333,
+      "macro_f1": 0.116
+    },
+    "logreg_c03": {
+      "top1": 0.185,
+      "top2": 0.358,
+      "top3": 0.543,
+      "macro_f1": 0.126
+    }
+  },
+  "metrics": {
+    "classifier_top1": 0.198,
+    "classifier_top2": 0.284,
+    "classifier_top3": 0.469,
+    "classifier_macro_f1": 0.136,
+    "classifier_weighted_f1": 0.178,
+    "majority_baseline_top1": 0.247,
+    "council_majority_baseline_top1": 0.185,
+    "transfer_engine_top1": 0.16,
+    "transfer_engine_top2": 0.383,
+    "transfer_engine_top3": 0.556,
+    "transfer_engine_evaluable": 81
+  },
+  "per_class": [
+    {
+      "theme": "density_scale",
+      "n_test": 10,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "theme": "design_layout",
+      "n_test": 20,
+      "precision": 0.259,
+      "recall": 0.35,
+      "f1": 0.298
+    },
+    {
+      "theme": "ecology_trees",
+      "n_test": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "theme": "flooding_drainage",
+      "n_test": 5,
+      "precision": 0.2,
+      "recall": 0.4,
+      "f1": 0.267
+    },
+    {
+      "theme": "heritage_archaeology",
+      "n_test": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "theme": "land_use_policy",
+      "n_test": 15,
+      "precision": 0.143,
+      "recall": 0.067,
+      "f1": 0.091
+    },
+    {
+      "theme": "other",
+      "n_test": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "theme": "premature_or_info_gap",
+      "n_test": 6,
+      "precision": 0.2,
+      "recall": 0.333,
+      "f1": 0.25
+    },
+    {
+      "theme": "residential_amenity",
+      "n_test": 5,
+      "precision": 0.333,
+      "recall": 0.4,
+      "f1": 0.364
+    },
+    {
+      "theme": "traffic_access",
+      "n_test": 11,
+      "precision": 0.286,
+      "recall": 0.182,
+      "f1": 0.222
+    },
+    {
+      "theme": "water_wastewater",
+      "n_test": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  ],
+  "caveats": [
+    "Conditional model: it assumes refusal and predicts grounds - not refusal probability.",
+    "Labels are primary themes from inspector documents (multi-theme cases reduced to one).",
+    "n_test is small (81) - wide confidence; candidate only, v4-full remains promoted."
+  ]
+}

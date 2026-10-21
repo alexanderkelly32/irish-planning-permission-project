@@ -1,0 +1,163 @@
+{
+  "national_base_refusal_rate": 0.1537,
+  "facts": [
+    {
+      "label": "Kitchen extensions are dodgy; bedroom extensions aren't",
+      "a": {
+        "refusal_rate": 0.0513,
+        "n": 935
+      },
+      "b": {
+        "refusal_rate": 0.0603,
+        "n": 647
+      },
+      "ratio": 0.85,
+      "diff_pp": -0.9
+    },
+    {
+      "label": "Timber-frame is refused more than masonry",
+      "a": {
+        "refusal_rate": 0.1899,
+        "n": 1991
+      },
+      "b": {
+        "refusal_rate": 0.0993,
+        "n": 1491
+      },
+      "ratio": 1.91,
+      "diff_pp": 9.1
+    },
+    {
+      "label": "Bungalows are refused more than houses",
+      "a": {
+        "refusal_rate": 0.2591,
+        "n": 5732
+      },
+      "b": {
+        "refusal_rate": 0.1425,
+        "n": 87731
+      },
+      "ratio": 1.82,
+      "diff_pp": 11.7
+    },
+    {
+      "label": "'Housing development' is refused more than 'residential development'",
+      "a": {
+        "refusal_rate": 0.2197,
+        "n": 578
+      },
+      "b": {
+        "refusal_rate": 0.2884,
+        "n": 2226
+      },
+      "ratio": 0.76,
+      "diff_pp": -6.9
+    },
+    {
+      "label": "Two-storey extensions are refused more than single-storey",
+      "a": {
+        "refusal_rate": 0.0806,
+        "n": 6825
+      },
+      "b": {
+        "refusal_rate": 0.0419,
+        "n": 21126
+      },
+      "ratio": 1.92,
+      "diff_pp": 3.9
+    },
+    {
+      "label": "Conservatories nearly never refuse",
+      "a": {
+        "refusal_rate": 0.0502,
+        "n": 1871
+      },
+      "b": {
+        "refusal_rate": 0.1537,
+        "n": 219152
+      },
+      "ratio": 0.33,
+      "diff_pp": -10.4
+    },
+    {
+      "label": "Semi-detached is safer than detached",
+      "a": {
+        "refusal_rate": 0.1779,
+        "n": 6207
+      },
+      "b": {
+        "refusal_rate": 0.1975,
+        "n": 28525
+      },
+      "ratio": 0.9,
+      "diff_pp": -2.0
+    },
+    {
+      "label": "80+ unit schemes refuse less than 10-19 unit schemes",
+      "a": {
+        "refusal_rate": 0.1699,
+        "n": 571
+      },
+      "b": {
+        "refusal_rate": 0.2121,
+        "n": 891
+      },
+      "ratio": 0.8,
+      "diff_pp": -4.2
+    },
+    {
+      "label": "Apartment schemes refuse more than house schemes",
+      "a": {
+        "refusal_rate": 0.2802,
+        "n": 7826
+      },
+      "b": {
+        "refusal_rate": 0.1425,
+        "n": 87731
+      },
+      "ratio": 1.97,
+      "diff_pp": 13.8
+    },
+    {
+      "label": "Extensions refuse far less than new builds",
+      "a": {
+        "refusal_rate": 0.0692,
+        "n": 81553
+      },
+      "b": {
+        "refusal_rate": 0.1881,
+        "n": 8260
+      },
+      "ratio": 0.37,
+      "diff_pp": -11.9
+    },
+    {
+      "label": "Porch applications are nearly free",
+      "a": {
+        "refusal_rate": 0.038,
+        "n": 9366
+      },
+      "b": {
+        "refusal_rate": 0.1537,
+        "n": 219152
+      },
+      "ratio": 0.25,
+      "diff_pp": -11.6
+    },
+    {
+      "label": "Refused applications are described in fewer words",
+      "a": {
+        "refusal_rate": 21.0,
+        "n": 33683,
+        "unit": "median words"
+      },
+      "b": {
+        "refusal_rate": 26.0,
+        "n": 185469,
+        "unit": "median words"
+      },
+      "ratio": null,
+      "diff_pp": null
+    }
+  ]
+}

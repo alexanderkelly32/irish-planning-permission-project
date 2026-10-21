@@ -1,0 +1,229 @@
+{
+  "holdout_rows": 15221,
+  "clusters_evaluated": 37,
+  "weakest_clusters_auc_below_0.72": [
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Roscommon County Council",
+      "n": 267,
+      "refusal_rate": 0.1498,
+      "roc_auc": 0.6521,
+      "average_precision": 0.2449,
+      "ranking_brier": 0.1971,
+      "calibrated_brier": 0.1241,
+      "calibration_error_pp": 1.77
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Dun Laoghaire Rathdown County Council",
+      "n": 563,
+      "refusal_rate": 0.1155,
+      "roc_auc": 0.6576,
+      "average_precision": 0.1752,
+      "ranking_brier": 0.1908,
+      "calibrated_brier": 0.1082,
+      "calibration_error_pp": 3.21
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Galway County Council",
+      "n": 1068,
+      "refusal_rate": 0.1021,
+      "roc_auc": 0.6911,
+      "average_precision": 0.1978,
+      "ranking_brier": 0.1633,
+      "calibrated_brier": 0.0904,
+      "calibration_error_pp": 2.91
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Westmeath County Council",
+      "n": 331,
+      "refusal_rate": 0.145,
+      "roc_auc": 0.6962,
+      "average_precision": 0.2991,
+      "ranking_brier": 0.1659,
+      "calibrated_brier": 0.1202,
+      "calibration_error_pp": 3.22
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Fingal County Council",
+      "n": 395,
+      "refusal_rate": 0.3266,
+      "roc_auc": 0.6989,
+      "average_precision": 0.5015,
+      "ranking_brier": 0.2898,
+      "calibrated_brier": 0.2001,
+      "calibration_error_pp": 4.7
+    },
+    {
+      "dimension": "application_bucket",
+      "cluster": "change of use",
+      "n": 837,
+      "refusal_rate": 0.1183,
+      "roc_auc": 0.7031,
+      "average_precision": 0.3513,
+      "ranking_brier": 0.1609,
+      "calibrated_brier": 0.0923,
+      "calibration_error_pp": 0.32
+    },
+    {
+      "dimension": "application_bucket",
+      "cluster": "10+ units",
+      "n": 113,
+      "refusal_rate": 0.2124,
+      "roc_auc": 0.7121,
+      "average_precision": 0.4354,
+      "ranking_brier": 0.212,
+      "calibrated_brier": 0.1525,
+      "calibration_error_pp": 4.8
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Wexford County Council",
+      "n": 737,
+      "refusal_rate": 0.1615,
+      "roc_auc": 0.7174,
+      "average_precision": 0.3295,
+      "ranking_brier": 0.2294,
+      "calibrated_brier": 0.124,
+      "calibration_error_pp": 1.5
+    }
+  ],
+  "weakest_overall": [
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Roscommon County Council",
+      "n": 267,
+      "refusal_rate": 0.1498,
+      "roc_auc": 0.6521,
+      "average_precision": 0.2449,
+      "ranking_brier": 0.1971,
+      "calibrated_brier": 0.1241,
+      "calibration_error_pp": 1.77
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Dun Laoghaire Rathdown County Council",
+      "n": 563,
+      "refusal_rate": 0.1155,
+      "roc_auc": 0.6576,
+      "average_precision": 0.1752,
+      "ranking_brier": 0.1908,
+      "calibrated_brier": 0.1082,
+      "calibration_error_pp": 3.21
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Galway County Council",
+      "n": 1068,
+      "refusal_rate": 0.1021,
+      "roc_auc": 0.6911,
+      "average_precision": 0.1978,
+      "ranking_brier": 0.1633,
+      "calibrated_brier": 0.0904,
+      "calibration_error_pp": 2.91
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Westmeath County Council",
+      "n": 331,
+      "refusal_rate": 0.145,
+      "roc_auc": 0.6962,
+      "average_precision": 0.2991,
+      "ranking_brier": 0.1659,
+      "calibrated_brier": 0.1202,
+      "calibration_error_pp": 3.22
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Fingal County Council",
+      "n": 395,
+      "refusal_rate": 0.3266,
+      "roc_auc": 0.6989,
+      "average_precision": 0.5015,
+      "ranking_brier": 0.2898,
+      "calibrated_brier": 0.2001,
+      "calibration_error_pp": 4.7
+    },
+    {
+      "dimension": "application_bucket",
+      "cluster": "change of use",
+      "n": 837,
+      "refusal_rate": 0.1183,
+      "roc_auc": 0.7031,
+      "average_precision": 0.3513,
+      "ranking_brier": 0.1609,
+      "calibrated_brier": 0.0923,
+      "calibration_error_pp": 0.32
+    },
+    {
+      "dimension": "application_bucket",
+      "cluster": "10+ units",
+      "n": 113,
+      "refusal_rate": 0.2124,
+      "roc_auc": 0.7121,
+      "average_precision": 0.4354,
+      "ranking_brier": 0.212,
+      "calibrated_brier": 0.1525,
+      "calibration_error_pp": 4.8
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Wexford County Council",
+      "n": 737,
+      "refusal_rate": 0.1615,
+      "roc_auc": 0.7174,
+      "average_precision": 0.3295,
+      "ranking_brier": 0.2294,
+      "calibrated_brier": 0.124,
+      "calibration_error_pp": 1.5
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Galway City Council",
+      "n": 217,
+      "refusal_rate": 0.1659,
+      "roc_auc": 0.7224,
+      "average_precision": 0.471,
+      "ranking_brier": 0.1781,
+      "calibrated_brier": 0.1246,
+      "calibration_error_pp": 2.75
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Clare County Council",
+      "n": 653,
+      "refusal_rate": 0.072,
+      "roc_auc": 0.7316,
+      "average_precision": 0.2041,
+      "ranking_brier": 0.0995,
+      "calibrated_brier": 0.0635,
+      "calibration_error_pp": 0.3
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Meath County Council",
+      "n": 811,
+      "refusal_rate": 0.0826,
+      "roc_auc": 0.7337,
+      "average_precision": 0.2284,
+      "ranking_brier": 0.1557,
+      "calibrated_brier": 0.0728,
+      "calibration_error_pp": 2.88
+    },
+    {
+      "dimension": "PlanningAuthority",
+      "cluster": "Offaly County Council",
+      "n": 271,
+      "refusal_rate": 0.0886,
+      "roc_auc": 0.7353,
+      "average_precision": 0.2702,
+      "ranking_brier": 0.122,
+      "calibrated_brier": 0.0751,
+      "calibration_error_pp": 0.26
+    }
+  ],
+  "caveat": "Small clusters and all-one-class groups excluded; per-cluster metrics on the 2025 holdout are directional where n is small."
+}

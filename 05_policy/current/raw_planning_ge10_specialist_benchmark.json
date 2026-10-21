@@ -1,0 +1,14 @@
+{
+  "ge10_specialist": {
+    "train_rows": 3752,
+    "test_rows": 166,
+    "refusal_rate": 0.1687,
+    "roc_auc": 0.7484,
+    "average_precision": 0.3978
+  },
+  "v3_on_same_ge10_holdout": {
+    "roc_auc": 0.7164,
+    "average_precision": 0.3951
+  },
+  "caveat": "v3 scores exist only for 2025 rows, so the comparison is on the 2025 GE10 holdout only (~170 rows). The specialist trains on all pre-2025 GE10 rows. Small holdout - direction, not decimals."
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "02_development/source_data/ground_source_extracted_final_wide_ge10_fixed.csv",
+  "rows": 9876,
+  "coverage": {
+    "units_total_best": {"rows": 9876, "fraction": 1.0},
+    "max_storeys_best": {"rows": 4041, "fraction": 0.4092},
+    "parking_spaces_best": {"rows": 2549, "fraction": 0.2581},
+    "cycle_parking_spaces_best": {"rows": 1531, "fraction": 0.155},
+    "site_area_ha_best": {"rows": 1412, "fraction": 0.143},
+    "floor_area_sqm_best": {"rows": 939, "fraction": 0.0951},
+    "open_space_sqm_best": {"rows": 1873, "fraction": 0.1897}
+  },
+  "not_available_as_reliable_national_columns": [
+    "max_height_m",
+    "front_setback_m",
+    "rear_setback_m",
+    "side_setback_m",
+    "upper_floor_setback_m",
+    "nearest_dwelling_separation_m",
+    "opposing_window_separation_m"
+  ],
+  "generated": "2026-09-01"
+}

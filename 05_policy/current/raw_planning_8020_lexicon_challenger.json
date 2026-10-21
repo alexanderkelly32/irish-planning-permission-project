@@ -1,0 +1,78 @@
+{
+  "protocol": "80/20 lexicon challenger",
+  "full": {
+    "roc_auc": 0.792,
+    "average_precision": 0.4093,
+    "ge10": {
+      "n": 464,
+      "roc_auc": 0.7823,
+      "ap": 0.5298
+    }
+  },
+  "L1_lexicon_only": {
+    "roc_auc": 0.7159,
+    "average_precision": 0.3433,
+    "ge10": {
+      "n": 464,
+      "roc_auc": 0.7411,
+      "ap": 0.4723
+    }
+  },
+  "L1_category_coefficients": {
+    "lex_extension": -0.2142,
+    "lex_alteration": -0.1116,
+    "lex_conversion": -0.0131,
+    "lex_retention": 0.0346,
+    "lex_conservatory_porch": -0.2142,
+    "lex_new_house": 0.0283,
+    "lex_apartment": 0.0675,
+    "lex_duplex": -0.0284,
+    "lex_semi_detached": -0.0284,
+    "lex_detached": 0.062,
+    "lex_terraced": 0.0128,
+    "lex_storeys": 0.0099,
+    "lex_bedrooms": 0.0618,
+    "lex_parking": 0.0155,
+    "lex_access_road": 0.0829,
+    "lex_open_space_amenity": -0.0024,
+    "lex_services_drainage": 0.0611,
+    "lex_materials": -0.0147,
+    "lex_demolition": -0.0312,
+    "lex_community_retail": -0.0186,
+    "lex_flood_water": 0.1073,
+    "lex_total_matches": 0.0044
+  },
+  "L2_hybrid": {
+    "roc_auc": 0.7876,
+    "average_precision": 0.4053,
+    "ge10": {
+      "n": 464,
+      "roc_auc": 0.7801,
+      "ap": 0.531
+    }
+  },
+  "paired_L1_lexicon_only_minus_full": {
+    "roc_auc_95ci": [
+      -0.0828,
+      -0.0761,
+      -0.0695
+    ],
+    "average_precision_95ci": [
+      -0.0741,
+      -0.0658,
+      -0.0581
+    ]
+  },
+  "paired_L2_hybrid_minus_full": {
+    "roc_auc_95ci": [
+      -0.0056,
+      -0.0044,
+      -0.0031
+    ],
+    "average_precision_95ci": [
+      -0.0058,
+      -0.0039,
+      -0.0021
+    ]
+  }
+}

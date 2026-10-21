@@ -1,0 +1,76 @@
+{
+  "cohort_rows": 4001,
+  "by_storey_band": [
+    {
+      "storey_band": "1",
+      "cases": 338,
+      "refused": 77,
+      "refusal_rate": 0.2278,
+      "refused_with_themes": 49,
+      "top_themes": {
+        "land_use_policy": 27,
+        "design_layout": 24,
+        "residential_amenity": 21,
+        "traffic_access": 19,
+        "premature_or_info_gap": 16
+      }
+    },
+    {
+      "storey_band": "2",
+      "cases": 1478,
+      "refused": 280,
+      "refusal_rate": 0.1894,
+      "refused_with_themes": 196,
+      "top_themes": {
+        "residential_amenity": 101,
+        "land_use_policy": 98,
+        "design_layout": 96,
+        "traffic_access": 94,
+        "premature_or_info_gap": 71
+      }
+    },
+    {
+      "storey_band": "3",
+      "cases": 982,
+      "refused": 224,
+      "refusal_rate": 0.2281,
+      "refused_with_themes": 183,
+      "top_themes": {
+        "residential_amenity": 123,
+        "land_use_policy": 112,
+        "design_layout": 93,
+        "traffic_access": 93,
+        "density_scale": 73
+      }
+    },
+    {
+      "storey_band": "4",
+      "cases": 472,
+      "refused": 125,
+      "refusal_rate": 0.2648,
+      "refused_with_themes": 107,
+      "top_themes": {
+        "residential_amenity": 84,
+        "density_scale": 72,
+        "land_use_policy": 69,
+        "design_layout": 66,
+        "traffic_access": 63
+      }
+    },
+    {
+      "storey_band": "5+",
+      "cases": 729,
+      "refused": 225,
+      "refusal_rate": 0.3086,
+      "refused_with_themes": 195,
+      "top_themes": {
+        "residential_amenity": 159,
+        "design_layout": 137,
+        "density_scale": 133,
+        "land_use_policy": 108,
+        "traffic_access": 101
+      }
+    }
+  ],
+  "caveat": "Theme prevalence is computed on the subset of refused cases whose decision documents were OCR'd and tagged (1,159 nationally); bands without tags are under-reported, so treat theme shares as directional."
+}

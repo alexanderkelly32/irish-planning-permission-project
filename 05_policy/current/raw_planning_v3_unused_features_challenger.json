@@ -1,0 +1,35 @@
+{
+  "challenger_v3_plus_unused": {
+    "roc_auc": 0.8001,
+    "average_precision": 0.4176
+  },
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  },
+  "extra_features": [
+    "log_units",
+    "log_site_area_sqm",
+    "log_floor_area_sqm",
+    "units_missing",
+    "applicant_prior_count",
+    "applicant_prior_refusal_rate",
+    "flood_depth__ncfhm__rp100__m",
+    "flood_depth__ncfhm__rp20__m",
+    "flood_depth__nifm__rp20__m",
+    "coastal_depth_max_m",
+    "fluvial_depth_max_m",
+    "coastal_hit_any",
+    "fluvial_hit_any",
+    "coastal_min_logdist",
+    "fluvial_min_logdist",
+    "flood_any"
+  ],
+  "flood_join_coverage": 1.0,
+  "ge10_subset": {
+    "n": 166,
+    "challenger_auc": 0.7593,
+    "challenger_ap": 0.4528
+  },
+  "caveat": "All features are submission-time: flood maps and applicant history predate the application. Flood join covers GE10 rows only (the flood CSV is the GE10 universe)."
+}

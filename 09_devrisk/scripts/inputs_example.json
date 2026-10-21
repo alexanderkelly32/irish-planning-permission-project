@@ -1,0 +1,14 @@
+{
+  "authority": "Dun Laoghaire Rathdown County Council",
+  "description": "Construction of 12 no. apartment units in a 3 storey block with associated car parking, bicycle parking and landscaping on a site of 0.20 hectares.",
+  "units": 12,
+  "site_area_sqm": 2000.0,
+  "itm_easting": 700000.0,
+  "itm_northing": 750000.0,
+  "submission_year": 2026,
+  "report_date": "2026-10-15",
+  "site_label": "Example scheme",
+  "geocode_note": "example coordinates",
+  "route_note": "",
+  "output_path": "09_devrisk/data/silver/report/prospective/report_example.md"
+}

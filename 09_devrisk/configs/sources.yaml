@@ -1,0 +1,100 @@
+# Official and primary data sources for the development risk engine.
+# Each entry records what the technical brief requires: purpose, official URL,
+# observed access behaviour, cadence, licence/access notes and local handling.
+# Editing rules: never delete an entry's history-relevant notes; add fields,
+# do not remove `access_notes` content once recorded.
+
+schema_version: 1
+
+sources:
+  npad_register:
+    name: National Planning Applications Dataset (NPAD) — ArcGIS register
+    purpose: national planning-application backbone: authority, geography, dates,
+      descriptions, units, outcomes. Cohort creation and planning identity.
+    official_catalogue: https://data.gov.ie/dataset/national-planning-applications
+    reported_cadence: weekly national spatial/tabular publication
+    local_snapshot:
+      # Canonical local copy already held by the repository (do not re-download;
+      # it predates this workspace and is the same backbone the frozen model uses).
+      path: old_original_attempt/first_attempt_messy/irish_planning_dataset_clean_model.parquet
+      coverage: 1991-03-05 .. 2026-01-19 (491,760 rows, 40 columns)
+      note: register_2026.parquet in 00_base/source_data holds the 2026 pull.
+    access_notes:
+      - "Caveat: field quality and historical coverage differ by authority."
+      - "Descriptions may be thin; later amendments and SHD/ABP era schemes may be under-covered (see Activate backtest)."
+    licence_notes:
+      - "Ingested for internal analysis only; reuse position to be confirmed before any redistribution."
+
+  bcms:
+    name: Building Control Management System commencements/completions (NBCO)
+    purpose: administrative commencement and completion events; survival labels.
+    official_dataset: https://data.gov.ie/en_GB/dataset/bcnccc
+    direct_resource: https://data.nbco.gov.ie/dataset/2704a333-874d-46f5-b3bc-3673766bf816/resource/0774e781-7af8-46da-b623-872e74cf541e/download/buildingscnscccs.csv
+    methodology: https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/residential-commencement-notices-background-and-methodology/
+    reported_cadence: updated snapshot; stated coverage all 31 building-control authorities from 2014 onward
+    observed_access:
+      - "2026-09-27: direct CSV resource returns HTTP 200 text/csv without authentication."
+    caveats:
+      - "A commencement notice is a notice of intent; not proof of physical progress."
+      - "Unit counts in commencement/completion data may not map cleanly to planning phases."
+    access_notes:
+      - "Technical accessibility does not equal automated commercial reuse rights; record terms before scaling collection."
+
+  ppr:
+    name: Residential Property Price Register (PSRA)
+    purpose: residential transaction date/price/address from 2010-01-01; first sale,
+      sell-through proxies, exit values and market comparables.
+    official_site: https://propertypriceregister.ie/
+    bulk_download: https://propertypriceregister.ie/website/npsra/ppr/npsra-ppr.nsf/Downloads/PPR-ALL.zip/$FILE/PPR-ALL.zip
+    observed_access:
+      - "2026-09-27: direct static ZIP endpoint returns HTTP 200 (application/x-zip, ~19 MB); inner CSV PPR-ALL.csv is CP1252-encoded with columns Date of Sale, Address, County, Eircode, Price, Not Full Market Price, VAT Exclusive, Description of Property, Property Size Description."
+      - "Snapshot covers 2010-01-01 .. 2026-09-18 (807,724 rows)."
+    reuse_terms:
+      - "PSRA Re-Use of Public Sector Information: free re-use in any format including commercial re-use."
+      - "Conditions: acknowledge source and copyright when supplying to others; reproduce accurately; not misleading; NOT for the principal purpose of advertising or promoting a product or service."
+      - source_page: https://www.psr.ie/re-use-of-public-sector-information/
+    caveats:
+      - "No floor area or room count; new-build prices exclude VAT at 13.5%."
+      - "Bulk/multi-unit transactions inconsistent; date is deed-transfer date, not market launch."
+      - "Rental/social/retained units may never appear as individual sales."
+    access_notes:
+      - "Derived scheme features and cited examples preferred; acknowledge PSRA source in outputs."
+
+  courts:
+    name: Courts Service (judgments, Planning and Environment List, Legal Diary)
+    purpose: positive evidence of judicial-review or related proceedings.
+    judgments: https://www2.courts.ie/Judgments
+    planning_environment_list: https://www2.courts.ie/content/planning-environment-list
+    legal_diary: https://legaldiary.courts.ie/
+    access_notes:
+      - "Positive hits are evidence only; non-matches are never definitive negatives (jr_absent requires a sufficiently complete reference source)."
+
+  macro_context:
+    name: Market and construction context series
+    purpose: tender/material-cost indices, funding rates, completion cycle context
+      measured at snapshot date; context variables, not project cost labels.
+    candidate_sources:
+      - CSO building and construction material price indices
+      - CSO Cost of Building Homes Hub
+      - SCSI Tender Price Index
+      - Euribor or equivalent euro funding benchmarks
+      - CSO new-dwelling completions
+    access_notes:
+      - "Use only series whose historical vintages and definitions can be documented; store revision vintage and earliest available_at."
+
+  regime_reference:
+    name: COVID-19 construction restrictions (exceptional regime reference)
+    purpose: regime exposure flags for activation/delivery intervals.
+    key_dates:
+      - name: broad_closure_from
+        date: "2021-01-08"
+      - name: phased_residential_reopening_from
+        date: "2021-04-12"
+      - name: remaining_construction_reopening_from
+        date: "2021-05-04"
+    sources:
+      - https://www.gov.ie/en/department-of-the-taoiseach/press-releases/additional-public-health-restrictions-please-stay-at-home/
+      - https://www.gov.ie/en/department-of-housing-local-government-and-heritage/press-releases/minister-obrien-welcomes-phased-reopening-of-construction/
+      - https://www.gov.ie/en/department-of-the-taoiseach/press-releases/new-public-health-measures-announced-the-path-ahead/
+    access_notes:
+      - "Do not delete slow COVID-exposed schemes (selection bias); model the exposure explicitly."

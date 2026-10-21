@@ -1,0 +1,63 @@
+{
+  "generated": "2026-09-19",
+  "holdout_2025_rows": 15221,
+  "units_joined_rows": 12425,
+  "bands": [
+    {
+      "band": "sub10",
+      "n": 12256,
+      "refusal_rate": 0.104,
+      "v3_roc_auc": 0.7853,
+      "v3_ap": 0.3343,
+      "planner_baseline_auc": 0.614,
+      "planner_baseline_ap": 0.154
+    },
+    {
+      "band": "10-24",
+      "n": 69,
+      "refusal_rate": 0.1884,
+      "v3_roc_auc": 0.7019,
+      "v3_ap": 0.3509,
+      "planner_baseline_auc": 0.6229,
+      "planner_baseline_ap": 0.2603
+    },
+    {
+      "band": "25-49",
+      "n": 36,
+      "refusal_rate": 0.2778,
+      "v3_roc_auc": 0.7462,
+      "v3_ap": 0.6126,
+      "planner_baseline_auc": 0.6827,
+      "planner_baseline_ap": 0.4571
+    },
+    {
+      "band": "50-99",
+      "n": 38,
+      "refusal_rate": 0.1053,
+      "v3_roc_auc": 0.7721,
+      "v3_ap": 0.4165,
+      "planner_baseline_auc": 0.8015,
+      "planner_baseline_ap": 0.2333
+    },
+    {
+      "band": "100+",
+      "n": 26,
+      "refusal_rate": 0.0385,
+      "v3_roc_auc": 0.64,
+      "v3_ap": 0.1,
+      "planner_baseline_auc": 0.38,
+      "planner_baseline_ap": 0.05
+    },
+    {
+      "band": "unknown",
+      "n": 2796,
+      "refusal_rate": 0.1634,
+      "v3_roc_auc": 0.8358,
+      "v3_ap": 0.6126,
+      "planner_baseline_auc": 0.5159,
+      "planner_baseline_ap": 0.2121
+    }
+  ],
+  "baseline_definition": "Planner baseline = logistic on PlanningAuthority + unit band + application type + year (no description text, no history, no comparables) trained on the same pre-2025 split. It models what a competent planner knows from experience: where you are, what type of application, and how big. A constant band-rate guess gives AUC 0.5 by definition.",
+  "caveat": "Unit-band cohorts on the 2025 holdout are small (register-units join matched a limited number of rows), so band-level AUCs are noisy; read direction, not decimals."
+}

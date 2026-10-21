@@ -1,0 +1,85 @@
+{
+  "status": "text_free_incremental_signal_screening_not_promoted",
+  "definition": "Frozen pre-2025 training and 2025 prospective holdout. Both arms use authority, application bucket, time-safe history and comparable aggregates; only the candidate adds structured register fields. Neither arm includes description text. The classifier is deterministic SGD logistic regression for fast signal screening.",
+  "train_n": 203931,
+  "test_n": 15221,
+  "features_added": [
+    "log_submitted_units",
+    "log_site_area_ha",
+    "log_floor_area_sqm",
+    "density_units_per_ha",
+    "plot_ratio_proxy",
+    "units_missing",
+    "area_missing",
+    "floor_area_missing"
+  ],
+  "coverage": {
+    "log_submitted_units": 0.720267211798204,
+    "log_site_area_ha": 0.7814119880265752,
+    "log_floor_area_sqm": 0.7351244798130978,
+    "density_units_per_ha": 0.5446630649047237,
+    "plot_ratio_proxy": 0.5610398262393225,
+    "units_missing": 1.0,
+    "area_missing": 1.0,
+    "floor_area_missing": 1.0
+  },
+  "text_free_base_metrics": {
+    "n": 15221,
+    "refusal_rate": 0.11562972209447474,
+    "roc_auc": 0.5809395492702828,
+    "average_precision": 0.22453724161275362,
+    "brier": 0.11326434217134926,
+    "log_loss": 1.5648087611089632,
+    "calibration_intercept": 4.790229439639051,
+    "calibration_slope": 0.4954900435988038,
+    "bootstrap_samples": 300,
+    "skipped_single_class_samples": 0,
+    "roc_auc_p05": 0.5729033642009673,
+    "roc_auc_p50": 0.5809342217892741,
+    "roc_auc_p95": 0.5895831128654299,
+    "pr_auc_p05": 0.21146919467583195,
+    "pr_auc_p50": 0.22483496669527617,
+    "pr_auc_p95": 0.24007759457132347,
+    "brier_p05": 0.10905328143698174,
+    "brier_p50": 0.11319886990775929,
+    "brier_p95": 0.11707837849579227
+  },
+  "text_free_structured_metrics": {
+    "n": 15221,
+    "refusal_rate": 0.11562972209447474,
+    "roc_auc": 0.6124127952131071,
+    "average_precision": 0.25106331795149756,
+    "brier": 0.11077034847600069,
+    "log_loss": 1.529224408117898,
+    "calibration_intercept": 0.19546593972031687,
+    "calibration_slope": 0.16483517449874052,
+    "bootstrap_samples": 300,
+    "skipped_single_class_samples": 0,
+    "roc_auc_p05": 0.6029565017975062,
+    "roc_auc_p50": 0.6121502187336734,
+    "roc_auc_p95": 0.6221037070877122,
+    "pr_auc_p05": 0.23748896998929764,
+    "pr_auc_p50": 0.25093500268086155,
+    "pr_auc_p95": 0.26951433660884777,
+    "brier_p05": 0.10662817389739197,
+    "brier_p50": 0.11076942705836676,
+    "brier_p95": 0.11451942026967384
+  },
+  "delta_structured_minus_text_free_base": {
+    "roc_auc": 0.0314732459428243,
+    "average_precision": 0.02652607633874393,
+    "brier": -0.0024939936953485703,
+    "log_loss": -0.035584352991065105
+  },
+  "frozen_v3_ranking_context": {
+    "roc_auc": 0.7989005274496694,
+    "average_precision": 0.42019837737179927,
+    "brier": 0.1381839870495509,
+    "log_loss": 0.4314372676214166
+  },
+  "limitations": [
+    "This screening omits text and is not a deployable model or a direct replacement benchmark for v3.",
+    "Height, setbacks, amenity and transport fields are not included because national coverage is not yet adequate.",
+    "Do not expose structured scenario effects until a candidate passes calibration, subgroup and grouped-project robustness checks."
+  ]
+}

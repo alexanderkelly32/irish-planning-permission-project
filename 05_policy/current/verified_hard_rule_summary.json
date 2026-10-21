@@ -1,0 +1,21 @@
+{
+  "approved_rules": 49,
+  "approved_rules_by_family": {
+    "apartment_min_floor_area": 21,
+    "communal_amenity_min_per_unit": 15,
+    "parking_min_spaces_per_unit": 6,
+    "open_space_min_site_ratio": 6,
+    "parking_visitor_spaces_per_unit_ratio": 1
+  },
+  "cases_scored": 2369,
+  "cases_with_any_verified_hard_match": 9,
+  "cases_with_any_verified_breach": 2,
+  "cases_with_verified_communal_amenity_rules_available": 475,
+  "cases_with_verified_parking_rules_available": 137,
+  "cases_with_verified_parking_compare_possible": 0,
+  "cases_with_verified_parking_breach_any": 0,
+  "cases_with_verified_open_space_rules_available": 912,
+  "cases_with_verified_open_space_compare_possible": 0,
+  "cases_with_verified_open_space_breach_any": 0,
+  "verified_rule_matches": 22
+}

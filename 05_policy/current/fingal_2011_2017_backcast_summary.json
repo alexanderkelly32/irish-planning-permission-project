@@ -1,0 +1,19 @@
+{
+  "rows": 100,
+  "cases_with_embedded_sheet_candidates": 53,
+  "cases_with_unique_embedded_sheet": 0,
+  "cases_with_overlapping_sheet_candidates": 53,
+  "cases_with_stable_later_official_layers": 24,
+  "backcast_status_counts": {
+    "no_backcast": 76,
+    "later_official_layers_stable_backcast": 24
+  },
+  "backcast_zone_counts": {
+    "16": 12,
+    "4": 4,
+    "22": 4,
+    "20": 3,
+    "13": 1
+  },
+  "output_path": "05_policy\\current\\fingal_2011_2017_backcast.csv"
+}

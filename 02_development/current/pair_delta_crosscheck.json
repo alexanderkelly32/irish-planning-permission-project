@@ -1,0 +1,19 @@
+{
+  "generated": "2026-09-16",
+  "compared_deltas": 65,
+  "high_confidence": 2,
+  "low_confidence": 63,
+  "by_field": {
+    "max_storeys": {
+      "compared": 40,
+      "high": 2,
+      "low": 38
+    },
+    "vehicular_access_points": {
+      "compared": 25,
+      "high": 0,
+      "low": 25
+    }
+  },
+  "note": "Low-confidence rows are excluded from the alteration-effect tables; a single source's error can no longer flip a lever direction."
+}

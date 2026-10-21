@@ -1,0 +1,20 @@
+{
+  "input_row_count": 272545,
+  "usable_row_count": 213752,
+  "refusal_row_count": 29006,
+  "grant_row_count": 29006,
+  "revised_outcome": "REFUSED",
+  "candidate_pair_count": 13386,
+  "blocking_method_pair_counts": {
+    "exact_address": 50047,
+    "site_id": 2143,
+    "spatial_50m": 45548
+  },
+  "linkage_tier_counts": {
+    "low": 9669,
+    "medium": 3178,
+    "high": 539
+  },
+  "review_sample_row_count": 300,
+  "status": "candidate_strength_only_manual_validation_required"
+}

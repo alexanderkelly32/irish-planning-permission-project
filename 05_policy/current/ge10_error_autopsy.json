@@ -1,0 +1,266 @@
+{
+  "bucket_sizes": {
+    "missed_refusals": 12,
+    "caught_refusals": 65,
+    "false_alarms": 121,
+    "quiet_grants": 174
+  },
+  "missed_refusals_profile": {
+    "label": "missed",
+    "n": 12,
+    "median_units": 26.0,
+    "median_density_ha": 22.9,
+    "flood_hit_share": 0.0,
+    "desc_words_median": 74.0,
+    "apartment_wording": 0.5,
+    "extension_wording": 0.167,
+    "conversion_wording": 0.083,
+    "parking_wording": 0.25,
+    "access_wording": 0.583,
+    "comp_top5_median": 0.0,
+    "council_rate_median": 0.112,
+    "is_urban_share": 0.75,
+    "policy_covered": 0.667,
+    "top_councils": {
+      "Kildare County Council": 3,
+      "Limerick County Council": 2,
+      "Tipperary County Council": 1,
+      "Galway County Council": 1,
+      "Kerry County Council": 1
+    }
+  },
+  "caught_refusals_profile": {
+    "label": "caught",
+    "n": 65,
+    "median_units": 22.0,
+    "median_density_ha": 12.5,
+    "flood_hit_share": 0.092,
+    "desc_words_median": 90.0,
+    "apartment_wording": 0.523,
+    "extension_wording": 0.077,
+    "conversion_wording": 0.031,
+    "parking_wording": 0.554,
+    "access_wording": 0.646,
+    "comp_top5_median": 0.2,
+    "council_rate_median": 0.149,
+    "is_urban_share": 0.8,
+    "policy_covered": 0.769,
+    "top_councils": {
+      "Dublin City Council": 15,
+      "Wexford County Council": 9,
+      "Cork County Council": 9,
+      "Kildare County Council": 5,
+      "Fingal County Council": 4
+    }
+  },
+  "false_alarms_profile": {
+    "label": "alarms",
+    "n": 121,
+    "median_units": 25.0,
+    "median_density_ha": 14.8,
+    "flood_hit_share": 0.058,
+    "desc_words_median": 110.0,
+    "apartment_wording": 0.612,
+    "extension_wording": 0.05,
+    "conversion_wording": 0.041,
+    "parking_wording": 0.537,
+    "access_wording": 0.678,
+    "comp_top5_median": 0.2,
+    "council_rate_median": 0.12,
+    "is_urban_share": 0.826,
+    "policy_covered": 0.893,
+    "top_councils": {
+      "Dublin City Council": 28,
+      "South Dublin County Council": 19,
+      "Wexford County Council": 19,
+      "Meath County Council": 9,
+      "Westmeath County Council": 8
+    }
+  },
+  "quiet_grants_profile": {
+    "label": "quiet",
+    "n": 174,
+    "median_units": 31.0,
+    "median_density_ha": 21.8,
+    "flood_hit_share": 0.04,
+    "desc_words_median": 105.5,
+    "apartment_wording": 0.431,
+    "extension_wording": 0.149,
+    "conversion_wording": 0.017,
+    "parking_wording": 0.534,
+    "access_wording": 0.707,
+    "comp_top5_median": 0.0,
+    "council_rate_median": 0.08,
+    "is_urban_share": 0.701,
+    "policy_covered": 0.793,
+    "top_councils": {
+      "Meath County Council": 26,
+      "Donegal County Council": 20,
+      "Tipperary County Council": 16,
+      "Cavan County Council": 13,
+      "Mayo County Council": 11
+    }
+  },
+  "missed_vs_caught_text_markers": [
+    {
+      "gram": "no type",
+      "mistakes": 8,
+      "ratio": 6568.1
+    },
+    {
+      "gram": "dwelling no",
+      "mistakes": 5,
+      "ratio": 4105.1
+    },
+    {
+      "gram": "block block",
+      "mistakes": 5,
+      "ratio": 4105.1
+    },
+    {
+      "gram": "bed houses",
+      "mistakes": 4,
+      "ratio": 3284.1
+    },
+    {
+      "gram": "type b",
+      "mistakes": 4,
+      "ratio": 3284.1
+    },
+    {
+      "gram": "terrace storey",
+      "mistakes": 4,
+      "ratio": 3284.1
+    },
+    {
+      "gram": "from no",
+      "mistakes": 4,
+      "ratio": 3284.1
+    },
+    {
+      "gram": "houses storeys",
+      "mistakes": 3,
+      "ratio": 2463.1
+    },
+    {
+      "gram": "provide no",
+      "mistakes": 3,
+      "ratio": 2463.1
+    },
+    {
+      "gram": "type a",
+      "mistakes": 3,
+      "ratio": 2463.1
+    },
+    {
+      "gram": "bed and",
+      "mistakes": 3,
+      "ratio": 2463.1
+    },
+    {
+      "gram": "permission pd",
+      "mistakes": 3,
+      "ratio": 2463.1
+    }
+  ],
+  "alarms_vs_quiet_text_markers": [
+    {
+      "gram": "approx sq",
+      "mistakes": 22,
+      "ratio": 1268.1
+    },
+    {
+      "gram": "the form",
+      "mistakes": 19,
+      "ratio": 1095.2
+    },
+    {
+      "gram": "form of",
+      "mistakes": 19,
+      "ratio": 1095.2
+    },
+    {
+      "gram": "balconies terraces",
+      "mistakes": 18,
+      "ratio": 1037.5
+    },
+    {
+      "gram": "m of",
+      "mistakes": 15,
+      "ratio": 864.6
+    },
+    {
+      "gram": "with private",
+      "mistakes": 13,
+      "ratio": 749.3
+    },
+    {
+      "gram": "infrastructural works",
+      "mistakes": 12,
+      "ratio": 691.7
+    },
+    {
+      "gram": "at surface",
+      "mistakes": 12,
+      "ratio": 691.7
+    },
+    {
+      "gram": "also provide",
+      "mistakes": 10,
+      "ratio": 576.4
+    },
+    {
+      "gram": "and infrastructural",
+      "mistakes": 10,
+      "ratio": 576.4
+    },
+    {
+      "gram": "provided with",
+      "mistakes": 10,
+      "ratio": 576.4
+    },
+    {
+      "gram": "spaces located",
+      "mistakes": 10,
+      "ratio": 576.4
+    }
+  ],
+  "missed_refusal_examples": [
+    {
+      "council": "Limerick County Council",
+      "units": 16.0,
+      "risk": 0.34,
+      "description": "the provision of 7 no. 2 bed 3 person dwellings, 7 no. 2 bed 4 person dwellings for senior living and 2 community dwellings each with 4 bedrooms plus 1 carer bedroom and communal areas for senior living, together with mo"
+    },
+    {
+      "council": "Limerick County Council",
+      "units": 25.0,
+      "risk": 0.32,
+      "description": "the development that will consist of: (1) construction of 25 no. residential units comprising 12 no. 3-bed houses and 13no. 4-bed houses; (2) connection to roads and services proposed under phase 1 (reg. ref ) and phase "
+    },
+    {
+      "council": "Tipperary County Council",
+      "units": 50.0,
+      "risk": 0.265,
+      "description": "a) construction of a retirement village with 50 no. residential units, consisting of 28 no. 2 bed units, 22 no. one bed units, and 1no. facility building. b) construction of all roads, footpaths, underground services, pu"
+    },
+    {
+      "council": "Kildare County Council",
+      "units": 30.0,
+      "risk": 0.227,
+      "description": "for the construction of 42 no. residential units in the form of 8 no. (type b) 2-bedroom mid terrace houses (2 storeys), 22 no. (types c1 and c2) 3-bedroom semi-detached houses (2 storeys) and 12 no. (type d) 4-bedroom s"
+    },
+    {
+      "council": "Galway County Council",
+      "units": 28.0,
+      "risk": 0.177,
+      "description": "for the following: 1. the construction of 28 no. residential units, comprising of 22 no. 3-bed houses and 6 no. 4-bed houses. 2.extension of internal c\u00fal na coirre pedestrian and vehicular access (currently under constru"
+    },
+    {
+      "council": "Kerry County Council",
+      "units": 12.0,
+      "risk": 0.252,
+      "description": "the development will consist of the construction of 12 no. 2 storey 3-bed semi-detached residential dwelling units and all associated services and site development works."
+    }
+  ]
+}

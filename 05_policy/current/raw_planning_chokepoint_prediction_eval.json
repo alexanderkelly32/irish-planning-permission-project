@@ -1,0 +1,28 @@
+{
+  "tagged_n": 91,
+  "tagged_n_2024plus": 22,
+  "per_theme_auc": {
+    "design_layout": {
+      "auc": 0.776,
+      "n_positive": 31,
+      "mode": "time_split"
+    },
+    "density_scale": {
+      "auc": 0.765,
+      "n_positive": 33,
+      "mode": "time_split"
+    },
+    "land_use_policy": {
+      "auc": 0.67,
+      "n_positive": 76,
+      "mode": "5fold_cv"
+    }
+  },
+  "prior_top_theme_share": 0.659,
+  "theme_ranking_hit_rate": {
+    "n_evaluable": 83,
+    "top1": 0.53,
+    "top3": 0.892,
+    "prior_top1": 0.659
+  }
+}

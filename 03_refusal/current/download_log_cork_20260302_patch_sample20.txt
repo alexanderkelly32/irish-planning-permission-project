@@ -1,0 +1,40 @@
+Download Log
+============================================================
+
+Cork County Council - 084040: no_documents (Cork_County_Council_084040_Decision.pdf)
+Cork County Council - 087938: no_documents (Cork_County_Council_087938_Decision.pdf)
+Cork County Council - 0557015: no_documents (Cork_County_Council_0557015_Decision.pdf)
+Cork County Council - 0657085: success [Application Form (02/01/2008)] (Cork_County_Council_0657085_Decision.pdf)
+Cork County Council - 035412: no_documents (Cork_County_Council_035412_Decision.pdf)
+Cork County Council - 0758057: no_documents (Cork_County_Council_0758057_Decision.pdf)
+Cork County Council - 077593: no_documents (Cork_County_Council_077593_Decision.pdf)
+Cork County Council - 078354: no_documents (Cork_County_Council_078354_Decision.pdf)
+Cork County Council - 059215: no_documents (Cork_County_Council_059215_Decision.pdf)
+Cork County Council - 059366: no_documents (Cork_County_Council_059366_Decision.pdf)
+Cork County Council - 0711645: no_documents (Cork_County_Council_0711645_Decision.pdf)
+Cork County Council - 051543: no_documents (Cork_County_Council_051543_Decision.pdf)
+Cork County Council - 051828: no_documents (Cork_County_Council_051828_Decision.pdf)
+Cork County Council - 0712444: no_documents (Cork_County_Council_0712444_Decision.pdf)
+Cork County Council - 0712724: no_documents (Cork_County_Council_0712724_Decision.pdf)
+Cork County Council - 065317: no_documents (Cork_County_Council_065317_Decision.pdf)
+Cork County Council - 032643: no_documents (Cork_County_Council_032643_Decision.pdf)
+
+============================================================
+FINAL SUMMARY
+============================================================
+success: 1
+success_reasons: 0
+success_djvu: 0
+success_djvu_pdf: 0
+no_button: 0
+bad_agile_url: 0
+no_agile_client: 0
+no_popup_url: 0
+no_base_url: 0
+no_documents: 16
+no_match: 0
+no_link: 0
+no_file_url: 0
+no_iframe: 0
+timeout: 0
+error: 0

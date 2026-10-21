@@ -1,0 +1,18 @@
+{
+  "generated": "2026-09-14",
+  "pairs": 86,
+  "own_theme_ceiling": {
+    "n": 86,
+    "direction_correct": 61,
+    "direction_correct_rate": 0.7093,
+    "pairs_with_nonempty_diagnosis": 46
+  },
+  "comparable_derived_production": {
+    "n": 86,
+    "direction_correct": 52,
+    "direction_correct_rate": 0.6047,
+    "pairs_with_nonempty_diagnosis": 86
+  },
+  "production_gap_vs_ceiling": 0.1046,
+  "caveat": "The comparable-derived diagnosis uses the 1,411-case theme-tagged refusal master as the comparable pool (a subset of the national index). Neither theme set ever enters a prediction model - this evaluates the recommendation layer only. n is small; rates carry wide uncertainty."
+}

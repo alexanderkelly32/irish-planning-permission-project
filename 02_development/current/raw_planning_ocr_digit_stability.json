@@ -1,0 +1,39 @@
+{
+  "generated": "2026-09-16",
+  "reports_sampled": 40,
+  "values_compared": 81,
+  "overall_stable_rate": 0.7654,
+  "by_field": {
+    "max_height_m": {
+      "n": 8,
+      "confirmed_140": 0.625,
+      "confirmed_300": 0.75,
+      "stable": 0.625
+    },
+    "max_storeys": {
+      "n": 32,
+      "confirmed_140": 0.8125,
+      "confirmed_300": 0.8125,
+      "stable": 0.8125
+    },
+    "nearest_dwelling_separation_m": {
+      "n": 1,
+      "confirmed_140": 1.0,
+      "confirmed_300": 1.0,
+      "stable": 1.0
+    },
+    "parking_spaces": {
+      "n": 17,
+      "confirmed_140": 0.5882,
+      "confirmed_300": 0.5882,
+      "stable": 0.5882
+    },
+    "vehicular_access_points": {
+      "n": 23,
+      "confirmed_140": 0.913,
+      "confirmed_300": 0.8696,
+      "stable": 0.8696
+    }
+  },
+  "caveat": "Digit-stability of extracted numeric values between the 140-DPI production pass and a 300-DPI re-OCR. A low stable rate means deltas built on these values carry digit noise."
+}

@@ -1,0 +1,254 @@
+{
+  "status": "evaluated",
+  "labelled_row_count": 615,
+  "accepted_row_count": 448,
+  "rejected_row_count": 167,
+  "n_splits": 5,
+  "seed": 20260902,
+  "fold_results": [
+    {
+      "fold": 0,
+      "test_rows": 123,
+      "test_accepted": 90,
+      "roc_auc": 0.9673,
+      "average_precision": 0.9858,
+      "precision": 0.9271,
+      "recall": 0.9889,
+      "threshold": 0.2,
+      "roc_auc_without_score_or_tier": 0.9714,
+      "tier_metrics": {
+        "high": {
+          "rows": 58,
+          "accepted": 54,
+          "precision": 0.931,
+          "recall": 1.0
+        },
+        "medium": {
+          "rows": 32,
+          "accepted": 30,
+          "precision": 0.9677,
+          "recall": 1.0
+        },
+        "low": {
+          "rows": 33,
+          "accepted": 6,
+          "precision": 0.7143,
+          "recall": 0.8333
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "test_rows": 123,
+      "test_accepted": 90,
+      "roc_auc": 0.9441,
+      "average_precision": 0.9462,
+      "precision": 0.9167,
+      "recall": 0.9778,
+      "threshold": 0.15,
+      "roc_auc_without_score_or_tier": 0.9461,
+      "tier_metrics": {
+        "high": {
+          "rows": 63,
+          "accepted": 59,
+          "precision": 0.9365,
+          "recall": 1.0
+        },
+        "medium": {
+          "rows": 33,
+          "accepted": 27,
+          "precision": 0.8966,
+          "recall": 0.963
+        },
+        "low": {
+          "rows": 27,
+          "accepted": 4,
+          "precision": 0.75,
+          "recall": 0.75
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "test_rows": 123,
+      "test_accepted": 90,
+      "roc_auc": 0.9178,
+      "average_precision": 0.9657,
+      "precision": 0.9082,
+      "recall": 0.9889,
+      "threshold": 0.2,
+      "roc_auc_without_score_or_tier": 0.9175,
+      "tier_metrics": {
+        "high": {
+          "rows": 65,
+          "accepted": 60,
+          "precision": 0.9231,
+          "recall": 1.0
+        },
+        "medium": {
+          "rows": 31,
+          "accepted": 26,
+          "precision": 0.8621,
+          "recall": 0.9615
+        },
+        "low": {
+          "rows": 27,
+          "accepted": 4,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "test_rows": 123,
+      "test_accepted": 89,
+      "roc_auc": 0.9009,
+      "average_precision": 0.9576,
+      "precision": 0.8384,
+      "recall": 0.9326,
+      "threshold": 0.25,
+      "roc_auc_without_score_or_tier": 0.9015,
+      "tier_metrics": {
+        "high": {
+          "rows": 69,
+          "accepted": 64,
+          "precision": 0.9275,
+          "recall": 1.0
+        },
+        "medium": {
+          "rows": 33,
+          "accepted": 22,
+          "precision": 0.7037,
+          "recall": 0.8636
+        },
+        "low": {
+          "rows": 21,
+          "accepted": 3,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "test_rows": 123,
+      "test_accepted": 89,
+      "roc_auc": 0.9557,
+      "average_precision": 0.9761,
+      "precision": 0.9247,
+      "recall": 0.9663,
+      "threshold": 0.2,
+      "roc_auc_without_score_or_tier": 0.9554,
+      "tier_metrics": {
+        "high": {
+          "rows": 68,
+          "accepted": 65,
+          "precision": 0.9559,
+          "recall": 1.0
+        },
+        "medium": {
+          "rows": 30,
+          "accepted": 22,
+          "precision": 0.8333,
+          "recall": 0.9091
+        },
+        "low": {
+          "rows": 25,
+          "accepted": 2,
+          "precision": 1.0,
+          "recall": 0.5
+        }
+      }
+    }
+  ],
+  "fold_aggregates": {
+    "roc_auc": {
+      "mean": 0.9372,
+      "min": 0.9009,
+      "max": 0.9673
+    },
+    "average_precision": {
+      "mean": 0.9663,
+      "min": 0.9462,
+      "max": 0.9858
+    },
+    "precision": {
+      "mean": 0.903,
+      "min": 0.8384,
+      "max": 0.9271
+    },
+    "recall": {
+      "mean": 0.9709,
+      "min": 0.9326,
+      "max": 0.9889
+    },
+    "roc_auc_without_score_or_tier": {
+      "mean": 0.9384,
+      "min": 0.9015,
+      "max": 0.9714
+    }
+  },
+  "tier_aggregates": {
+    "high": {
+      "fold_rows_total": 323,
+      "fold_accepted_total": 302,
+      "mean_precision": 0.9348,
+      "mean_recall": 1.0
+    },
+    "medium": {
+      "fold_rows_total": 159,
+      "fold_accepted_total": 127,
+      "mean_precision": 0.8527,
+      "mean_recall": 0.9394
+    },
+    "low": {
+      "fold_rows_total": 133,
+      "fold_accepted_total": 19,
+      "mean_precision": 0.6929,
+      "mean_recall": 0.6167
+    }
+  },
+  "caveats": [
+    "Labels come from the tier-stratified pilot and the earlier narrow-queue audit; they are not a random sample of the queue.",
+    "Metrics describe the labelled subset only and are not national recall/precision estimates.",
+    "No threshold auto-accepts candidates; ranking diagnostics inform review prioritisation only."
+  ],
+  "review_order": {
+    "queue_row_count": 35876,
+    "labelled_row_count": 615,
+    "accepted_label_count": 448,
+    "rejected_label_count": 167,
+    "accepted_labels_found_in_top_1pct": 0.2857,
+    "accepted_labels_found_in_top_5pct": 0.7321,
+    "accepted_labels_found_in_top_10pct": 0.8549,
+    "accepted_labels_found_in_top_20pct": 0.9576,
+    "rejected_labels_median_rank": 13779,
+    "by_tier": {
+      "high": {
+        "labelled_rows": 323,
+        "accepted_rows": 302,
+        "median_rank_in_queue": 423,
+        "median_share_rank": 0.4598
+      },
+      "medium": {
+        "labelled_rows": 159,
+        "accepted_rows": 127,
+        "median_rank_in_queue": 2757,
+        "median_share_rank": 0.4754
+      },
+      "low": {
+        "labelled_rows": 133,
+        "accepted_rows": 19,
+        "median_rank_in_queue": 11175,
+        "median_share_rank": 0.3833
+      }
+    },
+    "caveat": "Ranks are positions in the full queue ordered high-to-low tier then score; labelled rows are not a random sample."
+  },
+  "source": "02_development\\current\\full_revision_candidate_queue.csv",
+  "labelled_sources": [
+    "full_revision_manual_review_pilot_fixed.csv",
+    "project_revision_pair_audit.csv"
+  ]
+}

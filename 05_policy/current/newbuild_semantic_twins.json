@@ -1,0 +1,226 @@
+{
+  "baseline_refusal_probability": 0.2607,
+  "pairs": [
+    {
+      "group": "scheme",
+      "from": "housing development",
+      "to": "residential development",
+      "coef_from": 1.28,
+      "coef_to": -0.52,
+      "coef_gap": -1.799,
+      "pp_from": 14.5,
+      "pp_to": 0.0,
+      "pp_switch": -14.5
+    },
+    {
+      "group": "finish",
+      "from": "render",
+      "to": "timber",
+      "coef_from": -0.563,
+      "coef_to": 1.772,
+      "coef_gap": 2.334,
+      "pp_from": -5.4,
+      "pp_to": 8.9,
+      "pp_switch": 14.3
+    },
+    {
+      "group": "scheme",
+      "from": "development",
+      "to": "housing development",
+      "coef_from": -0.029,
+      "coef_to": 1.28,
+      "coef_gap": 1.309,
+      "pp_from": 4.4,
+      "pp_to": 14.5,
+      "pp_switch": 10.0
+    },
+    {
+      "group": "apartment type",
+      "from": "apartments",
+      "to": "residential units",
+      "coef_from": 2.017,
+      "coef_to": 0.024,
+      "coef_gap": -1.994,
+      "pp_from": 8.9,
+      "pp_to": 0.0,
+      "pp_switch": -8.9
+    },
+    {
+      "group": "unit type",
+      "from": "bungalow",
+      "to": "house",
+      "coef_from": 1.981,
+      "coef_to": 0.034,
+      "coef_gap": -1.947,
+      "pp_from": 8.9,
+      "pp_to": 0.0,
+      "pp_switch": -8.9
+    },
+    {
+      "group": "unit type",
+      "from": "dwellings",
+      "to": "house",
+      "coef_from": 1.704,
+      "coef_to": 0.034,
+      "coef_gap": -1.67,
+      "pp_from": 8.9,
+      "pp_to": 0.0,
+      "pp_switch": -8.9
+    },
+    {
+      "group": "finish",
+      "from": "brick",
+      "to": "timber",
+      "coef_from": 0.148,
+      "coef_to": 1.772,
+      "coef_gap": 1.623,
+      "pp_from": 0.0,
+      "pp_to": 8.9,
+      "pp_switch": 8.9
+    },
+    {
+      "group": "finish",
+      "from": "stone",
+      "to": "timber",
+      "coef_from": 0.242,
+      "coef_to": 1.772,
+      "coef_gap": 1.529,
+      "pp_from": 0.0,
+      "pp_to": 8.9,
+      "pp_switch": 8.9
+    },
+    {
+      "group": "unit type",
+      "from": "bungalow",
+      "to": "dwelling house",
+      "coef_from": 1.981,
+      "coef_to": 0.527,
+      "coef_gap": -1.454,
+      "pp_from": 8.9,
+      "pp_to": 0.0,
+      "pp_switch": -8.9
+    },
+    {
+      "group": "unit type",
+      "from": "dwelling houses",
+      "to": "house",
+      "coef_from": 1.306,
+      "coef_to": 0.034,
+      "coef_gap": -1.272,
+      "pp_from": 8.9,
+      "pp_to": 0.0,
+      "pp_switch": -8.9
+    },
+    {
+      "group": "unit type",
+      "from": "dwelling house",
+      "to": "dwellings",
+      "coef_from": 0.527,
+      "coef_to": 1.704,
+      "coef_gap": 1.177,
+      "pp_from": 0.0,
+      "pp_to": 8.9,
+      "pp_switch": 8.9
+    },
+    {
+      "group": "house form",
+      "from": "semi detached",
+      "to": "terraced",
+      "coef_from": -0.284,
+      "coef_to": 1.164,
+      "coef_gap": 1.448,
+      "pp_from": 0.0,
+      "pp_to": 6.8,
+      "pp_switch": 6.8
+    },
+    {
+      "group": "height",
+      "from": "single storey",
+      "to": "single storey dwelling",
+      "coef_from": -1.143,
+      "coef_to": 1.952,
+      "coef_gap": 3.095,
+      "pp_from": -6.4,
+      "pp_to": 0.0,
+      "pp_switch": 6.4
+    },
+    {
+      "group": "apartment type",
+      "from": "apartments",
+      "to": "duplex apartments",
+      "coef_from": 2.017,
+      "coef_to": -0.755,
+      "coef_gap": -2.773,
+      "pp_from": 8.9,
+      "pp_to": 4.4,
+      "pp_switch": -4.5
+    },
+    {
+      "group": "house form",
+      "from": "detached",
+      "to": "terraced houses",
+      "coef_from": 1.644,
+      "coef_to": 0.037,
+      "coef_gap": -1.606,
+      "pp_from": 4.4,
+      "pp_to": 8.9,
+      "pp_switch": 4.5
+    },
+    {
+      "group": "house form",
+      "from": "detached",
+      "to": "semi detached",
+      "coef_from": 1.644,
+      "coef_to": -0.284,
+      "coef_gap": -1.928,
+      "pp_from": 4.4,
+      "pp_to": 0.0,
+      "pp_switch": -4.4
+    },
+    {
+      "group": "house form",
+      "from": "detached",
+      "to": "semi detached houses",
+      "coef_from": 1.644,
+      "coef_to": 0.141,
+      "coef_gap": -1.502,
+      "pp_from": 4.4,
+      "pp_to": 0.9,
+      "pp_switch": -3.6
+    },
+    {
+      "group": "house form",
+      "from": "detached",
+      "to": "detached houses",
+      "coef_from": 1.644,
+      "coef_to": -0.15,
+      "coef_gap": -1.794,
+      "pp_from": 4.4,
+      "pp_to": 6.8,
+      "pp_switch": 2.3
+    },
+    {
+      "group": "apartment type",
+      "from": "apartment units",
+      "to": "apartments",
+      "coef_from": -0.158,
+      "coef_to": 2.017,
+      "coef_gap": 2.176,
+      "pp_from": 8.9,
+      "pp_to": 8.9,
+      "pp_switch": 0.0
+    },
+    {
+      "group": "house form",
+      "from": "detached houses",
+      "to": "terraced",
+      "coef_from": -0.15,
+      "coef_to": 1.164,
+      "coef_gap": 1.313,
+      "pp_from": 6.8,
+      "pp_to": 6.8,
+      "pp_switch": 0.0
+    }
+  ],
+  "note": "Same-meaning phrase groups within the model vocabulary; pp measured by inserting each phrase into the standard 12-unit baseline."
+}

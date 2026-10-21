@@ -1,0 +1,567 @@
+{
+  "baseline_refusal_probability": 0.2607,
+  "note": "Materially risk-lowering phrases (pp <= -4 on the standard 12-unit baseline). pp is context-dependent; apply only phrases that accurately describe the scheme.",
+  "by_domain": {
+    "extension / alteration": [
+      {
+        "term": "single storey extension",
+        "pp": -22.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "room extension",
+        "pp": -18.5,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "ground floor extension",
+        "pp": -18.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "extension dwelling house",
+        "pp": -18.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "extensions rear",
+        "pp": -17.9,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "extension dwelling",
+        "pp": -14.7,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "new extension",
+        "pp": -13.5,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "existing dormer",
+        "pp": -13.5,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "garage conversion",
+        "pp": -13.5,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "extensions",
+        "pp": -13.5,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "new porch",
+        "pp": -13.5,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "extension",
+        "pp": -11.6,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "conservatory",
+        "pp": -11.6,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "dormer window rear",
+        "pp": -11.6,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "extension duration",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      }
+    ],
+    "house form / type": [
+      {
+        "term": "existing dwelling new",
+        "pp": -18.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "existing dwelling house",
+        "pp": -13.7,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "existing dwelling",
+        "pp": -13.5,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "single storey rear",
+        "pp": -11.6,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "construction single storey",
+        "pp": -11.6,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "house",
+        "pp": -8.9,
+        "sources": [
+          "twin"
+        ]
+      },
+      {
+        "term": "dwelling house",
+        "pp": -8.9,
+        "sources": [
+          "twin"
+        ]
+      },
+      {
+        "term": "rear dwelling",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "single storey flat",
+        "pp": -6.4,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "single storey",
+        "pp": -6.4,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "duplex apartments",
+        "pp": -4.5,
+        "sources": [
+          "twin"
+        ]
+      },
+      {
+        "term": "semi detached",
+        "pp": -4.4,
+        "sources": [
+          "twin"
+        ]
+      }
+    ],
+    "misc": [
+      {
+        "term": "significant information received",
+        "pp": -22.3,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "significant information",
+        "pp": -17.9,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "information received",
+        "pp": -17.9,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "bay window",
+        "pp": -14.7,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "residential development",
+        "pp": -14.5,
+        "sources": [
+          "twin"
+        ]
+      },
+      {
+        "term": "elevational changes",
+        "pp": -13.9,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "decommission existing",
+        "pp": -13.5,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "existing septic tank",
+        "pp": -13.5,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "rooflights",
+        "pp": -11.9,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "rooflight",
+        "pp": -11.9,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "internal modifications",
+        "pp": -11.9,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "install new",
+        "pp": -11.6,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "slatted",
+        "pp": -11.6,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "roof lights",
+        "pp": -11.6,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "site works significant",
+        "pp": -11.6,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "existing septic",
+        "pp": -11.6,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "associated internal",
+        "pp": -9.8,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "associated ancillary works",
+        "pp": -9.8,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "modifications existing",
+        "pp": -9.8,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "roof light",
+        "pp": -9.8,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "reduction",
+        "pp": -9.2,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "community",
+        "pp": -9.2,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "residential units",
+        "pp": -8.9,
+        "sources": [
+          "twin"
+        ]
+      },
+      {
+        "term": "attached garage",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "information",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "cubicle",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "hall",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "boiler",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "centre",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "classroom",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "sunroom",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "window",
+        "pp": -8.3,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "replacement",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "addition",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "caf\u00e9",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "lights",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "relocate",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "lean",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "pitch",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "omission",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "modifications",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "decommission",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "revised",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "school",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "received",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "minor",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "amendments",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "changes",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "works existing",
+        "pp": -5.8,
+        "sources": [
+          "new_measured"
+        ]
+      },
+      {
+        "term": "east",
+        "pp": -5.4,
+        "sources": [
+          "measured"
+        ]
+      }
+    ],
+    "site / access / infrastructure": [
+      {
+        "term": "widening existing vehicular",
+        "pp": -14.8,
+        "sources": [
+          "measured"
+        ]
+      },
+      {
+        "term": "utility",
+        "pp": -6.4,
+        "sources": [
+          "measured"
+        ]
+      }
+    ]
+  }
+}

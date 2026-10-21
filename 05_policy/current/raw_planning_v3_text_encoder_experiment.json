@@ -1,0 +1,68 @@
+{
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  },
+  "train_n": 203931,
+  "test_n": 15221,
+  "word12_50k": {
+    "roc_auc": 0.8013,
+    "average_precision": 0.4188,
+    "seconds": 119.0,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7756,
+      "ap": 0.4488
+    }
+  },
+  "word13_50k": {
+    "roc_auc": 0.8026,
+    "average_precision": 0.4211,
+    "seconds": 136.0,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7772,
+      "ap": 0.4469
+    }
+  },
+  "word13_100k": {
+    "roc_auc": 0.8025,
+    "average_precision": 0.4209,
+    "seconds": 135.0,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7738,
+      "ap": 0.4506
+    }
+  },
+  "word12_char25": {
+    "roc_auc": 0.8017,
+    "average_precision": 0.4205,
+    "seconds": 610.0,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7637,
+      "ap": 0.4299
+    }
+  },
+  "emb_only": {
+    "roc_auc": 0.7886,
+    "average_precision": 0.4017,
+    "seconds": 583.0,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7857,
+      "ap": 0.374
+    }
+  },
+  "emb_word12": {
+    "roc_auc": 0.803,
+    "average_precision": 0.4134,
+    "seconds": 1683.0,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7844,
+      "ap": 0.4355
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "population": {
+    "definition": "ALL residential schemes with >=10 units decided in 2024-2025 in the national register",
+    "n": 464,
+    "refusals": 88,
+    "base_refusal_rate": 0.1897,
+    "base_rate_wilson95": [
+      0.1566,
+      0.2278
+    ]
+  },
+  "model_split": "frozen artifact (national_residential_v4_full), trained exclusively on pre-2024 data; 2024-2025 was never seen in training",
+  "top_decile": {
+    "n": 47,
+    "refusals": 30,
+    "refusal_rate": 0.6383,
+    "wilson95_ci": [
+      0.4954,
+      0.7603
+    ]
+  },
+  "bottom_decile": {
+    "n": 47,
+    "refusals": 0,
+    "refusal_rate": 0.0,
+    "wilson95_ci": [
+      0.0,
+      0.0756
+    ]
+  },
+  "fisher_exact_test": {
+    "odds_ratio": Infinity,
+    "p_value": 1.6969541830925345e-12,
+    "interpretation": "probability the top-vs-bottom separation is chance"
+  },
+  "risk_ratio_top_vs_bottom": {
+    "point": 61.3,
+    "wald95_ci": [
+      3.9,
+      973.8
+    ],
+    "note": "Haldane continuity correction applied if a cell is zero"
+  },
+  "headline_auc_8020": {
+    "n": 35713,
+    "roc_auc": 0.792,
+    "bootstrap95_ci": [
+      0.7842,
+      0.798
+    ],
+    "note": "v4-full on the two-year modern-regime holdout"
+  }
+}

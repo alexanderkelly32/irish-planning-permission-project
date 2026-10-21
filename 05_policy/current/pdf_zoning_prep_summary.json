@@ -1,0 +1,20 @@
+{
+  "total_pdf_sources": 40,
+  "embedded_geo_ready": 12,
+  "manual_georef_needed": 28,
+  "authorities": {
+    "South Dublin County Council": 17,
+    "Fingal County Council": 13,
+    "Dublin City Council": 10
+  },
+  "plan_keys": {
+    "fingal_county_council__2011_2017": 13,
+    "dublin_city_council__2016_2022": 10,
+    "south_dublin_county_council__2004_2010": 8,
+    "south_dublin_county_council__2010_2016": 8,
+    "south_dublin_county_council__2016_2022": 1
+  },
+  "manifest_path": "05_policy\\current\\pdf_zoning_sources_manifest.csv",
+  "manual_georef_queue_path": "05_policy\\current\\pdf_zoning_manual_georef_queue.csv",
+  "embedded_geo_footprints_path": "05_policy\\current\\pdf_zoning_embedded_geo_footprints.geojson"
+}

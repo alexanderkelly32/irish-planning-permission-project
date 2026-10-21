@@ -1,0 +1,31 @@
+PlanningAuthority,refusals_total,with_documents,with_ocr,with_llm_pass,with_any_reasons_in_master,missing_documents,documents_not_ocr,documents_not_llm
+Carlow County Council,6,6,6,0,5,0,0,6
+Cavan County Council,5,5,4,1,4,0,1,4
+Clare County Council,13,13,4,9,12,0,9,4
+Cork City Council,34,34,3,30,32,0,31,4
+Cork County Council,267,135,91,44,17,132,44,91
+Donegal County Council,14,11,6,2,9,3,5,9
+Dublin City Council,171,4,0,4,3,167,4,0
+Dun Laoghaire Rathdown County Council,83,0,0,0,0,83,0,0
+Fingal County Council,41,0,0,0,0,41,0,0
+Galway City Council,14,14,11,2,9,0,3,12
+Galway County Council,72,72,34,15,64,0,38,57
+Kerry County Council,22,22,11,11,18,0,11,11
+Kildare County Council,130,130,64,56,76,0,66,74
+Kilkenny County Council,24,24,11,11,17,0,13,13
+Laois County Council,8,8,3,2,8,0,5,6
+Limerick County Council,22,22,14,6,11,0,8,16
+Longford County Council,5,5,5,0,0,0,0,5
+Louth County Council,38,37,5,24,33,1,32,13
+Mayo County Council,9,9,5,4,6,0,4,5
+Meath County Council,46,46,18,21,38,0,28,25
+Monaghan County Council,9,0,0,0,0,9,0,0
+Offaly County Council,17,17,16,1,3,0,1,16
+Roscommon County Council,12,12,4,7,9,0,8,5
+Sligo County Council,8,8,2,4,6,0,6,4
+South Dublin County Council,251,238,0,12,218,13,238,226
+Tipperary County Council,14,14,1,9,14,0,13,5
+Waterford City and County Council,33,33,30,3,3,0,3,30
+Westmeath County Council,17,17,9,3,10,0,8,14
+Wexford County Council,78,77,13,37,72,1,64,40
+Wicklow County Council,57,57,17,38,41,0,40,19

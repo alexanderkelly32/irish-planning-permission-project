@@ -1,0 +1,108 @@
+{
+  "full_model": {
+    "holdout_auc": 0.792,
+    "ge10_auc": 0.7823
+  },
+  "typecode_challenger": {
+    "holdout_auc": 0.7871,
+    "holdout_ap": 0.4054,
+    "ge10_auc": 0.7777,
+    "ge10_ap": 0.5302
+  },
+  "missed_refusals": {
+    "n": 12,
+    "with_type_codes": 0,
+    "quintile_after": {
+      "0": 1,
+      "1": 10,
+      "2": 1
+    },
+    "rescued_to_quintile3plus": 1,
+    "cases": [
+      {
+        "key": "Limerick County Council__2460030",
+        "units": 16.0,
+        "risk_before": 0.34,
+        "risk_after": 0.318,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Limerick County Council__2460304",
+        "units": 25.0,
+        "risk_before": 0.32,
+        "risk_after": 0.29,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Tipperary County Council__2460368",
+        "units": 50.0,
+        "risk_before": 0.265,
+        "risk_after": 0.231,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Kildare County Council__2460776",
+        "units": 30.0,
+        "risk_before": 0.227,
+        "risk_after": 0.231,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Galway County Council__2461383",
+        "units": 28.0,
+        "risk_before": 0.177,
+        "risk_after": 0.18,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Kerry County Council__2460829",
+        "units": 12.0,
+        "risk_before": 0.252,
+        "risk_after": 0.237,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Kildare County Council__2461206",
+        "units": 14.0,
+        "risk_before": 0.269,
+        "risk_after": 0.26,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Laois County Council__2460726",
+        "units": 12.0,
+        "risk_before": 0.255,
+        "risk_after": 0.247,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Meath County Council__2513",
+        "units": 27.0,
+        "risk_before": 0.273,
+        "risk_after": 0.205,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Clare County Council__2560243",
+        "units": 38.0,
+        "risk_before": 0.304,
+        "risk_after": 0.249,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Roscommon County Council__2560334",
+        "units": 33.0,
+        "risk_before": 0.251,
+        "risk_after": 0.244,
+        "has_type_codes": 0
+      },
+      {
+        "key": "Kildare County Council__2561030",
+        "units": 10.0,
+        "risk_before": 0.34,
+        "risk_after": 0.351,
+        "has_type_codes": 0
+      }
+    ]
+  }
+}

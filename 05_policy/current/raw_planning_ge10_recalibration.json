@@ -1,0 +1,170 @@
+{
+  "protocol": "GE10-specific probability recalibration; fit on 2023 GE10 (n=389, base model pre-2023); test = 2024-25 GE10 holdout (n=464)",
+  "fit_window": {
+    "n": 389,
+    "refused": 86,
+    "refusal_rate": 0.2211
+  },
+  "test": {
+    "n": 464,
+    "refused": 88,
+    "refusal_rate": 0.1897
+  },
+  "variants": {
+    "global_iso (current)": {
+      "brier": 0.1247,
+      "mean_predicted": 0.181,
+      "mean_bin_deviation_pp": 3.14,
+      "bin_table": [
+        {
+          "bin": "0-10%",
+          "n": 174,
+          "mean_predicted": 0.0541,
+          "observed": 0.0747,
+          "deviation_pp": -2.06
+        },
+        {
+          "bin": "10-20%",
+          "n": 141,
+          "mean_predicted": 0.1407,
+          "observed": 0.1348,
+          "deviation_pp": 0.59
+        },
+        {
+          "bin": "20-30%",
+          "n": 66,
+          "mean_predicted": 0.2535,
+          "observed": 0.2424,
+          "deviation_pp": 1.11
+        },
+        {
+          "bin": "30-40%",
+          "n": 44,
+          "mean_predicted": 0.3347,
+          "observed": 0.3182,
+          "deviation_pp": 1.66
+        },
+        {
+          "bin": "40-50%",
+          "n": 23,
+          "mean_predicted": 0.4451,
+          "observed": 0.5652,
+          "deviation_pp": -12.01
+        },
+        {
+          "bin": "50-60%",
+          "n": 4,
+          "mean_predicted": 0.5217,
+          "observed": 0.5,
+          "deviation_pp": 2.17
+        },
+        {
+          "bin": "60-100%",
+          "n": 3,
+          "mean_predicted": 0.6429,
+          "observed": 0.6667,
+          "deviation_pp": -2.38
+        }
+      ]
+    },
+    "ge10_isotonic (base)": {
+      "brier": 0.1265,
+      "mean_predicted": 0.2096,
+      "mean_bin_deviation_pp": 4.56,
+      "bin_table": [
+        {
+          "bin": "0-10%",
+          "n": 134,
+          "mean_predicted": 0.041,
+          "observed": 0.0672,
+          "deviation_pp": -2.62
+        },
+        {
+          "bin": "10-20%",
+          "n": 245,
+          "mean_predicted": 0.1848,
+          "observed": 0.1551,
+          "deviation_pp": 2.97
+        },
+        {
+          "bin": "30-40%",
+          "n": 28,
+          "mean_predicted": 0.375,
+          "observed": 0.25,
+          "deviation_pp": 12.5
+        },
+        {
+          "bin": "40-50%",
+          "n": 18,
+          "mean_predicted": 0.4765,
+          "observed": 0.4444,
+          "deviation_pp": 3.2
+        },
+        {
+          "bin": "50-60%",
+          "n": 27,
+          "mean_predicted": 0.5705,
+          "observed": 0.5556,
+          "deviation_pp": 1.49
+        }
+      ]
+    },
+    "ge10_platt (iso logit)": {
+      "brier": 0.1254,
+      "mean_predicted": 0.2089,
+      "mean_bin_deviation_pp": 3.85,
+      "bin_table": [
+        {
+          "bin": "0-10%",
+          "n": 134,
+          "mean_predicted": 0.073,
+          "observed": 0.0672,
+          "deviation_pp": 0.58
+        },
+        {
+          "bin": "10-20%",
+          "n": 142,
+          "mean_predicted": 0.1453,
+          "observed": 0.1338,
+          "deviation_pp": 1.15
+        },
+        {
+          "bin": "20-30%",
+          "n": 105,
+          "mean_predicted": 0.2625,
+          "observed": 0.1905,
+          "deviation_pp": 7.2
+        },
+        {
+          "bin": "30-40%",
+          "n": 44,
+          "mean_predicted": 0.3564,
+          "observed": 0.3182,
+          "deviation_pp": 3.82
+        },
+        {
+          "bin": "40-50%",
+          "n": 23,
+          "mean_predicted": 0.45,
+          "observed": 0.5652,
+          "deviation_pp": -11.53
+        },
+        {
+          "bin": "50-60%",
+          "n": 4,
+          "mean_predicted": 0.5142,
+          "observed": 0.5,
+          "deviation_pp": 1.42
+        },
+        {
+          "bin": "60-100%",
+          "n": 12,
+          "mean_predicted": 0.9042,
+          "observed": 0.9167,
+          "deviation_pp": -1.25
+        }
+      ]
+    }
+  },
+  "promoted": null
+}

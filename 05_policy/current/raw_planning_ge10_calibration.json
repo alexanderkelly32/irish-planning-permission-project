@@ -1,0 +1,43 @@
+{
+  "generated": "2026-09-20",
+  "train_early_rows": 3065,
+  "calibration_rows_2023_24": 687,
+  "test_rows_2025": 166,
+  "raw_scores": {
+    "n": 166,
+    "refusal_rate": 0.1687,
+    "brier": 0.1888,
+    "log_loss": 0.5551,
+    "calibration_error_pp": 22.25
+  },
+  "ge10_platt_calibrated": {
+    "n": 166,
+    "refusal_rate": 0.1687,
+    "brier": 0.1303,
+    "log_loss": 0.4157,
+    "calibration_error_pp": 1.39
+  },
+  "per_band_calibration_error_pp": {
+    "10-24": {
+      "n": 69,
+      "raw_error_pp": 21.98,
+      "calibrated_error_pp": 0.04
+    },
+    "25-49": {
+      "n": 35,
+      "raw_error_pp": 10.96,
+      "calibrated_error_pp": -8.62
+    },
+    "50-99": {
+      "n": 38,
+      "raw_error_pp": 29.4,
+      "calibrated_error_pp": 7.98
+    },
+    "100+": {
+      "n": 24,
+      "raw_error_pp": 28.17,
+      "calibrated_error_pp": 9.42
+    }
+  },
+  "caveat": "Classifier pre-2023, Platt on 2023-24 GE10, applied to the 2025 GE10 holdout (~166 rows). Small holdout - the calibrated per-band errors are directional."
+}

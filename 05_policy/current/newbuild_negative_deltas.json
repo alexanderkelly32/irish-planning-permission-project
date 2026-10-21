@@ -1,0 +1,69 @@
+{
+  "baseline_refusal_probability": 0.2607,
+  "deltas": [
+    {
+      "phrase": "bay window",
+      "delta_pp": -14.7
+    },
+    {
+      "phrase": "boiler house",
+      "delta_pp": -13.5
+    },
+    {
+      "phrase": "construction replacement",
+      "delta_pp": -11.9
+    },
+    {
+      "phrase": "construction single storey",
+      "delta_pp": -11.6
+    },
+    {
+      "phrase": "site works significant",
+      "delta_pp": -11.6
+    },
+    {
+      "phrase": "community facilities",
+      "delta_pp": -11.6
+    },
+    {
+      "phrase": "single storey",
+      "delta_pp": -6.4
+    },
+    {
+      "phrase": "brick finish",
+      "delta_pp": -6.4
+    },
+    {
+      "phrase": "demolition of existing buildings",
+      "delta_pp": -6.4
+    },
+    {
+      "phrase": "landscaping works",
+      "delta_pp": -5.4
+    },
+    {
+      "phrase": "retail unit",
+      "delta_pp": 0.0
+    },
+    {
+      "phrase": "house",
+      "delta_pp": 0.0
+    },
+    {
+      "phrase": "dwelling house",
+      "delta_pp": 0.0
+    },
+    {
+      "phrase": "semi detached",
+      "delta_pp": 0.0
+    },
+    {
+      "phrase": "duplex apartments",
+      "delta_pp": 4.4
+    },
+    {
+      "phrase": "private open space",
+      "delta_pp": 10.4
+    }
+  ]
+}

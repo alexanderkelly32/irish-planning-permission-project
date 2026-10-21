@@ -1,0 +1,65 @@
+{
+  "generated": "2026-09-20",
+  "variants": {
+    "platt_wide_2022_24": {
+      "calibration_rows": 1075,
+      "brier": 0.1304,
+      "error_pp": 3.4
+    },
+    "platt_narrow_2023_24": {
+      "calibration_rows": 687,
+      "brier": 0.1286,
+      "error_pp": 1.38
+    },
+    "isotonic_wide_2022_24": {
+      "calibration_rows": 1075,
+      "brier": 0.1332,
+      "error_pp": 3.1
+    },
+    "isotonic_narrow_2023_24": {
+      "calibration_rows": 687,
+      "brier": 0.1314,
+      "error_pp": 1.46
+    }
+  },
+  "best_variant": "platt_narrow_2023_24",
+  "per_band_bootstrap": {
+    "10-24": {
+      "n": 69,
+      "error_pp": 2.06,
+      "bootstrap_95": [
+        -7.23,
+        10.92
+      ],
+      "error_is_distinguishable_from_zero": false
+    },
+    "25-49": {
+      "n": 35,
+      "error_pp": -6.47,
+      "bootstrap_95": [
+        -20.25,
+        6.95
+      ],
+      "error_is_distinguishable_from_zero": false
+    },
+    "50-99": {
+      "n": 38,
+      "error_pp": 10.21,
+      "bootstrap_95": [
+        0.16,
+        19.33
+      ],
+      "error_is_distinguishable_from_zero": false
+    },
+    "100+": {
+      "n": 24,
+      "error_pp": 10.83,
+      "bootstrap_95": [
+        0.75,
+        17.52
+      ],
+      "error_is_distinguishable_from_zero": false
+    }
+  },
+  "caveat": "Bootstrap CIs on the per-band mean calibration error; bands with n<50 cannot resolve sub-10pp errors. Isotonic vs Platt comparison on the same 166-row 2025 GE10 holdout."
+}

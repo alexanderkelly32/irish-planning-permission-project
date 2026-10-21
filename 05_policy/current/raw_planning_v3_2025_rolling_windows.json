@@ -1,0 +1,230 @@
+{
+  "source": "05_policy\\current\\raw_planning_v3_2025_predictions.csv",
+  "windows": [
+    {
+      "window": "2025-01",
+      "rows": 1159,
+      "refusal_rate": 0.11734253666954271,
+      "ranking_roc_auc": 0.809686044505779,
+      "ranking_average_precision": 0.44854474472625344,
+      "ranking_brier": 0.1370182048029511,
+      "calibrated_roc_auc": 0.7937079523891668,
+      "calibrated_average_precision": 0.42300417248023403,
+      "calibrated_brier": 0.08529528025599682
+    },
+    {
+      "window": "2025-02",
+      "rows": 1509,
+      "refusal_rate": 0.12458581842279655,
+      "ranking_roc_auc": 0.8145787362894003,
+      "ranking_average_precision": 0.44850359125884925,
+      "ranking_brier": 0.14096489829680137,
+      "calibrated_roc_auc": 0.806400695797832,
+      "calibrated_average_precision": 0.43514451496905576,
+      "calibrated_brier": 0.08927654245179761
+    },
+    {
+      "window": "2025-03",
+      "rows": 1659,
+      "refusal_rate": 0.12537673297166968,
+      "ranking_roc_auc": 0.7728986640513172,
+      "ranking_average_precision": 0.429738616358006,
+      "ranking_brier": 0.1412361172648902,
+      "calibrated_roc_auc": 0.7618784127657321,
+      "calibrated_average_precision": 0.42000726810045386,
+      "calibrated_brier": 0.09164137014294778
+    },
+    {
+      "window": "2025-04",
+      "rows": 1786,
+      "refusal_rate": 0.09798432250839866,
+      "ranking_roc_auc": 0.7934166888356833,
+      "ranking_average_precision": 0.381300173519544,
+      "ranking_brier": 0.13656043110090607,
+      "calibrated_roc_auc": 0.7847619047619048,
+      "calibrated_average_precision": 0.3639547725377991,
+      "calibrated_brier": 0.07547578719427848
+    },
+    {
+      "window": "2025-05",
+      "rows": 1820,
+      "refusal_rate": 0.10604395604395604,
+      "ranking_roc_auc": 0.7816095614484844,
+      "ranking_average_precision": 0.40370926196000656,
+      "ranking_brier": 0.1443951648510821,
+      "calibrated_roc_auc": 0.7755779256140709,
+      "calibrated_average_precision": 0.3896740342664672,
+      "calibrated_brier": 0.07993144942333553
+    },
+    {
+      "window": "2025-06",
+      "rows": 1629,
+      "refusal_rate": 0.11356660527931246,
+      "ranking_roc_auc": 0.7864116193756083,
+      "ranking_average_precision": 0.4167356641239465,
+      "ranking_brier": 0.13846613822693837,
+      "calibrated_roc_auc": 0.7795987122856929,
+      "calibrated_average_precision": 0.41117157923787434,
+      "calibrated_brier": 0.08392593565267574
+    },
+    {
+      "window": "2025-07",
+      "rows": 1579,
+      "refusal_rate": 0.11526282457251424,
+      "ranking_roc_auc": 0.8132969392811913,
+      "ranking_average_precision": 0.4787386283523152,
+      "ranking_brier": 0.1340581176071049,
+      "calibrated_roc_auc": 0.8158770363494774,
+      "calibrated_average_precision": 0.4777928616889956,
+      "calibrated_brier": 0.08034985460595907
+    },
+    {
+      "window": "2025-08",
+      "rows": 1265,
+      "refusal_rate": 0.1225296442687747,
+      "ranking_roc_auc": 0.8247369950595757,
+      "ranking_average_precision": 0.4959999545488146,
+      "ranking_brier": 0.13549017082050635,
+      "calibrated_roc_auc": 0.8187794245858762,
+      "calibrated_average_precision": 0.4991825154561519,
+      "calibrated_brier": 0.08356289526238839
+    },
+    {
+      "window": "2025-09",
+      "rows": 1210,
+      "refusal_rate": 0.11735537190082644,
+      "ranking_roc_auc": 0.7967901039193965,
+      "ranking_average_precision": 0.3443251065574194,
+      "ranking_brier": 0.14374388986374081,
+      "calibrated_roc_auc": 0.7941129925621142,
+      "calibrated_average_precision": 0.33917054511494793,
+      "calibrated_brier": 0.09055036448070213
+    },
+    {
+      "window": "2025-10",
+      "rows": 1069,
+      "refusal_rate": 0.1234798877455566,
+      "ranking_roc_auc": 0.8002651919407523,
+      "ranking_average_precision": 0.36551008729471485,
+      "ranking_brier": 0.13481521914947917,
+      "calibrated_roc_auc": 0.7979205070987354,
+      "calibrated_average_precision": 0.3491870166742728,
+      "calibrated_brier": 0.09441280200083196
+    },
+    {
+      "window": "2025-11",
+      "rows": 525,
+      "refusal_rate": 0.12,
+      "ranking_roc_auc": 0.8327149041434756,
+      "ranking_average_precision": 0.4606308778503608,
+      "ranking_brier": 0.11606764022731574,
+      "calibrated_roc_auc": 0.8327149041434755,
+      "calibrated_average_precision": 0.47374105763833246,
+      "calibrated_brier": 0.0863316072288001
+    },
+    {
+      "window": "2025-12",
+      "rows": 11,
+      "refusal_rate": 0.09090909090909091,
+      "ranking_roc_auc": 0.5,
+      "ranking_average_precision": 0.16666666666666666,
+      "ranking_brier": 0.2867479436889033,
+      "calibrated_roc_auc": 0.5,
+      "calibrated_average_precision": 0.16666666666666666,
+      "calibrated_brier": 0.13158155071121114
+    },
+    {
+      "window": "Q1_2025",
+      "rows": 4327,
+      "refusal_rate": 0.12294892535243818,
+      "ranking_roc_auc": 0.7970717307101746,
+      "ranking_average_precision": 0.4395443773224721,
+      "ranking_brier": 0.14001175166141586,
+      "calibrated_roc_auc": 0.7859312312401557,
+      "calibrated_average_precision": 0.42528381754890376,
+      "calibrated_brier": 0.08911683971426235
+    },
+    {
+      "window": "Q2_2025",
+      "rows": 5235,
+      "refusal_rate": 0.10563514804202483,
+      "ranking_roc_auc": 0.7868474778942555,
+      "ranking_average_precision": 0.3978985373291865,
+      "ranking_brier": 0.1398772624922388,
+      "calibrated_roc_auc": 0.7797420462191008,
+      "calibrated_average_precision": 0.385817371396794,
+      "calibrated_brier": 0.07965431577032682
+    },
+    {
+      "window": "Q3_2025",
+      "rows": 4054,
+      "refusal_rate": 0.11815490873211643,
+      "ranking_roc_auc": 0.8123252113231235,
+      "ranking_average_precision": 0.4457519313147006,
+      "ranking_brier": 0.13739589060796387,
+      "calibrated_roc_auc": 0.8107706906871833,
+      "calibrated_average_precision": 0.44376296137134397,
+      "calibrated_brier": 0.0843969965346276
+    },
+    {
+      "window": "Q4_2025",
+      "rows": 1605,
+      "refusal_rate": 0.1221183800623053,
+      "ranking_roc_auc": 0.810025926623311,
+      "ranking_average_precision": 0.38321194303347833,
+      "ranking_brier": 0.1297241169910978,
+      "calibrated_roc_auc": 0.8076396633884212,
+      "calibrated_average_precision": 0.371085856075697,
+      "calibrated_brier": 0.09202415962107957
+    },
+    {
+      "window": "cumulative_to_03",
+      "rows": 4327,
+      "refusal_rate": 0.12294892535243818,
+      "ranking_roc_auc": 0.7970717307101746,
+      "ranking_average_precision": 0.4395443773224721,
+      "ranking_brier": 0.14001175166141586,
+      "calibrated_roc_auc": 0.7859312312401557,
+      "calibrated_average_precision": 0.42528381754890376,
+      "calibrated_brier": 0.08911683971426236
+    },
+    {
+      "window": "cumulative_to_06",
+      "rows": 9562,
+      "refusal_rate": 0.11346998535871157,
+      "ranking_roc_auc": 0.791602541765221,
+      "ranking_average_precision": 0.4173263204877991,
+      "ranking_brier": 0.13993812158395905,
+      "calibrated_roc_auc": 0.7824907624806403,
+      "calibrated_average_precision": 0.40448180334350015,
+      "calibrated_brier": 0.08393630082632024
+    },
+    {
+      "window": "cumulative_to_09",
+      "rows": 13616,
+      "refusal_rate": 0.11486486486486487,
+      "ranking_roc_auc": 0.7979141749774846,
+      "ranking_average_precision": 0.4250591958449728,
+      "ranking_brier": 0.13918120293114736,
+      "calibrated_roc_auc": 0.7910758410061091,
+      "calibrated_average_precision": 0.4152614809001859,
+      "calibrated_brier": 0.08407346742454865
+    },
+    {
+      "window": "cumulative_to_12",
+      "rows": 15221,
+      "refusal_rate": 0.11562972209447474,
+      "ranking_roc_auc": 0.7989005274496694,
+      "ranking_average_precision": 0.42019837737179927,
+      "ranking_brier": 0.1381839870495509,
+      "calibrated_roc_auc": 0.7925909276630806,
+      "calibrated_average_precision": 0.41042943256647274,
+      "calibrated_brier": 0.08491183947470515
+    }
+  ],
+  "single_class_blocks": [],
+  "small_blocks_under_100_rows": [
+    "2025-12"
+  ],
+  "caveat": "Blocks are frozen-model scores on time-safe features; a block is not a retrained rolling model."
+}

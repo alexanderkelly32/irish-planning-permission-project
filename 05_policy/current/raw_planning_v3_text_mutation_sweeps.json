@@ -1,0 +1,146 @@
+{
+  "pattern_pools": {
+    "storeys": 10450,
+    "units": 4885,
+    "parking": 1403,
+    "height": 1890
+  },
+  "mutation_stats": {
+    "storeys_up": {
+      "evaluated": 25,
+      "pool": 10450,
+      "n": 25,
+      "median_delta_pp": -0.346,
+      "direction_agreement_rate": 0.16,
+      "moved_at_least_1pp_rate": 0.28
+    },
+    "storeys_down": {
+      "evaluated": 25,
+      "pool": 10450,
+      "n": 25,
+      "median_delta_pp": -0.472,
+      "direction_agreement_rate": 0.72,
+      "moved_at_least_1pp_rate": 0.32
+    },
+    "units_up10": {
+      "evaluated": 20,
+      "pool": 4885,
+      "n": 20,
+      "median_delta_pp": -0.175,
+      "direction_agreement_rate": 0.25,
+      "moved_at_least_1pp_rate": 0.25
+    },
+    "units_down10": {
+      "evaluated": 18,
+      "pool": 4885,
+      "n": 18,
+      "median_delta_pp": -0.68,
+      "direction_agreement_rate": 0.7222,
+      "moved_at_least_1pp_rate": 0.5
+    },
+    "parking_up5": {
+      "evaluated": 25,
+      "pool": 1403,
+      "n": 25,
+      "median_delta_pp": -0.529,
+      "direction_agreement_rate": 0.08,
+      "moved_at_least_1pp_rate": 0.44
+    },
+    "parking_down5": {
+      "evaluated": 25,
+      "pool": 1403,
+      "n": 25,
+      "median_delta_pp": -0.879,
+      "direction_agreement_rate": 0.88,
+      "moved_at_least_1pp_rate": 0.48
+    },
+    "height_up50": {
+      "evaluated": 25,
+      "pool": 1890,
+      "n": 25,
+      "median_delta_pp": 0.069,
+      "direction_agreement_rate": 0.56,
+      "moved_at_least_1pp_rate": 0.16
+    },
+    "height_down33": {
+      "evaluated": 25,
+      "pool": 1890,
+      "n": 25,
+      "median_delta_pp": 0.143,
+      "direction_agreement_rate": 0.36,
+      "moved_at_least_1pp_rate": 0.32
+    }
+  },
+  "storeys_ladder": {
+    "rows_evaluated": 6,
+    "monotone_increasing": 1,
+    "monotone_rate": 0.1667
+  },
+  "examples": [
+    {
+      "mutation": "storeys_up",
+      "authority": "Dublin City Council",
+      "description": "1) partly demolition of existing garage 2) first floor single storey side extension 3) 2 storey rear extension 4) single storey ground floor rear extension 5) removal of existing garage door replaced ",
+      "baseline_risk": 0.05,
+      "mutated_risk": 0.0466,
+      "delta_pp": -0.35
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "South Dublin County Council",
+      "description": "convert existing two storey extension to a 2 storey 2 bedroom end of terrace house and all associated site works",
+      "baseline_risk": 0.1236,
+      "mutated_risk": 0.11,
+      "delta_pp": -1.36
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "South Dublin County Council",
+      "description": "new 2 storey extension to side of existing dwelling with new porch area to front elevation; conversion of attic area to office/storage area with new dormer type window to rear elevation; 'velux' roofl",
+      "baseline_risk": 0.0212,
+      "mutated_risk": 0.017,
+      "delta_pp": -0.42
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "South Dublin County Council",
+      "description": "redevelopment of the site known as silveracre house, off sarah curran avenue, which is a protected structure. the development will consist of the following: (1) demolition of single storey additions t",
+      "baseline_risk": 0.2931,
+      "mutated_risk": 0.2903,
+      "delta_pp": -0.28
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "Louth County Council",
+      "description": "the development will consist of the construction of a temporary 2 storey prefabricated modular office extension to south elevation of existing hospital building with link corridore, comprising of 238m",
+      "baseline_risk": 0.0167,
+      "mutated_risk": 0.0143,
+      "delta_pp": -0.24
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "South Dublin County Council",
+      "description": "2-storey detached house with attic conversion, new vehicular entrance and all ancillary site works to the side of the existing house.",
+      "baseline_risk": 0.1366,
+      "mutated_risk": 0.1331,
+      "delta_pp": -0.35
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "Dublin City Council",
+      "description": "a proposed residential development of 45 aged living apartment units, designed to the requirements of fold housing association, comprising two apartment blocks ranging in height from 4-6 storeys at ha",
+      "baseline_risk": 0.3781,
+      "mutated_risk": 0.3612,
+      "delta_pp": -1.69
+    },
+    {
+      "mutation": "storeys_up",
+      "authority": "Dun Laoghaire Rathdown County Council",
+      "description": "2-storey end terrace house and driveway.",
+      "baseline_risk": 0.3096,
+      "mutated_risk": 0.2573,
+      "delta_pp": -5.23
+    }
+  ],
+  "caveat": "Text rewrites are synthetic edits to real descriptions sampled from those containing the target phrase; direction agreement and monotonicity are signs of usable v3-native sensitivity, not causal effects. Bucket/dev-type inference reads the mutated text."
+}

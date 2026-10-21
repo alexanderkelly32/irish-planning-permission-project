@@ -1,0 +1,76 @@
+{
+  "national_ge10_refusal_rate": 0.1922,
+  "ge10_n": 2965,
+  "refusal_by_units_band": {
+    "10-19": {
+      "refusal_rate": 0.2121,
+      "n": 891
+    },
+    "20-39": {
+      "refusal_rate": 0.1916,
+      "n": 788
+    },
+    "40-79": {
+      "refusal_rate": 0.186,
+      "n": 715
+    },
+    "80+": {
+      "refusal_rate": 0.1699,
+      "n": 571
+    }
+  },
+  "refusal_by_density_band": {
+    "low <35/ha": {
+      "refusal_rate": 0.2157,
+      "n": 2160
+    },
+    "mid 35-50/ha": {
+      "refusal_rate": 0.1325,
+      "n": 166
+    },
+    "high >50/ha": {
+      "refusal_rate": 0.194,
+      "n": 134
+    }
+  },
+  "decision_delay_months": {
+    "refused": {
+      "median_months": 1.8,
+      "n": 569
+    },
+    "granted": {
+      "median_months": 4.5,
+      "n": 2395
+    }
+  },
+  "description_words": {
+    "refused_median": 91.5,
+    "granted_median": 100.0
+  },
+  "model_lift_ge10_2024_25": {
+    "n": 464,
+    "base_rate": 0.1897,
+    "by_risk_quintile": {
+      "q1": {
+        "refusal_rate": 0.0108,
+        "n": 93
+      },
+      "q2": {
+        "refusal_rate": 0.1183,
+        "n": 93
+      },
+      "q3": {
+        "refusal_rate": 0.1196,
+        "n": 92
+      },
+      "q4": {
+        "refusal_rate": 0.2151,
+        "n": 93
+      },
+      "q5": {
+        "refusal_rate": 0.4839,
+        "n": 93
+      }
+    }
+  }
+}

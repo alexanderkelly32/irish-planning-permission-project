@@ -1,0 +1,56 @@
+# Provisional "pain to develop" composite label (Amendment A, 2026-09-27).
+# Built entirely from structured data already held: NPAD-derived register
+# (FI/appeal/dates) + BCMS commencements/completions. No document extraction.
+# Rule versioned; raw components always retained; unknown is never absent.
+
+schema_version: 1
+
+pain_v1:
+  description: >-
+    Severe observable development pain for a granted 10+ unit residential
+    scheme, measured by 36 months after final grant: appeals, very slow
+    planning decisions, slow or absent activation, slow completion.
+    Positive-definite label: only observed severe components mark a scheme as
+    high pain; unlinked BCMS events are treated as unknown, never as pain.
+  eligibility:
+    - granted decision
+    - decision date and received date present
+    - at least 36 months follow-up after final grant
+  components:
+    appeal_submitted:
+      label: applicant appeal against refusal/conditions observed (AppealSubmittedDate/AppealRefNumber)
+    fi_requested:
+      label: formal FI request observed (FIRequestDate/FIRecDate)
+    planning_duration_days:
+      label: days from received to decision
+    slow_planning_12m:
+      label: planning_duration_days >= 365
+    slow_planning_24m:
+      label: planning_duration_days >= 730
+    activation_days:
+      label: days from final grant to first confirmed commencement (confirmed BCMS link only)
+    slow_activation_24m:
+      label: activation_days >= 730
+    completion_days:
+      label: days from first confirmed commencement to completion certificate
+    slow_completion_36m:
+      label: completion_days >= 1095
+    no_completion_matured:
+      label: confirmed commencement at least 36 months before censor with no completion record observed
+  severity:
+    high_if_any:
+      - appeal_submitted
+      - slow_planning_24m
+      - slow_activation_24m
+      - slow_completion_36m
+    moderate_if_any:
+      - fi_requested
+      - slow_planning_12m
+      - no_completion_matured
+    low_if_none_of_above: true
+  targets:
+    pain_high_binary: "level == high"
+    pain_level: "high | moderate | low (unknown components treated as absent for the composite; coverage reported separately)"
+  notes:
+    - "No 'stalled without link' component: an unlinked BCMS event is unknown, not evidence of non-activation."
+    - "Coverage caveats (linkage rate, completion-record rate) must accompany every reported prevalence."

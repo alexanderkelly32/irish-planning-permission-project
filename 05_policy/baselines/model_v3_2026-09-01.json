@@ -1,0 +1,71 @@
+{
+  "holdout": {
+    "calibrated": {
+      "average_precision": 0.41042943256647274,
+      "brier": 0.08491183947470514,
+      "log_loss": 0.2907695147677047,
+      "roc_auc": 0.7925909276630806
+    },
+    "date_max": "2025-12-23 00:00:00+00:00",
+    "date_min": "2025-01-02 00:00:00+00:00",
+    "n": 15221,
+    "ranking": {
+      "average_precision": 0.42019837737179927,
+      "brier": 0.1381839870495509,
+      "log_loss": 0.43143726762141654,
+      "roc_auc": 0.7989005274496694
+    },
+    "refusal_rate": 0.11562972209447474
+  },
+  "model_version": "national_residential_v3_comparables",
+  "sha256": {
+    "manifest": "8c62b72e1f9a70567290af7285f020708932ab1dc6dc10fc4d716d0f3633eb92",
+    "model": "06a2ca077e291d9eba42d8633381be1d5608be180a8836e658d061c8a529469b",
+    "predictions": "fa13608bfb80f756c6d509ce60da0476686906aa9412f46b6974b2739b924c9a"
+  },
+  "smoke": {
+    "deterministic": true,
+    "feature_keys": [
+      "PlanningAuthority",
+      "application_bucket",
+      "authority_prior_12m_refusal_rate",
+      "authority_prior_24m_refusal_rate",
+      "comp_top10_refusal_rate",
+      "comp_top20_count",
+      "comp_top20_max_granted_similarity",
+      "comp_top20_max_refused_similarity",
+      "comp_top20_mean_similarity",
+      "comp_top20_refusal_rate",
+      "comp_top20_refused_similarity_gap",
+      "comp_top20_same_authority_refusal_rate",
+      "comp_top20_same_authority_share",
+      "comp_top5_refusal_rate",
+      "description_stripped",
+      "log_authority_prior_12m_count",
+      "log_authority_prior_24m_count",
+      "log_national_prior_24m_count",
+      "log_nearby_1km_prior_24m_count",
+      "log_nearby_3km_prior_24m_count",
+      "log_same_site_prior_count",
+      "national_prior_24m_refusal_rate",
+      "nearby_1km_prior_24m_refusal_rate",
+      "nearby_3km_prior_24m_refusal_rate",
+      "received_year",
+      "same_site_prior_refusal_rate"
+    ],
+    "risk_band": "High",
+    "risk_score_0_100": 22.4
+  },
+  "verification": {
+    "command": "python 05_policy/scripts/verify_model_v3_baseline.py --registry 05_policy/baselines/model_v3_2026-09-01.json",
+    "metric_tolerance": 1e-12,
+    "packages": {
+      "joblib": "1.4.2",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scikit_learn": "1.6.1"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.5"
+  }
+}

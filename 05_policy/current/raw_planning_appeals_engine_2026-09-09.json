@@ -1,0 +1,20 @@
+{
+  "model_version": "ultimate_permission_candidate_2026-09-09",
+  "definition": "P(permission eventually obtained | local authority refused), from appeal outcomes.",
+  "train_n": 3689,
+  "test_n": 118,
+  "test_years": [
+    2025,
+    2025
+  ],
+  "test_grant_rate": 0.2712,
+  "roc_auc": 0.4631,
+  "average_precision": 0.2512,
+  "brier": 0.2744,
+  "log_loss": 0.7421,
+  "caveats": [
+    "Candidate only; refusals that never appealed are excluded by design.",
+    "Split decisions (part grant/part refuse) count as granted for part of the scheme.",
+    "Not yet a product claim; keep separate from the local-authority engines."
+  ]
+}

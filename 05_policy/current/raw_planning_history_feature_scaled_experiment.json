@@ -1,0 +1,34 @@
+[
+  {
+    "model": "scaled_baseline",
+    "n": 15221,
+    "roc_auc": 0.7788299827447643,
+    "average_precision": 0.3772461747019056,
+    "brier": 0.14686343844307229,
+    "log_loss": 0.45100753074788685
+  },
+  {
+    "model": "scaled_history_rates_only",
+    "n": 15221,
+    "roc_auc": 0.793091489893362,
+    "average_precision": 0.4098088068233676,
+    "brier": 0.1383267888700508,
+    "log_loss": 0.43112589160942366
+  },
+  {
+    "model": "scaled_history_log_counts_only",
+    "n": 15221,
+    "roc_auc": 0.7798521064219193,
+    "average_precision": 0.37839151659418324,
+    "brier": 0.14363673866130916,
+    "log_loss": 0.4431818235934173
+  },
+  {
+    "model": "scaled_history_log_counts_and_rates",
+    "n": 15221,
+    "roc_auc": 0.7934523809523809,
+    "average_precision": 0.4095429193476505,
+    "brier": 0.13957785778595125,
+    "log_loss": 0.43418554548344723
+  }
+]

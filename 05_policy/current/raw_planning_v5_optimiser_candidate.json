@@ -1,0 +1,259 @@
+{
+  "model_version": "structured_optimiser_v5_candidate_2026-09-13",
+  "holdout_cutoff_year": 2025,
+  "definition": "Text-free structured candidate: v4 cohort plus planner-report-extracted storeys/heights/separations/access/cycle/setbacks (report values preferred where extracted, missing flags explicit). Logistic + LightGBM. Never replaces v3.",
+  "cohort": {
+    "rows": 4001,
+    "train_rows": 3796,
+    "test_rows": 204,
+    "train_years": [
+      1995,
+      2024
+    ],
+    "test_years": [
+      2025,
+      2025
+    ],
+    "planner_report_joinable_rows": 683,
+    "feature_coverage_train": {
+      "log_units": 1.0,
+      "storeys": 1.0,
+      "log_site_area_sqm": 0.7366,
+      "log_floor_area_sqm": 0.7189,
+      "density_units_per_ha": 0.7258,
+      "plot_ratio_proxy": 0.5643,
+      "log_parking_spaces": 1.0,
+      "log_open_space_sqm": 0.285,
+      "log_max_height_m": 0.034,
+      "log_nearest_dwelling_separation_m": 0.0095,
+      "log_opposing_window_separation_m": 0.0129,
+      "log_vehicular_access_points": 0.0935,
+      "log_cycle_parking_spaces": 0.0398,
+      "log_front_setback_m": 0.0013,
+      "received_year": 1.0,
+      "units_missing": 1.0,
+      "site_area_missing": 1.0,
+      "floor_area_missing": 1.0,
+      "parking_missing": 1.0,
+      "open_space_missing": 1.0,
+      "height_missing": 1.0,
+      "separation_missing": 1.0,
+      "window_missing": 1.0,
+      "access_missing": 1.0,
+      "cycle_missing": 1.0,
+      "setback_missing": 1.0,
+      "authority_ordinal": 1.0
+    },
+    "report_value_counts_train": {
+      "report_joined_rows": 614,
+      "storeys_present": 3796,
+      "height_present": 129,
+      "separation_present": 36,
+      "window_present": 49,
+      "access_present": 355,
+      "cycle_present": 151,
+      "setback_present": 5
+    },
+    "report_value_counts_test": {
+      "height_present": 8,
+      "separation_present": 3,
+      "access_present": 41
+    }
+  },
+  "evaluation": {
+    "v5_logistic": {
+      "n": 204,
+      "refusal_rate": 0.1715686274509804,
+      "brier": 0.23016836960343326,
+      "log_loss": 0.6515014261037989,
+      "roc_auc": 0.6140321217244293,
+      "average_precision": 0.2823102788162156
+    },
+    "v5_logistic_calibrated": {
+      "n": 204,
+      "refusal_rate": 0.1715686274509804,
+      "brier": 0.14203111347703487,
+      "log_loss": 0.45793958495107084,
+      "roc_auc": 0.6140321217244293,
+      "average_precision": 0.2823102788162156
+    },
+    "v5_lightgbm": {
+      "n": 204,
+      "refusal_rate": 0.1715686274509804,
+      "brier": 0.18405427433765906,
+      "log_loss": 0.5491023106706814,
+      "roc_auc": 0.5998309382924767,
+      "average_precision": 0.24753519261824203
+    },
+    "v4_logistic_replication": {
+      "n": 204,
+      "refusal_rate": 0.1715686274509804,
+      "brier": 0.23232149984586697,
+      "log_loss": 0.6563456718949972,
+      "roc_auc": 0.6205409974640743,
+      "average_precision": 0.28838225602075235
+    },
+    "base_authority_year_units_only": {
+      "n": 204,
+      "refusal_rate": 0.1715686274509804,
+      "brier": 0.23024397332485838,
+      "log_loss": 0.653084937334149,
+      "roc_auc": 0.5344040574809805,
+      "average_precision": 0.2112260027543582
+    },
+    "bootstrap_ci_v5_logistic": {
+      "bootstrap_samples": 500,
+      "valid_samples": 500,
+      "roc_auc": {
+        "median": 0.616,
+        "p05": 0.532,
+        "p95": 0.6991
+      },
+      "average_precision": {
+        "median": 0.2929,
+        "p05": 0.1969,
+        "p95": 0.409
+      },
+      "brier": {
+        "median": 0.2298,
+        "p05": 0.2168,
+        "p95": 0.2416
+      }
+    },
+    "holdout_2025_subset": {
+      "n": 204,
+      "refusal_rate": 0.1715686274509804,
+      "brier": 0.23016836960343326,
+      "log_loss": 0.6515014261037989,
+      "roc_auc": 0.6140321217244293,
+      "average_precision": 0.2823102788162156
+    }
+  },
+  "sensitivity_sweeps": {
+    "storeys": [
+      {
+        "storeys": 1,
+        "refusal_probability": 0.6515
+      },
+      {
+        "storeys": 2,
+        "refusal_probability": 0.6642
+      },
+      {
+        "storeys": 3,
+        "refusal_probability": 0.6767
+      },
+      {
+        "storeys": 4,
+        "refusal_probability": 0.6889
+      },
+      {
+        "storeys": 5,
+        "refusal_probability": 0.7009
+      },
+      {
+        "storeys": 6,
+        "refusal_probability": 0.7126
+      },
+      {
+        "storeys": 8,
+        "refusal_probability": 0.7352
+      },
+      {
+        "storeys": 10,
+        "refusal_probability": 0.7566
+      },
+      {
+        "storeys": 12,
+        "refusal_probability": 0.7768
+      }
+    ],
+    "log_max_height_m": [
+      {
+        "log_max_height_m": 0.7,
+        "refusal_probability": 0.3826
+      },
+      {
+        "log_max_height_m": 1.1,
+        "refusal_probability": 0.453
+      },
+      {
+        "log_max_height_m": 1.4,
+        "refusal_probability": 0.5072
+      },
+      {
+        "log_max_height_m": 1.8,
+        "refusal_probability": 0.579
+      },
+      {
+        "log_max_height_m": 2.2,
+        "refusal_probability": 0.6476
+      },
+      {
+        "log_max_height_m": 2.6,
+        "refusal_probability": 0.7106
+      },
+      {
+        "log_max_height_m": 3.0,
+        "refusal_probability": 0.7664
+      },
+      {
+        "log_max_height_m": 3.4,
+        "refusal_probability": 0.8143
+      }
+    ],
+    "log_nearest_dwelling_separation_m": [
+      {
+        "log_nearest_dwelling_separation_m": 0.7,
+        "refusal_probability": 0.2138
+      },
+      {
+        "log_nearest_dwelling_separation_m": 1.4,
+        "refusal_probability": 0.3565
+      },
+      {
+        "log_nearest_dwelling_separation_m": 2.1,
+        "refusal_probability": 0.5302
+      },
+      {
+        "log_nearest_dwelling_separation_m": 2.8,
+        "refusal_probability": 0.6968
+      },
+      {
+        "log_nearest_dwelling_separation_m": 3.4,
+        "refusal_probability": 0.8088
+      },
+      {
+        "log_nearest_dwelling_separation_m": 4.0,
+        "refusal_probability": 0.8861
+      }
+    ],
+    "log_vehicular_access_points": [
+      {
+        "log_vehicular_access_points": 0.0,
+        "refusal_probability": 0.5813
+      },
+      {
+        "log_vehicular_access_points": 0.7,
+        "refusal_probability": 0.6776
+      },
+      {
+        "log_vehicular_access_points": 1.1,
+        "refusal_probability": 0.727
+      },
+      {
+        "log_vehicular_access_points": 1.4,
+        "refusal_probability": 0.7609
+      },
+      {
+        "log_vehicular_access_points": 1.8,
+        "refusal_probability": 0.8013
+      },
+      {
+        "log_vehicular_access_points": 2.2,
+        "refusal_probability": 0.8363
+      }
+    ]
+  },
+  "caveat": "Planner-report values are LLM extracts from OCR'd reports (verified ~100% precision, recall gaps for heights). Joinable subset is a few hundred rows, so holdout slices are small and new-feature effects are directionally suggestive only. Associations, not causal recommendations."
+}

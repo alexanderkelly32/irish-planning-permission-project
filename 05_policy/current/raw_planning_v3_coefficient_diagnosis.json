@@ -1,0 +1,536 @@
+{
+  "cases": 100,
+  "mean_text_risk_contribution_refused": 0.58994,
+  "mean_text_risk_contribution_granted": -0.32758,
+  "separation": 0.91752,
+  "verdict": "text coefficients separate refused from granted",
+  "top_global_risk_tokens": [
+    {
+      "token": "period planning",
+      "weight": 2.79442
+    },
+    {
+      "token": "mobile",
+      "weight": 2.73488
+    },
+    {
+      "token": "advertising",
+      "weight": 2.52827
+    },
+    {
+      "token": "extension duration",
+      "weight": 2.45083
+    },
+    {
+      "token": "treatment",
+      "weight": 2.38839
+    },
+    {
+      "token": "apartment",
+      "weight": 2.19008
+    },
+    {
+      "token": "balcony",
+      "weight": 2.1739
+    },
+    {
+      "token": "extension permission",
+      "weight": 2.16811
+    },
+    {
+      "token": "apartments",
+      "weight": 2.1252
+    },
+    {
+      "token": "log",
+      "weight": 2.0883
+    },
+    {
+      "token": "dwelling unit",
+      "weight": 2.05465
+    },
+    {
+      "token": "glamping",
+      "weight": 2.01328
+    },
+    {
+      "token": "bedrooms",
+      "weight": 1.93735
+    },
+    {
+      "token": "garage change",
+      "weight": 1.93653
+    },
+    {
+      "token": "cabin",
+      "weight": 1.86355
+    },
+    {
+      "token": "storey",
+      "weight": 1.85519
+    },
+    {
+      "token": "log cabin",
+      "weight": 1.81241
+    },
+    {
+      "token": "tank including",
+      "weight": 1.77891
+    },
+    {
+      "token": "chalet",
+      "weight": 1.74017
+    },
+    {
+      "token": "amusement",
+      "weight": 1.7384
+    },
+    {
+      "token": "bungalow",
+      "weight": 1.72627
+    },
+    {
+      "token": "residential unit",
+      "weight": 1.70809
+    },
+    {
+      "token": "use domestic",
+      "weight": 1.70612
+    },
+    {
+      "token": "used",
+      "weight": 1.70568
+    },
+    {
+      "token": "residential",
+      "weight": 1.68257
+    }
+  ],
+  "examples": [
+    {
+      "case_key": "Dun Laoghaire Rathdown County Council__D07A/0289",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "sheds erection",
+          "contribution": 0.30621,
+          "span": ""
+        },
+        {
+          "token": "tw",
+          "contribution": 0.27611,
+          "span": "tion of three dwellings, (one tw"
+        },
+        {
+          "token": "dwellings",
+          "contribution": 0.26997,
+          "span": "l sheds and erection of three dwellings, (one tw"
+        },
+        {
+          "token": "erection dwellings",
+          "contribution": 0.14689,
+          "span": ""
+        },
+        {
+          "token": "demolition",
+          "contribution": 0.13185,
+          "span": "demolition of existing industrial sheds "
+        },
+        {
+          "token": "erection",
+          "contribution": 0.12482,
+          "span": "existing industrial sheds and erection of three dwellings, (one tw"
+        }
+      ],
+      "total_risk_contribution": 1.20779
+    },
+    {
+      "case_key": "South Dublin County Council__SD07A/0589",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "bedroomed",
+          "contribution": 0.20305,
+          "span": "d the construction of a three bedroomed bungalow with improved splaye"
+        },
+        {
+          "token": "bungalow",
+          "contribution": 0.19721,
+          "span": "truction of a three bedroomed bungalow with improved splayed entranc"
+        },
+        {
+          "token": "existing boundary",
+          "contribution": 0.19626,
+          "span": " retention and enhancement of existing boundary trees and associated site wor"
+        },
+        {
+          "token": "construction bedroomed",
+          "contribution": 0.14528,
+          "span": ""
+        },
+        {
+          "token": "treatment",
+          "contribution": 0.1441,
+          "span": "splayed entrance and effulent treatment unit; retention and enhanceme"
+        },
+        {
+          "token": "boundary",
+          "contribution": 0.08799,
+          "span": "n and enhancement of existing boundary trees and associated site wor"
+        }
+      ],
+      "total_risk_contribution": 0.74581
+    },
+    {
+      "case_key": "Galway County Council__22205",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "beartaithe sqm",
+          "contribution": 0.11519,
+          "span": ""
+        },
+        {
+          "token": "s\u00e9arachais",
+          "contribution": 0.09149,
+          "span": "chun teach c\u00f3naithe, c\u00f3ras s\u00e9arachais agus gar\u00e1iste, chomh maith le"
+        },
+        {
+          "token": "c\u00f3naithe",
+          "contribution": 0.08876,
+          "span": "chun teach c\u00f3naithe, c\u00f3ras s\u00e9arachais agus gar\u00e1is"
+        },
+        {
+          "token": "c\u00f3ras",
+          "contribution": 0.07248,
+          "span": "chun teach c\u00f3naithe, c\u00f3ras s\u00e9arachais agus gar\u00e1iste, cho"
+        },
+        {
+          "token": "teach",
+          "contribution": 0.07066,
+          "span": "chun teach c\u00f3naithe, c\u00f3ras s\u00e9arachais ag"
+        },
+        {
+          "token": "chomh maith",
+          "contribution": 0.0701,
+          "span": "ras s\u00e9arachais agus gar\u00e1iste, chomh maith le gach obair l\u00e1ithre\u00e1in ag t"
+        }
+      ],
+      "total_risk_contribution": 0.90986
+    },
+    {
+      "case_key": "Dun Laoghaire Rathdown County Council__D05A/1610",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "existing boundary",
+          "contribution": 0.45202,
+          "span": "rey detached dwelling replace existing boundary wall"
+        },
+        {
+          "token": "detached",
+          "contribution": 0.21384,
+          "span": "for new three storey detached dwelling replace existing bou"
+        },
+        {
+          "token": "boundary",
+          "contribution": 0.20267,
+          "span": "hed dwelling replace existing boundary wall"
+        },
+        {
+          "token": "storey",
+          "contribution": 0.20037,
+          "span": "for new three storey detached dwelling replace exi"
+        },
+        {
+          "token": "new storey",
+          "contribution": 0.13817,
+          "span": ""
+        },
+        {
+          "token": "detached dwelling",
+          "contribution": 0.05713,
+          "span": "for new three storey detached dwelling replace existing boundary wal"
+        }
+      ],
+      "total_risk_contribution": 0.45226
+    },
+    {
+      "case_key": "Mayo County Council__21833",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "septic",
+          "contribution": 0.13064,
+          "span": " a dwelling house, garage and septic tank with percolation area al"
+        },
+        {
+          "token": "submitted",
+          "contribution": 0.09383,
+          "span": " as per drawing documentation submitted together with all ancillary s"
+        },
+        {
+          "token": "services",
+          "contribution": 0.0867,
+          "span": " all ancillary site works and services"
+        },
+        {
+          "token": "percolation",
+          "contribution": 0.07774,
+          "span": ", garage and septic tank with percolation area all as per drawing docum"
+        },
+        {
+          "token": "construct",
+          "contribution": 0.07691,
+          "span": "construct a dwelling house, garage and "
+        },
+        {
+          "token": "construct dwelling",
+          "contribution": 0.05971,
+          "span": ""
+        }
+      ],
+      "total_risk_contribution": 0.21268
+    },
+    {
+      "case_key": "Louth County Council__2360346",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "treatment",
+          "contribution": 0.23367,
+          "span": " domestic garage, waste water treatment system and polishing filter p"
+        },
+        {
+          "token": "new vehicular",
+          "contribution": 0.2235,
+          "span": "hing filter percolation area, new vehicular entrance onto public road and"
+        },
+        {
+          "token": "road",
+          "contribution": 0.16721,
+          "span": "ehicular entrance onto public road and all associated site devel"
+        },
+        {
+          "token": "proposed dwelling",
+          "contribution": 0.15804,
+          "span": "permission for proposed dwelling house, domestic garage, waste"
+        },
+        {
+          "token": "filter percolation",
+          "contribution": 0.12106,
+          "span": "reatment system and polishing filter percolation area, new vehicular entrance "
+        },
+        {
+          "token": "waste",
+          "contribution": 0.11754,
+          "span": "lling house, domestic garage, waste water treatment system and po"
+        }
+      ],
+      "total_risk_contribution": 0.9932
+    },
+    {
+      "case_key": "Cork County Council__185586",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "new dwelling",
+          "contribution": 0.83537,
+          "span": "construct a new dwelling."
+        },
+        {
+          "token": "construct",
+          "contribution": 0.27974,
+          "span": "construct a new dwelling."
+        },
+        {
+          "token": "dwelling",
+          "contribution": 0.11138,
+          "span": "construct a new dwelling."
+        }
+      ],
+      "total_risk_contribution": 0.84257
+    },
+    {
+      "case_key": "Cork County Council__012892",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "holiday",
+          "contribution": 0.28177,
+          "span": "ction of 10 no. self-catering holiday houses,reception building, la"
+        },
+        {
+          "token": "self",
+          "contribution": 0.19874,
+          "span": "ling & construction of 10 no. self-catering holiday houses,recep"
+        },
+        {
+          "token": "houses",
+          "contribution": 0.18658,
+          "span": " 10 no. self-catering holiday houses,reception building, landscapi"
+        },
+        {
+          "token": "reception",
+          "contribution": 0.1817,
+          "span": " self-catering holiday houses,reception building, landscaping & assoc"
+        },
+        {
+          "token": "demolition shed",
+          "contribution": 0.14724,
+          "span": ""
+        },
+        {
+          "token": "reception building",
+          "contribution": 0.13724,
+          "span": " self-catering holiday houses,reception building, landscaping & associated wor"
+        }
+      ],
+      "total_risk_contribution": 1.15641
+    },
+    {
+      "case_key": "Meath County Council__211930",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "proprietary sewage",
+          "contribution": 0.23428,
+          "span": "ed domestic garage, install a proprietary sewage treatment system and form new"
+        },
+        {
+          "token": "treatment",
+          "contribution": 0.18074,
+          "span": " install a proprietary sewage treatment system and form new entrance "
+        },
+        {
+          "token": "style",
+          "contribution": 0.17072,
+          "span": "nstruction of a single storey style dwelling with detached domest"
+        },
+        {
+          "token": "lane access",
+          "contribution": 0.15079,
+          "span": ""
+        },
+        {
+          "token": "form",
+          "contribution": 0.13954,
+          "span": "y sewage treatment system and form new entrance from existing pr"
+        },
+        {
+          "token": "road",
+          "contribution": 0.12933,
+          "span": "te lane with access to public road"
+        }
+      ],
+      "total_risk_contribution": 0.96438
+    },
+    {
+      "case_key": "Limerick County Council__18653",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "elevation extension",
+          "contribution": 0.22117,
+          "span": ""
+        },
+        {
+          "token": "structure",
+          "contribution": 0.20922,
+          "span": "a small building, roller structure with canopy, light standard, "
+        },
+        {
+          "token": "western elevation",
+          "contribution": 0.18465,
+          "span": "andard, and door on the front western elevation of extension building"
+        },
+        {
+          "token": "extension building",
+          "contribution": 0.17913,
+          "span": "he front western elevation of extension building"
+        },
+        {
+          "token": "structure canopy",
+          "contribution": 0.1695,
+          "span": ""
+        },
+        {
+          "token": "door western",
+          "contribution": 0.14148,
+          "span": ""
+        }
+      ],
+      "total_risk_contribution": 0.59753
+    },
+    {
+      "case_key": "Dun Laoghaire Rathdown County Council__D09A/0009",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "construct",
+          "contribution": 0.11487,
+          "span": "construct a domestic extension to the f"
+        },
+        {
+          "token": "floor single",
+          "contribution": 0.06094,
+          "span": ""
+        },
+        {
+          "token": "extension floor",
+          "contribution": 0.03107,
+          "span": ""
+        },
+        {
+          "token": "domestic",
+          "contribution": 0.01668,
+          "span": "construct a domestic extension to the first floor "
+        },
+        {
+          "token": "pitch roof",
+          "contribution": 0.00486,
+          "span": "the first floor with a single pitch roof a"
+        }
+      ],
+      "total_risk_contribution": -1.20258
+    },
+    {
+      "case_key": "Dublin City Council__PWSDZ4380/22",
+      "target_refused": 1,
+      "top_risk_tokens": [
+        {
+          "token": "basement",
+          "contribution": 0.10114,
+          "span": "a of 64, sq m (54, sq m above basement). the development comprises 2"
+        },
+        {
+          "token": "parking",
+          "contribution": 0.10063,
+          "span": "health facility: basement car parking; together with associated inf"
+        },
+        {
+          "token": "road",
+          "contribution": 0.09268,
+          "span": " fabrizia sites on sean moore road, (including some sq metres of"
+        },
+        {
+          "token": "residential",
+          "contribution": 0.07676,
+          "span": "d proposes no. apartments and residential amenities, within a mixed-use"
+        },
+        {
+          "token": "amenity",
+          "contribution": 0.06446,
+          "span": "ture; public realm and public amenity spaces; and temporary landsca"
+        },
+        {
+          "token": "identified",
+          "contribution": 0.06333,
+          "span": "destrian access). the site is identified as within the a1 lands in the"
+        }
+      ],
+      "total_risk_contribution": 0.37329
+    }
+  ],
+  "caveat": "Contributions are logistic coefficients weighted by the case's own TF-IDF values; directionally useful for diagnosis, not causal attribution."
+}

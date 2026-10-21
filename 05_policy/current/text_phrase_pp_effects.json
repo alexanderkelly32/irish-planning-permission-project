@@ -1,0 +1,730 @@
+{
+  "baseline": {
+    "authority": "Dun Laoghaire Rathdown County Council",
+    "description": "construction of a residential development with associated site works",
+    "units": 12,
+    "site_area_sqm": 4000,
+    "floor_area_sqm": 2400,
+    "itm_easting": 722000,
+    "itm_northing": 726500,
+    "submission_year": 2026
+  },
+  "baseline_refusal_probability": 0.2607,
+  "effects": [
+    {
+      "term": "treatment",
+      "coefficient": 2.87774,
+      "pp_change_vs_baseline": 23.28,
+      "example_description": "construction of a residential development with wastewater treatment and associated site works"
+    },
+    {
+      "term": "mobile",
+      "coefficient": 2.54796,
+      "pp_change_vs_baseline": 23.28,
+      "example_description": "construction of a residential development of mobile homes with associated site works"
+    },
+    {
+      "term": "effluent treatment unit",
+      "coefficient": 1.44931,
+      "pp_change_vs_baseline": 23.28,
+      "example_description": "construction of a residential development with associated site works with effluent treatment unit"
+    },
+    {
+      "term": "self contained",
+      "coefficient": 1.33321,
+      "pp_change_vs_baseline": 16.15,
+      "example_description": "construction of a residential development with associated site works with self contained"
+    },
+    {
+      "term": "single storey dwelling",
+      "coefficient": 1.95165,
+      "pp_change_vs_baseline": 14.45,
+      "example_description": "construction of single storey dwellings and associated site works"
+    },
+    {
+      "term": "duration planning",
+      "coefficient": 1.20292,
+      "pp_change_vs_baseline": 14.45,
+      "example_description": "construction of a residential development with associated site works with duration planning"
+    },
+    {
+      "term": "lands",
+      "coefficient": 1.32191,
+      "pp_change_vs_baseline": 10.4,
+      "example_description": "construction of a residential development with associated site works with lands"
+    },
+    {
+      "term": "treatment associated",
+      "coefficient": 1.09163,
+      "pp_change_vs_baseline": 10.4,
+      "example_description": "construction of a residential development with associated site works with treatment associated"
+    },
+    {
+      "term": "used",
+      "coefficient": 1.87652,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with used"
+    },
+    {
+      "term": "dwellings",
+      "coefficient": 1.70356,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development of dwellings with associated site works"
+    },
+    {
+      "term": "use existing",
+      "coefficient": 1.60811,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with use existing"
+    },
+    {
+      "term": "parking",
+      "coefficient": 1.56159,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with parking"
+    },
+    {
+      "term": "land",
+      "coefficient": 1.46833,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with land"
+    },
+    {
+      "term": "balconies",
+      "coefficient": 1.45769,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with balconies"
+    },
+    {
+      "term": "dwelling houses",
+      "coefficient": 1.30553,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with dwelling houses"
+    },
+    {
+      "term": "new vehicular entrance",
+      "coefficient": 1.09691,
+      "pp_change_vs_baseline": 8.89,
+      "example_description": "construction of a residential development with associated site works with new vehicular entrance"
+    },
+    {
+      "term": "balcony",
+      "coefficient": 2.03973,
+      "pp_change_vs_baseline": 8.6,
+      "example_description": "construction of a residential development with balconies and associated site works"
+    },
+    {
+      "term": "recessed",
+      "coefficient": 1.6667,
+      "pp_change_vs_baseline": 8.6,
+      "example_description": "construction of a residential development with associated site works with recessed"
+    },
+    {
+      "term": "new storey",
+      "coefficient": 1.40618,
+      "pp_change_vs_baseline": 8.6,
+      "example_description": "construction of a residential development with associated site works with new storey"
+    },
+    {
+      "term": "family",
+      "coefficient": 1.38698,
+      "pp_change_vs_baseline": 8.6,
+      "example_description": "construction of a residential development with associated site works with family"
+    },
+    {
+      "term": "self",
+      "coefficient": 1.23747,
+      "pp_change_vs_baseline": 8.6,
+      "example_description": "construction of a residential development with associated site works with self"
+    },
+    {
+      "term": "ridge",
+      "coefficient": 1.20843,
+      "pp_change_vs_baseline": 8.6,
+      "example_description": "construction of a residential development with associated site works with ridge"
+    },
+    {
+      "term": "storey",
+      "coefficient": 1.77786,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a two storey residential development with associated site works"
+    },
+    {
+      "term": "duration",
+      "coefficient": 1.42912,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with duration"
+    },
+    {
+      "term": "walls",
+      "coefficient": 1.33571,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with walls"
+    },
+    {
+      "term": "build",
+      "coefficient": 1.29891,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with build"
+    },
+    {
+      "term": "containing",
+      "coefficient": 1.28923,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with containing"
+    },
+    {
+      "term": "double",
+      "coefficient": 1.25869,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with double"
+    },
+    {
+      "term": "yard",
+      "coefficient": 1.21976,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with yard"
+    },
+    {
+      "term": "terraced",
+      "coefficient": 1.16355,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with terraced"
+    },
+    {
+      "term": "site services",
+      "coefficient": -1.32698,
+      "pp_change_vs_baseline": 6.75,
+      "example_description": "construction of a residential development with associated site works with site services"
+    },
+    {
+      "term": "apartment",
+      "coefficient": 2.12175,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of an apartment development"
+    },
+    {
+      "term": "apartments",
+      "coefficient": 2.01748,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of an apartment development"
+    },
+    {
+      "term": "timber",
+      "coefficient": 1.7715,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a timber residential development with associated site works"
+    },
+    {
+      "term": "detached",
+      "coefficient": 1.6438,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with detached"
+    },
+    {
+      "term": "road",
+      "coefficient": 1.50438,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with road"
+    },
+    {
+      "term": "connection",
+      "coefficient": 1.36443,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with connection"
+    },
+    {
+      "term": "boundary",
+      "coefficient": 1.31071,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with boundary"
+    },
+    {
+      "term": "partially",
+      "coefficient": 1.24081,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with partially"
+    },
+    {
+      "term": "material",
+      "coefficient": 1.19071,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with material"
+    },
+    {
+      "term": "houses",
+      "coefficient": 1.17197,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with houses"
+    },
+    {
+      "term": "style",
+      "coefficient": 1.14043,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with style"
+    },
+    {
+      "term": "new dwelling",
+      "coefficient": 1.13149,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with new dwelling"
+    },
+    {
+      "term": "commercial",
+      "coefficient": 1.11827,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with commercial"
+    },
+    {
+      "term": "agricultural",
+      "coefficient": 1.09223,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with agricultural"
+    },
+    {
+      "term": "shared",
+      "coefficient": 1.09071,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with shared"
+    },
+    {
+      "term": "flat",
+      "coefficient": 1.09007,
+      "pp_change_vs_baseline": 4.41,
+      "example_description": "construction of a residential development with associated site works with flat"
+    },
+    {
+      "term": "single storey bedroom",
+      "coefficient": 1.43831,
+      "pp_change_vs_baseline": 1.71,
+      "example_description": "construction of a residential development with associated site works with single storey bedroom"
+    },
+    {
+      "term": "structure",
+      "coefficient": 1.39876,
+      "pp_change_vs_baseline": 1.2,
+      "example_description": "construction of a residential development with associated site works with structure"
+    },
+    {
+      "term": "provide",
+      "coefficient": 1.48926,
+      "pp_change_vs_baseline": 0.85,
+      "example_description": "construction of a residential development with associated site works with provide"
+    },
+    {
+      "term": "porch",
+      "coefficient": -3.52692,
+      "pp_change_vs_baseline": 0.6,
+      "example_description": "construction of a residential development with porches and associated site works"
+    },
+    {
+      "term": "bedrooms",
+      "coefficient": 2.14706,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with 2 bedroom units and associated site works"
+    },
+    {
+      "term": "bungalow",
+      "coefficient": 1.98095,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of bungalows and associated site works"
+    },
+    {
+      "term": "bedroom",
+      "coefficient": 1.82464,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with 2 bedroom units and associated site works"
+    },
+    {
+      "term": "residential",
+      "coefficient": 1.80501,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works"
+    },
+    {
+      "term": "demolition existing single",
+      "coefficient": 1.33811,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with demolition existing single"
+    },
+    {
+      "term": "access",
+      "coefficient": 1.31329,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with access"
+    },
+    {
+      "term": "open space",
+      "coefficient": 1.16657,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with open space"
+    },
+    {
+      "term": "entrance",
+      "coefficient": 1.11413,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with entrance"
+    },
+    {
+      "term": "new roof",
+      "coefficient": 1.08346,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with new roof"
+    },
+    {
+      "term": "elevation",
+      "coefficient": -1.18285,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with elevation"
+    },
+    {
+      "term": "change",
+      "coefficient": -1.30538,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with associated site works with change"
+    },
+    {
+      "term": "garage",
+      "coefficient": -1.91298,
+      "pp_change_vs_baseline": 0.0,
+      "example_description": "construction of a residential development with a garage and associated site works"
+    },
+    {
+      "term": "existing access",
+      "coefficient": 1.48682,
+      "pp_change_vs_baseline": -0.07,
+      "example_description": "construction of a residential development with associated site works with existing access"
+    },
+    {
+      "term": "rear floor",
+      "coefficient": -1.19842,
+      "pp_change_vs_baseline": -0.07,
+      "example_description": "construction of a residential development with associated site works with rear floor"
+    },
+    {
+      "term": "layout",
+      "coefficient": -1.27148,
+      "pp_change_vs_baseline": -0.07,
+      "example_description": "construction of a residential development with associated site works with layout"
+    },
+    {
+      "term": "elevations",
+      "coefficient": -1.2018,
+      "pp_change_vs_baseline": -0.36,
+      "example_description": "construction of a residential development with associated site works with elevations"
+    },
+    {
+      "term": "east",
+      "coefficient": -1.4537,
+      "pp_change_vs_baseline": -5.36,
+      "example_description": "construction of a residential development with associated site works with east"
+    },
+    {
+      "term": "extension duration",
+      "coefficient": 1.51123,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with extension duration"
+    },
+    {
+      "term": "replacement",
+      "coefficient": -1.22278,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with replacement"
+    },
+    {
+      "term": "addition",
+      "coefficient": -1.27549,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with addition"
+    },
+    {
+      "term": "caf\u00e9",
+      "coefficient": -1.2972,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with caf\u00e9"
+    },
+    {
+      "term": "lights",
+      "coefficient": -1.30589,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with lights"
+    },
+    {
+      "term": "utility",
+      "coefficient": -1.30668,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with utility"
+    },
+    {
+      "term": "relocate",
+      "coefficient": -1.30741,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with relocate"
+    },
+    {
+      "term": "lean",
+      "coefficient": -1.34245,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with lean"
+    },
+    {
+      "term": "pitch",
+      "coefficient": -1.3527,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with pitch"
+    },
+    {
+      "term": "omission",
+      "coefficient": -1.39611,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with omission"
+    },
+    {
+      "term": "modifications",
+      "coefficient": -1.40488,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with modifications"
+    },
+    {
+      "term": "decommission",
+      "coefficient": -1.43713,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with decommission"
+    },
+    {
+      "term": "revised",
+      "coefficient": -1.54132,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with revised"
+    },
+    {
+      "term": "school",
+      "coefficient": -1.56538,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with school"
+    },
+    {
+      "term": "received",
+      "coefficient": -1.62866,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with received"
+    },
+    {
+      "term": "minor",
+      "coefficient": -1.88268,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with minor"
+    },
+    {
+      "term": "amendments",
+      "coefficient": -1.96554,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with amendments"
+    },
+    {
+      "term": "changes",
+      "coefficient": -2.00199,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with changes"
+    },
+    {
+      "term": "rear dwelling",
+      "coefficient": -2.03154,
+      "pp_change_vs_baseline": -6.43,
+      "example_description": "construction of a residential development with associated site works with rear dwelling"
+    },
+    {
+      "term": "attached garage",
+      "coefficient": -1.17854,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with attached garage"
+    },
+    {
+      "term": "information",
+      "coefficient": -1.19466,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with information"
+    },
+    {
+      "term": "cubicle",
+      "coefficient": -1.37291,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with cubicle"
+    },
+    {
+      "term": "hall",
+      "coefficient": -1.54825,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with hall"
+    },
+    {
+      "term": "boiler",
+      "coefficient": -1.5751,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with boiler"
+    },
+    {
+      "term": "centre",
+      "coefficient": -1.64341,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with centre"
+    },
+    {
+      "term": "classroom",
+      "coefficient": -1.67285,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with classroom"
+    },
+    {
+      "term": "sunroom",
+      "coefficient": -2.12552,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with associated site works with sunroom"
+    },
+    {
+      "term": "window",
+      "coefficient": -2.15093,
+      "pp_change_vs_baseline": -8.29,
+      "example_description": "construction of a residential development with window replacement and associated site works"
+    },
+    {
+      "term": "reduction",
+      "coefficient": -1.54599,
+      "pp_change_vs_baseline": -9.25,
+      "example_description": "construction of a residential development with associated site works with reduction"
+    },
+    {
+      "term": "community",
+      "coefficient": -1.96269,
+      "pp_change_vs_baseline": -9.25,
+      "example_description": "construction of a residential development with associated site works with community"
+    },
+    {
+      "term": "install new",
+      "coefficient": -1.3088,
+      "pp_change_vs_baseline": -11.64,
+      "example_description": "construction of a residential development with associated site works with install new"
+    },
+    {
+      "term": "single storey rear",
+      "coefficient": -1.56716,
+      "pp_change_vs_baseline": -11.64,
+      "example_description": "construction of a residential development with associated site works with single storey rear"
+    },
+    {
+      "term": "extension",
+      "coefficient": -1.87965,
+      "pp_change_vs_baseline": -11.64,
+      "example_description": "construction of a residential development with associated site works with extension"
+    },
+    {
+      "term": "conservatory",
+      "coefficient": -2.58566,
+      "pp_change_vs_baseline": -11.64,
+      "example_description": "construction of a residential development with associated site works with conservatory"
+    },
+    {
+      "term": "slatted",
+      "coefficient": -2.66097,
+      "pp_change_vs_baseline": -11.64,
+      "example_description": "construction of a residential development with associated site works with slatted"
+    },
+    {
+      "term": "rooflights",
+      "coefficient": -2.28262,
+      "pp_change_vs_baseline": -11.87,
+      "example_description": "construction of a residential development with rooflights and associated site works"
+    },
+    {
+      "term": "rooflight",
+      "coefficient": -2.74769,
+      "pp_change_vs_baseline": -11.87,
+      "example_description": "construction of a residential development with rooflights and associated site works"
+    },
+    {
+      "term": "new extension",
+      "coefficient": -1.18982,
+      "pp_change_vs_baseline": -13.47,
+      "example_description": "construction of a residential development with associated site works with new extension"
+    },
+    {
+      "term": "existing dormer",
+      "coefficient": -1.42228,
+      "pp_change_vs_baseline": -13.47,
+      "example_description": "construction of a residential development with associated site works with existing dormer"
+    },
+    {
+      "term": "garage conversion",
+      "coefficient": -1.56214,
+      "pp_change_vs_baseline": -13.47,
+      "example_description": "construction of a residential development with associated site works with garage conversion"
+    },
+    {
+      "term": "extensions",
+      "coefficient": -1.66599,
+      "pp_change_vs_baseline": -13.47,
+      "example_description": "construction of a residential development with associated site works with extensions"
+    },
+    {
+      "term": "elevational changes",
+      "coefficient": -1.40629,
+      "pp_change_vs_baseline": -13.86,
+      "example_description": "construction of a residential development with associated site works with elevational changes"
+    },
+    {
+      "term": "widening existing vehicular",
+      "coefficient": -1.93512,
+      "pp_change_vs_baseline": -14.85,
+      "example_description": "construction of a residential development with associated site works with widening existing vehicular"
+    },
+    {
+      "term": "significant information",
+      "coefficient": -1.228,
+      "pp_change_vs_baseline": -17.86,
+      "example_description": "construction of a residential development with associated site works with significant information"
+    },
+    {
+      "term": "information received",
+      "coefficient": -1.32369,
+      "pp_change_vs_baseline": -17.86,
+      "example_description": "construction of a residential development with associated site works with information received"
+    },
+    {
+      "term": "extensions rear",
+      "coefficient": -1.6044,
+      "pp_change_vs_baseline": -17.86,
+      "example_description": "construction of a residential development with associated site works with extensions rear"
+    },
+    {
+      "term": "existing dwelling new",
+      "coefficient": -1.35507,
+      "pp_change_vs_baseline": -18.26,
+      "example_description": "construction of a residential development with associated site works with existing dwelling new"
+    },
+    {
+      "term": "ground floor extension",
+      "coefficient": -1.39935,
+      "pp_change_vs_baseline": -18.26,
+      "example_description": "construction of a residential development with associated site works with ground floor extension"
+    },
+    {
+      "term": "extension dwelling house",
+      "coefficient": -1.89361,
+      "pp_change_vs_baseline": -18.26,
+      "example_description": "construction of a residential development with associated site works with extension dwelling house"
+    },
+    {
+      "term": "room extension",
+      "coefficient": -1.89056,
+      "pp_change_vs_baseline": -18.46,
+      "example_description": "construction of a residential development with associated site works with room extension"
+    },
+    {
+      "term": "single storey extension",
+      "coefficient": -2.75399,
+      "pp_change_vs_baseline": -22.31,
+      "example_description": "construction of a single storey extension to a residential development"
+    }
+  ],
+  "note": "Each phrase was inserted into the same standard baseline scheme and the model rescored; the pp change is phrase-in-this-context, not universal."
+}

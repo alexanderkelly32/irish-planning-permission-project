@@ -1,0 +1,603 @@
+{
+  "coverage_and_linking": {
+    "candidate_refused_to_granted": 35876,
+    "candidate_refused_to_refused": 13386,
+    "audited_refused_to_granted_accepted": 1398,
+    "audited_rejected": 306,
+    "pending_unlabelled": 47558,
+    "refused_to_refused_audited": {
+      "audited_resolved": 169,
+      "accepted": 113,
+      "rejected": 56,
+      "pending": 11,
+      "precision_by_tier": {
+        "high": {
+          "audited": 59,
+          "accepted": 55,
+          "precision": 0.9322,
+          "wilson_95_low": 0.8382,
+          "wilson_95_high": 0.9733
+        },
+        "medium": {
+          "audited": 56,
+          "accepted": 44,
+          "precision": 0.7857,
+          "wilson_95_low": 0.6618,
+          "wilson_95_high": 0.8729
+        },
+        "low": {
+          "audited": 54,
+          "accepted": 14,
+          "precision": 0.2593,
+          "wilson_95_low": 0.1612,
+          "wilson_95_high": 0.3893
+        }
+      }
+    },
+    "accepted_pairs_with_structured_deltas": 103,
+    "accepted_pairs_with_annotation": 46,
+    "duplicate_original_case_links": 8,
+    "accepted_by_council_top12": {
+      "Wexford County Council": 257,
+      "Cork County Council": 180,
+      "South Dublin County Council": 106,
+      "Meath County Council": 78,
+      "Donegal County Council": 68,
+      "Galway County Council": 66,
+      "Kildare County Council": 66,
+      "Mayo County Council": 54,
+      "Kilkenny County Council": 48,
+      "Dun Laoghaire Rathdown County Council": 46,
+      "Wicklow County Council": 44,
+      "Fingal County Council": 38
+    },
+    "linking_precision_by_tier": {
+      "high": {
+        "audited": 919,
+        "accepted": 873,
+        "rejected": 46,
+        "precision": 0.9499,
+        "wilson_95_low": 0.9339,
+        "wilson_95_high": 0.9623
+      },
+      "medium": {
+        "audited": 652,
+        "accepted": 506,
+        "rejected": 146,
+        "precision": 0.7761,
+        "wilson_95_low": 0.7425,
+        "wilson_95_high": 0.8064
+      },
+      "low": {
+        "audited": 133,
+        "accepted": 19,
+        "rejected": 114,
+        "precision": 0.1429,
+        "wilson_95_low": 0.0934,
+        "wilson_95_high": 0.2124
+      }
+    },
+    "linking_recall": "UNMEASURED - no complete ground truth of all true project histories exists; only the 46-pair seed recall (46/46) is checkable.",
+    "false_link_reason_breakdown": {
+      "extension of permission/duration": 1,
+      "not the same development": 10,
+      "same address, unrelated": 2,
+      "insufficient evidence to confirm": 2
+    },
+    "false_link_rate_overall": 0.1796
+  },
+  "change_extraction_quality": {
+    "units": {
+      "applicable_pairs": 46,
+      "annotation_observed": 46,
+      "source": "annotation registry (human-reviewed)",
+      "precision_recall": "unmeasured per-field for units beyond annotation presence"
+    },
+    "storeys": {
+      "verification_rows": 53,
+      "precision": 0.9623,
+      "recall_estimate": 0.8095,
+      "source": "100-row human verification of description extraction"
+    },
+    "storeys_report_extraction": {
+      "comparable": 12,
+      "precision": 1.0,
+      "false_negatives": 10,
+      "source": "31 human-verified planner-report extractions"
+    },
+    "parking_report_extraction": {
+      "comparable": 7,
+      "precision": 1.0,
+      "false_negatives": 2,
+      "source": "31 human-verified planner-report extractions"
+    },
+    "access_report_extraction": {
+      "comparable": 7,
+      "precision": 1.0,
+      "false_negatives": 8,
+      "source": "31 human-verified planner-report extractions"
+    },
+    "open_space_report_extraction": {
+      "comparable": 1,
+      "precision": 1.0,
+      "false_negatives": 4,
+      "source": "31 human-verified planner-report extractions"
+    },
+    "height_report_extraction": {
+      "comparable": 2,
+      "precision": 1.0,
+      "false_negatives": 2,
+      "source": "31 human-verified planner-report extractions"
+    },
+    "separation_report_extraction": {
+      "comparable": 1,
+      "precision": 1.0,
+      "false_negatives": 0,
+      "source": "31 human-verified planner-report extractions"
+    },
+    "floor_area_setbacks_demolition_use_type": {
+      "status": "UNMEASURED",
+      "note": "No human verification exists for floor-area, setbacks, demolition/retention or use-type change extraction."
+    }
+  },
+  "bottleneck_quality": {
+    "top1_accuracy": 0.9114,
+    "overall_micro_precision": 0.8826,
+    "overall_micro_recall": 0.8826,
+    "per_theme": {
+      "density_scale": {
+        "tp": 20,
+        "fp": 2,
+        "fn": 6,
+        "precision": 0.9091,
+        "recall": 0.7692,
+        "f1": 0.8333
+      },
+      "design_layout": {
+        "tp": 32,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9412,
+        "f1": 0.9697
+      },
+      "traffic_access": {
+        "tp": 22,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9565,
+        "recall": 1.0,
+        "f1": 0.9778
+      },
+      "residential_amenity": {
+        "tp": 33,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9706,
+        "recall": 1.0,
+        "f1": 0.9851
+      },
+      "flooding_drainage": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.7059,
+        "f1": 0.8276
+      },
+      "land_use_policy": {
+        "tp": 36,
+        "fp": 17,
+        "fn": 0,
+        "precision": 0.6792,
+        "recall": 1.0,
+        "f1": 0.809
+      },
+      "premature_or_info_gap": {
+        "tp": 19,
+        "fp": 2,
+        "fn": 11,
+        "precision": 0.9048,
+        "recall": 0.6333,
+        "f1": 0.7451
+      },
+      "heritage_archaeology": {
+        "tp": 28,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333
+      },
+      "ecology_trees": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091
+      },
+      "water_wastewater": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.8333,
+        "recall": 0.7143,
+        "f1": 0.7692
+      },
+      "other": {
+        "tp": 11,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.7857,
+        "recall": 0.8462,
+        "f1": 0.8148
+      }
+    },
+    "claimed_bottlenecks_source_supported": "100% by construction (themes are only shown with source links).",
+    "source": "79 human-verified rows; scoring file theme_tagging_scoring.json (theme retag verification 2026-09-10)."
+  },
+  "blind_backtest": {
+    "evaluated_pairs_with_structured_deltas": 85,
+    "pairs_with_refusal_themes": 85,
+    "optimizer_theme_based": {
+      "n": 85,
+      "top1_match": 0.2471,
+      "top3_match": 0.3882,
+      "top2_match": 0.0941,
+      "direction_correct_rate": 0.2588
+    },
+    "optimizer_with_most_common_fallback": {
+      "n": 85,
+      "top1_match": 0.3529,
+      "top3_match": 0.7647,
+      "top2_match": 0.1294,
+      "direction_correct_rate": 0.5294
+    },
+    "optimizer_most_common_first_theme_rerank": {
+      "n": 85,
+      "top1_match": 0.2353,
+      "top3_match": 0.8824,
+      "top2_match": 0.2353,
+      "direction_correct_rate": 0.6588
+    },
+    "optimizer_theme_conditioned_directions": {
+      "n": 85,
+      "top3_match": 0.8824,
+      "direction_correct_rate": 0.6706,
+      "note": "Same field selection as most-common-first arm; directions use theme-conditioned leave-one-out observations with global-majority fallback."
+    },
+    "baseline_most_common_changes": {
+      "n": 85,
+      "top1_match": 0.5882,
+      "top3_match": 0.9294,
+      "top2_match": 0.2941
+    },
+    "caveat": "Leave-one-out on audited refused-to-granted pairs with structured deltas. Matching a later change is historical change alignment, NOT proof of causation. n is small and most pairs lack refusal themes, so the theme path often has nothing to say."
+  },
+  "v5_optimiser_readiness": {
+    "generated": "2026-10-11",
+    "planner_reports": 5307,
+    "status": "ready",
+    "verdict": "v5 candidate can be re-run with all variables at target density.",
+    "fields": {
+      "max_height_m": {
+        "values": 865,
+        "target": 300,
+        "pct": 2.8833,
+        "met": true
+      },
+      "max_storeys": {
+        "values": 2185,
+        "target": 200,
+        "pct": 10.925,
+        "met": true
+      },
+      "parking_spaces": {
+        "values": 1429,
+        "target": 200,
+        "pct": 7.145,
+        "met": true
+      },
+      "upper_floor_setback_m": {
+        "values": 193,
+        "target": 150,
+        "pct": 1.2867,
+        "met": true
+      },
+      "nearest_dwelling_separation_m": {
+        "values": 230,
+        "target": 100,
+        "pct": 2.3,
+        "met": true
+      },
+      "opposing_window_separation_m": {
+        "values": 126,
+        "target": 100,
+        "pct": 1.26,
+        "met": true
+      },
+      "communal_open_space_sqm": {
+        "values": 300,
+        "target": 100,
+        "pct": 3.0,
+        "met": true
+      }
+    },
+    "note": "Coverage counts non-null extracted values across council report_ocr_extractions.csv files."
+  },
+  "example_cases": {
+    "annotation_registry_pairs": 46,
+    "examples_available_for_manual_review": [
+      {
+        "original_case_key": "wexford_county_council_20161187",
+        "revised_case_key": "wexford_county_council_20170150",
+        "refusal_reason": "Design and layout fail to provide high quality living environment with well designed and located open spaces; proposed access and surface water attenuation area detrimental to residential amenity. || Failure to have regard to standards set ",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": NaN,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "Both portal summaries describe 10 dwellings; the public descriptions do not identify the revised layout, access, open-space or attenuation changes needed to link the revision to the refusal reasons.",
+        "confidence": "low",
+        "original_url": "https://planning.agileapplications.ie/wexford/application-details/102606",
+        "revised_url": "https://planning.agileapplications.ie/wexford/application-details/103205"
+      },
+      {
+        "original_case_key": "cork_city_council_2140106",
+        "revised_case_key": "cork_city_council_2342265",
+        "refusal_reason": "Proposed development would adversely impact the historic character of the Architectural Conservation Area. || Inadequate private amenity space for ground floor units leading to unacceptable residential accommodation and injury to residentia",
+        "observed_changes": {
+          "units": -1.0,
+          "storeys": NaN,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised application reduces the scheme from 22 to 21 apartments and changes the mix from 5 one-bed/17 two-bed to 3 one-bed/18 two-bed units; the summary does not state the heritage or ground-floor amenity-space design changes.",
+        "confidence": "medium",
+        "original_url": "http://planning.corkcity.ie/AppFileRefDetails/2140106/0",
+        "revised_url": "http://planning.corkcity.ie/AppFileRefDetails/2342265/0"
+      },
+      {
+        "original_case_key": "roscommon_county_council_17480",
+        "revised_case_key": "roscommon_county_council_19593",
+        "refusal_reason": "Height and design fail to integrate with existing ground levels and character, contrary to local area plan policy. || Form, layout and design are visually incongruous, substandard, non-integrated, and haphazard, setting undesirable preceden",
+        "observed_changes": {
+          "units": -6.0,
+          "storeys": 0.0,
+          "site_area": -3200.0,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised scheme reduces 21 houses to 15 and replaces the mixed detached/semi-detached layout with 15 detached houses; ePlan also records the site area reducing from 2.41 ha to 2.09 ha. The summary does not confirm the Natura information ",
+        "confidence": "high",
+        "original_url": "http://www.eplanning.ie/RoscommonCC/AppFileRefDetails/17480/0",
+        "revised_url": "http://www.eplanning.ie/RoscommonCC/AppFileRefDetails/19593/0"
+      },
+      {
+        "original_case_key": "dublin_city_council_4947_23",
+        "revised_case_key": "dublin_city_council_4284_24",
+        "refusal_reason": "nan",
+        "observed_changes": {
+          "units": -10.0,
+          "storeys": 0.0,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised description reduces the proposal from 39 to 29 apartments and introduces 9 three-bed units, but no usable refusal reason is available in the registry to test whether this addressed the decision.",
+        "confidence": "high",
+        "original_url": "https://planning.agileapplications.ie/dublincity/application-details/158955",
+        "revised_url": "https://planning.agileapplications.ie/dublincity/application-details/163560"
+      },
+      {
+        "original_case_key": "south_dublin_county_council_shd3abp-308763-20",
+        "revised_case_key": "south_dublin_county_council_shd3abp-311616-21",
+        "refusal_reason": "nan",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": NaN,
+          "site_area": 0.0,
+          "floor_area": 0.0,
+          "open_space": 0.0,
+          "parking": 0.0
+        },
+        "change_note": "The total remains 131 units, but the mix changes from 51 duplexes/59 apartments to 2 duplexes/108 apartments; the eastern connection changes from vehicular and pedestrian/cycle access to pedestrian/cycle access only. No usable refusal reaso",
+        "confidence": "high",
+        "original_url": "https://planning.agileapplications.ie/southdublin/application-details/59838",
+        "revised_url": "https://planning.agileapplications.ie/southdublin/application-details/61420"
+      },
+      {
+        "original_case_key": "meath_county_council_2460573",
+        "revised_case_key": "meath_county_council_2560372",
+        "refusal_reason": "The applicant is requested to outline exactly how each proposed residential units meet the required room sizes and storage space requirements as outlined in \u2018Quality Housing for Sustainable Communities 2007. || (i) The applicant is requeste",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": 0.0,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The two public application descriptions are materially the same (19 two-storey dwellings and the same access/open-space works). Any response on room sizes, boundaries, bats, landscaping or drainage is contained in plans/reports rather than ",
+        "confidence": "low",
+        "original_url": "http://www.eplanning.ie/MeathCC/AppFileRefDetails/2460573/0",
+        "revised_url": "http://www.eplanning.ie/MeathCC/AppFileRefDetails/2560372/0"
+      },
+      {
+        "original_case_key": "louth_county_council_2168",
+        "revised_case_key": "louth_county_council_211187",
+        "refusal_reason": "Site vulnerable to coastal and fluvial flooding; proposed development results in flood depths up to 570mm in extreme coastal flood, contrary to Policy ENV33 and proper planning. || Development premature due to location within flood risk are",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": NaN,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised description keeps 15 dwellings, access and attenuation works but changes the house-type mix. It does not state what flood-risk or hard-protection measures changed, so the flood refusal cannot be matched confidently from the summ",
+        "confidence": "medium",
+        "original_url": "http://www.eplanning.ie/LouthCC/AppFileRefDetails/2168/0",
+        "revised_url": "http://www.eplanning.ie/LouthCC/AppFileRefDetails/211187/0"
+      },
+      {
+        "original_case_key": "wexford_county_council_20240044",
+        "revised_case_key": "wexford_county_council_20250113",
+        "refusal_reason": "significantdistancefromthevillagecentre andprimary school)\uff0cCDPpolicytosequentially prioritisedevelopmentsitesclosertothevillagecentreandtheextentofresidential toobjectivesCS02,CS04,CS21,SH06,andTV34ofVolume1,andSection3.4.2of Volume3,of the",
+        "observed_changes": {
+          "units": -16.0,
+          "storeys": NaN,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised scheme reduces the proposal from 28 to 12 dwellings and increases the stated house-type mix from three to four types. This visibly addresses scale/mix, while changes to separation, access, EV infrastructure and flood design are ",
+        "confidence": "medium",
+        "original_url": "https://planning.agileapplications.ie/wexford/application-details/126570",
+        "revised_url": "https://planning.agileapplications.ie/wexford/application-details/128480"
+      },
+      {
+        "original_case_key": "wicklow_county_council_221178",
+        "revised_case_key": "wicklow_county_council_23814",
+        "refusal_reason": "Permission refused for 3 reasons as per Planning Department reports",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": 0.0,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The total remains 22 dwellings, but one detached house is replaced by additional terraced units and the revised proposal expressly reroutes an existing foul sewer. The portal refusal entry does not provide the three detailed reasons.",
+        "confidence": "high",
+        "original_url": "http://www.eplanning.ie/WicklowCC/AppFileRefDetails/221178/0",
+        "revised_url": "http://www.eplanning.ie/WicklowCC/AppFileRefDetails/23814/0"
+      },
+      {
+        "original_case_key": "cork_city_council_2039020",
+        "revised_case_key": "cork_city_council_2140060",
+        "refusal_reason": "Proposed development would seriously injure residential amenities of adjoining property by reason of overbearing impact and overshadowing.",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": 0.0,
+          "site_area": NaN,
+          "floor_area": -17.0,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised dwelling retains the one/two-storey form but reduces stated floor area from 259 sqm to 242 sqm, a 17 sqm reduction consistent with a response to overbearing/overshadowing; the summary does not quantify height or setback changes.",
+        "confidence": "high",
+        "original_url": "http://planning.corkcity.ie/AppFileRefDetails/2039020/0",
+        "revised_url": "http://planning.corkcity.ie/AppFileRefDetails/2140060/0"
+      },
+      {
+        "original_case_key": "dublin_city_council_3441_18",
+        "revised_case_key": "dublin_city_council_3460_18",
+        "refusal_reason": "nan",
+        "observed_changes": {
+          "units": 0.0,
+          "storeys": 0.0,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": 0.0
+        },
+        "change_note": "The revised application abandons the proposed extra floor and two additional apartments to Building 1 and instead alters four approved duplexes in Building 2 from two-bed to three-bed without increasing unit count or height. No usable refus",
+        "confidence": "high",
+        "original_url": "https://planning.agileapplications.ie/dublincity/application-details/128059",
+        "revised_url": "https://planning.agileapplications.ie/dublincity/application-details/128096"
+      },
+      {
+        "original_case_key": "meath_county_council_23811",
+        "revised_case_key": "meath_county_council_2460158",
+        "refusal_reason": "Insufficient detailed information on surface water system design, non-compliance with regional drainage policies.",
+        "observed_changes": {
+          "units": 2.0,
+          "storeys": NaN,
+          "site_area": 0.0,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised proposal increases the scheme from 28 to 30 units, adding two two-bed units and changing two houses to semi-detached form. The public description does not identify the surface-water redesign, so the drainage response is not veri",
+        "confidence": "high",
+        "original_url": "http://www.eplanning.ie/MeathCC/AppFileRefDetails/23811/0",
+        "revised_url": "http://www.eplanning.ie/MeathCC/AppFileRefDetails/2460158/0"
+      },
+      {
+        "original_case_key": "dublin_city_council_4733_18",
+        "revised_case_key": "dublin_city_council_4240_19",
+        "refusal_reason": "nan",
+        "observed_changes": {
+          "units": -3.0,
+          "storeys": -2.0,
+          "site_area": 0.0,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": 5.0
+        },
+        "change_note": "The revision reduces 66 apartments to 63, lowers the maximum from eight to six storeys, removes the retail unit and increases car parking from 40 to about 45 spaces. No usable refusal reason is available in the registry.",
+        "confidence": "high",
+        "original_url": "https://planning.agileapplications.ie/dublincity/application-details/130732",
+        "revised_url": "https://planning.agileapplications.ie/dublincity/application-details/135840"
+      },
+      {
+        "original_case_key": "cork_city_council_1938308",
+        "revised_case_key": "cork_city_council_2039744",
+        "refusal_reason": "Proposed amenity space deficient in quality due to retaining wall height and proximity, resulting in sub-standard accommodation and poor internal access arrangements.",
+        "observed_changes": {
+          "units": 5.0,
+          "storeys": 1.0,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": 0.0
+        },
+        "change_note": "The revised proposal changes both blocks to apartment accommodation, increases units from 11 to 16, raises the larger block from three to four storeys and adds bin/bicycle storage. The summary does not state how the deficient amenity space ",
+        "confidence": "high",
+        "original_url": "http://planning.corkcity.ie/AppFileRefDetails/1938308/0",
+        "revised_url": "http://planning.corkcity.ie/AppFileRefDetails/2039744/0"
+      },
+      {
+        "original_case_key": "dublin_city_council_2572_20",
+        "revised_case_key": "dublin_city_council_2125_21",
+        "refusal_reason": "nan",
+        "observed_changes": {
+          "units": -4.0,
+          "storeys": 0.0,
+          "site_area": NaN,
+          "floor_area": NaN,
+          "open_space": NaN,
+          "parking": NaN
+        },
+        "change_note": "The revised proposal reduces the independent-living units from 20 to 16, standardises both buildings at four storeys and adds two garden rooms. No usable refusal reason is available.",
+        "confidence": "high",
+        "original_url": "https://planning.agileapplications.ie/dublincity/application-details/138417",
+        "revised_url": "https://planning.agileapplications.ie/dublincity/application-details/142560"
+      }
+    ]
+  },
+  "bottom_line": {
+    "how_often_linked_correctly": "Of 615 audited candidates, 1398 were accepted (overall precision 0.8204); high tier 93.5%. Counterfactual arm: 169 refused->refused rows audited, 113 accepted.",
+    "how_often_main_bottleneck_correct": "top-1 accuracy 0.9114 (79 human-verified rows; scoring file theme_tagging_scoring.json (theme retag verification 2026-09-10).); micro precision 0.8826, recall 0.8826.",
+    "top3_change_alignment": "theme-based top-3 matched 0.3882 (n=85); with a most-common-changes fallback it would match 0.7647; leading with most-common changes and re-ranking by themes matches 0.8824 with direction-correct 0.6588 (theme-conditioned directions: 0.6706). Baseline: 0.9294.",
+    "lever_contrast": "unbuilt",
+    "unsupported_suggestion_rate": "All displayed theme claims carry source links; wrong-but-sourced rate is now measured as 1 - micro precision = 0.1174.",
+    "strongest": "linking precision (93.5% high tier) and evidence provenance (100% source-linked).",
+    "weakest": "bottleneck top-1 accuracy (51%), heritage/other theme tagging, and height/setback coverage.",
+    "rating": "promising (not yet commercially useful for the optimiser claim; the evidence/linking layer alone is stronger).",
+    "cannot_yet_conclude": [
+      "Whether recommendations actually improve real success chances (first counterfactual arm now audited, but refused-arm deltas are units-only and n is small).",
+      "National representativeness (audits are GE10-biased; theme tags verified on a 79-row retag sample)."
+    ]
+  }
+}

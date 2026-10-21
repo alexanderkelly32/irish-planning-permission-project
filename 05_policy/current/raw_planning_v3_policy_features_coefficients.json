@@ -1,0 +1,24 @@
+{
+  "policy_coefficients": {
+    "num__log_plan_unique_codes": -0.3618380633775655,
+    "num__log_plan_mentions": 0.2778312668579748,
+    "num__policy_plan_covered": 0.04461413028944834,
+    "num__plan_theme_housing": 0.051295675285823426,
+    "num__plan_theme_design": 0.506181568102766,
+    "num__plan_theme_zoning": 0.38916352028724654,
+    "num__plan_theme_rural": -0.21446067610981723,
+    "num__plan_theme_transport": 0.012625781131593215,
+    "num__plan_theme_economic": -0.16707056114000685,
+    "num__plan_theme_environment": -0.361530688452112,
+    "num__plan_theme_flood_water": 0.030830776290125816,
+    "num__plan_theme_heritage": 0.05064116656504431,
+    "num__plan_theme_community": 0.11781915618115489,
+    "num__plan_theme_core": -0.1728035766049701,
+    "num__plan_theme_other": 0.03697393567980067
+  },
+  "ge10_bootstrap_ci": [
+    0.6651041790945352,
+    0.8540452404034216
+  ],
+  "holdout_auc": 0.8002586174875566
+}

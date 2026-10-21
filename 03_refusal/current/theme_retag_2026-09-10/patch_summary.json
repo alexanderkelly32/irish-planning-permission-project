@@ -1,0 +1,10 @@
+{
+  "patch_requests": 3,
+  "part": 2,
+  "failed_rows": [
+    309,
+    471,
+    900
+  ],
+  "note": "Run the DeepSeek runner with --parts 2 then merge again."
+}

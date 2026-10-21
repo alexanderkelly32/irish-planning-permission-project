@@ -1,0 +1,38 @@
+# Production drift monitoring thresholds (brief section 16.8).
+# Pre-declared BEFORE deployment; thresholds are reviewed, not auto-refit to
+# noise. Measured on the rolling-origin evidence (silver/fi_model_rolling_origins.json).
+
+schema_version: 1
+committed: 2026-09-27
+
+model: fi_requested_submission_time_v1
+
+evidence_baseline:
+  rolling_origins_2018_2022:
+    auc_range: [0.6024, 0.7461]
+    mean_overprediction_pp: "observed +5 to +15 percentage points (model over-forecasts after prior-year calibration)"
+    calibration_slopes: "flat (0.01-0.02) - recalibrate per vintage"
+
+alerts:
+  fi_model:
+    auc_below_0.62_at_origin:
+      severity: high
+      rule: "rolling-origin AUC for the latest origin year < 0.62"
+    overprediction_pp_gt_15:
+      severity: high
+      rule: "mean predicted - observed prevalence > 15 percentage points for a vintage"
+    prevalence_shift_gt_10pp:
+      severity: medium
+      rule: "vintage FI prevalence changes by more than 10 percentage points vs previous origin year"
+    calibration_slope_outside_0.5_2.0:
+      severity: medium
+      rule: "calibration slope on latest vintage outside [0.5, 2.0]"
+
+review_policy:
+  cadence: "quarterly where sample size permits; formal investigation required for material calibration deterioration, source-schema changes or policy-regime changes"
+  actions:
+    - "version and deprecate models rather than overwriting"
+    - "display model version, training cutoff and last validation date in every report"
+    - "mark model monitoring_due if a scheduled review is missed"
+  forbidden:
+    - "automatic refitting to noise between reviews"

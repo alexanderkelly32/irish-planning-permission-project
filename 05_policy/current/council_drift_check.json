@@ -1,0 +1,208 @@
+{
+  "council_gaps_top": [
+    {
+      "council": "Fingal County Council",
+      "n": 6,
+      "refusal_rate": 0.6667,
+      "rate_ci": [
+        0.3,
+        0.9032
+      ],
+      "model_mean_risk": 0.0376,
+      "gap_pp": 62.9,
+      "historical_ge10_rate": 0.211,
+      "historical_ge10_n": 109
+    },
+    {
+      "council": "Kerry County Council",
+      "n": 7,
+      "refusal_rate": 0.5714,
+      "rate_ci": [
+        0.2505,
+        0.8418
+      ],
+      "model_mean_risk": 0.1398,
+      "gap_pp": 43.2,
+      "historical_ge10_rate": 0.15,
+      "historical_ge10_n": 80
+    },
+    {
+      "council": "Galway County Council",
+      "n": 7,
+      "refusal_rate": 0.7143,
+      "rate_ci": [
+        0.3589,
+        0.9178
+      ],
+      "model_mean_risk": 0.3325,
+      "gap_pp": 38.2,
+      "historical_ge10_rate": 0.65,
+      "historical_ge10_n": 40
+    },
+    {
+      "council": "Louth County Council",
+      "n": 5,
+      "refusal_rate": 0.4,
+      "rate_ci": [
+        0.1176,
+        0.7693
+      ],
+      "model_mean_risk": 0.2005,
+      "gap_pp": 20.0,
+      "historical_ge10_rate": 0.0886,
+      "historical_ge10_n": 158
+    },
+    {
+      "council": "Roscommon County Council",
+      "n": 8,
+      "refusal_rate": 0.375,
+      "rate_ci": [
+        0.1368,
+        0.6943
+      ],
+      "model_mean_risk": 0.1974,
+      "gap_pp": 17.8,
+      "historical_ge10_rate": 0.2778,
+      "historical_ge10_n": 18
+    },
+    {
+      "council": "Galway City Council",
+      "n": 4,
+      "refusal_rate": 0.25,
+      "rate_ci": [
+        0.0456,
+        0.6994
+      ],
+      "model_mean_risk": 0.1492,
+      "gap_pp": 10.1,
+      "historical_ge10_rate": 0.1667,
+      "historical_ge10_n": 36
+    },
+    {
+      "council": "Limerick County Council",
+      "n": 20,
+      "refusal_rate": 0.2,
+      "rate_ci": [
+        0.0807,
+        0.416
+      ],
+      "model_mean_risk": 0.1078,
+      "gap_pp": 9.2,
+      "historical_ge10_rate": 0.0845,
+      "historical_ge10_n": 142
+    },
+    {
+      "council": "Kildare County Council",
+      "n": 38,
+      "refusal_rate": 0.2368,
+      "rate_ci": [
+        0.1299,
+        0.3921
+      ],
+      "model_mean_risk": 0.1671,
+      "gap_pp": 7.0,
+      "historical_ge10_rate": 0.2822,
+      "historical_ge10_n": 241
+    },
+    {
+      "council": "Dun Laoghaire Rathdown County Council",
+      "n": 5,
+      "refusal_rate": 0.4,
+      "rate_ci": [
+        0.1176,
+        0.7693
+      ],
+      "model_mean_risk": 0.3668,
+      "gap_pp": 3.3,
+      "historical_ge10_rate": 0.3647,
+      "historical_ge10_n": 170
+    },
+    {
+      "council": "Westmeath County Council",
+      "n": 19,
+      "refusal_rate": 0.2105,
+      "rate_ci": [
+        0.0851,
+        0.4333
+      ],
+      "model_mean_risk": 0.182,
+      "gap_pp": 2.8,
+      "historical_ge10_rate": 0.125,
+      "historical_ge10_n": 64
+    },
+    {
+      "council": "Laois County Council",
+      "n": 26,
+      "refusal_rate": 0.1154,
+      "rate_ci": [
+        0.04,
+        0.2898
+      ],
+      "model_mean_risk": 0.1022,
+      "gap_pp": 1.3,
+      "historical_ge10_rate": 0.0341,
+      "historical_ge10_n": 88
+    },
+    {
+      "council": "Wexford County Council",
+      "n": 32,
+      "refusal_rate": 0.2812,
+      "rate_ci": [
+        0.1556,
+        0.4537
+      ],
+      "model_mean_risk": 0.2791,
+      "gap_pp": 0.2,
+      "historical_ge10_rate": 0.3049,
+      "historical_ge10_n": 223
+    },
+    {
+      "council": "Cork County Council",
+      "n": 9,
+      "refusal_rate": 1.0,
+      "rate_ci": [
+        0.7008,
+        1.0
+      ],
+      "model_mean_risk": 1.0,
+      "gap_pp": 0.0,
+      "historical_ge10_rate": 1.0,
+      "historical_ge10_n": 218
+    },
+    {
+      "council": "Donegal County Council",
+      "n": 25,
+      "refusal_rate": 0.08,
+      "rate_ci": [
+        0.0222,
+        0.2497
+      ],
+      "model_mean_risk": 0.0818,
+      "gap_pp": -0.2,
+      "historical_ge10_rate": 0.0968,
+      "historical_ge10_n": 62
+    }
+  ],
+  "fingal": {
+    "historical_ge10": {
+      "rate": 0.211,
+      "n": 109,
+      "ci": [
+        0.1449,
+        0.2968
+      ]
+    },
+    "recent_ge10": {
+      "rate": 0.6667,
+      "n": 6,
+      "ci": [
+        0.3,
+        0.9032
+      ]
+    },
+    "model_mean_risk": 0.0376,
+    "cis_overlap": false,
+    "verdict": "drift - recent rate exceeds historical confidence interval",
+    "suggested_logit_shift": null
+  }
+}

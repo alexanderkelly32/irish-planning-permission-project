@@ -1,0 +1,89 @@
+{
+  "full_model_ge10": {
+    "auc": 0.7823,
+    "ap": 0.5298
+  },
+  "thresholds": {
+    "cleared_granted_framing": {
+      "n": 47,
+      "raw_score_cutoff": 0.1427,
+      "refusals": 0
+    },
+    "flagged_refusal_framing": {
+      "n": 47,
+      "raw_score_cutoff": 0.7809,
+      "refusals": 30
+    },
+    "calibrated_risk_bands": {
+      "low_max": 0.03761153054221004,
+      "medium_max": 0.11407766990291263
+    }
+  },
+  "profile": {
+    "refused": {
+      "n": 88,
+      "median_units": 22.0,
+      "median_density_ha": 16.5,
+      "median_site_ha": 1.33,
+      "apartment_wording_share": 0.057,
+      "extension_wording_share": 0.409,
+      "flood_hit_share": 0.08,
+      "comp_top5_rate_median": 0.2,
+      "desc_words_median": 81.5,
+      "top_councils": {
+        "Dublin City Council": 15,
+        "Wexford County Council": 9,
+        "Kildare County Council": 9,
+        "Cork County Council": 9,
+        "Meath County Council": 5
+      }
+    },
+    "granted": {
+      "n": 376,
+      "median_units": 31.0,
+      "median_density_ha": 21.0,
+      "median_site_ha": 1.48,
+      "apartment_wording_share": 0.08,
+      "extension_wording_share": 0.449,
+      "flood_hit_share": 0.045,
+      "comp_top5_rate_median": 0.2,
+      "desc_words_median": 118.5,
+      "top_councils": {
+        "Meath County Council": 45,
+        "Dublin City Council": 43,
+        "South Dublin County Council": 34,
+        "Kildare County Council": 29,
+        "Laois County Council": 23
+      }
+    }
+  },
+  "ge10_specialist_structured_only": {
+    "train_n": 3454,
+    "auc": 0.6727,
+    "ap": 0.4522
+  },
+  "ge10_specialist_full": {
+    "train_n": 3454,
+    "auc": 0.6845,
+    "ap": 0.4694
+  },
+  "paired_specialist_full_minus_full_model": {
+    "auc_95ci": [
+      -0.1672,
+      -0.0973,
+      -0.0285
+    ],
+    "ap_95ci": [
+      -0.1412,
+      -0.06,
+      0.0202
+    ]
+  },
+  "paired_specialist_struct_minus_full_model": {
+    "auc_95ci": [
+      -0.1809,
+      -0.1086,
+      -0.0405
+    ]
+  }
+}

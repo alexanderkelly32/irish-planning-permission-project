@@ -1,0 +1,86 @@
+{
+  "protocol": "80/20 regime split",
+  "cutoff": "2024-01-01",
+  "rationale": "test 2024+2025 sits fully inside the modern regime (post-NPF 2018 guidelines, post-2022 development-plan adoption wave); 2026 excluded (decisions still landing)",
+  "train_n": 183439,
+  "test_n": 35713,
+  "test_years": [
+    2024,
+    2025
+  ],
+  "test_refusal_rate": 0.1196,
+  "V3SAME": {
+    "n": 35713,
+    "roc_auc": 0.7867,
+    "roc_auc_bootstrap95": [
+      0.78,
+      0.7937
+    ],
+    "average_precision": 0.4041,
+    "brier": 0.1399,
+    "log_loss": 0.4357,
+    "by_year": {
+      "2024": {
+        "n": 20492,
+        "refusal_rate": 0.1226,
+        "roc_auc": 0.7804,
+        "average_precision": 0.398
+      },
+      "2025": {
+        "n": 15221,
+        "refusal_rate": 0.1156,
+        "roc_auc": 0.7952,
+        "average_precision": 0.4134
+      }
+    },
+    "ge10_subset": {
+      "n": 464,
+      "refusal_rate": 0.1897,
+      "roc_auc": 0.7585,
+      "roc_auc_bootstrap95": [
+        0.6971,
+        0.8162
+      ],
+      "average_precision": 0.5279
+    }
+  },
+  "E8020": {
+    "n": 35713,
+    "roc_auc": 0.7906,
+    "roc_auc_bootstrap95": [
+      0.7842,
+      0.798
+    ],
+    "average_precision": 0.4074,
+    "brier": 0.1387,
+    "log_loss": 0.4328,
+    "by_year": {
+      "2024": {
+        "n": 20492,
+        "refusal_rate": 0.1226,
+        "roc_auc": 0.7856,
+        "average_precision": 0.405
+      },
+      "2025": {
+        "n": 15221,
+        "refusal_rate": 0.1156,
+        "roc_auc": 0.7973,
+        "average_precision": 0.4116
+      }
+    },
+    "ge10_subset": {
+      "n": 464,
+      "refusal_rate": 0.1897,
+      "roc_auc": 0.7864,
+      "roc_auc_bootstrap95": [
+        0.7319,
+        0.8362
+      ],
+      "average_precision": 0.5439
+    }
+  },
+  "frozen_v3_2025_reference": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  }
+}

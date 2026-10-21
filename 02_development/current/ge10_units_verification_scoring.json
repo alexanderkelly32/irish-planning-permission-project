@@ -1,0 +1,165 @@
+{
+  "rows": 101,
+  "checked": 84,
+  "overall_precision": 0.7857,
+  "by_authority": {
+    "Cork County Council": {
+      "n": 19,
+      "precision": 0.7895,
+      "mean_abs_pct_error": 13.8
+    },
+    "Dublin City Council": {
+      "n": 8,
+      "precision": 0.875,
+      "mean_abs_pct_error": 6.7
+    },
+    "Dun Laoghaire Rathdown County Council": {
+      "n": 9,
+      "precision": 1.0,
+      "mean_abs_pct_error": 0.0
+    },
+    "Fingal County Council": {
+      "n": 16,
+      "precision": 0.9375,
+      "mean_abs_pct_error": 2.7
+    },
+    "South Dublin County Council": {
+      "n": 22,
+      "precision": 0.6364,
+      "mean_abs_pct_error": 183.8
+    },
+    "Wexford County Council": {
+      "n": 10,
+      "precision": 0.6,
+      "mean_abs_pct_error": 16.8
+    }
+  },
+  "mismatches": [
+    {
+      "case_key": "south_dublin_county_council_sd058_0004",
+      "authority": "South Dublin County Council",
+      "extracted": 31.0,
+      "verified": 46.0,
+      "error_pct": 32.6
+    },
+    {
+      "case_key": "south_dublin_county_council_sd03a_0601",
+      "authority": "South Dublin County Council",
+      "extracted": 20.0,
+      "verified": 24.0,
+      "error_pct": 16.7
+    },
+    {
+      "case_key": "south_dublin_county_council_sd05a_0870",
+      "authority": "South Dublin County Council",
+      "extracted": 27.0,
+      "verified": 51.0,
+      "error_pct": 47.1
+    },
+    {
+      "case_key": "south_dublin_county_council_lrd24a_0008",
+      "authority": "South Dublin County Council",
+      "extracted": 252.0,
+      "verified": 197.0,
+      "error_pct": -27.9
+    },
+    {
+      "case_key": "fingal_county_council_f17a_0666_",
+      "authority": "Fingal County Council",
+      "extracted": 54.0,
+      "verified": 96.0,
+      "error_pct": 43.8
+    },
+    {
+      "case_key": "cork_county_council_164961",
+      "authority": "Cork County Council",
+      "extracted": 32.0,
+      "verified": 65.0,
+      "error_pct": 50.8
+    },
+    {
+      "case_key": "south_dublin_county_council_sd08a_0305",
+      "authority": "South Dublin County Council",
+      "extracted": 99.0,
+      "verified": 3.0,
+      "error_pct": -3200.0
+    },
+    {
+      "case_key": "south_dublin_county_council_sd08a_0581",
+      "authority": "South Dublin County Council",
+      "extracted": 16.0,
+      "verified": 21.0,
+      "error_pct": 23.8
+    },
+    {
+      "case_key": "south_dublin_county_council_sd21a_0038",
+      "authority": "South Dublin County Council",
+      "extracted": 382.0,
+      "verified": 52.0,
+      "error_pct": -634.6
+    },
+    {
+      "case_key": "south_dublin_county_council_sd04a_0944",
+      "authority": "South Dublin County Council",
+      "extracted": 33.0,
+      "verified": 75.0,
+      "error_pct": 56.0
+    },
+    {
+      "case_key": "cork_county_council_0850009",
+      "authority": "Cork County Council",
+      "extracted": 12.0,
+      "verified": 6.0,
+      "error_pct": -100.0
+    },
+    {
+      "case_key": "cork_county_council_057844",
+      "authority": "Cork County Council",
+      "extracted": 12.0,
+      "verified": 130.0,
+      "error_pct": 90.8
+    },
+    {
+      "case_key": "cork_county_council_216052",
+      "authority": "Cork County Council",
+      "extracted": 12.0,
+      "verified": 10.0,
+      "error_pct": -20.0
+    },
+    {
+      "case_key": "dublin_city_council_2319_18",
+      "authority": "Dublin City Council",
+      "extracted": 73.0,
+      "verified": 144.0,
+      "error_pct": 49.3
+    },
+    {
+      "case_key": "wexford_county_council_20170787",
+      "authority": "Wexford County Council",
+      "extracted": 25.0,
+      "verified": 18.0,
+      "error_pct": -38.9
+    },
+    {
+      "case_key": "wexford_county_council_20181772",
+      "authority": "Wexford County Council",
+      "extracted": 66.0,
+      "verified": 83.0,
+      "error_pct": 20.5
+    },
+    {
+      "case_key": "wexford_county_council_20190160",
+      "authority": "Wexford County Council",
+      "extracted": 16.0,
+      "verified": 53.0,
+      "error_pct": 69.8
+    },
+    {
+      "case_key": "wexford_county_council_20181148",
+      "authority": "Wexford County Council",
+      "extracted": 79.0,
+      "verified": 57.0,
+      "error_pct": -38.6
+    }
+  ]
+}

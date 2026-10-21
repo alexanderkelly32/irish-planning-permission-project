@@ -1,0 +1,16 @@
+{
+  "rows_plotted": 130,
+  "unique_site_coordinates": 118,
+  "category_counts": {
+    "likely_data_centre": 103,
+    "data_centre_related_application": 21,
+    "promote_primary_data_centre": 2,
+    "promote_small_specialised_data_centre": 2,
+    "promote_related_application": 2
+  },
+  "age_bucket_counts": {
+    "mid": 40,
+    "older": 70,
+    "newer": 20
+  }
+}

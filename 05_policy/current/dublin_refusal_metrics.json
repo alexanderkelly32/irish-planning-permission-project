@@ -1,0 +1,40 @@
+{
+  "train_rows": 1608,
+  "holdout_rows": 402,
+  "train_start_date": "1993-08-05 00:00:00+00:00",
+  "train_end_date": "2022-08-02 00:00:00+00:00",
+  "holdout_start_date": "2022-08-04 00:00:00+00:00",
+  "holdout_end_date": "2026-01-16 00:00:00+00:00",
+  "baseline_holdout": {
+    "roc_auc": 0.6203337725076855,
+    "pr_auc": 0.4345173586229466,
+    "brier": 0.24665737905593974
+  },
+  "policy_holdout": {
+    "roc_auc": 0.6784008563899868,
+    "pr_auc": 0.5165229568003105,
+    "brier": 0.24270762135001314
+  },
+  "policy_holdout_by_authority": {
+    "Dublin City Council": {
+      "roc_auc": 0.651256044344852,
+      "pr_auc": 0.41105333349631257,
+      "brier": 0.21880642426484972
+    },
+    "Dun Laoghaire Rathdown County Council": {
+      "roc_auc": 0.5428571428571428,
+      "pr_auc": 0.8495191496522376,
+      "brier": 0.18879088025180787
+    },
+    "Fingal County Council": {
+      "roc_auc": 0.2583333333333333,
+      "pr_auc": 0.3552529496647144,
+      "brier": 0.37098254649428736
+    },
+    "South Dublin County Council": {
+      "roc_auc": 0.5924489795918367,
+      "pr_auc": 0.2572488673158868,
+      "brier": 0.28361368075209725
+    }
+  }
+}

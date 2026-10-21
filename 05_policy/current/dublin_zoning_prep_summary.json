@@ -1,0 +1,22 @@
+{
+  "case_points_path": "05_policy\\current\\dublin_case_points_from_base.csv",
+  "zoning_layers": [
+    "05_policy\\documents\\zoning\\normalized\\dublin_city_council__2022_2028.geojson",
+    "05_policy\\documents\\zoning\\normalized\\dublin_city_council__2011_2017_reference.geojson",
+    "05_policy\\documents\\zoning\\normalized\\dun_laoghaire_rathdown_county_council__2022_2028.geojson",
+    "05_policy\\documents\\zoning\\normalized\\dun_laoghaire_rathdown_county_council__2016_2022.geojson",
+    "05_policy\\documents\\zoning\\normalized\\dun_laoghaire_rathdown_county_council__2010_2016.geojson",
+    "05_policy\\documents\\zoning\\normalized\\dun_laoghaire_rathdown_county_council__2004_2010.geojson",
+    "05_policy\\documents\\zoning\\normalized\\south_dublin_county_council__2022_2028.geojson",
+    "05_policy\\documents\\zoning\\normalized\\fingal_county_council__2017_2023.geojson",
+    "05_policy\\documents\\zoning\\normalized\\fingal_county_council__2023_2029.geojson"
+  ],
+  "manifest_path": "05_policy\\current\\dublin_zoning_layers_manifest.csv",
+  "manual_layer_dirs": [
+    "05_policy\\documents\\zoning\\raw\\dublin_city_council\\2016_2022",
+    "05_policy\\documents\\zoning\\raw\\south_dublin_county_council\\2016_2022",
+    "05_policy\\documents\\zoning\\raw\\south_dublin_county_council\\2010_2016",
+    "05_policy\\documents\\zoning\\raw\\south_dublin_county_council\\2004_2010",
+    "05_policy\\documents\\zoning\\raw\\fingal_county_council\\2011_2017"
+  ]
+}

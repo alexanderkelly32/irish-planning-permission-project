@@ -1,0 +1,24 @@
+{
+  "annotated_pair_count": 46,
+  "intervention_evidence_pair_count": 19,
+  "context_only_pair_count": 27,
+  "addressed_refusal_theme_counts": {
+    "unclear": 27,
+    "partial": 17,
+    "yes": 2
+  },
+  "confidence_counts": {
+    "high": 33,
+    "medium": 8,
+    "low": 5
+  },
+  "observed_change_category_counts": {
+    "layout_design": 43,
+    "access_parking": 21,
+    "open_space_amenity": 12,
+    "drainage_environment": 7,
+    "policy_land_use": 8
+  },
+  "status": "sensitivity_evidence_only_not_causal",
+  "annotation_input": "02_development\\current\\revision_evidence_annotation_registry_with_links_fixed.csv"
+}

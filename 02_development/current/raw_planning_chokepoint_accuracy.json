@@ -1,0 +1,94 @@
+{
+  "generated": "2026-09-17",
+  "ground_truth_pairs": 207,
+  "evaluated": 207,
+  "diagnosis_retrieval": {
+    "top1_theme_match": 0.5459,
+    "top3_theme_match": 0.7874,
+    "pairs_with_no_comparable_found": 0
+  },
+  "dumb_prior_baseline": {
+    "top1": 0.4155,
+    "top3": 0.8502,
+    "prior_themes": [
+      "design_layout",
+      "land_use_policy",
+      "residential_amenity",
+      "traffic_access",
+      "density_scale"
+    ]
+  },
+  "examples": [
+    {
+      "original_case_key": "wexford_county_council__20161187",
+      "actual_themes": [
+        "design_layout",
+        "residential_amenity"
+      ],
+      "predicted_top3": [
+        "traffic_access"
+      ]
+    },
+    {
+      "original_case_key": "kildare_county_council__211619",
+      "actual_themes": [
+        "land_use_policy"
+      ],
+      "predicted_top3": [
+        "premature_or_info_gap",
+        "other",
+        "traffic_access"
+      ]
+    },
+    {
+      "original_case_key": "meath_county_council__2460151",
+      "actual_themes": [
+        "land_use_policy",
+        "density_scale"
+      ],
+      "predicted_top3": [
+        "land_use_policy",
+        "density_scale",
+        "traffic_access"
+      ]
+    },
+    {
+      "original_case_key": "limerick_county_council__2560225",
+      "actual_themes": [
+        "design_layout",
+        "density_scale",
+        "residential_amenity",
+        "land_use_policy"
+      ],
+      "predicted_top3": [
+        "residential_amenity",
+        "design_layout",
+        "density_scale"
+      ]
+    },
+    {
+      "original_case_key": "wicklow_county_council__23170",
+      "actual_themes": [
+        "density_scale",
+        "design_layout"
+      ],
+      "predicted_top3": [
+        "design_layout",
+        "density_scale",
+        "residential_amenity"
+      ]
+    },
+    {
+      "original_case_key": "tipperary_county_council__21310",
+      "actual_themes": [
+        "residential_amenity",
+        "traffic_access"
+      ],
+      "predicted_top3": [
+        "land_use_policy",
+        "traffic_access"
+      ]
+    }
+  ],
+  "caveat": "Ground truth is the ~62 audited pairs whose originals happen to be among the 1,411 theme-tagged refusal cases. The binding constraint is theme COVERAGE on the national corpus, not the scoring method: tagging more originals is the fix, not a smarter model. Top-1 means the highest-weighted predicted theme is among the themes the planner actually cited."
+}

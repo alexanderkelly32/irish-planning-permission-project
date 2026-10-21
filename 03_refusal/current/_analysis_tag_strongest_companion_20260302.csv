@@ -1,0 +1,12 @@
+tag,tag_case_count,strongest_companion,pair_count,pct_of_tag_with_companion
+land_use_policy,418,residential_amenity,299,0.715
+residential_amenity,403,land_use_policy,299,0.742
+traffic_access,386,residential_amenity,245,0.635
+design_layout,368,residential_amenity,299,0.812
+density_scale,259,land_use_policy,217,0.838
+premature_or_info_gap,217,land_use_policy,121,0.558
+other,188,residential_amenity,95,0.505
+flooding_drainage,168,land_use_policy,109,0.649
+water_wastewater,128,traffic_access,80,0.625
+ecology_trees,106,land_use_policy,74,0.698
+heritage_archaeology,100,residential_amenity,81,0.81

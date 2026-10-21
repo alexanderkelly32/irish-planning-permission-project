@@ -1,0 +1,93 @@
+{
+  "audit": {
+    "holdout_refused": 1760,
+    "appealed": 154,
+    "appeal_overturned_refusal": 44,
+    "appeal_overturn_rate_of_appealed": 0.2857,
+    "appeal_overturn_share_of_all_refused": 0.025,
+    "refused_appeal_status_counts": {
+      "": 1691,
+      "Granted                                           ": 50,
+      "Appeal decided                                                                  ": 9,
+      "Refused": 5,
+      "Conditional": 3,
+      "Application under appeal                                                        ": 2
+    },
+    "refused_appeal_decision_counts": {
+      "": 1479,
+      "n/a": 118,
+      "REFUSED": 66,
+      "CONDITIONAL": 24,
+      "Refuse Permission                                 ": 16,
+      "REFUSE PERMISSION": 15,
+      "Refuse Permission": 6,
+      "GRANT PERMISSION": 6
+    },
+    "refused_application_status_counts": {
+      "APPLICATION FINALISED": 1084,
+      "APPEALED": 104,
+      "Application Closed": 96,
+      "Decision Issued                                   ": 77,
+      "n/a": 66,
+      "Decision Notice Issued": 64,
+      "Decision Made": 47,
+      "Decision Issued": 43
+    }
+  },
+  "confusion_table": [
+    {
+      "bucket": "10-14",
+      "n_refused": 4,
+      "n_granted": 21,
+      "refusal_rate": 0.16,
+      "confusion_rate": 0.3452,
+      "confused_median_gap_pp": 7.2,
+      "confused_p90_gap_pp": 27.9
+    },
+    {
+      "bucket": "15-19",
+      "n_refused": 5,
+      "n_granted": 18,
+      "refusal_rate": 0.217,
+      "confusion_rate": 0.3111,
+      "confused_median_gap_pp": 11.0,
+      "confused_p90_gap_pp": 28.7
+    },
+    {
+      "bucket": "20-24",
+      "n_refused": 4,
+      "n_granted": 13,
+      "refusal_rate": 0.235,
+      "confusion_rate": 0.2885,
+      "confused_median_gap_pp": 12.4,
+      "confused_p90_gap_pp": 28.5
+    },
+    {
+      "bucket": "25-29",
+      "n_refused": 4,
+      "n_granted": 7,
+      "refusal_rate": 0.364,
+      "confusion_rate": 0.0714,
+      "confused_median_gap_pp": 14.3,
+      "confused_p90_gap_pp": 15.3
+    },
+    {
+      "bucket": "30-39",
+      "n_refused": 5,
+      "n_granted": 11,
+      "refusal_rate": 0.312,
+      "confusion_rate": 0.4545,
+      "confused_median_gap_pp": 8.7,
+      "confused_p90_gap_pp": 24.7
+    },
+    {
+      "bucket": "60-99",
+      "n_refused": 3,
+      "n_granted": 28,
+      "refusal_rate": 0.097,
+      "confusion_rate": 0.2024,
+      "confused_median_gap_pp": 6.9,
+      "confused_p90_gap_pp": 10.9
+    }
+  ]
+}

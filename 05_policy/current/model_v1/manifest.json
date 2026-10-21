@@ -1,0 +1,92 @@
+{
+  "model_version": "national_residential_v1",
+  "status": "frozen",
+  "scope": "Irish residential planning applications identified by submission-time residential signals",
+  "target": "local-authority refusal versus grant/approval",
+  "prediction_time": "immediately before submission",
+  "features": [
+    "received_year",
+    "PlanningAuthority",
+    "application_bucket",
+    "description_stripped"
+  ],
+  "banned_inputs": [
+    "FI requests",
+    "decision fields",
+    "appeals",
+    "refusal reasons",
+    "post-submission status"
+  ],
+  "ranking_model": {
+    "training_cutoff_exclusive": "2025-01-01",
+    "training_rows": 203931,
+    "prospective_test_period": [
+      "2025-01-02 00:00:00+00:00",
+      "2025-12-23 00:00:00+00:00"
+    ],
+    "metrics": {
+      "n": 15221,
+      "refusal_rate": 0.11562972209447474,
+      "roc_auc": 0.779033812326519,
+      "average_precision": 0.37813304377545,
+      "brier": 0.1450244699112304,
+      "log_loss": 0.44649362195680276,
+      "bootstrap_samples": 500,
+      "skipped_single_class_samples": 0,
+      "roc_auc_p05": 0.7695289741883732,
+      "roc_auc_p50": 0.7786104554420481,
+      "roc_auc_p95": 0.7869871794590633,
+      "pr_auc_p05": 0.360275927524101,
+      "pr_auc_p50": 0.37737469540789537,
+      "pr_auc_p95": 0.3973503794161376,
+      "brier_p05": 0.14286937098061347,
+      "brier_p50": 0.14502263637661572,
+      "brier_p95": 0.14740829579258652,
+      "calibration_intercept": -1.6225001347114312,
+      "calibration_slope": 0.9060905541466359
+    }
+  },
+  "calibrated_probability_model": {
+    "classifier_training_cutoff_exclusive": "2023-01-01",
+    "classifier_training_rows": 163595,
+    "calibration_period": [
+      "2023-01-01 00:00:00+00:00",
+      "2024-12-31 00:00:00+00:00"
+    ],
+    "calibration_rows": 40336,
+    "prospective_metrics": {
+      "n": 15221,
+      "refusal_rate": 0.11562972209447474,
+      "roc_auc": 0.7659947128404616,
+      "average_precision": 0.3542734777059854,
+      "brier": 0.0889271489848304,
+      "log_loss": 0.3038758250194824,
+      "bootstrap_samples": 500,
+      "skipped_single_class_samples": 0,
+      "roc_auc_p05": 0.7565871851278928,
+      "roc_auc_p50": 0.765726479613865,
+      "roc_auc_p95": 0.7742048165896923,
+      "pr_auc_p05": 0.3369794754451171,
+      "pr_auc_p50": 0.3539745282616227,
+      "pr_auc_p95": 0.3734867707592265,
+      "brier_p05": 0.08618082453416023,
+      "brier_p50": 0.08889433279264686,
+      "brier_p95": 0.09151873958683142,
+      "calibration_intercept": -0.18846514383849075,
+      "calibration_slope": 0.9299984724472805
+    }
+  },
+  "risk_band_thresholds": {
+    "low_max": 0.05352552030572482,
+    "medium_max": 0.13080893578872738
+  },
+  "reliability_metadata": {
+    "authority": "05_policy\\current\\raw_planning_v1_reliability_by_authority.csv",
+    "application_type": "05_policy\\current\\raw_planning_v1_reliability_by_application_type.csv"
+  },
+  "limitations": [
+    "Council and application-type performance varies materially.",
+    "Probabilities require continued prospective monitoring and periodic recalibration.",
+    "The classifier estimates historical outcome risk; it does not determine planning-law compliance."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "generated": "2026-09-14",
+  "granted_arm_pairs": 1019,
+  "refused_arm_pairs": 113,
+  "rows": [
+    {
+      "lever": "storeys",
+      "column": "max_storeys_best",
+      "direction": "down",
+      "audited_granted": 30,
+      "audited_refused": 0,
+      "audited_total": 30,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.8865,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "units",
+      "column": "units_total_best",
+      "direction": "down",
+      "audited_granted": 28,
+      "audited_refused": 1,
+      "audited_total": 29,
+      "grant_share": 0.9655,
+      "wilson_95_low": 0.8282,
+      "wilson_95_high": 0.9939,
+      "both_arms_measured": true
+    },
+    {
+      "lever": "parking",
+      "column": "parking_spaces_best",
+      "direction": "up",
+      "audited_granted": 13,
+      "audited_refused": 0,
+      "audited_total": 13,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.7719,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "units",
+      "column": "units_total_best",
+      "direction": "up",
+      "audited_granted": 13,
+      "audited_refused": 0,
+      "audited_total": 13,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.7719,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "storeys",
+      "column": "max_storeys_best",
+      "direction": "up",
+      "audited_granted": 10,
+      "audited_refused": 0,
+      "audited_total": 10,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.7225,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "parking",
+      "column": "parking_spaces_best",
+      "direction": "down",
+      "audited_granted": 8,
+      "audited_refused": 0,
+      "audited_total": 8,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.6756,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "access points",
+      "column": "vehicular_access_points",
+      "direction": "down",
+      "audited_granted": 6,
+      "audited_refused": 0,
+      "audited_total": 6,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.6097,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "height (m)",
+      "column": "max_height_m",
+      "direction": "down",
+      "audited_granted": 4,
+      "audited_refused": 0,
+      "audited_total": 4,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.5101,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "separation (m)",
+      "column": "nearest_dwelling_separation_m",
+      "direction": "up",
+      "audited_granted": 4,
+      "audited_refused": 0,
+      "audited_total": 4,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.5101,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "height (m)",
+      "column": "max_height_m",
+      "direction": "up",
+      "audited_granted": 3,
+      "audited_refused": 0,
+      "audited_total": 3,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.4385,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "open space (sqm)",
+      "column": "communal_open_space_sqm",
+      "direction": "up",
+      "audited_granted": 2,
+      "audited_refused": 0,
+      "audited_total": 2,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.3424,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    },
+    {
+      "lever": "access points",
+      "column": "vehicular_access_points",
+      "direction": "up",
+      "audited_granted": 1,
+      "audited_refused": 0,
+      "audited_total": 1,
+      "grant_share": 1.0,
+      "wilson_95_low": 0.2065,
+      "wilson_95_high": 1.0,
+      "both_arms_measured": false
+    }
+  ],
+  "caveat": "Empirical, model-free: how audited resubmissions that made each change ended. Observational association between audited pairs - never a causal guarantee. The refused arm is smaller and (until its report campaign) units-only, so non-units rows carry wide intervals."
+}

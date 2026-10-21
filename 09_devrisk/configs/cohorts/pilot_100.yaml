@@ -1,0 +1,46 @@
+# Stratified pilot cohort definition (brief section 12.1).
+# Approximately 100 granted residential schemes, 10+ units, final grants with
+# enough follow-up to observe activation/delivery horizons, explicitly
+# stratifying COVID exposure. Not a nationally generalisable sample.
+
+schema_version: 1
+
+pilot_100:
+  target_size: 100
+  eligibility:
+    min_units: 10
+    decision: granted
+    scope: residential
+    grant_window: 2016-01-01 .. 2022-12-31
+    minimum_followup_after_grant_months: 36
+    max_authorities: 6
+  stratification:
+    # Suggested strata, adjusted for available data (brief section 12.1).
+    authorities: 4..6
+    size_bands:
+      "10-29": 0.25
+      "30-99": 0.25
+      "100-249": 0.25
+      "250+": 0.25
+    mix:
+      houses: meaningful
+      apartments: meaningful
+      mixed: meaningful
+  covid_design:
+    restriction_intervals:
+      - name: broad_closure
+        start: "2021-01-08"
+        end: "2021-04-11"
+      - name: phased_residential_reopening
+        start: "2021-04-12"
+        end: "2021-05-03"
+      - name: fully_reopened
+        start: "2021-05-04"
+    requirements:
+      - "Expose each scheme's at-risk interval to defined restriction regimes."
+      - "Primary models include explicit calendar/regime effects."
+      - "Sensitivity analysis excluding or censoring materially COVID-exposed intervals."
+      - "Performance reported by pre-COVID / COVID-exposed / later cohorts."
+  cohort_exports:
+    candidates: data/silver/pilot_candidates_100.parquet
+    audit_workbook: data/silver/pilot_100_audit.csv

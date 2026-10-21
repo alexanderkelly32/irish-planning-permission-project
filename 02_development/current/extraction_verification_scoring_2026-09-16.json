@@ -1,0 +1,65 @@
+{
+  "delta_verification": {
+    "rows": 100,
+    "original_value_precision": 0.8235,
+    "original_value_n": 68,
+    "revised_value_correct": 54,
+    "pair_both_sides_correct": 48,
+    "pair_both_sides_n": 63,
+    "pair_precision": 0.7619,
+    "delta_direction_agreement": 0.0,
+    "delta_direction_n": 100
+  },
+  "refused_theme_verification": {
+    "rows_verified": 50,
+    "top1_accuracy": 0.8,
+    "micro_precision": 0.8713,
+    "micro_recall": 0.7652,
+    "per_theme": {
+      "density_scale": {
+        "precision": 1.0,
+        "recall": 0.7619
+      },
+      "design_layout": {
+        "precision": 1.0,
+        "recall": 0.7391
+      },
+      "traffic_access": {
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "residential_amenity": {
+        "precision": 0.5,
+        "recall": 0.75
+      },
+      "flooding_drainage": {
+        "precision": null,
+        "recall": 0.0
+      },
+      "land_use_policy": {
+        "precision": 0.9524,
+        "recall": 1.0
+      },
+      "premature_or_info_gap": {
+        "precision": null,
+        "recall": 0.0
+      },
+      "heritage_archaeology": {
+        "precision": 0.5,
+        "recall": 1.0
+      },
+      "ecology_trees": {
+        "precision": null,
+        "recall": 0.0
+      },
+      "water_wastewater": {
+        "precision": null,
+        "recall": 0.0
+      },
+      "other": {
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  }
+}

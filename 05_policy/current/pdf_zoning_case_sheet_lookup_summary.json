@@ -1,0 +1,10 @@
+{
+  "rows": 2364,
+  "matched_sheet": 0,
+  "multiple_candidate_sheets": 53,
+  "no_embedded_georef_sheet": 2196,
+  "missing_case_geometry": 115,
+  "matched_by_plan_key": {
+    "fingal_county_council__2011_2017": 53
+  }
+}

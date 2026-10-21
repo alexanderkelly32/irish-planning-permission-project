@@ -1,0 +1,15 @@
+{
+  "source": "02_development\\current\\full_revision_manual_review_pilot_fixed.csv",
+  "resolved_pilot_row_count": 75,
+  "double_review_slice_row_count": 24,
+  "slice_rows_by_tier": {
+    "high": 8,
+    "medium": 8,
+    "low": 8
+  },
+  "configuration": {
+    "per_tier": 8,
+    "seed": 20260902
+  },
+  "status": "labels_masked_for_independent_second_review"
+}

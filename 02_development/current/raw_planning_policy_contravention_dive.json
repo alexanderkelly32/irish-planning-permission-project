@@ -1,0 +1,111 @@
+{
+  "generated": "2026-09-20",
+  "policy_citing_texts": 917,
+  "pure_boilerplate_no_named_instrument": 246,
+  "boilerplate_share": 0.2683,
+  "instruments_cited": [
+    {
+      "instrument": "development plan (unnamed)",
+      "cases_citing": 656,
+      "share_of_policy_bucket": 0.7154,
+      "example": "ompetent authority has ascertained, based on scientific evidence that the plan or project will not give rise to significant adverse direct, indirect"
+    },
+    {
+      "instrument": "county/city development plan (named)",
+      "cases_citing": 409,
+      "share_of_policy_bucket": 0.446,
+      "example": " an objective of the council under heritage objective 5 of the carlow county development plan 2015-2021 \u201cto support the protection of policy of the council \u201cto only authoris"
+    },
+    {
+      "instrument": "section/chapter reference",
+      "cases_citing": 372,
+      "share_of_policy_bucket": 0.4057,
+      "example": "| the proposal as submitted does not address the stated provisions of chapter 5 of the tullow local area plan 2017 -2023 and in particular policy hp6"
+    },
+    {
+      "instrument": "ministerial guidelines (any)",
+      "cases_citing": 330,
+      "share_of_policy_bucket": 0.3599,
+      "example": "sed as \u201chighly vulnerable developments\" in the section 28 ministerial guidelines\"theplanning system and flood risk management guidelines forplanning a"
+    },
+    {
+      "instrument": "zoning objective / land use zoning",
+      "cases_citing": 244,
+      "share_of_policy_bucket": 0.2661,
+      "example": " therefore, that proposed development would materially contravene the zoning objective for the site, would prejudice the future achievement of the land use "
+    },
+    {
+      "instrument": "objective/policy code (e.g. CS02, SH06)",
+      "cases_citing": 229,
+      "share_of_policy_bucket": 0.2497,
+      "example": " chapter 5 of the tullow local area plan 2017 -2023 and in particular policy hp6 and hp11 regarding \u201cthe provision of mixed sustainable neighbourhoods"
+    },
+    {
+      "instrument": "apartment guidelines",
+      "cases_citing": 108,
+      "share_of_policy_bucket": 0.1178,
+      "example": "te, contrary to objective 16.9 of cork city development plan 2015 and sustainable urban housing design standards. || proposal adversely affects the special interest "
+    },
+    {
+      "instrument": "local area plan",
+      "cases_citing": 107,
+      "share_of_policy_bucket": 0.1167,
+      "example": "lands identified for enterprise and employment purposes in the tullow local area plan, 2017-2023 where residential development is not permitted and where t"
+    },
+    {
+      "instrument": "design manual urban roads streets (DMURS)",
+      "cases_citing": 44,
+      "share_of_policy_bucket": 0.048,
+      "example": "lanning authority for such works and design standards outlined in the design manual for urban roads and streets issued by the department of transport, tourism and sport "
+    },
+    {
+      "instrument": "quality housing for sustainable communities",
+      "cases_citing": 27,
+      "share_of_policy_bucket": 0.0294,
+      "example": "ons of the dublin city development plan 2016-2022, the provisions of \u2018quality housing for sustainable communities: best practice guidelines for delivering homes, sustaining communitie"
+    },
+    {
+      "instrument": "core strategy",
+      "cases_citing": 24,
+      "share_of_policy_bucket": 0.0262,
+      "example": "g units (defined as 2 or more units) to those towns identified in the core strategy/settlement hierarchy\u201d \u2013 policy ub-p-1 refers. accordingly, to permit "
+    },
+    {
+      "instrument": "urban development and building heights",
+      "cases_citing": 22,
+      "share_of_policy_bucket": 0.024,
+      "example": "esidential amenities' and the provisions of the urban development and building height guidelines for planning authorities (december 2018) the proposed development, by"
+    },
+    {
+      "instrument": "flood risk management guidelines",
+      "cases_citing": 19,
+      "share_of_policy_bucket": 0.0207,
+      "example": "ents\" in the section 28 ministerial guidelines\"theplanning system and flood risk management guidelines forplanning authorities\"as issued by the department of the environmen"
+    },
+    {
+      "instrument": "material contravention",
+      "cases_citing": 18,
+      "share_of_policy_bucket": 0.0196,
+      "example": "r.kevinirwin,seniorexecutiveplanner het62 development would involve a material contravention of the county development plan but, in his opinion, it's effect on th"
+    },
+    {
+      "instrument": "national planning framework",
+      "cases_citing": 13,
+      "share_of_policy_bucket": 0.0142,
+      "example": "e limited 9 9.1 strategic planning context - statement of consistency national planning framework - ireland 2040 the national planning framework (npf) recommends the c"
+    },
+    {
+      "instrument": "sustainable rural housing guidelines",
+      "cases_citing": 12,
+      "share_of_policy_bucket": 0.0131,
+      "example": "is within ^an area under strong urban influence\u2019 as\nidentified in the sustainable rural housing guidelines for planning authorities (department of\nthe environment, heritage and"
+    },
+    {
+      "instrument": "regional spatial & economic strategy",
+      "cases_citing": 10,
+      "share_of_policy_bucket": 0.0109,
+      "example": "cy. 9.2 eastern and midlands regional spatial & economic strategy the regional spatial and economic strategy (rses) for the east and midlands (including the dublin metropolitan a"
+    }
+  ],
+  "caveat": "A policy layer must be plan-versioned: instruments cite named plan periods and are superseded on schedule. The actionable layer = named plans + objective codes, not the boilerplate."
+}

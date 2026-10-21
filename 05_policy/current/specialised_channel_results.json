@@ -1,0 +1,32 @@
+{
+  "specialised_population": {
+    "train_ge10": 105,
+    "test_ge10": 17,
+    "cal_window": 19
+  },
+  "current_model_on_specialised": {
+    "n": 17,
+    "refusal_rate": 0.3529,
+    "ranking_auc": 0.7879,
+    "global_iso_brier": 0.22
+  },
+  "specialised_prior_shift": {
+    "n_pre_2024": 105,
+    "observed_rate": 0.2667,
+    "global_model_mean": 0.226,
+    "raw_logit_shift": 0.2194,
+    "applied_logit_shift": 0.1152,
+    "shrinkage": 0.525
+  },
+  "specialised_recalibrated": {
+    "brier_after_shift": 0.212,
+    "brier_before_shift": 0.22,
+    "improvement": 0.008,
+    "mean_risk_after": 0.1661
+  },
+  "challenger_with_specialised_feature": {
+    "holdout_auc": 0.792,
+    "ge10_auc": 0.7827,
+    "specialised_subset_auc": 0.6192
+  }
+}

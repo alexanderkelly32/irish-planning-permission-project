@@ -1,0 +1,41 @@
+{
+  "type_coded_ge10": {
+    "n": 78,
+    "refusal_rate": 0.0769,
+    "mean_risk": 0.3063,
+    "share_in_top_two_quintiles": 0.1667
+  },
+  "untyped_ge10": {
+    "n": 386,
+    "refusal_rate": 0.2124,
+    "mean_risk": 0.4723,
+    "share_in_top_two_quintiles": 0.4482
+  },
+  "type_coded_refusals_caught": {
+    "n_refusals": 6,
+    "share_in_top_two_quintiles": 0.5
+  },
+  "type_coded_auc": 0.7245,
+  "type_coded_refusal_examples": [
+    {
+      "key": "Wexford County Council__20240044",
+      "risk": 0.576,
+      "description": "permission for construction of 28 no. dwellings consisting of a 3 no. house type"
+    },
+    {
+      "key": "Roscommon County Council__2460112",
+      "risk": 0.726,
+      "description": "permission for proposed construction of a residential development of 20 no. dwelling houses consisting of the following; (i) 8 no. two bedroom detached bungalow type dwelling houses; (ii) 4 no. three "
+    },
+    {
+      "key": "Kildare County Council__2460776",
+      "risk": 0.227,
+      "description": "for the construction of 42 no. residential units in the form of 8 no. (type b) 2-bedroom mid terrace houses (2 storeys), 22 no. (types c1 and c2) 3-bedroom semi-detached houses (2 storeys) and 12 no. "
+    },
+    {
+      "key": "Laois County Council__2460662",
+      "risk": 0.361,
+      "description": "construct 10 houses to include: i) 1 no., four bed detached two-storey type a with private entrance off mill road; ii) 1 no., four bed detached two-storey type b with private entrance off mill road, i"
+    }
+  ]
+}

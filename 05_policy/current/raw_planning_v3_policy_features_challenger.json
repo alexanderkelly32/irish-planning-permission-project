@@ -1,0 +1,38 @@
+{
+  "frozen_v3_baseline": {
+    "roc_auc": 0.7989,
+    "average_precision": 0.4202
+  },
+  "train_n": 203931,
+  "test_n": 15221,
+  "policy_plan_coverage_holdout": 0.8467,
+  "citation_history_coverage_holdout": 0.9324,
+  "A_base_plus_policy_layer": {
+    "roc_auc": 0.8002,
+    "average_precision": 0.4188,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7658,
+      "ap": 0.451
+    }
+  },
+  "C_plus_interactions": {
+    "roc_auc": 0.8,
+    "average_precision": 0.4183,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7528,
+      "ap": 0.4171
+    }
+  },
+  "D_plus_interactions_citations": {
+    "roc_auc": 0.7999,
+    "average_precision": 0.4169,
+    "ge10_subset": {
+      "n": 166,
+      "auc": 0.7526,
+      "ap": 0.4161
+    }
+  },
+  "caveat": "Policy-layer features are submission-time. Variant B uses historical refusal-reason citation rates (earlier same-council cases only, same class as v3 comparable aggregates) - flagged for decision before any promotion."
+}

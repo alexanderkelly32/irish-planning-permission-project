@@ -1,0 +1,10 @@
+{
+  "gold_count": 81,
+  "queries_without_similar_gold": 19,
+  "found_within_candidates": 81,
+  "recall_at_10": 0.0864,
+  "recall_at_50": 0.6296,
+  "median_rank_of_found": 19.0,
+  "candidate_pool": 200,
+  "caveat": "Gold precedents are same-authority cases that are text-similar to the query (minimum similarity threshold), selected independently of the retrieval ranking."
+}

@@ -1,0 +1,750 @@
+{
+  "protocol": "theme transfer from time-safe matched refused precedents (display engine), refused GE10 holdout 2024-2025",
+  "cohort": {
+    "refused_holdout": 88,
+    "evaluable": 56,
+    "missing_extracted_tag": 6,
+    "no_tagged_precedents_before_case": 0
+  },
+  "metrics": {
+    "top1_agreement": 0.196,
+    "top2_agreement": 0.393,
+    "top3_agreement": 0.554,
+    "baseline_most_common_tag_agreement": 0.25
+  },
+  "detail": [
+    {
+      "case_key": "Roscommon County Council__2560334",
+      "actual_tag": "density_scale",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "premature_or_info_gap",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.085,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kerry County Council__2460829",
+      "actual_tag": "flooding_drainage",
+      "predicted_top1": "traffic_access",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.153,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Laois County Council__2460726",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.073,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Tipperary County Council__2460368",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.076,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Meath County Council__2513",
+      "actual_tag": "design_layout",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "flooding_drainage",
+        "other",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.141,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Clare County Council__2560243",
+      "actual_tag": "premature_or_info_gap",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.111,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Limerick County Council__2460304",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "density_scale",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.084,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kildare County Council__2561030",
+      "actual_tag": "density_scale",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.045,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Limerick County Council__2460030",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "density_scale",
+      "predicted_top3": [
+        "density_scale",
+        "flooding_drainage",
+        "premature_or_info_gap"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.043,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Laois County Council__2460662",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.108,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Donegal County Council__2560139",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.066,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Westmeath County Council__2560011",
+      "actual_tag": "density_scale",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.144,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Donegal County Council__2450254",
+      "actual_tag": "design_layout",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.058,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Galway County Council__2460046",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "density_scale",
+        "flooding_drainage",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.073,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kerry County Council__2560036",
+      "actual_tag": "design_layout",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.105,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Meath County Council__2460621",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "flooding_drainage",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.143,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kerry County Council__24192",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "density_scale",
+        "land_use_policy",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.073,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Meath County Council__2460573",
+      "actual_tag": "flooding_drainage",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "flooding_drainage",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.144,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Limerick County Council__2461173",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "traffic_access",
+      "predicted_top3": [
+        "density_scale",
+        "other",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.115,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Meath County Council__2560146",
+      "actual_tag": "design_layout",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.106,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240530",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.091,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Limerick County Council__2560523",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "traffic_access",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.088,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Roscommon County Council__2560300",
+      "actual_tag": "design_layout",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.169,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kildare County Council__2561097",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.097,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240044",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "water_wastewater"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.038,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Westmeath County Council__2560091",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.133,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__WEB1676/25",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.103,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20250381",
+      "actual_tag": "design_layout",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.159,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Laois County Council__2560623",
+      "actual_tag": "design_layout",
+      "predicted_top1": "traffic_access",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.053,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__4114/24",
+      "actual_tag": "density_scale",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.105,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "South Dublin County Council__LRD25A/0008W",
+      "actual_tag": "ecology_trees",
+      "predicted_top1": "flooding_drainage",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.16,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240502",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.087,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Galway County Council__2460178",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.131,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Meath County Council__2460334",
+      "actual_tag": "other",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "flooding_drainage",
+        "land_use_policy",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.118,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240450",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.03,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kerry County Council__2560133",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.106,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Roscommon County Council__2460112",
+      "actual_tag": "design_layout",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "premature_or_info_gap"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.057,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__WEB1481/25",
+      "actual_tag": "design_layout",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.151,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__3095/24",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.109,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20250939",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.038,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__3024/24",
+      "actual_tag": "design_layout",
+      "predicted_top1": "density_scale",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.11,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240861",
+      "actual_tag": "design_layout",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.109,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__3193/24",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.088,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Louth County Council__2560238",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.14,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Westmeath County Council__2460126",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "other",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.082,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Galway County Council__2460590",
+      "actual_tag": "other",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.153,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240901",
+      "actual_tag": "design_layout",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "land_use_policy",
+        "other",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.263,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kildare County Council__2461392",
+      "actual_tag": "other",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "other"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.085,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Kilkenny County Council__2460364",
+      "actual_tag": "land_use_policy",
+      "predicted_top1": "density_scale",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.163,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "South Dublin County Council__SD23A/0288",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "design_layout",
+        "flooding_drainage",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.155,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Galway County Council__2460147",
+      "actual_tag": "design_layout",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "density_scale",
+        "flooding_drainage",
+        "land_use_policy"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.113,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "South Dublin County Council__SD23A/0315",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "traffic_access",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.127,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__WEB2243/25",
+      "actual_tag": "flooding_drainage",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.161,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Wexford County Council__20240191",
+      "actual_tag": "other",
+      "predicted_top1": "land_use_policy",
+      "predicted_top3": [
+        "design_layout",
+        "land_use_policy",
+        "premature_or_info_gap"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.099,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__WEB2122/25",
+      "actual_tag": "traffic_access",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.088,
+      "baseline_tag": "design_layout"
+    },
+    {
+      "case_key": "Dublin City Council__4327/24",
+      "actual_tag": "design_layout",
+      "predicted_top1": "design_layout",
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ],
+      "n_precedents": 10,
+      "mean_precedent_sim": 0.105,
+      "baseline_tag": "design_layout"
+    }
+  ],
+  "caveats": [
+    "The v4-full model predicts refusal probability; this measures the theme-transfer accuracy of the precedent evidence engine only.",
+    "Themes come from inspector documents; multi-theme cases are reduced to their single primary tag.",
+    "Sample is the refused subset of the 464-scheme GE10 holdout with extracted reasons - small n, wide confidence."
+  ]
+}

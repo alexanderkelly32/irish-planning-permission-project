@@ -1,0 +1,77 @@
+{
+  "capture": {
+    "n_schemes": 464,
+    "n_refusals": 88,
+    "share_of_refusals_in_top_quintile": 0.5114,
+    "share_of_refusals_in_top_two_quintiles": 0.7386,
+    "share_of_grants_in_bottom_quintile": 0.2447
+  },
+  "case_studies": [
+    {
+      "type": "refused - caught by the model",
+      "case_key": "Kilkenny County Council__2460364",
+      "council": "Kilkenny County Council",
+      "units": 15.0,
+      "site_area_sqm": 550.0,
+      "description": "for the erection of 15 no fully serviced dwelling houses, upgrading of existing entrance and access road and all associated and ancillary site works and associated public service connections and upgrades",
+      "model_refusal_probability": 0.3556,
+      "risk_band": "high",
+      "what_drove_it": [
+        "This is a \u201810+ units\u2019 application; in Kilkenny County Council these are refused 23% of the time.",
+        "The most similar past applications to this scheme were refused 80% of the time.",
+        "Applications in Kilkenny County Council have recently been refused 7% of the time."
+      ],
+      "best_change": {
+        "change": "add community facilities",
+        "delta_pp": -9.49,
+        "new_refusal": 0.2607,
+        "why": []
+      },
+      "second_change": {
+        "change": "masonry construction",
+        "delta_pp": -0.89,
+        "new_refusal": 0.3467,
+        "why": []
+      }
+    },
+    {
+      "type": "refused - caught by the model",
+      "case_key": "Kildare County Council__2560544",
+      "council": "Kildare County Council",
+      "units": 19.0,
+      "site_area_sqm": 5640.0,
+      "description": "for a residential development of 19 dwellings comprising as follows:- 4 no. 3-storey, 4-bedroom end-of-terrace houses; 9 no. 2-storey, 3-bedroom mid-terrace houses; 2 no. 2-storey, 3-bedroom end-of-terrace houses & 2 no. maisonette units containing 2 no. 1 bedroom dwellings in each; together with ne",
+      "model_refusal_probability": 0.4052,
+      "risk_band": "high",
+      "what_drove_it": [
+        "This is a \u201810+ units\u2019 application; in Kildare County Council these are refused 28% of the time.",
+        "The most similar past applications to this scheme were refused 60% of the time.",
+        "Applications in Kildare County Council have recently been refused 24% of the time."
+      ],
+      "best_change": {
+        "change": "add community facilities",
+        "delta_pp": -5.56,
+        "new_refusal": 0.3496,
+        "why": []
+      },
+      "second_change": {
+        "change": "reduce units by 25%",
+        "delta_pp": 0.0,
+        "new_refusal": 0.4052,
+        "why": []
+      }
+    },
+    {
+      "type": "granted - cleared by the model",
+      "case_key": "Laois County Council__2446",
+      "council": "Laois County Council",
+      "units": 97.0,
+      "site_area_sqm": 40000.0,
+      "description": "amend the design and layout of houses and selected car parking spaces permitted under laois county council reg ref comprising: house types a, a1,a2 and a3 to be modified by replacing the corner window on the ground floor level of the front elevation with a single aspect window, minor changes to the ",
+      "model_refusal_probability": 0.0376,
+      "risk_band": "low",
+      "outcome": "granted"
+    }
+  ],
+  "revision_evidence_note": "Historical refused-to-revised-to-granted pairs: reducing units precedes grants 74.4% of the time (refused arm, n=896)."
+}

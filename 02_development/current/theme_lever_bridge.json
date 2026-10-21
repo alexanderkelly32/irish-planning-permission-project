@@ -1,0 +1,236 @@
+{
+  "source_canonical_pairs": "02_development\\current\\canonical_revision_scheme_records.csv",
+  "themes": {
+    "density_scale": {
+      "label": "density scale",
+      "levers": [
+        {
+          "field": "units",
+          "observed_pairs": 19,
+          "source": "observed_revision_pairs"
+        },
+        {
+          "field": "max_storeys",
+          "observed_pairs": 7,
+          "source": "observed_revision_pairs"
+        },
+        {
+          "field": "max_height_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "site_coverage_pct",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "plot_ratio",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "design_layout": {
+      "label": "design layout",
+      "levers": [
+        {
+          "field": "max_storeys",
+          "observed_pairs": 11,
+          "source": "observed_revision_pairs"
+        },
+        {
+          "field": "max_height_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "upper_floor_setback_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "front_setback_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "rear_setback_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "side_setback_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "housing_type",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "traffic_access": {
+      "label": "traffic access",
+      "levers": [
+        {
+          "field": "parking_spaces",
+          "observed_pairs": 4,
+          "source": "observed_revision_pairs"
+        },
+        {
+          "field": "vehicular_access_points",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "front_setback_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "residential_amenity": {
+      "label": "residential amenity",
+      "levers": [
+        {
+          "field": "nearest_dwelling_separation_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "opposing_window_separation_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "max_height_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "upper_floor_setback_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "open_space_amenity": {
+      "label": "open space amenity",
+      "levers": [
+        {
+          "field": "private_open_space_sqm",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "communal_open_space_sqm",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "flooding_drainage": {
+      "label": "flooding drainage",
+      "levers": [
+        {
+          "field": "communal_open_space_sqm",
+          "observed_pairs": 1,
+          "source": "observed_revision_pairs"
+        },
+        {
+          "field": "site_area_sqm",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "land_use_policy": {
+      "label": "land use policy",
+      "levers": [
+        {
+          "field": "development_type",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "proposal_type",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "housing_type",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "premature_or_info_gap": {
+      "label": "premature or info gap",
+      "levers": [
+        {
+          "field": "project_description",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "heritage_archaeology": {
+      "label": "heritage archaeology",
+      "levers": [
+        {
+          "field": "demolition_proposed",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "max_height_m",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "ecology_trees": {
+      "label": "ecology trees",
+      "levers": [
+        {
+          "field": "demolition_proposed",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        },
+        {
+          "field": "communal_open_space_sqm",
+          "observed_pairs": 0,
+          "source": "domain_map"
+        }
+      ]
+    },
+    "water_wastewater": {
+      "label": "water wastewater",
+      "levers": [
+        {
+          "field": "units",
+          "observed_pairs": 3,
+          "source": "observed_revision_pairs"
+        }
+      ]
+    },
+    "other": {
+      "label": "other",
+      "levers": [
+        {
+          "field": "units",
+          "observed_pairs": 3,
+          "source": "observed_revision_pairs"
+        },
+        {
+          "field": "max_storeys",
+          "observed_pairs": 1,
+          "source": "observed_revision_pairs"
+        }
+      ]
+    }
+  },
+  "caveat": "Lever mappings are planning-domain heuristics supported by observed revision-pair deltas where counts exist; they are diagnosis suggestions, not causal rules."
+}

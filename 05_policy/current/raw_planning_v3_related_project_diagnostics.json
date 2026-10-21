@@ -1,0 +1,106 @@
+{
+  "model_version": "national_residential_v3_comparables",
+  "status": "supplemental_related_project_temporal_diagnostic_not_a_group_retrained_model_evaluation",
+  "definition": "Authority-scoped SiteId identifies a related project. Missing SiteIds become singleton case groups, so this diagnostic does not infer site relationships from address text.",
+  "train_cutoff_exclusive": "2025-01-01 00:00:00+00:00",
+  "train_rows": 203931,
+  "train_rows_in_repeated_site_groups": 0,
+  "group_kfold_topology_sample_rows": 0,
+  "accepted_revision_group_train_rows": 86,
+  "holdout_rows": 15221,
+  "accepted_revision_group_members_mapped_to_model_data": 90,
+  "holdout_group_status_counts": {
+    "seen_before": 0,
+    "unseen": 15221
+  },
+  "frozen_train_group_kfold_topology": [],
+  "accepted_revision_group_kfold_topology": [
+    {
+      "fold": 0,
+      "train_rows": 68,
+      "test_rows": 18,
+      "test_groups": 18
+    },
+    {
+      "fold": 1,
+      "train_rows": 69,
+      "test_rows": 17,
+      "test_groups": 17
+    },
+    {
+      "fold": 2,
+      "train_rows": 69,
+      "test_rows": 17,
+      "test_groups": 17
+    },
+    {
+      "fold": 3,
+      "train_rows": 69,
+      "test_rows": 17,
+      "test_groups": 17
+    },
+    {
+      "fold": 4,
+      "train_rows": 69,
+      "test_rows": 17,
+      "test_groups": 17
+    }
+  ],
+  "metrics": {
+    "v3_ranking_score": {
+      "overall": {
+        "n": 15221,
+        "refusal_rate": 0.11562972209447474,
+        "brier": 0.1381839870495509,
+        "log_loss": 0.43143726762141654,
+        "status": "ok",
+        "roc_auc": 0.7989005274496694,
+        "average_precision": 0.42019837737179927
+      },
+      "seen_before": {
+        "n": 0,
+        "refusal_rate": null,
+        "status": "no_scored_rows"
+      },
+      "unseen": {
+        "n": 15221,
+        "refusal_rate": 0.11562972209447474,
+        "brier": 0.1381839870495509,
+        "log_loss": 0.43143726762141654,
+        "status": "ok",
+        "roc_auc": 0.7989005274496694,
+        "average_precision": 0.42019837737179927
+      }
+    },
+    "v3_platt_risk": {
+      "overall": {
+        "n": 15221,
+        "refusal_rate": 0.11562972209447474,
+        "brier": 0.08491183947470514,
+        "log_loss": 0.2907695147677047,
+        "status": "ok",
+        "roc_auc": 0.7925909276630806,
+        "average_precision": 0.41042943256647274
+      },
+      "seen_before": {
+        "n": 0,
+        "refusal_rate": null,
+        "status": "no_scored_rows"
+      },
+      "unseen": {
+        "n": 15221,
+        "refusal_rate": 0.11562972209447474,
+        "brier": 0.08491183947470514,
+        "log_loss": 0.2907695147677047,
+        "status": "ok",
+        "roc_auc": 0.7925909276630806,
+        "average_precision": 0.41042943256647274
+      }
+    }
+  },
+  "limitations": [
+    "This measures frozen temporal holdout performance separately for known related sites and unseen sites.",
+    "It does not claim every resubmission has a usable SiteId and does not replace a full grouped retraining experiment for a new candidate.",
+    "No post-submission fields are used as predictor inputs; final outcomes are evaluation labels only."
+  ]
+}

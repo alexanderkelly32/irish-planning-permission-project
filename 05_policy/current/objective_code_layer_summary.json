@@ -1,0 +1,97 @@
+{
+  "unique_codes": 11328,
+  "codes_with_known_period": 8702,
+  "top_codes": [
+    {
+      "council": "Clare County Council",
+      "plan_period": "2023-2029",
+      "objective_code": "CDP3.1",
+      "mentions": 242
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "unknown",
+      "objective_code": "1",
+      "mentions": 155
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "2022-2028",
+      "objective_code": "1",
+      "mentions": 155
+    },
+    {
+      "council": "Clare County Council",
+      "plan_period": "2023-2029",
+      "objective_code": "11.32",
+      "mentions": 153
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "2022-2028",
+      "objective_code": "2",
+      "mentions": 134
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "2016-2022",
+      "objective_code": "1",
+      "mentions": 134
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "unknown",
+      "objective_code": "2",
+      "mentions": 134
+    },
+    {
+      "council": "Clare County Council",
+      "plan_period": "2023-2029",
+      "objective_code": "CDP3.3",
+      "mentions": 131
+    },
+    {
+      "council": "Clare County Council",
+      "plan_period": "2017-2023",
+      "objective_code": "CDP2.1",
+      "mentions": 116
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "2022-2028",
+      "objective_code": "3",
+      "mentions": 114
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "unknown",
+      "objective_code": "3",
+      "mentions": 114
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "2016-2022",
+      "objective_code": "2",
+      "mentions": 109
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "unknown",
+      "objective_code": "4",
+      "mentions": 99
+    },
+    {
+      "council": "South Dublin County Council",
+      "plan_period": "2022-2028",
+      "objective_code": "4",
+      "mentions": 99
+    },
+    {
+      "council": "Clare County Council",
+      "plan_period": "2023-2029",
+      "objective_code": "RES1.1",
+      "mentions": 95
+    }
+  ],
+  "note": "Scan of the extracted plan texts in policy_documents_index.csv; expand coverage by adding councils' plans to the index (download -> extract) and re-running."
+}

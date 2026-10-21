@@ -1,0 +1,42 @@
+{
+  "row_count": 78,
+  "double_reviewed_count": 24,
+  "reviewer_b_resolved_count": 24,
+  "agreement_count": 24,
+  "disagreement_count": 0,
+  "pending_by_b_count": 0,
+  "adjudication_required_count": 0,
+  "agreement_rate": 1.0,
+  "by_tier": {
+    "high": {
+      "rows": 23,
+      "double_reviewed": 8,
+      "reviewer_b_resolved": 8,
+      "agreements": 8,
+      "disagreements": 0,
+      "pending_by_b": 0,
+      "agreement_rate": 1.0
+    },
+    "low": {
+      "rows": 29,
+      "double_reviewed": 8,
+      "reviewer_b_resolved": 8,
+      "agreements": 8,
+      "disagreements": 0,
+      "pending_by_b": 0,
+      "agreement_rate": 1.0
+    },
+    "medium": {
+      "rows": 26,
+      "double_reviewed": 8,
+      "reviewer_b_resolved": 8,
+      "agreements": 8,
+      "disagreements": 0,
+      "pending_by_b": 0,
+      "agreement_rate": 1.0
+    }
+  },
+  "note": "Agreement is a reviewer-consistency check only. It does not validate any pair against source documents and is never used to auto-accept linkage candidates.",
+  "source_pilot": "02_development\\current\\full_revision_manual_review_pilot_fixed.csv",
+  "source_reviewer_b": "02_development\\current\\full_revision_double_review_slice_fixed.csv"
+}

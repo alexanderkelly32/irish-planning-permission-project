@@ -1,0 +1,12 @@
+{
+  "rules_by_family": {
+    "apartment_min_floor_area": 20,
+    "communal_amenity_min_per_unit": 11,
+    "private_amenity_min_depth": 1
+  },
+  "case_rows": 2369,
+  "cases_with_apartments": 454,
+  "cases_parseable_apartment_sizes": 30,
+  "cases_with_breach_any": 2,
+  "total_rule_matches": 23
+}

@@ -1,0 +1,1088 @@
+{
+  "overall": {
+    "cohort_rows": 8584,
+    "utility_rows": 2348,
+    "utility_decided": 1748,
+    "utility_undecided": 573,
+    "utility": {
+      "n_decided": 1748,
+      "n_refused": 191,
+      "refusal_rate": 0.1093,
+      "wilson_lo": 0.0955,
+      "wilson_hi": 0.1248
+    }
+  },
+  "by_type_utility": {
+    "bess": {
+      "n_decided": 25,
+      "n_refused": 1,
+      "refusal_rate": 0.04,
+      "wilson_lo": 0.0071,
+      "wilson_hi": 0.1954
+    },
+    "biogas": {
+      "n_decided": 5,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.4345
+    },
+    "chp": {
+      "n_decided": 2,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.6576
+    },
+    "grid": {
+      "n_decided": 709,
+      "n_refused": 28,
+      "refusal_rate": 0.0395,
+      "wilson_lo": 0.0275,
+      "wilson_hi": 0.0565
+    },
+    "solar": {
+      "n_decided": 671,
+      "n_refused": 78,
+      "refusal_rate": 0.1162,
+      "wilson_lo": 0.0941,
+      "wilson_hi": 0.1427
+    },
+    "wind": {
+      "n_decided": 336,
+      "n_refused": 84,
+      "refusal_rate": 0.25,
+      "wilson_lo": 0.2067,
+      "wilson_hi": 0.2989
+    }
+  },
+  "by_type_all": {
+    "bess": {
+      "n_decided": 408,
+      "n_refused": 55,
+      "refusal_rate": 0.1348,
+      "wilson_lo": 0.1051,
+      "wilson_hi": 0.1714
+    },
+    "biogas": {
+      "n_decided": 63,
+      "n_refused": 13,
+      "refusal_rate": 0.2063,
+      "wilson_lo": 0.1248,
+      "wilson_hi": 0.3217
+    },
+    "chp": {
+      "n_decided": 70,
+      "n_refused": 2,
+      "refusal_rate": 0.0286,
+      "wilson_lo": 0.0079,
+      "wilson_hi": 0.0983
+    },
+    "data_centre": {
+      "n_decided": 97,
+      "n_refused": 8,
+      "refusal_rate": 0.0825,
+      "wilson_lo": 0.0424,
+      "wilson_hi": 0.1544
+    },
+    "grid": {
+      "n_decided": 779,
+      "n_refused": 36,
+      "refusal_rate": 0.0462,
+      "wilson_lo": 0.0336,
+      "wilson_hi": 0.0633
+    },
+    "hydro": {
+      "n_decided": 8,
+      "n_refused": 1,
+      "refusal_rate": 0.125,
+      "wilson_lo": 0.0224,
+      "wilson_hi": 0.4709
+    },
+    "solar": {
+      "n_decided": 4439,
+      "n_refused": 396,
+      "refusal_rate": 0.0892,
+      "wilson_lo": 0.0812,
+      "wilson_hi": 0.098
+    },
+    "wind": {
+      "n_decided": 543,
+      "n_refused": 125,
+      "refusal_rate": 0.2302,
+      "wilson_lo": 0.1968,
+      "wilson_hi": 0.2674
+    }
+  },
+  "by_authority_utility": {
+    "Cork County Council": {
+      "n_decided": 516,
+      "n_refused": 39,
+      "refusal_rate": 0.0756,
+      "wilson_lo": 0.0558,
+      "wilson_hi": 0.1017
+    },
+    "South Dublin County Council": {
+      "n_decided": 103,
+      "n_refused": 6,
+      "refusal_rate": 0.0583,
+      "wilson_lo": 0.027,
+      "wilson_hi": 0.1213
+    },
+    "Meath County Council": {
+      "n_decided": 80,
+      "n_refused": 3,
+      "refusal_rate": 0.0375,
+      "wilson_lo": 0.0128,
+      "wilson_hi": 0.1045
+    },
+    "Kildare County Council": {
+      "n_decided": 76,
+      "n_refused": 17,
+      "refusal_rate": 0.2237,
+      "wilson_lo": 0.1446,
+      "wilson_hi": 0.3293
+    },
+    "Offaly County Council": {
+      "n_decided": 65,
+      "n_refused": 10,
+      "refusal_rate": 0.1538,
+      "wilson_lo": 0.0858,
+      "wilson_hi": 0.2606
+    },
+    "Clare County Council": {
+      "n_decided": 64,
+      "n_refused": 11,
+      "refusal_rate": 0.1719,
+      "wilson_lo": 0.0988,
+      "wilson_hi": 0.2821
+    },
+    "Tipperary County Council": {
+      "n_decided": 60,
+      "n_refused": 4,
+      "refusal_rate": 0.0667,
+      "wilson_lo": 0.0262,
+      "wilson_hi": 0.1593
+    },
+    "Galway County Council": {
+      "n_decided": 52,
+      "n_refused": 11,
+      "refusal_rate": 0.2115,
+      "wilson_lo": 0.1224,
+      "wilson_hi": 0.3403
+    },
+    "Wicklow County Council": {
+      "n_decided": 47,
+      "n_refused": 5,
+      "refusal_rate": 0.1064,
+      "wilson_lo": 0.0463,
+      "wilson_hi": 0.2259
+    },
+    "Donegal County Council": {
+      "n_decided": 46,
+      "n_refused": 9,
+      "refusal_rate": 0.1957,
+      "wilson_lo": 0.1065,
+      "wilson_hi": 0.3317
+    },
+    "Kerry County Council": {
+      "n_decided": 46,
+      "n_refused": 9,
+      "refusal_rate": 0.1957,
+      "wilson_lo": 0.1065,
+      "wilson_hi": 0.3317
+    },
+    "Fingal County Council": {
+      "n_decided": 45,
+      "n_refused": 2,
+      "refusal_rate": 0.0444,
+      "wilson_lo": 0.0123,
+      "wilson_hi": 0.1483
+    },
+    "Limerick County Council": {
+      "n_decided": 45,
+      "n_refused": 7,
+      "refusal_rate": 0.1556,
+      "wilson_lo": 0.0775,
+      "wilson_hi": 0.2878
+    },
+    "Dun Laoghaire Rathdown County Council": {
+      "n_decided": 44,
+      "n_refused": 3,
+      "refusal_rate": 0.0682,
+      "wilson_lo": 0.0235,
+      "wilson_hi": 0.1823
+    },
+    "Waterford City and County Council": {
+      "n_decided": 42,
+      "n_refused": 8,
+      "refusal_rate": 0.1905,
+      "wilson_lo": 0.0998,
+      "wilson_hi": 0.333
+    },
+    "Kilkenny County Council": {
+      "n_decided": 41,
+      "n_refused": 5,
+      "refusal_rate": 0.122,
+      "wilson_lo": 0.0532,
+      "wilson_hi": 0.2554
+    },
+    "Wexford County Council": {
+      "n_decided": 41,
+      "n_refused": 10,
+      "refusal_rate": 0.2439,
+      "wilson_lo": 0.1383,
+      "wilson_hi": 0.3934
+    },
+    "Mayo County Council": {
+      "n_decided": 38,
+      "n_refused": 1,
+      "refusal_rate": 0.0263,
+      "wilson_lo": 0.0047,
+      "wilson_hi": 0.1349
+    },
+    "Westmeath County Council": {
+      "n_decided": 35,
+      "n_refused": 3,
+      "refusal_rate": 0.0857,
+      "wilson_lo": 0.0296,
+      "wilson_hi": 0.2238
+    },
+    "Cavan County Council": {
+      "n_decided": 34,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.1015
+    },
+    "Dublin City Council": {
+      "n_decided": 30,
+      "n_refused": 1,
+      "refusal_rate": 0.0333,
+      "wilson_lo": 0.0059,
+      "wilson_hi": 0.1667
+    },
+    "Carlow County Council": {
+      "n_decided": 26,
+      "n_refused": 5,
+      "refusal_rate": 0.1923,
+      "wilson_lo": 0.0851,
+      "wilson_hi": 0.3788
+    },
+    "Louth County Council": {
+      "n_decided": 26,
+      "n_refused": 3,
+      "refusal_rate": 0.1154,
+      "wilson_lo": 0.04,
+      "wilson_hi": 0.2898
+    },
+    "Roscommon County Council": {
+      "n_decided": 24,
+      "n_refused": 7,
+      "refusal_rate": 0.2917,
+      "wilson_lo": 0.1491,
+      "wilson_hi": 0.4917
+    },
+    "Laois County Council": {
+      "n_decided": 23,
+      "n_refused": 3,
+      "refusal_rate": 0.1304,
+      "wilson_lo": 0.0454,
+      "wilson_hi": 0.3213
+    },
+    "Cork City Council": {
+      "n_decided": 22,
+      "n_refused": 2,
+      "refusal_rate": 0.0909,
+      "wilson_lo": 0.0253,
+      "wilson_hi": 0.2781
+    },
+    "Monaghan County Council": {
+      "n_decided": 21,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.1546
+    },
+    "Longford County Council": {
+      "n_decided": 19,
+      "n_refused": 2,
+      "refusal_rate": 0.1053,
+      "wilson_lo": 0.0294,
+      "wilson_hi": 0.3139
+    },
+    "Sligo County Council": {
+      "n_decided": 19,
+      "n_refused": 3,
+      "refusal_rate": 0.1579,
+      "wilson_lo": 0.0552,
+      "wilson_hi": 0.3757
+    },
+    "Galway City Council": {
+      "n_decided": 10,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2775
+    }
+  },
+  "by_year_utility": {
+    "1997": {
+      "n_decided": 1,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.7935
+    },
+    "1998": {
+      "n_decided": 4,
+      "n_refused": 1,
+      "refusal_rate": 0.25,
+      "wilson_lo": 0.0456,
+      "wilson_hi": 0.6994
+    },
+    "1999": {
+      "n_decided": 9,
+      "n_refused": 3,
+      "refusal_rate": 0.3333,
+      "wilson_lo": 0.1206,
+      "wilson_hi": 0.6458
+    },
+    "2000": {
+      "n_decided": 13,
+      "n_refused": 1,
+      "refusal_rate": 0.0769,
+      "wilson_lo": 0.0137,
+      "wilson_hi": 0.3331
+    },
+    "2001": {
+      "n_decided": 8,
+      "n_refused": 1,
+      "refusal_rate": 0.125,
+      "wilson_lo": 0.0224,
+      "wilson_hi": 0.4709
+    },
+    "2002": {
+      "n_decided": 9,
+      "n_refused": 1,
+      "refusal_rate": 0.1111,
+      "wilson_lo": 0.0199,
+      "wilson_hi": 0.435
+    },
+    "2003": {
+      "n_decided": 40,
+      "n_refused": 1,
+      "refusal_rate": 0.025,
+      "wilson_lo": 0.0044,
+      "wilson_hi": 0.1288
+    },
+    "2004": {
+      "n_decided": 35,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.0989
+    },
+    "2005": {
+      "n_decided": 35,
+      "n_refused": 4,
+      "refusal_rate": 0.1143,
+      "wilson_lo": 0.0454,
+      "wilson_hi": 0.2595
+    },
+    "2006": {
+      "n_decided": 39,
+      "n_refused": 3,
+      "refusal_rate": 0.0769,
+      "wilson_lo": 0.0265,
+      "wilson_hi": 0.2032
+    },
+    "2007": {
+      "n_decided": 48,
+      "n_refused": 4,
+      "refusal_rate": 0.0833,
+      "wilson_lo": 0.0329,
+      "wilson_hi": 0.1955
+    },
+    "2008": {
+      "n_decided": 51,
+      "n_refused": 1,
+      "refusal_rate": 0.0196,
+      "wilson_lo": 0.0035,
+      "wilson_hi": 0.103
+    },
+    "2009": {
+      "n_decided": 25,
+      "n_refused": 2,
+      "refusal_rate": 0.08,
+      "wilson_lo": 0.0222,
+      "wilson_hi": 0.2497
+    },
+    "2010": {
+      "n_decided": 24,
+      "n_refused": 2,
+      "refusal_rate": 0.0833,
+      "wilson_lo": 0.0232,
+      "wilson_hi": 0.2585
+    },
+    "2011": {
+      "n_decided": 21,
+      "n_refused": 1,
+      "refusal_rate": 0.0476,
+      "wilson_lo": 0.0085,
+      "wilson_hi": 0.2267
+    },
+    "2012": {
+      "n_decided": 17,
+      "n_refused": 1,
+      "refusal_rate": 0.0588,
+      "wilson_lo": 0.0105,
+      "wilson_hi": 0.2698
+    },
+    "2013": {
+      "n_decided": 22,
+      "n_refused": 4,
+      "refusal_rate": 0.1818,
+      "wilson_lo": 0.0731,
+      "wilson_hi": 0.3852
+    },
+    "2014": {
+      "n_decided": 23,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.1431
+    },
+    "2015": {
+      "n_decided": 26,
+      "n_refused": 1,
+      "refusal_rate": 0.0385,
+      "wilson_lo": 0.0068,
+      "wilson_hi": 0.1889
+    },
+    "2016": {
+      "n_decided": 36,
+      "n_refused": 4,
+      "refusal_rate": 0.1111,
+      "wilson_lo": 0.0441,
+      "wilson_hi": 0.2531
+    },
+    "2017": {
+      "n_decided": 136,
+      "n_refused": 19,
+      "refusal_rate": 0.1397,
+      "wilson_lo": 0.0913,
+      "wilson_hi": 0.2079
+    },
+    "2018": {
+      "n_decided": 111,
+      "n_refused": 18,
+      "refusal_rate": 0.1622,
+      "wilson_lo": 0.1051,
+      "wilson_hi": 0.2418
+    },
+    "2019": {
+      "n_decided": 107,
+      "n_refused": 12,
+      "refusal_rate": 0.1121,
+      "wilson_lo": 0.0653,
+      "wilson_hi": 0.1859
+    },
+    "2020": {
+      "n_decided": 108,
+      "n_refused": 11,
+      "refusal_rate": 0.1019,
+      "wilson_lo": 0.0578,
+      "wilson_hi": 0.1732
+    },
+    "2021": {
+      "n_decided": 139,
+      "n_refused": 27,
+      "refusal_rate": 0.1942,
+      "wilson_lo": 0.1371,
+      "wilson_hi": 0.2679
+    },
+    "2022": {
+      "n_decided": 182,
+      "n_refused": 18,
+      "refusal_rate": 0.0989,
+      "wilson_lo": 0.0635,
+      "wilson_hi": 0.1509
+    },
+    "2023": {
+      "n_decided": 206,
+      "n_refused": 17,
+      "refusal_rate": 0.0825,
+      "wilson_lo": 0.0522,
+      "wilson_hi": 0.1282
+    },
+    "2024": {
+      "n_decided": 169,
+      "n_refused": 19,
+      "refusal_rate": 0.1124,
+      "wilson_lo": 0.0732,
+      "wilson_hi": 0.1689
+    },
+    "2025": {
+      "n_decided": 104,
+      "n_refused": 15,
+      "refusal_rate": 0.1442,
+      "wilson_lo": 0.0894,
+      "wilson_hi": 0.2244
+    }
+  },
+  "by_capacity_band_utility": {
+    "100MW+": {
+      "n_decided": 10,
+      "n_refused": 1,
+      "refusal_rate": 0.1,
+      "wilson_lo": 0.0179,
+      "wilson_hi": 0.4042
+    },
+    "20-50MW": {
+      "n_decided": 18,
+      "n_refused": 5,
+      "refusal_rate": 0.2778,
+      "wilson_lo": 0.125,
+      "wilson_hi": 0.5087
+    },
+    "5-20MW": {
+      "n_decided": 51,
+      "n_refused": 10,
+      "refusal_rate": 0.1961,
+      "wilson_lo": 0.1102,
+      "wilson_hi": 0.3246
+    },
+    "50-100MW": {
+      "n_decided": 22,
+      "n_refused": 3,
+      "refusal_rate": 0.1364,
+      "wilson_lo": 0.0475,
+      "wilson_hi": 0.3333
+    },
+    "<5MW": {
+      "n_decided": 133,
+      "n_refused": 25,
+      "refusal_rate": 0.188,
+      "wilson_lo": 0.1307,
+      "wilson_hi": 0.2628
+    },
+    "nan": {
+      "n_decided": 1514,
+      "n_refused": 147,
+      "refusal_rate": 0.0971,
+      "wilson_lo": 0.0832,
+      "wilson_hi": 0.113
+    }
+  },
+  "by_authority_solar": {
+    "Carlow County Council": {
+      "n_decided": 18,
+      "n_refused": 4,
+      "refusal_rate": 0.2222,
+      "wilson_lo": 0.09,
+      "wilson_hi": 0.4521
+    },
+    "Cavan County Council": {
+      "n_decided": 15,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2039
+    },
+    "Clare County Council": {
+      "n_decided": 28,
+      "n_refused": 2,
+      "refusal_rate": 0.0714,
+      "wilson_lo": 0.0198,
+      "wilson_hi": 0.2265
+    },
+    "Cork City Council": {
+      "n_decided": 10,
+      "n_refused": 1,
+      "refusal_rate": 0.1,
+      "wilson_lo": 0.0179,
+      "wilson_hi": 0.4042
+    },
+    "Cork County Council": {
+      "n_decided": 122,
+      "n_refused": 10,
+      "refusal_rate": 0.082,
+      "wilson_lo": 0.0451,
+      "wilson_hi": 0.1443
+    },
+    "Fingal County Council": {
+      "n_decided": 5,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.4345
+    },
+    "Galway County Council": {
+      "n_decided": 30,
+      "n_refused": 7,
+      "refusal_rate": 0.2333,
+      "wilson_lo": 0.1179,
+      "wilson_hi": 0.4093
+    },
+    "Kerry County Council": {
+      "n_decided": 24,
+      "n_refused": 3,
+      "refusal_rate": 0.125,
+      "wilson_lo": 0.0434,
+      "wilson_hi": 0.31
+    },
+    "Kildare County Council": {
+      "n_decided": 52,
+      "n_refused": 13,
+      "refusal_rate": 0.25,
+      "wilson_lo": 0.1523,
+      "wilson_hi": 0.3821
+    },
+    "Kilkenny County Council": {
+      "n_decided": 24,
+      "n_refused": 1,
+      "refusal_rate": 0.0417,
+      "wilson_lo": 0.0074,
+      "wilson_hi": 0.2024
+    },
+    "Laois County Council": {
+      "n_decided": 7,
+      "n_refused": 1,
+      "refusal_rate": 0.1429,
+      "wilson_lo": 0.0257,
+      "wilson_hi": 0.5131
+    },
+    "Limerick County Council": {
+      "n_decided": 26,
+      "n_refused": 4,
+      "refusal_rate": 0.1538,
+      "wilson_lo": 0.0615,
+      "wilson_hi": 0.3353
+    },
+    "Longford County Council": {
+      "n_decided": 12,
+      "n_refused": 1,
+      "refusal_rate": 0.0833,
+      "wilson_lo": 0.0149,
+      "wilson_hi": 0.3539
+    },
+    "Louth County Council": {
+      "n_decided": 14,
+      "n_refused": 2,
+      "refusal_rate": 0.1429,
+      "wilson_lo": 0.0401,
+      "wilson_hi": 0.3994
+    },
+    "Mayo County Council": {
+      "n_decided": 12,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2425
+    },
+    "Meath County Council": {
+      "n_decided": 61,
+      "n_refused": 3,
+      "refusal_rate": 0.0492,
+      "wilson_lo": 0.0169,
+      "wilson_hi": 0.1349
+    },
+    "Monaghan County Council": {
+      "n_decided": 6,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3903
+    },
+    "Offaly County Council": {
+      "n_decided": 27,
+      "n_refused": 2,
+      "refusal_rate": 0.0741,
+      "wilson_lo": 0.0206,
+      "wilson_hi": 0.2337
+    },
+    "Roscommon County Council": {
+      "n_decided": 10,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2775
+    },
+    "Tipperary County Council": {
+      "n_decided": 42,
+      "n_refused": 3,
+      "refusal_rate": 0.0714,
+      "wilson_lo": 0.0246,
+      "wilson_hi": 0.1901
+    },
+    "Waterford City and County Council": {
+      "n_decided": 29,
+      "n_refused": 6,
+      "refusal_rate": 0.2069,
+      "wilson_lo": 0.0985,
+      "wilson_hi": 0.3839
+    },
+    "Westmeath County Council": {
+      "n_decided": 24,
+      "n_refused": 1,
+      "refusal_rate": 0.0417,
+      "wilson_lo": 0.0074,
+      "wilson_hi": 0.2024
+    },
+    "Wexford County Council": {
+      "n_decided": 31,
+      "n_refused": 10,
+      "refusal_rate": 0.3226,
+      "wilson_lo": 0.1857,
+      "wilson_hi": 0.4986
+    },
+    "Wicklow County Council": {
+      "n_decided": 30,
+      "n_refused": 4,
+      "refusal_rate": 0.1333,
+      "wilson_lo": 0.0531,
+      "wilson_hi": 0.2968
+    }
+  },
+  "by_authority_wind": {
+    "Clare County Council": {
+      "n_decided": 19,
+      "n_refused": 9,
+      "refusal_rate": 0.4737,
+      "wilson_lo": 0.2733,
+      "wilson_hi": 0.6829
+    },
+    "Cork County Council": {
+      "n_decided": 134,
+      "n_refused": 21,
+      "refusal_rate": 0.1567,
+      "wilson_lo": 0.1048,
+      "wilson_hi": 0.2277
+    },
+    "Donegal County Council": {
+      "n_decided": 26,
+      "n_refused": 9,
+      "refusal_rate": 0.3462,
+      "wilson_lo": 0.1941,
+      "wilson_hi": 0.5378
+    },
+    "Galway County Council": {
+      "n_decided": 10,
+      "n_refused": 4,
+      "refusal_rate": 0.4,
+      "wilson_lo": 0.1682,
+      "wilson_hi": 0.6873
+    },
+    "Kerry County Council": {
+      "n_decided": 16,
+      "n_refused": 6,
+      "refusal_rate": 0.375,
+      "wilson_lo": 0.1848,
+      "wilson_hi": 0.6136
+    },
+    "Kildare County Council": {
+      "n_decided": 5,
+      "n_refused": 3,
+      "refusal_rate": 0.6,
+      "wilson_lo": 0.2307,
+      "wilson_hi": 0.8824
+    },
+    "Kilkenny County Council": {
+      "n_decided": 10,
+      "n_refused": 4,
+      "refusal_rate": 0.4,
+      "wilson_lo": 0.1682,
+      "wilson_hi": 0.6873
+    },
+    "Laois County Council": {
+      "n_decided": 8,
+      "n_refused": 2,
+      "refusal_rate": 0.25,
+      "wilson_lo": 0.0715,
+      "wilson_hi": 0.5907
+    },
+    "Leitrim County Council": {
+      "n_decided": 5,
+      "n_refused": 2,
+      "refusal_rate": 0.4,
+      "wilson_lo": 0.1176,
+      "wilson_hi": 0.7693
+    },
+    "Mayo County Council": {
+      "n_decided": 13,
+      "n_refused": 1,
+      "refusal_rate": 0.0769,
+      "wilson_lo": 0.0137,
+      "wilson_hi": 0.3331
+    },
+    "Monaghan County Council": {
+      "n_decided": 6,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3903
+    },
+    "Offaly County Council": {
+      "n_decided": 28,
+      "n_refused": 8,
+      "refusal_rate": 0.2857,
+      "wilson_lo": 0.1525,
+      "wilson_hi": 0.4706
+    },
+    "Roscommon County Council": {
+      "n_decided": 10,
+      "n_refused": 6,
+      "refusal_rate": 0.6,
+      "wilson_lo": 0.3127,
+      "wilson_hi": 0.8318
+    },
+    "Sligo County Council": {
+      "n_decided": 12,
+      "n_refused": 2,
+      "refusal_rate": 0.1667,
+      "wilson_lo": 0.047,
+      "wilson_hi": 0.448
+    },
+    "Tipperary County Council": {
+      "n_decided": 7,
+      "n_refused": 1,
+      "refusal_rate": 0.1429,
+      "wilson_lo": 0.0257,
+      "wilson_hi": 0.5131
+    }
+  },
+  "by_authority_bess": {
+    "Offaly County Council": {
+      "n_decided": 5,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.4345
+    }
+  },
+  "by_authority_grid": {
+    "Cavan County Council": {
+      "n_decided": 15,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2039
+    },
+    "Clare County Council": {
+      "n_decided": 15,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2039
+    },
+    "Cork City Council": {
+      "n_decided": 12,
+      "n_refused": 1,
+      "refusal_rate": 0.0833,
+      "wilson_lo": 0.0149,
+      "wilson_hi": 0.3539
+    },
+    "Cork County Council": {
+      "n_decided": 252,
+      "n_refused": 8,
+      "refusal_rate": 0.0317,
+      "wilson_lo": 0.0162,
+      "wilson_hi": 0.0614
+    },
+    "Donegal County Council": {
+      "n_decided": 18,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.1759
+    },
+    "Dublin City Council": {
+      "n_decided": 26,
+      "n_refused": 1,
+      "refusal_rate": 0.0385,
+      "wilson_lo": 0.0068,
+      "wilson_hi": 0.1889
+    },
+    "Dun Laoghaire Rathdown County Council": {
+      "n_decided": 43,
+      "n_refused": 3,
+      "refusal_rate": 0.0698,
+      "wilson_lo": 0.024,
+      "wilson_hi": 0.1861
+    },
+    "Fingal County Council": {
+      "n_decided": 39,
+      "n_refused": 2,
+      "refusal_rate": 0.0513,
+      "wilson_lo": 0.0142,
+      "wilson_hi": 0.1689
+    },
+    "Galway City Council": {
+      "n_decided": 7,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3543
+    },
+    "Galway County Council": {
+      "n_decided": 9,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2991
+    },
+    "Kerry County Council": {
+      "n_decided": 6,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3903
+    },
+    "Kildare County Council": {
+      "n_decided": 19,
+      "n_refused": 1,
+      "refusal_rate": 0.0526,
+      "wilson_lo": 0.0094,
+      "wilson_hi": 0.2464
+    },
+    "Kilkenny County Council": {
+      "n_decided": 6,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3903
+    },
+    "Laois County Council": {
+      "n_decided": 8,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3244
+    },
+    "Limerick County Council": {
+      "n_decided": 15,
+      "n_refused": 2,
+      "refusal_rate": 0.1333,
+      "wilson_lo": 0.0374,
+      "wilson_hi": 0.3788
+    },
+    "Louth County Council": {
+      "n_decided": 10,
+      "n_refused": 1,
+      "refusal_rate": 0.1,
+      "wilson_lo": 0.0179,
+      "wilson_hi": 0.4042
+    },
+    "Mayo County Council": {
+      "n_decided": 12,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2425
+    },
+    "Meath County Council": {
+      "n_decided": 16,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.1936
+    },
+    "Monaghan County Council": {
+      "n_decided": 9,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2991
+    },
+    "Offaly County Council": {
+      "n_decided": 5,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.4345
+    },
+    "Sligo County Council": {
+      "n_decided": 5,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.4345
+    },
+    "South Dublin County Council": {
+      "n_decided": 99,
+      "n_refused": 6,
+      "refusal_rate": 0.0606,
+      "wilson_lo": 0.0281,
+      "wilson_hi": 0.126
+    },
+    "Tipperary County Council": {
+      "n_decided": 9,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2991
+    },
+    "Waterford City and County Council": {
+      "n_decided": 12,
+      "n_refused": 2,
+      "refusal_rate": 0.1667,
+      "wilson_lo": 0.047,
+      "wilson_hi": 0.448
+    },
+    "Westmeath County Council": {
+      "n_decided": 7,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3543
+    },
+    "Wexford County Council": {
+      "n_decided": 8,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.3244
+    },
+    "Wicklow County Council": {
+      "n_decided": 14,
+      "n_refused": 0,
+      "refusal_rate": 0.0,
+      "wilson_lo": 0.0,
+      "wilson_hi": 0.2153
+    }
+  },
+  "by_authority_biogas": {},
+  "decision_timing": {
+    "n_with_decision_dates": 1747,
+    "overall_days": {
+      "p20": 51.0,
+      "p50": 56.0,
+      "p80": 184.0
+    },
+    "solar_days": {
+      "n": 671,
+      "p20": 53.0,
+      "p50": 105.0,
+      "p80": 228.0
+    },
+    "wind_days": {
+      "n": 336,
+      "p20": 53.0,
+      "p50": 64.0,
+      "p80": 245.0
+    },
+    "bess_days": {
+      "n": 25,
+      "p20": 54.0,
+      "p50": 124.0,
+      "p80": 218.4
+    },
+    "grid_days": {
+      "n": 708,
+      "p20": 49.0,
+      "p50": 54.0,
+      "p80": 71.0
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "fewer_units_8": {
+    "baseline_probability": 0.7219,
+    "mutated_probability": 0.7567,
+    "delta_probability_pp": 3.49,
+    "total_logit_change": 0.1811,
+    "group_contributions_logit": {
+      "application type bucket": 0.0767,
+      "numeric: floor area ratio": -0.0524,
+      "numeric: comparable top-5 rate": 0.0419,
+      "numeric: floor area": 0.0385,
+      "numeric: comparable refused-granted gap": 0.0265,
+      "numeric: units count": 0.0239,
+      "numeric: comparable top-20 rate": -0.0218,
+      "numeric: comparable top-10 rate": 0.0191,
+      "numeric: comparable similarity": 0.0135,
+      "numeric: site per unit": 0.0103,
+      "numeric: comp_top20_max_refused_similarity": 0.0051,
+      "numeric: density (units/ha)": -0.0004,
+      "numeric: comp_top20_max_granted_similarity": 0.0001
+    },
+    "top_feature_contributions": [
+      {
+        "feature": "cat__application_bucket_2-9 units",
+        "logit_contribution": 0.1292
+      },
+      {
+        "feature": "cat__application_bucket_10+ units",
+        "logit_contribution": -0.0525
+      },
+      {
+        "feature": "num__floor_area_ratio",
+        "logit_contribution": -0.0524
+      },
+      {
+        "feature": "num__comp_top5_refusal_rate",
+        "logit_contribution": 0.0419
+      },
+      {
+        "feature": "num__log_floor_area_sqm",
+        "logit_contribution": 0.0385
+      },
+      {
+        "feature": "num__comp_top20_refused_similarity_gap",
+        "logit_contribution": 0.0265
+      },
+      {
+        "feature": "num__log_units",
+        "logit_contribution": 0.0239
+      },
+      {
+        "feature": "num__comp_top20_refusal_rate",
+        "logit_contribution": -0.0218
+      },
+      {
+        "feature": "num__comp_top10_refusal_rate",
+        "logit_contribution": 0.0191
+      },
+      {
+        "feature": "num__comp_top20_mean_similarity",
+        "logit_contribution": 0.0135
+      },
+      {
+        "feature": "num__site_sqm_per_unit",
+        "logit_contribution": 0.0103
+      },
+      {
+        "feature": "num__comp_top20_max_refused_similarity",
+        "logit_contribution": 0.0051
+      }
+    ],
+    "top_text_terms": []
+  },
+  "more_units_16": {
+    "baseline_probability": 0.7219,
+    "mutated_probability": 0.7738,
+    "delta_probability_pp": 5.19,
+    "total_logit_change": 0.2761,
+    "group_contributions_logit": {
+      "numeric: density band 35-50/ha": 0.2259,
+      "numeric: floor area ratio": 0.0524,
+      "numeric: density band <35/ha": 0.0474,
+      "numeric: floor area": -0.0274,
+      "numeric: units count": -0.0174,
+      "numeric: site per unit": -0.0052,
+      "numeric: density (units/ha)": 0.0004
+    },
+    "top_feature_contributions": [
+      {
+        "feature": "num__density_band_mid",
+        "logit_contribution": 0.2259
+      },
+      {
+        "feature": "num__floor_area_ratio",
+        "logit_contribution": 0.0524
+      },
+      {
+        "feature": "num__density_band_low",
+        "logit_contribution": 0.0474
+      },
+      {
+        "feature": "num__log_floor_area_sqm",
+        "logit_contribution": -0.0274
+      },
+      {
+        "feature": "num__log_units",
+        "logit_contribution": -0.0174
+      },
+      {
+        "feature": "num__site_sqm_per_unit",
+        "logit_contribution": -0.0052
+      },
+      {
+        "feature": "num__density_units_per_ha",
+        "logit_contribution": 0.0004
+      }
+    ],
+    "top_text_terms": []
+  },
+  "smaller_site": {
+    "baseline_probability": 0.7219,
+    "mutated_probability": 0.7829,
+    "delta_probability_pp": 6.1,
+    "total_logit_change": 0.3286,
+    "group_contributions_logit": {
+      "numeric: density band 35-50/ha": 0.2259,
+      "numeric: floor area ratio": 0.0943,
+      "numeric: density band <35/ha": 0.0474,
+      "numeric: density >45/ha": -0.0372,
+      "numeric: site per unit": -0.0078,
+      "numeric: site area": 0.0053,
+      "numeric: density (units/ha)": 0.0008
+    },
+    "top_feature_contributions": [
+      {
+        "feature": "num__density_band_mid",
+        "logit_contribution": 0.2259
+      },
+      {
+        "feature": "num__floor_area_ratio",
+        "logit_contribution": 0.0943
+      },
+      {
+        "feature": "num__density_band_low",
+        "logit_contribution": 0.0474
+      },
+      {
+        "feature": "num__density_over_45",
+        "logit_contribution": -0.0372
+      },
+      {
+        "feature": "num__site_sqm_per_unit",
+        "logit_contribution": -0.0078
+      },
+      {
+        "feature": "num__log_site_area_sqm",
+        "logit_contribution": 0.0053
+      },
+      {
+        "feature": "num__density_units_per_ha",
+        "logit_contribution": 0.0008
+      }
+    ],
+    "top_text_terms": []
+  },
+  "one_off_house": {
+    "baseline_probability": 0.7219,
+    "mutated_probability": 0.5103,
+    "delta_probability_pp": -21.15,
+    "total_logit_change": -0.9125,
+    "group_contributions_logit": {
+      "description text": -1.2026,
+      "numeric: site per unit": 0.2276,
+      "numeric: floor area": 0.2148,
+      "numeric: comparable similarity": -0.1428,
+      "numeric: floor area ratio": -0.1407,
+      "numeric: units count": 0.1215,
+      "numeric: comp_top20_max_granted_similarity": 0.0562,
+      "application type bucket": -0.0424,
+      "numeric: comparable top-10 rate": -0.0382,
+      "numeric: comp_top20_max_refused_similarity": 0.0357,
+      "numeric: comparable top-5 rate": -0.021,
+      "numeric: comparable top-20 rate": 0.0131,
+      "numeric: log_plan_codes_match_desc": 0.0109,
+      "numeric: comparable refused-granted gap": -0.0099,
+      "numeric: avg unit floor area": 0.0067,
+      "numeric: density (units/ha)": -0.0012
+    },
+    "top_feature_contributions": [
+      {
+        "feature": "num__site_sqm_per_unit",
+        "logit_contribution": 0.2276
+      },
+      {
+        "feature": "num__log_floor_area_sqm",
+        "logit_contribution": 0.2148
+      },
+      {
+        "feature": "num__comp_top20_mean_similarity",
+        "logit_contribution": -0.1428
+      },
+      {
+        "feature": "num__floor_area_ratio",
+        "logit_contribution": -0.1407
+      },
+      {
+        "feature": "num__log_units",
+        "logit_contribution": 0.1215
+      },
+      {
+        "feature": "num__comp_top20_max_granted_similarity",
+        "logit_contribution": 0.0562
+      },
+      {
+        "feature": "cat__application_bucket_10+ units",
+        "logit_contribution": -0.0525
+      },
+      {
+        "feature": "num__comp_top10_refusal_rate",
+        "logit_contribution": -0.0382
+      },
+      {
+        "feature": "num__comp_top20_max_refused_similarity",
+        "logit_contribution": 0.0357
+      },
+      {
+        "feature": "num__comp_top5_refusal_rate",
+        "logit_contribution": -0.021
+      },
+      {
+        "feature": "num__comp_top20_refusal_rate",
+        "logit_contribution": 0.0131
+      },
+      {
+        "feature": "num__log_plan_codes_match_desc",
+        "logit_contribution": 0.0109
+      }
+    ],
+    "top_text_terms": [
+      {
+        "term": "apartments",
+        "logit_contribution": -0.3679
+      },
+      {
+        "term": "garage",
+        "logit_contribution": -0.2698
+      },
+      {
+        "term": "parking",
+        "logit_contribution": -0.2444
+      },
+      {
+        "term": "apartments storey",
+        "logit_contribution": 0.2109
+      },
+      {
+        "term": "car parking associated",
+        "logit_contribution": -0.1796
+      },
+      {
+        "term": "storey",
+        "logit_contribution": -0.1311
+      },
+      {
+        "term": "dwelling house garage",
+        "logit_contribution": -0.1165
+      },
+      {
+        "term": "single",
+        "logit_contribution": -0.1154
+      },
+      {
+        "term": "dwelling",
+        "logit_contribution": 0.1061
+      },
+      {
+        "term": "construction 12",
+        "logit_contribution": -0.1028
+      }
+    ]
+  }
+}

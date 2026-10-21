@@ -1,0 +1,14 @@
+{
+  "ingested": 273,
+  "index_total": 308,
+  "skipped_or_errors": [
+    {
+      "file": "05_policy\\documents\\corpus\\documents\\cavan\\156dfed67481__consolidated-county-development-plan-2008-2014.doc",
+      "status": "skipped_doc_needs_converter"
+    },
+    {
+      "file": "05_policy\\documents\\corpus\\documents\\kildare\\4327dd1c9f61__ERRATA.pdf",
+      "status": "empty_text"
+    }
+  ]
+}

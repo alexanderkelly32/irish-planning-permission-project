@@ -1,0 +1,48 @@
+{
+  "input_row_count": 272545,
+  "usable_row_count": 213752,
+  "refusal_row_count": 29006,
+  "grant_row_count": 184746,
+  "revised_outcome": "GRANTED",
+  "candidate_pair_count": 35876,
+  "blocking_method_pair_counts": {
+    "exact_address": 53975,
+    "spatial_50m": 29175
+  },
+  "linkage_tier_counts": {
+    "low": 29157,
+    "medium": 5799,
+    "high": 920
+  },
+  "source": "old_original_attempt\\first_attempt_messy\\irish_planning_dataset_clean_model.parquet",
+  "raw_row_count": 491760,
+  "residential_scope_row_count": 272545,
+  "review_sample_row_count": 201,
+  "review_pilot_row_count": 61,
+  "carried_forward_audit_status_counts": {
+    "accepted": 1398,
+    "rejected": 306
+  },
+  "completed_review_sources": [
+    "project_revision_pair_audit.csv",
+    "full_revision_manual_review_pilot_fixed.csv",
+    "full_revision_manual_review_sample_fixed.csv",
+    "full_revision_manual_review_high_tier_fixed.csv",
+    "full_revision_manual_review_high_tier_2_fixed.csv",
+    "full_revision_manual_review_high_tier_3_fixed.csv",
+    "full_revision_manual_review_medium_fixed.csv"
+  ],
+  "known_accepted_pair_recall": {
+    "known_pair_count": 46,
+    "recalled_pair_count": 46,
+    "recall": 1.0,
+    "missed_pairs": []
+  },
+  "configuration": {
+    "maximum_gap_years": 8,
+    "spatial_radius_m": 50,
+    "maximum_group_size": 25,
+    "review_per_tier": 100
+  },
+  "status": "candidate_strength_only_manual_validation_required"
+}

@@ -1,0 +1,97 @@
+{
+  "verified_rows": 79,
+  "per_theme": {
+    "density_scale": {
+      "tp": 20,
+      "fp": 2,
+      "fn": 6,
+      "precision": 0.9091,
+      "recall": 0.7692,
+      "f1": 0.8333
+    },
+    "design_layout": {
+      "tp": 32,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "f1": 0.9697
+    },
+    "traffic_access": {
+      "tp": 22,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9565,
+      "recall": 1.0,
+      "f1": 0.9778
+    },
+    "residential_amenity": {
+      "tp": 33,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9706,
+      "recall": 1.0,
+      "f1": 0.9851
+    },
+    "flooding_drainage": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 5,
+      "precision": 1.0,
+      "recall": 0.7059,
+      "f1": 0.8276
+    },
+    "land_use_policy": {
+      "tp": 36,
+      "fp": 17,
+      "fn": 0,
+      "precision": 0.6792,
+      "recall": 1.0,
+      "f1": 0.809
+    },
+    "premature_or_info_gap": {
+      "tp": 19,
+      "fp": 2,
+      "fn": 11,
+      "precision": 0.9048,
+      "recall": 0.6333,
+      "f1": 0.7451
+    },
+    "heritage_archaeology": {
+      "tp": 28,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333
+    },
+    "ecology_trees": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.8333,
+      "f1": 0.9091
+    },
+    "water_wastewater": {
+      "tp": 5,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.8333,
+      "recall": 0.7143,
+      "f1": 0.7692
+    },
+    "other": {
+      "tp": 11,
+      "fp": 3,
+      "fn": 2,
+      "precision": 0.7857,
+      "recall": 0.8462,
+      "f1": 0.8148
+    }
+  },
+  "top1_accuracy": 0.9114,
+  "overall_micro_precision": 0.8826,
+  "overall_micro_recall": 0.8826,
+  "caveat": "Measured against human review of the decision texts; sample stratified across themes."
+}

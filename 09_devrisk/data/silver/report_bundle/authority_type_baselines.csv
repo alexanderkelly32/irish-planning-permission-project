@@ -1,0 +1,63 @@
+authority,type,n,refusal_rate,ci_low,ci_high,delta_vs_national_pp
+Fingal County Council,apartment,50,0.28,0.1747,0.4167,-28.08
+Dun Laoghaire Rathdown County Council,apartment,51,0.2941,0.1871,0.43,-26.67
+Dublin City Council,apartment,1267,0.3031,0.2784,0.3289,-25.77
+South Dublin County Council,apartment,432,0.3148,0.2728,0.3601,-24.6
+Dublin City Council,house,16424,0.102,0.0975,0.1068,-23.8
+South Dublin County Council,house,8901,0.1308,0.1239,0.1379,-20.92
+Dun Laoghaire Rathdown County Council,house,14571,0.1423,0.1368,0.1481,-19.77
+Wexford County Council,apartment,45,0.3778,0.2511,0.5237,-18.3
+Fingal County Council,house,12863,0.1583,0.1521,0.1647,-18.17
+Wexford County Council,house,13384,0.1862,0.1797,0.1929,-15.38
+Wicklow County Council,apartment,99,1.0,0.9626,1.0,43.92
+Limerick County Council,apartment,23,1.0,0.8569,1.0,43.92
+Longford County Council,apartment,5,1.0,0.5655,1.0,43.92
+Louth County Council,apartment,50,1.0,0.9286,1.0,43.92
+Mayo County Council,apartment,22,1.0,0.8513,1.0,43.92
+Meath County Council,apartment,57,1.0,0.9369,1.0,43.92
+Carlow County Council,apartment,8,1.0,0.6756,1.0,43.92
+Monaghan County Council,apartment,9,1.0,0.7008,1.0,43.92
+Offaly County Council,apartment,19,1.0,0.8318,1.0,43.92
+Roscommon County Council,apartment,11,1.0,0.7412,1.0,43.92
+Sligo County Council,apartment,13,1.0,0.7719,1.0,43.92
+Tipperary County Council,apartment,14,1.0,0.7847,1.0,43.92
+Waterford City and County Council,apartment,45,1.0,0.9213,1.0,43.92
+Westmeath County Council,apartment,43,1.0,0.918,1.0,43.92
+Laois County Council,apartment,4,1.0,0.5101,1.0,43.92
+Kilkenny County Council,apartment,34,1.0,0.8985,1.0,43.92
+Leitrim County Council,apartment,1,1.0,0.2065,1.0,43.92
+Donegal County Council,apartment,30,1.0,0.8865,1.0,43.92
+Cork County Council,apartment,106,1.0,0.965,1.0,43.92
+Galway City Council,apartment,48,1.0,0.9259,1.0,43.92
+Cork City Council,apartment,94,1.0,0.9607,1.0,43.92
+Clare County Council,apartment,30,1.0,0.8865,1.0,43.92
+Galway County Council,apartment,80,1.0,0.9542,1.0,43.92
+Cavan County Council,apartment,3,1.0,0.4385,1.0,43.92
+Kildare County Council,apartment,161,1.0,0.9767,1.0,43.92
+Kerry County Council,apartment,58,1.0,0.9379,1.0,43.92
+Cavan County Council,house,259,1.0,0.9854,1.0,66.0
+Waterford City and County Council,house,803,1.0,0.9952,1.0,66.0
+Westmeath County Council,house,557,1.0,0.9932,1.0,66.0
+Roscommon County Council,house,427,1.0,0.9911,1.0,66.0
+Tipperary County Council,house,310,1.0,0.9878,1.0,66.0
+Clare County Council,house,567,1.0,0.9933,1.0,66.0
+Carlow County Council,house,216,1.0,0.9825,1.0,66.0
+Cork City Council,house,574,1.0,0.9934,1.0,66.0
+Sligo County Council,house,190,1.0,0.9802,1.0,66.0
+Cork County Council,house,2306,1.0,0.9983,1.0,66.0
+Kilkenny County Council,house,611,1.0,0.9938,1.0,66.0
+Kildare County Council,house,1885,1.0,0.998,1.0,66.0
+Monaghan County Council,house,276,1.0,0.9863,1.0,66.0
+Donegal County Council,house,1208,1.0,0.9968,1.0,66.0
+Meath County Council,house,1512,1.0,0.9975,1.0,66.0
+Mayo County Council,house,631,1.0,0.9939,1.0,66.0
+Galway City Council,house,354,1.0,0.9893,1.0,66.0
+Louth County Council,house,1098,1.0,0.9965,1.0,66.0
+Longford County Council,house,192,1.0,0.9804,1.0,66.0
+Galway County Council,house,2285,1.0,0.9983,1.0,66.0
+Limerick County Council,house,639,1.0,0.994,1.0,66.0
+Leitrim County Council,house,53,1.0,0.9324,1.0,66.0
+Kerry County Council,house,955,1.0,0.996,1.0,66.0
+Laois County Council,house,243,1.0,0.9844,1.0,66.0
+Offaly County Council,house,337,1.0,0.9887,1.0,66.0
+Wicklow County Council,house,1281,1.0,0.997,1.0,66.0

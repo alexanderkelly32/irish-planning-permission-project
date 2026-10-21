@@ -1,0 +1,12 @@
+tag,case_count,pct_of_tagged_cases
+land_use_policy,418,56.1
+residential_amenity,403,54.1
+traffic_access,386,51.8
+design_layout,368,49.4
+density_scale,259,34.8
+premature_or_info_gap,217,29.1
+other,188,25.2
+flooding_drainage,168,22.6
+water_wastewater,128,17.2
+ecology_trees,106,14.2
+heritage_archaeology,100,13.4

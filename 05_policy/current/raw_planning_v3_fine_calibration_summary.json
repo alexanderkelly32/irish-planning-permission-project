@@ -1,0 +1,7 @@
+{
+  "holdout_rows": 15221,
+  "one_percent_bins_with_n_ge_100": 28,
+  "one_percent_bins_total": 81,
+  "one_percent_bins_where_actual_within_wilson_ci_of_predicted": 77,
+  "note": "Fine-grained calibration at 1 percentage-point resolution. Wilson 95% intervals show the precision the current 15,221-row holdout supports; precision grows with each outcome year. Bins with small n have wide intervals - that is honest uncertainty, not model failure."
+}

@@ -1,0 +1,7 @@
+{
+  "rows": 1411,
+  "retagged_rows": 857,
+  "errors": 0,
+  "output": "03_refusal\\current\\theme_retag_2026-09-10\\refusal_reasons_cases_master_retagged.csv",
+  "note": "Master copy with weak-theme rows replaced by the stricter retag; the canonical master is untouched."
+}

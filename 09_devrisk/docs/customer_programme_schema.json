@@ -1,0 +1,38 @@
+{
+  "schema": "customer_programme_data",
+  "version": "v1",
+  "purpose": "Developer-supplied programme data for retrospective validation only. Not fed into the official model until enough observations accumulate.",
+  "per_project": {
+    "project_id": "string (site/planning reference)",
+    "site_ownership_status": "owned | optioned | not_acquired",
+    "finance_status": "undeveloped | facility_in_place | sought | none",
+    "contractor_appointed": "boolean",
+    "tender_stage": "none | prequal | tender | awarded",
+    "intended_commencement": "date",
+    "intended_phasing": "free text (phase count + units per phase)",
+    "intended_tenure": "private_sale | private_rental | social_ahb | part_v | turnkey | forward_funded | mixed",
+    "part_v_status": "none | proposal | agreement | completed | exempt",
+    "utility_status": "none | applied | agreement | connected",
+    "purchaser_presale_agreement": "boolean",
+    "programme_milestones": [
+      {"milestone": "commencement|first_ccc|final_ccc|first_sale|last_sale", "intended_date": "date"}
+    ]
+  },
+  "per_milestone_actuals": {
+    "project_id": "string",
+    "milestone": "commencement|first_ccc|final_ccc|first_sale|last_sale",
+    "actual_date": "date",
+    "recorded_at": "timestamp",
+    "source": "developer_supplied"
+  },
+  "historical_projects": {
+    "note": "Ask early customers for past projects' programme assumptions AND actual milestone dates - gives immediate training observations.",
+    "fields": "same as per_project + per_milestone_actuals"
+  },
+  "rules": [
+    "Store snapshot (as-intended) and outcome (actual) separately.",
+    "Never overwrite the independent prediction with the developer programme.",
+    "Display the developer programme beside the independent prediction in reports.",
+    "Test each variable retrospectively; promote to model inputs only with out-of-time validation support."
+  ]
+}

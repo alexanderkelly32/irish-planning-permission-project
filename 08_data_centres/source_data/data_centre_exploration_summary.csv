@@ -1,0 +1,6 @@
+metric,value
+all_data_centre_mentions,252
+likely_data_centres,103
+data_centre_related_applications,21
+ambiguous_data_centres,9
+excluded_non_data_centre_mentions,119

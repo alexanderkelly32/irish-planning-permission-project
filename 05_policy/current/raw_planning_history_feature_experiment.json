@@ -1,0 +1,55 @@
+{
+  "definition": "Pre-2025 training, 2025 prospective-style test; history features use only applications received earlier than the scored case.",
+  "train_n": 203931,
+  "test_n": 15221,
+  "models": {
+    "baseline_text_authority_type_year": {
+      "n": 15221,
+      "refusal_rate": 0.11562972209447474,
+      "roc_auc": 0.779033812326519,
+      "average_precision": 0.37813304377545,
+      "brier": 0.1450244699112304,
+      "log_loss": 0.44649362195680276,
+      "calibration_intercept": -1.6225001347114312,
+      "calibration_slope": 0.9060905541466359,
+      "bootstrap_samples": 300,
+      "skipped_single_class_samples": 0,
+      "roc_auc_p05": 0.7691679493266864,
+      "roc_auc_p50": 0.778453453665978,
+      "roc_auc_p95": 0.7871745527411022,
+      "pr_auc_p05": 0.35986076029549563,
+      "pr_auc_p50": 0.3777231636132507,
+      "pr_auc_p95": 0.3973234458873943,
+      "brier_p05": 0.14280536241212766,
+      "brier_p50": 0.14505148629596717,
+      "brier_p95": 0.14742551848696492
+    },
+    "history_features_plus_text": {
+      "n": 15221,
+      "refusal_rate": 0.11562972209447474,
+      "roc_auc": 0.7301331793531481,
+      "average_precision": 0.3322254413989475,
+      "brier": 0.15983076536679738,
+      "log_loss": 0.49345038897665106,
+      "calibration_intercept": -1.68466263059642,
+      "calibration_slope": 0.9570316868637676,
+      "bootstrap_samples": 300,
+      "skipped_single_class_samples": 0,
+      "roc_auc_p05": 0.720324481729842,
+      "roc_auc_p50": 0.7302971550513286,
+      "roc_auc_p95": 0.7388333920626922,
+      "pr_auc_p05": 0.31459796810314633,
+      "pr_auc_p50": 0.33152928230545387,
+      "pr_auc_p95": 0.3522199784676664,
+      "brier_p05": 0.15791339514976346,
+      "brier_p50": 0.15969654077759943,
+      "brier_p95": 0.16179595943325167
+    }
+  },
+  "delta_history_minus_baseline": {
+    "roc_auc": -0.04890063297337088,
+    "average_precision": -0.04590760237650249,
+    "brier": 0.01480629545556697,
+    "log_loss": 0.0469567670198483
+  }
+}

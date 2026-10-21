@@ -1,0 +1,78 @@
+{
+  "fewer_units_8": {
+    "baseline_refusal_probability": 0.3496,
+    "scenario_refusal_probability": 0.4052,
+    "delta_pp": 5.56,
+    "verdict": "Overall, these changes raise the refusal probability from 35% to 41%.",
+    "explanations": [
+      {
+        "driver": "similar past applications",
+        "direction": "raises",
+        "text": "The most similar past applications to the revised scheme were refused 80% of the time, compared with 40% for the original scheme."
+      },
+      {
+        "driver": "scheme size category",
+        "direction": "raises",
+        "text": "Changing the scheme moved it from the \u201810+ units\u2019 category to \u20182-9 units\u2019."
+      },
+      {
+        "driver": "site density",
+        "direction": "lowers",
+        "text": "The revised scheme is 20 homes per hectare (was 30), moving it into the low (below 35 homes/ha) density band."
+      }
+    ],
+    "note": "Explanations are model-attributed sensitivity statements, not guaranteed outcomes."
+  },
+  "more_units_16": {
+    "baseline_refusal_probability": 0.3496,
+    "scenario_refusal_probability": 0.4222,
+    "delta_pp": 7.26,
+    "verdict": "Overall, these changes raise the refusal probability from 35% to 42%.",
+    "explanations": [
+      {
+        "driver": "site density",
+        "direction": "raises",
+        "text": "The revised scheme is 40 homes per hectare (was 30), moving it into the medium (35-50 homes/ha) density band."
+      }
+    ],
+    "note": "Explanations are model-attributed sensitivity statements, not guaranteed outcomes."
+  },
+  "smaller_site": {
+    "baseline_refusal_probability": 0.3496,
+    "scenario_refusal_probability": 0.4222,
+    "delta_pp": 7.26,
+    "verdict": "Overall, these changes raise the refusal probability from 35% to 42%.",
+    "explanations": [
+      {
+        "driver": "site density",
+        "direction": "raises",
+        "text": "The revised scheme is 48 homes per hectare (was 30), moving it into the medium (35-50 homes/ha) density band."
+      }
+    ],
+    "note": "Explanations are model-attributed sensitivity statements, not guaranteed outcomes."
+  },
+  "one_off_house": {
+    "baseline_refusal_probability": 0.3496,
+    "scenario_refusal_probability": 0.26,
+    "delta_pp": -8.96,
+    "verdict": "Overall, these changes lower the refusal probability from 35% to 26%.",
+    "explanations": [
+      {
+        "driver": "similar past applications",
+        "direction": "lowers",
+        "text": "The most similar past applications to the revised scheme were refused 20% of the time, compared with 40% for the original scheme."
+      },
+      {
+        "driver": "site density",
+        "direction": "lowers",
+        "text": "The revised scheme is 2 homes per hectare (was 30), moving it into the low (below 35 homes/ha) density band."
+      },
+      {
+        "driver": "scheme size category",
+        "direction": "lowers",
+        "text": "Changing the scheme moved it from the \u201810+ units\u2019 category to \u2018single dwelling\u2019."
+      }
+    ],
+    "note": "Explanations are model-attributed sensitivity statements, not guaranteed outcomes."
+  }
+}

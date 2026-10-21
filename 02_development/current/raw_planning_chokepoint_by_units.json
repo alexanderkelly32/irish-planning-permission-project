@@ -1,0 +1,95 @@
+{
+  "generated": "2026-09-18",
+  "ground_truth_pairs_total": 67,
+  "rows": [
+    {
+      "threshold_units": 10,
+      "n": 35,
+      "band_top_themes": [
+        "design_layout",
+        "residential_amenity",
+        "traffic_access",
+        "land_use_policy"
+      ],
+      "retrieval": {
+        "top1": 0.6,
+        "top3": 0.8857
+      },
+      "global_prior": {
+        "top1": 0.7429,
+        "top3": 0.8857
+      },
+      "band_prior": {
+        "top1": 0.7429,
+        "top3": 0.9143
+      }
+    },
+    {
+      "threshold_units": 25,
+      "n": 18,
+      "band_top_themes": [
+        "design_layout",
+        "residential_amenity",
+        "traffic_access",
+        "land_use_policy"
+      ],
+      "retrieval": {
+        "top1": 0.6111,
+        "top3": 0.8889
+      },
+      "global_prior": {
+        "top1": 0.7222,
+        "top3": 0.8889
+      },
+      "band_prior": {
+        "top1": 0.7222,
+        "top3": 0.8889
+      }
+    },
+    {
+      "threshold_units": 50,
+      "n": 5,
+      "band_top_themes": [
+        "design_layout",
+        "traffic_access",
+        "density_scale",
+        "premature_or_info_gap"
+      ],
+      "retrieval": {
+        "top1": 0.8,
+        "top3": 1.0
+      },
+      "global_prior": {
+        "top1": 0.8,
+        "top3": 1.0
+      },
+      "band_prior": {
+        "top1": 0.8,
+        "top3": 1.0
+      }
+    },
+    {
+      "threshold_units": 100,
+      "n": 1,
+      "band_top_themes": [
+        "design_layout",
+        "residential_amenity",
+        "traffic_access",
+        "premature_or_info_gap"
+      ],
+      "retrieval": {
+        "top1": 1.0,
+        "top3": 1.0
+      },
+      "global_prior": {
+        "top1": 1.0,
+        "top3": 1.0
+      },
+      "band_prior": {
+        "top1": 1.0,
+        "top3": 1.0
+      }
+    }
+  ],
+  "caveat": "The band prior uses only the size band's own theme frequencies - it is the bar any text-using method must beat, and it leaks no case text. Subsets are small at higher thresholds; treat as directional."
+}

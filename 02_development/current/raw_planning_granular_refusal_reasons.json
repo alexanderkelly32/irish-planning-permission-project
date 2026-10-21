@@ -1,0 +1,79 @@
+{
+  "generated": "2026-09-20",
+  "corpus_texts": 1364,
+  "granular_reasons": [
+    {
+      "reason": "policy_contravention",
+      "cases_citing": 918,
+      "share_of_corpus": 0.673,
+      "example": "ould be premature, would be prejudicial to public health and would therefore be contrary to the proper planning and 1sustainable development of the area. || the proposed d"
+    },
+    {
+      "reason": "ecology_natura",
+      "cases_citing": 547,
+      "share_of_corpus": 0.401,
+      "example": "contravene the provisions of the plan, would be contrary to article 6(3) of the habitats directive and would therefore be contrary to the proper planning and sustainab"
+    },
+    {
+      "reason": "amenity_privacy_overlooking",
+      "cases_citing": 525,
+      "share_of_corpus": 0.3849,
+      "example": "cessive density with under-provision of public and private open spaces || undue overlooking and loss of privacy to existing residences and prejudicing development of adjoi"
+    },
+    {
+      "reason": "design_character_scale",
+      "cases_citing": 413,
+      "share_of_corpus": 0.3028,
+      "example": " character with the pattern of development in the area and seriously injure the visual amenities of the area and set an undesirable precedent for similar development of the "
+    },
+    {
+      "reason": "drainage_attenuation",
+      "cases_citing": 382,
+      "share_of_corpus": 0.2801,
+      "example": "|| the proposed development as designed fails to provide adequate proposals for surface water disposal, flood risk assessment, surface water management and all necessary leg"
+    },
+    {
+      "reason": "roads_width_alignment",
+      "cases_citing": 234,
+      "share_of_corpus": 0.1716,
+      "example": "e considered the following further informationshouldbesought: cavan unobstructedvisibility splays in both directions at the site access.the drawing 2 shalldetail theextentofpro"
+    },
+    {
+      "reason": "parking_provision",
+      "cases_citing": 213,
+      "share_of_corpus": 0.1562,
+      "example": "developmentplan, including spaces tobe allocatedforvisitorparking-note:where2no.parking spaces are proposed within the curtilage of each dwelling house, the hard standing are"
+    },
+    {
+      "reason": "information_gaps",
+      "cases_citing": 197,
+      "share_of_corpus": 0.1444,
+      "example": "insufficient information has been submitted to enable the planning authority to carry out a complete ass"
+    },
+    {
+      "reason": "density_overdevelopment",
+      "cases_citing": 183,
+      "share_of_corpus": 0.1342,
+      "example": "sub-standard layout and excessive density with under-provision of public and private open spaces || undue overlooking and"
+    },
+    {
+      "reason": "daylight_overshadowing",
+      "cases_citing": 143,
+      "share_of_corpus": 0.1048,
+      "example": "for thefollowingreasons: \u00b7 thelayoutandsitingofunits14,15and16whichwouldresultinovershadowingand overlookingbetweensaidproperties, the internal layout and lack of fenestr"
+    },
+    {
+      "reason": "services_capacity",
+      "cases_citing": 129,
+      "share_of_corpus": 0.0946,
+      "example": ". appendix b storm attenuation design. appendix c foul sewer design. appendix d water main pressure & flow test results. appendix e letter from d & j builders. dfod ramis"
+    },
+    {
+      "reason": "fire_safety",
+      "cases_citing": 3,
+      "share_of_corpus": 0.0022,
+      "example": "access staircase servicing the kitchen and wash-up areas. providing a secondary means of escape from the first floor level, with a newgable door with steps across the existing"
+    }
+  ],
+  "caveat": "Phrase-level mining of the refusal-text corpus (master + audited-arm decision texts). Counts are 'reason cited at least once', not causal weights. This is the feature-hunting map: each row is a predictable granular ground."
+}

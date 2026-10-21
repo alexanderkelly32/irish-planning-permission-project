@@ -1,0 +1,35 @@
+{
+  "leak_token_scan": {
+    "text_columns_scanned": 27,
+    "columns_with_decision_language": {
+      "DevelopmentDescription": 33,
+      "Decision": 1410,
+      "AppealStatus": 39,
+      "AppealDecision": 476
+    },
+    "raw_source_or_target_columns_explained": {
+      "Decision": "the outcome target itself - expected to contain refusal/grant language",
+      "AppealStatus/AppealDecision": "raw source columns never used as model features",
+      "DevelopmentDescription": "raw source text; v3 uses the leakage-clue-stripped variant and the structured models are text-free"
+    },
+    "model_feature_columns_flagged": {},
+    "verdict": "clean"
+  },
+  "coverage_bias": {
+    "joined_rows": 683,
+    "unjoined_rows": 3318,
+    "joined_refusal_rate": 0.1596,
+    "unjoined_refusal_rate": 0.248,
+    "note": "The joined subset has a different refusal rate to the unjoined cohort. This is selection in which applications have published reports, not outcome leakage - but it must be disclosed whenever structured model statistics are reported."
+  },
+  "feature_sanity": {
+    "storeys_range_joined": [
+      1.0,
+      29.0
+    ],
+    "storeys_mean_refused": 3.06,
+    "storeys_mean_granted": 3.07
+  },
+  "generated": "2026-09-17",
+  "verdict_summary": "No post-submission language in model feature columns; coverage bias quantified; the submission-time allowlist and time-safe feature rules remain the enforced boundary."
+}

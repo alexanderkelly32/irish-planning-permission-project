@@ -1,0 +1,23 @@
+scheme,authority,t0,control_group,n,mean_predicted
+Grand Canal Harbour,Dublin City Council,2019-06-07,refused,48,0.4179
+Grand Canal Harbour,Dublin City Council,2019-06-07,granted,109,0.311
+Vartry Wood,Wicklow County Council,2020-05-26,refused,2,0.3763
+Vartry Wood,Wicklow County Council,2020-05-26,granted,32,0.1118
+Churchlands,Wicklow County Council,2020-05-27,refused,2,0.3824
+Churchlands,Wicklow County Council,2020-05-27,granted,32,0.1118
+Trinity Collection,Dublin City Council,2019-08-30,refused,49,0.4321
+Trinity Collection,Dublin City Council,2019-08-30,granted,99,0.3149
+The Willows,Meath County Council,2020-05-28,refused,8,0.1346
+The Willows,Meath County Council,2020-05-28,granted,57,0.0889
+Millerstown,Kildare County Council,2019-06-07,refused,24,0.344
+Millerstown,Kildare County Council,2019-06-07,granted,74,0.1676
+Usher's Mill,Louth County Council,2022-09-08,refused,7,0.3411
+Usher's Mill,Louth County Council,2022-09-08,granted,60,0.2016
+Barnhill Place,Dun Laoghaire Rathdown County Council,2018-05-04,refused,6,0.5689
+Barnhill Place,Dun Laoghaire Rathdown County Council,2018-05-04,granted,11,0.7478
+Charlemont Square,Dublin City Council,2018-10-04,refused,36,0.3829
+Charlemont Square,Dublin City Council,2018-10-04,granted,93,0.2864
+Ballymakenny Park,Louth County Council,2022-12-22,refused,6,0.2696
+Ballymakenny Park,Louth County Council,2022-12-22,granted,57,0.2284
+Aderrig,South Dublin County Council,2023-03-23,refused,20,0.4299
+Aderrig,South Dublin County Council,2023-03-23,granted,47,0.2361

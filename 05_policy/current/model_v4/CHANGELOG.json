@@ -1,0 +1,25 @@
+{
+  "model_version": "national_residential_v4_full",
+  "entries": [
+    {
+      "version": "v4-full (frozen)",
+      "date": "2026-09-22",
+      "summary": "Promoted as the product candidate. 80/20 two-track regime split: trained on applications received before 2024, evaluated on 35,713 decisions in 2024-2025. ROC-AUC 0.792, average precision 0.409, Brier 0.090, log loss 0.313. GE10 (10+ units, n=464): ROC-AUC 0.782; riskiest decile refused at 63.8%, safest at 0%."
+    },
+    {
+      "version": "v4-full (frozen)",
+      "date": "2026-09-22",
+      "summary": "Specialised-scheme prior added as a disclosure: senior-living/care schemes historically refuse at ~27% (n=105, pre-2024) while the general score understates them; the app shows both figures. The prior does not replace the model score."
+    },
+    {
+      "version": "comparable_metadata (display-only)",
+      "date": "2026-09-23",
+      "summary": "Comparable display metadata pack built (application references, dates, units, outcomes, inspector rationale) row-aligned with the frozen comparable reference. Display-only: the scoring path is unchanged."
+    },
+    {
+      "version": "product surface",
+      "date": "2026-09-23",
+      "summary": "Pre-Submission Review product shipped: evidence tabs, PDF report, portfolio with append-only score log, monitoring diffs, measured wording rewrites, risk register with unknowns and planner override audit trail."
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "source": "05_policy\\current\\raw_planning_v3_2025_predictions.csv",
+  "fit_window": [
+    "2025-01-02 00:00:00+00:00",
+    "2025-06-30 00:00:00+00:00"
+  ],
+  "eval_window": [
+    "2025-07-01 00:00:00+00:00",
+    "2025-12-23 00:00:00+00:00"
+  ],
+  "fit_rows": 9562,
+  "fit_diagnostics": {
+    "minimum_samples": 100,
+    "councils_fitted": {
+      "Carlow County Council": {
+        "rows": 101,
+        "refusal_rate": 0.0594059405940594,
+        "single_class_skipped": false
+      },
+      "Cavan County Council": {
+        "rows": 214,
+        "refusal_rate": 0.06542056074766354,
+        "single_class_skipped": false
+      },
+      "Clare County Council": {
+        "rows": 389,
+        "refusal_rate": 0.08740359897172237,
+        "single_class_skipped": false
+      },
+      "Cork City Council": {
+        "rows": 221,
+        "refusal_rate": 0.04072398190045249,
+        "single_class_skipped": false
+      },
+      "Donegal County Council": {
+        "rows": 757,
+        "refusal_rate": 0.05812417437252312,
+        "single_class_skipped": false
+      },
+      "Dublin City Council": {
+        "rows": 706,
+        "refusal_rate": 0.12039660056657224,
+        "single_class_skipped": false
+      },
+      "Dun Laoghaire Rathdown County Council": {
+        "rows": 330,
+        "refusal_rate": 0.10606060606060606,
+        "single_class_skipped": false
+      },
+      "Fingal County Council": {
+        "rows": 269,
+        "refusal_rate": 0.2936802973977695,
+        "single_class_skipped": false
+      },
+      "Galway City Council": {
+        "rows": 127,
+        "refusal_rate": 0.1889763779527559,
+        "single_class_skipped": false
+      },
+      "Galway County Council": {
+        "rows": 615,
+        "refusal_rate": 0.06504065040650407,
+        "single_class_skipped": false
+      },
+      "Kerry County Council": {
+        "rows": 434,
+        "refusal_rate": 0.1359447004608295,
+        "single_class_skipped": false
+      },
+      "Kildare County Council": {
+        "rows": 414,
+        "refusal_rate": 0.18840579710144928,
+        "single_class_skipped": false
+      },
+      "Kilkenny County Council": {
+        "rows": 260,
+        "refusal_rate": 0.07307692307692308,
+        "single_class_skipped": false
+      },
+      "Laois County Council": {
+        "rows": 228,
+        "refusal_rate": 0.07017543859649122,
+        "single_class_skipped": false
+      },
+      "Leitrim County Council": {
+        "rows": 100,
+        "refusal_rate": 0.02,
+        "single_class_skipped": false
+      },
+      "Limerick County Council": {
+        "rows": 429,
+        "refusal_rate": 0.09090909090909091,
+        "single_class_skipped": false
+      },
+      "Louth County Council": {
+        "rows": 308,
+        "refusal_rate": 0.14935064935064934,
+        "single_class_skipped": false
+      },
+      "Mayo County Council": {
+        "rows": 387,
+        "refusal_rate": 0.08785529715762273,
+        "single_class_skipped": false
+      },
+      "Meath County Council": {
+        "rows": 464,
+        "refusal_rate": 0.08405172413793104,
+        "single_class_skipped": false
+      },
+      "Monaghan County Council": {
+        "rows": 169,
+        "refusal_rate": 0.047337278106508875,
+        "single_class_skipped": false
+      },
+      "Offaly County Council": {
+        "rows": 186,
+        "refusal_rate": 0.08064516129032258,
+        "single_class_skipped": false
+      },
+      "Roscommon County Council": {
+        "rows": 191,
+        "refusal_rate": 0.13612565445026178,
+        "single_class_skipped": false
+      },
+      "Sligo County Council": {
+        "rows": 156,
+        "refusal_rate": 0.04487179487179487,
+        "single_class_skipped": false
+      },
+      "South Dublin County Council": {
+        "rows": 313,
+        "refusal_rate": 0.07348242811501597,
+        "single_class_skipped": false
+      },
+      "Tipperary County Council": {
+        "rows": 365,
+        "refusal_rate": 0.0410958904109589,
+        "single_class_skipped": false
+      },
+      "Waterford City and County Council": {
+        "rows": 259,
+        "refusal_rate": 0.09266409266409266,
+        "single_class_skipped": false
+      },
+      "Westmeath County Council": {
+        "rows": 224,
+        "refusal_rate": 0.13839285714285715,
+        "single_class_skipped": false
+      },
+      "Wexford County Council": {
+        "rows": 442,
+        "refusal_rate": 0.16515837104072398,
+        "single_class_skipped": false
+      },
+      "Wicklow County Council": {
+        "rows": 351,
+        "refusal_rate": 0.19943019943019943,
+        "single_class_skipped": false
+      }
+    },
+    "councils_fallback": [
+      "Cork County Council",
+      "Longford County Council"
+    ]
+  },
+  "evaluation": {
+    "summary": {
+      "eval_rows": 5659,
+      "eval_refusal_rate": 0.11927902456264358,
+      "council_aware_brier": 0.08633,
+      "national_fit_brier": 0.08633,
+      "frozen_national_brier": 0.08656
+    },
+    "by_council": {
+      "Carlow County Council": {
+        "rows": 79,
+        "used_council_calibrator": true,
+        "council_brier": 0.08699,
+        "national_brier": 0.08215,
+        "frozen_brier": 0.0814
+      },
+      "Cavan County Council": {
+        "rows": 162,
+        "used_council_calibrator": true,
+        "council_brier": 0.03734,
+        "national_brier": 0.03609,
+        "frozen_brier": 0.03614
+      },
+      "Clare County Council": {
+        "rows": 264,
+        "used_council_calibrator": true,
+        "council_brier": 0.047,
+        "national_brier": 0.04504,
+        "frozen_brier": 0.04503
+      },
+      "Cork City Council": {
+        "rows": 53,
+        "used_council_calibrator": true,
+        "council_brier": 0.03119,
+        "national_brier": 0.02952,
+        "frozen_brier": 0.03015
+      },
+      "Cork County Council": {
+        "rows": 26,
+        "used_council_calibrator": false,
+        "council_brier": 0.00013,
+        "national_brier": 0.00013,
+        "frozen_brier": 0.00017
+      },
+      "Donegal County Council": {
+        "rows": 588,
+        "used_council_calibrator": true,
+        "council_brier": 0.05683,
+        "national_brier": 0.0569,
+        "frozen_brier": 0.05689
+      },
+      "Dublin City Council": {
+        "rows": 111,
+        "used_council_calibrator": true,
+        "council_brier": 0.07902,
+        "national_brier": 0.0892,
+        "frozen_brier": 0.08942
+      },
+      "Dun Laoghaire Rathdown County Council": {
+        "rows": 233,
+        "used_council_calibrator": true,
+        "council_brier": 0.10914,
+        "national_brier": 0.11213,
+        "frozen_brier": 0.11661
+      },
+      "Fingal County Council": {
+        "rows": 126,
+        "used_council_calibrator": true,
+        "council_brier": 0.22297,
+        "national_brier": 0.22517,
+        "frozen_brier": 0.22314
+      },
+      "Galway City Council": {
+        "rows": 90,
+        "used_council_calibrator": true,
+        "council_brier": 0.09628,
+        "national_brier": 0.09075,
+        "frozen_brier": 0.09322
+      },
+      "Galway County Council": {
+        "rows": 453,
+        "used_council_calibrator": true,
+        "council_brier": 0.13075,
+        "national_brier": 0.12416,
+        "frozen_brier": 0.12234
+      },
+      "Kerry County Council": {
+        "rows": 238,
+        "used_council_calibrator": true,
+        "council_brier": 0.11526,
+        "national_brier": 0.11552,
+        "frozen_brier": 0.11692
+      },
+      "Kildare County Council": {
+        "rows": 242,
+        "used_council_calibrator": true,
+        "council_brier": 0.14168,
+        "national_brier": 0.1601,
+        "frozen_brier": 0.15945
+      },
+      "Kilkenny County Council": {
+        "rows": 153,
+        "used_council_calibrator": true,
+        "council_brier": 0.03692,
+        "national_brier": 0.03758,
+        "frozen_brier": 0.03861
+      },
+      "Laois County Council": {
+        "rows": 156,
+        "used_council_calibrator": true,
+        "council_brier": 0.06032,
+        "national_brier": 0.06105,
+        "frozen_brier": 0.06098
+      },
+      "Leitrim County Council": {
+        "rows": 56,
+        "used_council_calibrator": true,
+        "council_brier": 0.03343,
+        "national_brier": 0.03304,
+        "frozen_brier": 0.03323
+      },
+      "Limerick County Council": {
+        "rows": 35,
+        "used_council_calibrator": true,
+        "council_brier": 0.08573,
+        "national_brier": 0.08801,
+        "frozen_brier": 0.08703
+      },
+      "Longford County Council": {
+        "rows": 78,
+        "used_council_calibrator": false,
+        "council_brier": 0.12007,
+        "national_brier": 0.12007,
+        "frozen_brier": 0.12211
+      },
+      "Louth County Council": {
+        "rows": 214,
+        "used_council_calibrator": true,
+        "council_brier": 0.0937,
+        "national_brier": 0.0941,
+        "frozen_brier": 0.09495
+      },
+      "Mayo County Council": {
+        "rows": 278,
+        "used_council_calibrator": true,
+        "council_brier": 0.0676,
+        "national_brier": 0.06849,
+        "frozen_brier": 0.06894
+      },
+      "Meath County Council": {
+        "rows": 347,
+        "used_council_calibrator": true,
+        "council_brier": 0.06925,
+        "national_brier": 0.06951,
+        "frozen_brier": 0.06886
+      },
+      "Monaghan County Council": {
+        "rows": 108,
+        "used_council_calibrator": true,
+        "council_brier": 0.03649,
+        "national_brier": 0.03753,
+        "frozen_brier": 0.03765
+      },
+      "Offaly County Council": {
+        "rows": 85,
+        "used_council_calibrator": true,
+        "council_brier": 0.09358,
+        "national_brier": 0.09248,
+        "frozen_brier": 0.0928
+      },
+      "Roscommon County Council": {
+        "rows": 76,
+        "used_council_calibrator": true,
+        "council_brier": 0.14529,
+        "national_brier": 0.13944,
+        "frozen_brier": 0.1376
+      },
+      "Sligo County Council": {
+        "rows": 125,
+        "used_council_calibrator": true,
+        "council_brier": 0.07946,
+        "national_brier": 0.07337,
+        "frozen_brier": 0.07421
+      },
+      "South Dublin County Council": {
+        "rows": 252,
+        "used_council_calibrator": true,
+        "council_brier": 0.07039,
+        "national_brier": 0.07007,
+        "frozen_brier": 0.07007
+      },
+      "Tipperary County Council": {
+        "rows": 249,
+        "used_council_calibrator": true,
+        "council_brier": 0.05327,
+        "national_brier": 0.05383,
+        "frozen_brier": 0.05392
+      },
+      "Waterford City and County Council": {
+        "rows": 181,
+        "used_council_calibrator": true,
+        "council_brier": 0.07819,
+        "national_brier": 0.0748,
+        "frozen_brier": 0.07427
+      },
+      "Westmeath County Council": {
+        "rows": 107,
+        "used_council_calibrator": true,
+        "council_brier": 0.12237,
+        "national_brier": 0.12397,
+        "frozen_brier": 0.12627
+      },
+      "Wexford County Council": {
+        "rows": 295,
+        "used_council_calibrator": true,
+        "council_brier": 0.11856,
+        "national_brier": 0.11885,
+        "frozen_brier": 0.12112
+      },
+      "Wicklow County Council": {
+        "rows": 199,
+        "used_council_calibrator": true,
+        "council_brier": 0.09017,
+        "national_brier": 0.08423,
+        "frozen_brier": 0.08291
+      }
+    },
+    "caveat": "Calibrators are fitted on the first half of 2025 and evaluated on the second half (temporal holdout). This validates whether council-aware recalibration is worth maintaining; it does not replace the frozen national model."
+  }
+}

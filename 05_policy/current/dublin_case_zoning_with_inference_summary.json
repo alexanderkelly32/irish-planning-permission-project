@@ -1,0 +1,19 @@
+{
+  "rows": 2364,
+  "official_matched": 631,
+  "official_multiple_polygon_matches": 23,
+  "inferred_stable_between_reference_layers": 338,
+  "no_layer_for_plan_key": 1126,
+  "no_polygon_match": 178,
+  "missing_case_geometry": 68,
+  "resolved_by_plan_key": {
+    "dublin_city_council__2016_2022": 338,
+    "dublin_city_council__2022_2028": 336,
+    "south_dublin_county_council__2022_2028": 176,
+    "dun_laoghaire_rathdown_county_council__2016_2022": 50,
+    "fingal_county_council__2017_2023": 30,
+    "dun_laoghaire_rathdown_county_council__2022_2028": 29,
+    "fingal_county_council__2023_2029": 9,
+    "dun_laoghaire_rathdown_county_council__2010_2016": 1
+  }
+}

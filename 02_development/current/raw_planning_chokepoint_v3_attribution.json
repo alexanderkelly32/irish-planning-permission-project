@@ -1,0 +1,96 @@
+{
+  "generated": "2026-09-18",
+  "ground_truth_pairs": 62,
+  "evaluated": 62,
+  "v3_attribution": {
+    "top1_theme_match": 0.5,
+    "top3_theme_match": 0.7581
+  },
+  "reference_baselines": {
+    "theme_retrieval_top1": 0.5373,
+    "theme_retrieval_top3": 0.791,
+    "dumb_prior_top1": 0.6119,
+    "dumb_prior_top3": 0.8507
+  },
+  "examples": [
+    {
+      "original_case_key": "wexford_county_council__20161187",
+      "actual_themes": [
+        "design_layout",
+        "residential_amenity"
+      ],
+      "predicted_top3": [
+        "design_layout",
+        "traffic_access",
+        "residential_amenity"
+      ]
+    },
+    {
+      "original_case_key": "wexford_county_council__20180020",
+      "actual_themes": [
+        "premature_or_info_gap",
+        "other"
+      ],
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ]
+    },
+    {
+      "original_case_key": "wexford_county_council__20200521",
+      "actual_themes": [
+        "design_layout",
+        "residential_amenity",
+        "traffic_access"
+      ],
+      "predicted_top3": [
+        "design_layout",
+        "traffic_access",
+        "residential_amenity"
+      ]
+    },
+    {
+      "original_case_key": "wexford_county_council__20181012",
+      "actual_themes": [
+        "ecology_trees",
+        "premature_or_info_gap"
+      ],
+      "predicted_top3": [
+        "density_scale",
+        "design_layout",
+        "traffic_access"
+      ]
+    },
+    {
+      "original_case_key": "louth_county_council__17880",
+      "actual_themes": [
+        "land_use_policy",
+        "premature_or_info_gap"
+      ],
+      "predicted_top3": [
+        "other",
+        "land_use_policy",
+        "traffic_access"
+      ]
+    },
+    {
+      "original_case_key": "wexford_county_council__20240530",
+      "actual_themes": [
+        "density_scale",
+        "premature_or_info_gap",
+        "design_layout",
+        "traffic_access",
+        "water_wastewater",
+        "land_use_policy",
+        "flooding_drainage"
+      ],
+      "predicted_top3": [
+        "design_layout",
+        "traffic_access",
+        "residential_amenity"
+      ]
+    }
+  ],
+  "caveat": "Attribution maps the description phrases that push v3's risk up onto theme vocabularies learned from the retagged refusal corpus. Original descriptions often do not state the refusal grounds, so this measures the ceiling of description-only chokepoint prediction with v3's own weights."
+}

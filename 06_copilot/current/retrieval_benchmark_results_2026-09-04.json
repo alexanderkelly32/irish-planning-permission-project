@@ -1,0 +1,23 @@
+{
+  "benchmark": "retrieval_benchmark_2026-09-04",
+  "human_grades": {
+    "queries_graded": 100,
+    "grades_available": 1055,
+    "precision_at_5": 0.8124,
+    "precision_at_10": 0.7441,
+    "ndcg_at_10": 0.9228
+  },
+  "bucket_gold_relevance": {
+    "definition": "How often a same-authority, same-bucket precedent was graded relevant (>=2) by the human grader.",
+    "graded_relevant": 0.4,
+    "gold_total": 100
+  },
+  "similarity_gold_retrieval": {
+    "definition": "How highly the retrieval ranks a genuinely text-similar same-authority precedent.",
+    "gold_count": 81,
+    "recall_at_10": 0.0864,
+    "recall_at_50": 0.6296,
+    "median_rank": 19.0
+  },
+  "interpretation": "Precision is strong (top-10 mostly relevant and well ordered), but genuinely similar precedents often rank around 19th, so shallow top-10 lists miss many of them. Next step: tune the rerank weights using these grades as the target."
+}

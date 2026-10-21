@@ -1,0 +1,45 @@
+# Pre-committed stop/go rules for the 100-scheme pilot (brief section 17.6).
+# Versioned and frozen BEFORE seeing pilot results. Thresholds may not be moved
+# after results are observed without a written reason and a new prospective test.
+
+schema_version: 1
+committed: 2026-09-27
+scope: "100-scheme golden cohort (granted residential schemes, 10+ units)"
+
+gates:
+  identity:
+    rule: >-
+      Do not scale if confirmed links cannot sustain at least 95% audited
+      precision after one remediation cycle. Report coverage separately.
+    stop_if: >-
+      fewer than 50% of eligible pilot schemes can be confirmed from lawful
+      public sources (narrow the target segment or secure a better source
+      before modelling).
+  labels:
+    rule: >-
+      Stop the affected outcome if auditors cannot reproduce its label rule
+      with acceptable agreement.
+    target: "Cohen's kappa >= 0.70 (or agreed equivalent) for categorical high-impact labels; raw agreement alone is insufficient where classes are imbalanced."
+  prediction:
+    rule: >-
+      Do not advance an outcome model unless it improves a predeclared simple
+      baseline on at least one proper scoring metric and does not materially
+      worsen calibration.
+    note: "No arbitrary AUC lift precommitted before event prevalence and censoring are known."
+  stability:
+    rule: >-
+      Do not ship if apparent performance disappears when COVID-exposed
+      observations, one dominant authority or probable links are removed.
+  buyer_value:
+    rule: >-
+      Before scale-up, two target readers (at least one lender/credit reader
+      and one developer/investment reader) must review the mock and
+      evidence-backed pilot reports.
+    stop_if: >-
+      the report does not change or prioritise a real diligence action (not
+      merely 'interesting').
+
+procedures:
+  - "Record pass/fail without moving thresholds after seeing results."
+  - "Any exception requires a written reason and a new prospective test."
+  - "If Gate 2 (identity) or Gate 3 (labels) fails, do not compensate by fitting a more complex model."

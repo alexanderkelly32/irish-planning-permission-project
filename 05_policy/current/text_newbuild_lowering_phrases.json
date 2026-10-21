@@ -1,0 +1,66 @@
+{
+  "baseline_refusal_probability": 0.2607,
+  "effects": [
+    {
+      "term": "boiler house",
+      "coefficient": -1.02065,
+      "pp_change_vs_baseline": -13.47
+    },
+    {
+      "term": "construction replacement",
+      "coefficient": -0.93355,
+      "pp_change_vs_baseline": -11.87
+    },
+    {
+      "term": "site works significant",
+      "coefficient": -1.11547,
+      "pp_change_vs_baseline": -11.64
+    },
+    {
+      "term": "construction single storey",
+      "coefficient": -1.06309,
+      "pp_change_vs_baseline": -11.64
+    },
+    {
+      "term": "community",
+      "coefficient": -1.96269,
+      "pp_change_vs_baseline": -9.25
+    },
+    {
+      "term": "construction domestic",
+      "coefficient": -0.95943,
+      "pp_change_vs_baseline": -8.29
+    },
+    {
+      "term": "single storey",
+      "coefficient": -1.14313,
+      "pp_change_vs_baseline": -6.43
+    },
+    {
+      "term": "single storey flat",
+      "coefficient": -1.02922,
+      "pp_change_vs_baseline": -6.43
+    },
+    {
+      "term": "planning permission development",
+      "coefficient": -1.08377,
+      "pp_change_vs_baseline": 0.0
+    },
+    {
+      "term": "wastewater treatment unit",
+      "coefficient": -0.95904,
+      "pp_change_vs_baseline": 4.41
+    },
+    {
+      "term": "storey bedroom dwelling",
+      "coefficient": -0.89972,
+      "pp_change_vs_baseline": 4.41
+    },
+    {
+      "term": "site services",
+      "coefficient": -1.32698,
+      "pp_change_vs_baseline": 6.75
+    }
+  ],
+  "note": "New-build domain = phrases matching house/apartment/storey/site/estate/land etc., excluding extension/alteration/retention wording. pp measured by inserting the phrase into the standard 12-unit baseline."
+}

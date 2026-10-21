@@ -1,0 +1,27 @@
+{
+  "pair_count": 1398,
+  "by_tier": {
+    "high": 873,
+    "medium": 506,
+    "low": 19
+  },
+  "with_structured_deltas": 103,
+  "structured_delta_field_counts": {
+    "open_space_sqm_best": 7,
+    "units_total_best": 68,
+    "parking_spaces_best": 34,
+    "max_height_m": 14,
+    "nearest_dwelling_separation_m": 4,
+    "max_storeys_best": 51,
+    "cycle_parking_spaces_best": 19,
+    "communal_open_space_sqm": 2,
+    "vehicular_access_points": 7,
+    "floor_area_sqm_best": 2,
+    "site_area_sqm_best": 5
+  },
+  "annotation_verified": 46,
+  "with_refusal_themes": 75,
+  "caveat": "Deltas are recorded only where both sides were observed in the structured extraction or in the audited annotation registry. Missing fields are never zero-filled.",
+  "source_queue": "02_development\\current\\full_revision_candidate_queue.csv",
+  "source_structured": "02_development\\source_data\\ground_source_extracted_final_wide_ge10_fixed.csv"
+}

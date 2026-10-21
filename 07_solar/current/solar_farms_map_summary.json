@@ -1,0 +1,16 @@
+{
+  "rows_plotted": 914,
+  "unique_site_coordinates": 827,
+  "category_counts": {
+    "likely_solar_farm": 759,
+    "solar_farm_related_application": 34,
+    "utility_scale_candidate": 109,
+    "utility_scale_related_application": 12
+  },
+  "age_bucket_counts": {
+    "older": 352,
+    "mid": 365,
+    "newer": 197
+  },
+  "eirgrid_matched_rows": 32
+}

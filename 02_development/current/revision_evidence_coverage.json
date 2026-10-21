@@ -1,0 +1,20 @@
+{
+  "accepted_pair_count": 46,
+  "pairs_with_refusal_reason_text": 46,
+  "observed_numeric_deltas": {
+    "units": {
+      "observed_pairs": 15,
+      "decreased": 9,
+      "unchanged": 3,
+      "increased": 3
+    },
+    "storeys": {
+      "observed_pairs": 11,
+      "decreased": 3,
+      "unchanged": 6,
+      "increased": 2
+    }
+  },
+  "status": "manual_annotation_required_before_intervention_recommendations",
+  "registry_output": "02_development\\current\\revision_evidence_annotation_registry_with_links.csv"
+}
