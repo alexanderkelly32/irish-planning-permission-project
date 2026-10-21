@@ -1,10 +1,6 @@
 # Irish Planning Intelligence
 
-**Turning 80 GB of Irish planning records into predictive intelligence.**
-
-An end-to-end machine learning platform trained on hundreds of thousands of Irish planning applications, with records updated to August 2026.
-
-**Validated on an untouched holdout of 35,713 applications from 2024-2025**, the refusal model's predicted rates track observed refusal rates within an average of ±0.9 percentage points, with maximum decile-level miscalibration of 1.9 percentage points.
+A data-driven intelligence platform for Irish planning permission, built from 80 GB of planning records. Predicts refusals, delays, appeals, further-information requests, grant conditions, refusal grounds and more. **Validated on an untouched holdout of 35,713 applications from 2024-2025: predicted refusal rates track observed rates with calibration error averaging ±0.9 percentage points (n=35,713).**
 
 Given a proposed development's location, size, type and other characteristics, the platform predicts the probability of planning refusal, further information requests, appeals, decision delays and likely grant conditions, including confidence intervals.
 
