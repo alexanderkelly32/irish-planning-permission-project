@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Irish Planning Intelligence</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a202c;
+    background: #f7f9fb;
+    line-height: 1.55;
+  }
+  header {
+    background: #0b2a4a;
+    color: #fff;
+    padding: 56px 20px 48px;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 12px; font-size: 2.1rem; letter-spacing: -0.5px; }
+  header p { max-width: 760px; margin: 0 auto; font-size: 1.1rem; color: #cfe3f5; }
+  .stats {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;
+    margin-top: 28px;
+  }
+  .stat {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px; padding: 10px 18px; font-size: 0.95rem;
+  }
+  .stat b { display: block; font-size: 1.25rem; }
+  main { max-width: 960px; margin: 0 auto; padding: 32px 20px 64px; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 1.35rem; border-bottom: 2px solid #0b2a4a; padding-bottom: 6px; }
+  .report-card {
+    background: #fff; border: 1px solid #dde4ea; border-radius: 10px;
+    padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(11,42,74,0.06);
+  }
+  .report-card h2 { border: none; margin-top: 0; }
+  .pdf-wrap {
+    position: relative; width: 100%; height: 720px;
+    border: 1px solid #dde4ea; border-radius: 6px; overflow: hidden; background: #eef2f5;
+  }
+  .pdf-wrap iframe, .pdf-wrap object { width: 100%; height: 100%; border: 0; }
+  .btn {
+    display: inline-block; margin-top: 14px; background: #0b2a4a; color: #fff;
+    padding: 10px 22px; border-radius: 6px; text-decoration: none; font-weight: 600;
+  }
+  .btn:hover { background: #123d6b; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  pre {
+    background: #0d1b2a; color: #e6edf3; padding: 16px; border-radius: 8px;
+    overflow-x: auto; font-size: 0.9rem;
+  }
+  footer {
+    text-align: center; padding: 24px; color: #5b6b7a; font-size: 0.9rem;
+    border-top: 1px solid #dde4ea;
+  }
+  a { color: #0b2a4a; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Irish Planning Intelligence</h1>
+  <p>A data-driven intelligence platform for Irish planning permission, built from 80 GB of planning records. Predicts refusals, delays, appeals, further-information requests, grant conditions, refusal grounds and more.</p>
+  <div class="stats">
+    <div class="stat"><b>±0.9pp</b>average calibration error</div>
+    <div class="stat"><b>35,713</b>untouched 2024-2025 holdout</div>
+    <div class="stat"><b>1.9pp</b>max decile miscalibration</div>
+    <div class="stat"><b>18</b>report sections per scheme</div>
+  </div>
+</header>
+
+<main>
+
+  <section class="report-card">
+    <h2>Example report — Large-scale Residential Development, 113 units</h2>
+    <p style="color:#5b6b7a">A full pre-submission underwriting review generated from the planning register, frozen models and national context layers.</p>
+    <div class="pdf-wrap">
+      <object data="docs/reports/Planning_Underwriting_Report_LRD25A_0014W_final.pdf" type="application/pdf">
+        <iframe src="docs/reports/Planning_Underwriting_Report_LRD25A_0014W_final.pdf" title="Example report"></iframe>
+      </object>
+    </div>
+    <a class="btn" href="docs/reports/Planning_Underwriting_Report_LRD25A_0014W_final.pdf" download>Download the PDF</a>
+  </section>
+
+  <section>
+    <h2>What the platform predicts</h2>
+    <ul>
+      <li><b>Permission risk</b> — calibrated refusal probability with risk bands (low / medium / high)</li>
+      <li><b>Process friction</b> — further-information likelihood, third-party and applicant appeal risk, clean-outcome probability, six-month decision tail</li>
+      <li><b>Grant conditions</b> — pre-commencement and financial condition probabilities</li>
+      <li><b>Refusal grounds</b> — multi-label theme exposure: if refused, on what grounds, with per-theme confidence</li>
+      <li><b>Rescue plan</b> — historically-supported resubmission changes and their measured conversion rates</li>
+      <li><b>Market context</b> — price benchmarks, competing supply within 3 km, site planning history, authority baselines</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Validation</h2>
+    <p>Validated on an untouched holdout of <b>35,713 applications from 2024-2025</b>: predicted refusal rates track observed refusal rates with calibration error averaging <b>±0.9 percentage points</b>, with maximum decile-level miscalibration of <b>1.9 percentage points</b>. Full validation studies — outcomes against simple historical baselines, timelines against medians, and a housing-supply backtest — are in <a href="https://github.com/alexanderkelly32/irish-planning-permission-project/blob/main/docs/VALIDATION_STUDIES.md">docs/VALIDATION_STUDIES.md</a>.</p>
+  </section>
+
+  <section>
+    <h2>Run it yourself</h2>
+    <pre>pip install -r requirements.txt
+python 09_devrisk/scripts/run_report_engine.py 09_devrisk/scripts/inputs_example.json</pre>
+    <p>The engine reads only the frozen report bundle — no network, no live data, no runtime training. Give it a proposal and it produces the same 18-section underwriting review shown above.</p>
+  </section>
+
+</main>
+
+<footer>
+  <a href="https://github.com/alexanderkelly32/irish-planning-permission-project">View the repository</a>
+</footer>
+
+</body>
+</html>
